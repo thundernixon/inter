@@ -1,0 +1,6 @@
+<glyph name="six.tnum.1" format="2">
+  <advance width="1680"/>
+  <outline>
+    <component base="six" xOffset="8"/>
+  </outline>
+</glyph>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rdescend" format="1">
+<glyph name="rdescend" format="2">
   <advance width="1088"/>
   <unicode hex="027C"/>
+  <anchor x="592" y="1792" name="top"/>
+  <anchor x="600" y="-616" name="bottom"/>
+  <anchor x="900" y="1792" name="top0315"/>
   <outline>
     <contour>
       <point x="216" y="-576" type="line"/>
@@ -10,27 +12,18 @@
       <point x="216" y="100" type="line"/>
     </contour>
     <component base="r"/>
-    <contour>
-      <point x="592" y="1792" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="600" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="900" y="1792" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 956, 'leftMargin': 188, 'rightMargin': 42}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 956, 'leftMargin': 188, 'rightMargin': 42}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

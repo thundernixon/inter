@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ezhtail" format="1">
+<glyph name="ezhtail" format="2">
   <advance width="1520"/>
   <unicode hex="01BA"/>
   <outline>
@@ -52,15 +51,15 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1515, 'leftMargin': 103, 'rightMargin': 143}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1515, 'leftMargin': 103, 'rightMargin': 143}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

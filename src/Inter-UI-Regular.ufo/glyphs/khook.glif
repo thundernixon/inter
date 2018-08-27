@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="khook" format="1">
+<glyph name="khook" format="2">
   <advance width="1500"/>
   <unicode hex="0199"/>
   <outline>
@@ -39,12 +38,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1438, 'leftMargin': 190, 'rightMargin': 0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1438, 'leftMargin': 190, 'rightMargin': 0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

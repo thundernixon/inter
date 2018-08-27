@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="six.1" format="1">
+<glyph name="six.1" format="2">
   <advance width="1680"/>
   <outline>
     <contour>
@@ -39,54 +38,11 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>reference</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>six</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <real>8.0</real>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>six.1</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1680</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8029983484880496</real>
-        <real>0.964765884551495</real>
-        <real>0.7954395628097722</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>public.markColor</key>
+	<string>0.80300,0.96477,0.79544,1</string>
+</dict>
   </lib>
 </glyph>

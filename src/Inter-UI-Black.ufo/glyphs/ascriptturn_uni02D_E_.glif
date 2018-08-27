@@ -1,0 +1,15 @@
+<glyph name="ascriptturn_uni02DE" format="2">
+  <advance width="2336"/>
+  <outline>
+    <component base="ascriptturn" xOffset="-136"/>
+    <component base="rhotichookmod" xOffset="1452"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2274, 'leftMargin': 152, 'rightMargin': -150}</string>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
+  </lib>
+</glyph>

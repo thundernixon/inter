@@ -1,0 +1,18 @@
+<glyph name="uniFE25" format="2">
+  <unicode hex="FE25"/>
+  <anchor x="-1148" y="1609" name="_marktop"/>
+  <outline>
+    <contour>
+      <point x="-792" y="2005" type="line"/>
+      <point x="-1504" y="2005" type="line"/>
+      <point x="-1504" y="1767" type="line"/>
+      <point x="-792" y="1767" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

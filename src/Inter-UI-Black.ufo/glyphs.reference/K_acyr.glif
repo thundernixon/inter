@@ -1,0 +1,6 @@
+<glyph name="Kacyr" format="2">
+  <advance width="2048"/>
+  <outline>
+    <component base="K" xOffset="16"/>
+  </outline>
+</glyph>

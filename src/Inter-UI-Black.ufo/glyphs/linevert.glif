@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="linevert" format="1">
+<glyph name="linevert" format="2">
   <advance width="544"/>
   <unicode hex="02C8"/>
   <outline>
@@ -12,8 +11,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 494, 'leftMargin': 110, 'rightMargin': 110}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 494, 'leftMargin': 110, 'rightMargin': 110}</string>
+</dict>
   </lib>
 </glyph>

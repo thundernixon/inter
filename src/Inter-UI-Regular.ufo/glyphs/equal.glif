@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="equal" format="1">
+<glyph name="equal" format="2">
   <advance width="1808"/>
   <unicode hex="003D"/>
+  <guideline x="256" y="896" angle="0" identifier="G7EVmBhk8L"/>
   <outline>
     <contour>
       <point x="328" y="732" type="line"/>
@@ -18,36 +18,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>256</integer>
-          <key>y</key>
-          <integer>896</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1664, 'leftMargin': 256, 'rightMargin': 256}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.G7EVmBhk8L</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1664, 'leftMargin': 256, 'rightMargin': 256}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

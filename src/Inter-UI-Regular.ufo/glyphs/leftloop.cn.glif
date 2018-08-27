@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="leftloop.cn" format="1">
+<glyph name="leftloop.cn" format="2">
   <advance width="1680"/>
+  <guideline x="76" y="764" angle="0" identifier="FrBFhNmYkI"/>
+  <guideline x="112" y="764" angle="90" identifier="FCAv77yGMB"/>
   <outline>
     <contour>
       <point x="1352" y="1292" type="line"/>
@@ -36,48 +37,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>76</integer>
-          <key>y</key>
-          <integer>764</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>112</integer>
-          <key>y</key>
-          <integer>764</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.77</real>
-        <real>0.95</real>
-        <real>0.76</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.FCAv77yGMB</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.FrBFhNmYkI</key>
+	<integer>5</integer>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.77,0.95,0.76,1</string>
+</dict>
   </lib>
 </glyph>

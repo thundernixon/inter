@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eshcurl" format="1">
+<glyph name="eshcurl" format="2">
   <advance width="1520"/>
   <unicode hex="0286"/>
+  <anchor x="1136" y="2340" name="top"/>
+  <anchor x="556" y="-616" name="bottom"/>
+  <anchor x="1412" y="2340" name="top0315"/>
   <outline>
     <contour>
       <point x="968" y="312" type="line"/>
@@ -55,24 +57,15 @@
       <point x="732" y="1640" type="curve" smooth="yes"/>
       <point x="732" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="1136" y="2340" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="556" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1412" y="2340" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1320.0, 'leftMargin': 41, 'rightMargin': 27.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1320.0, 'leftMargin': 41, 'rightMargin': 27.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

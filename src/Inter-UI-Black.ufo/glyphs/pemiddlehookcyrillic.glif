@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pemiddlehookcyrillic" format="1">
+<glyph name="pemiddlehookcyrillic" format="2">
   <advance width="2592"/>
   <unicode hex="04A7"/>
+  <guideline x="0" y="4786.375" angle="0" identifier="Tvs5DErzVW"/>
   <outline>
     <contour>
       <point x="1172" y="580" type="line"/>
@@ -25,23 +25,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>4786.375</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2431.0, 'leftMargin': 108, 'rightMargin': 57.78143050934614}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.Tvs5DErzVW</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2431.0, 'leftMargin': 108, 'rightMargin': 57.78143050934614}</string>
+</dict>
   </lib>
 </glyph>

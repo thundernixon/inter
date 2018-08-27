@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="comma.tnum" format="1">
+<glyph name="comma.tnum" format="2">
   <advance width="800"/>
+  <guideline x="0" y="1238.875" angle="0" identifier="A2mjVk0KuM"/>
+  <guideline x="0" y="763.125" angle="0" identifier="NyE2n5Quzj"/>
+  <anchor x="636" y="364" name="_bottom"/>
+  <anchor x="328" y="48" name="_right"/>
   <outline>
     <contour>
       <point x="608" y="348" type="line"/>
@@ -14,51 +17,17 @@
       <point x="608" y="-168"/>
       <point x="608" y="56" type="curve"/>
     </contour>
-    <contour>
-      <point x="636" y="364" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="328" y="48" type="move" name="_right"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1238.875</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>763.125</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 737.0, 'leftMargin': 56, 'rightMargin': 175.0}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.A2mjVk0KuM</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.NyE2n5Quzj</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 737.0, 'leftMargin': 56, 'rightMargin': 175.0}</string>
+	<key>public.markColor</key>
+	<string>0.94,0.94,0.94,1</string>
+</dict>
   </lib>
 </glyph>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nrthook" format="1">
+<glyph name="nrthook" format="2">
   <advance width="1636"/>
   <unicode hex="0273"/>
+  <anchor x="796" y="1776" name="top"/>
+  <anchor x="796" y="-616" name="bottom"/>
+  <anchor x="1644" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1420" y="36" type="line"/>
@@ -22,24 +24,15 @@
       <point x="1420" y="-164" type="curve" smooth="yes"/>
     </contour>
     <component base="n"/>
-    <contour>
-      <point x="796" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="796" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1644" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1638, 'leftMargin': 256, 'rightMargin': -13}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1638, 'leftMargin': 256, 'rightMargin': -13}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

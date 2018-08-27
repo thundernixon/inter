@@ -1,0 +1,13 @@
+<glyph name="uniFE22" format="2">
+  <unicode hex="FE22"/>
+  <anchor x="-721" y="1609" name="_marktop"/>
+  <outline>
+    <component base="uniFE29" yOffset="2200"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

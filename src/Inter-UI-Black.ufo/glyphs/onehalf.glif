@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onehalf" format="1">
+<glyph name="onehalf" format="2">
   <advance width="2336"/>
   <unicode hex="00BD"/>
+  <guideline x="0" y="2858.625" angle="0" identifier="o4lCKqF6A7"/>
   <outline>
     <component base="fraction" xOffset="400" yOffset="12"/>
     <component base="one.sup" xOffset="-16" yOffset="924"/>
@@ -9,30 +9,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>2858.625</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.89</real>
-        <real>0.96</real>
-        <real>0.92</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2123.0, 'leftMargin': 166, 'rightMargin': 99.0}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.o4lCKqF6A7</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2123.0, 'leftMargin': 166, 'rightMargin': 99.0}</string>
+	<key>public.markColor</key>
+	<string>0.89,0.96,0.92,1</string>
+</dict>
   </lib>
 </glyph>

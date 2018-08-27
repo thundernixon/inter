@@ -1,0 +1,15 @@
+<glyph name="uni20DB" format="2">
+  <unicode hex="20DB"/>
+  <anchor x="-829" y="1609" name="_marktop"/>
+  <outline>
+    <component base="period" xOffset="-1788" yOffset="1788"/>
+    <component base="period" xOffset="-1178" yOffset="1788"/>
+    <component base="period" xOffset="-601" yOffset="1788"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

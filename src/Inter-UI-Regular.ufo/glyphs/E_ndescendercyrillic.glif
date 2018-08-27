@@ -1,0 +1,21 @@
+<glyph name="Endescendercyrillic" format="2">
+  <advance width="2288"/>
+  <unicode hex="04A2"/>
+  <anchor x="2020" y="2200" name="top_dd"/>
+  <anchor x="2020" y="-560" name="bottom_dd"/>
+  <anchor x="2020" y="2216" name="top0315"/>
+  <outline>
+    <component base="H"/>
+    <component base="cyrillictic" xOffset="1612"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2137, 'leftMargin': 256, 'rightMargin': 119}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

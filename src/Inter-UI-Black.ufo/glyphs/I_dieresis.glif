@@ -1,0 +1,8 @@
+<glyph name="Idieresis" format="2">
+  <advance width="1120"/>
+  <unicode hex="00CF"/>
+  <outline>
+    <component base="casedieresis.cn" xOffset="-96"/>
+    <component base="I" xOffset="184"/>
+  </outline>
+</glyph>

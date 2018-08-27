@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qofdagesh" format="1">
+<glyph name="qofdagesh" format="2">
   <advance width="1008"/>
   <unicode hex="02DF"/>
+  <anchor x="504" y="1648" name="_top"/>
   <outline>
     <contour>
       <point x="304" y="1596" type="line"/>
@@ -15,25 +15,17 @@
       <point x="308" y="2276" type="line"/>
       <point x="172" y="2136" type="line"/>
     </contour>
-    <contour>
-      <point x="504" y="1648" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 894, 'leftMargin': 110, 'rightMargin': 110}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 894, 'leftMargin': 110, 'rightMargin': 110}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

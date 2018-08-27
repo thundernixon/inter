@@ -1,0 +1,6 @@
+<glyph name="eth" format="2">
+  <advance width="1632"/>
+  <outline>
+    <component base="o" xOffset="8"/>
+  </outline>
+</glyph>

@@ -1,0 +1,6 @@
+<glyph name="C" format="2">
+  <advance width="2048"/>
+  <outline>
+    <component base="O" xOffset="8"/>
+  </outline>
+</glyph>

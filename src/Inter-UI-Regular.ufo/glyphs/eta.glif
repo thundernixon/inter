@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eta" format="1">
+<glyph name="eta" format="2">
   <advance width="1620"/>
   <unicode hex="03B7"/>
+  <anchor x="808" y="1776" name="top"/>
+  <anchor x="348" y="16" name="bottom"/>
+  <anchor x="1616" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="444" y="908" type="line" smooth="yes"/>
@@ -26,24 +28,15 @@
       <point x="208" y="0" type="line"/>
       <point x="444" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="808" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="348" y="16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1616" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1602, 'leftMargin': 197, 'rightMargin': 206}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1602, 'leftMargin': 197, 'rightMargin': 206}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

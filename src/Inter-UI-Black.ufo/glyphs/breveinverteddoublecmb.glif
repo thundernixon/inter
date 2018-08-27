@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breveinverteddoublecmb" format="1">
-  <advance width="0"/>
+<glyph name="breveinverteddoublecmb" format="2">
   <unicode hex="0361"/>
+  <anchor x="0" y="1595" name="_marktop_dd"/>
   <outline>
-    <contour>
-      <point x="0" y="1595" type="move" name="_marktop_dd"/>
-    </contour>
     <contour>
       <point x="1020" y="1525" type="line"/>
       <point x="910" y="1774"/>
@@ -25,13 +21,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

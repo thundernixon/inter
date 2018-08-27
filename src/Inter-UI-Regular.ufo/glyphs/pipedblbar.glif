@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pipedblbar" format="1">
+<glyph name="pipedblbar" format="2">
   <advance width="1152"/>
   <unicode hex="01C2"/>
   <outline>
@@ -9,12 +8,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 938, 'leftMargin': 27, 'rightMargin': 28}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 938, 'leftMargin': 27, 'rightMargin': 28}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

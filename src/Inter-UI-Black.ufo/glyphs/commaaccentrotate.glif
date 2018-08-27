@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaaccentrotate" format="1">
+<glyph name="commaaccentrotate" format="2">
   <advance width="800"/>
+  <anchor x="356" y="1516" name="_top"/>
   <outline>
     <contour>
       <point x="192" y="1476" type="line"/>
@@ -14,21 +14,13 @@
       <point x="192" y="1872"/>
       <point x="192" y="1668" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="356" y="1516" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 701, 'leftMargin': 171, 'rightMargin': 112}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 701, 'leftMargin': 171, 'rightMargin': 112}</string>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

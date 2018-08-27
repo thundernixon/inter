@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dngb_ballotx" format="1">
+<glyph name="dngb_ballotx" format="2">
   <advance width="1808"/>
   <unicode hex="2717"/>
+  <guideline x="1012" y="196" angle="0" identifier="qIe2l5nj4P"/>
   <outline>
     <contour>
       <point x="388" y="196" type="line"/>
@@ -18,61 +18,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1012</integer>
-          <key>y</key>
-          <integer>196</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>reference</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>dngb:check</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>-4</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>dngb_ballotx</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1808</integer>
-        </dict>
-      </dict>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.qIe2l5nj4P</key>
+	<integer>5</integer>
+</dict>
   </lib>
 </glyph>

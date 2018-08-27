@@ -1,0 +1,29 @@
+<glyph name="uni02EB" format="2">
+  <advance width="1312"/>
+  <unicode hex="02EB"/>
+  <guideline x="0" y="624.25" angle="0" identifier="to4D4MZ8oy"/>
+  <outline>
+    <contour>
+      <point x="1148" y="804" type="line"/>
+      <point x="444" y="804" type="line"/>
+      <point x="444" y="444" type="line"/>
+      <point x="1148" y="444" type="line"/>
+    </contour>
+    <contour>
+      <point x="612" y="1248" type="line"/>
+      <point x="168" y="1248" type="line"/>
+      <point x="168" y="0" type="line"/>
+      <point x="612" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.to4D4MZ8oy</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1235, 'leftMargin': 168, 'rightMargin': 88}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

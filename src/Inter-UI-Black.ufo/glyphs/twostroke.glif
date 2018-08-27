@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="twostroke" format="1">
+<glyph name="twostroke" format="2">
   <advance width="1696"/>
   <unicode hex="01BB"/>
   <outline>
@@ -8,8 +7,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1719, 'leftMargin': 180, 'rightMargin': 107}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1719, 'leftMargin': 180, 'rightMargin': 107}</string>
+</dict>
   </lib>
 </glyph>

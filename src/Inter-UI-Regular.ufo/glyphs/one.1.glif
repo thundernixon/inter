@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="one.1" format="1">
+<glyph name="one.1" format="2">
   <advance width="1260"/>
   <outline>
     <contour>
@@ -15,13 +14,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8029983485</real>
-        <real>0.9647658846</real>
-        <real>0.7954395628</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.80300,0.96477,0.79544,1</string>
+</dict>
   </lib>
 </glyph>

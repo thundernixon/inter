@@ -1,0 +1,44 @@
+<glyph name="Thorn" format="2">
+  <advance width="1824"/>
+  <unicode hex="00DE"/>
+  <guideline x="0" y="1238.875" angle="0" identifier="SsmeRNb2wN"/>
+  <guideline x="0" y="763.125" angle="0" identifier="2Qez3nkx7q"/>
+  <outline>
+    <contour>
+      <point x="144" y="2048" type="line"/>
+      <point x="144" y="0" type="line"/>
+      <point x="608" y="0" type="line"/>
+      <point x="608" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1680" type="line"/>
+      <point x="360" y="1324" type="line"/>
+      <point x="872" y="1324" type="line" smooth="yes"/>
+      <point x="1100" y="1324"/>
+      <point x="1188" y="1192"/>
+      <point x="1188" y="1044" type="curve" smooth="yes"/>
+      <point x="1188" y="900"/>
+      <point x="1100" y="772"/>
+      <point x="872" y="772" type="curve" smooth="yes"/>
+      <point x="360" y="772" type="line"/>
+      <point x="360" y="416" type="line"/>
+      <point x="872" y="416" type="line" smooth="yes"/>
+      <point x="1364" y="416"/>
+      <point x="1632" y="680"/>
+      <point x="1632" y="1048" type="curve" smooth="yes"/>
+      <point x="1632" y="1416"/>
+      <point x="1364" y="1680"/>
+      <point x="872" y="1680" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.2Qez3nkx7q</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.SsmeRNb2wN</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1733, 'leftMargin': 168, 'rightMargin': 77}</string>
+</dict>
+  </lib>
+</glyph>

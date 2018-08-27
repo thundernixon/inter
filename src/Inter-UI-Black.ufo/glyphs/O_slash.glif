@@ -1,0 +1,31 @@
+<glyph name="Oslash" format="2">
+  <advance width="2040"/>
+  <unicode hex="00D8"/>
+  <guideline x="1024" y="1588" angle="90" identifier="jdXuyESmK5"/>
+  <guideline x="1292" y="1024" angle="0" identifier="CvL0oIUS0W"/>
+  <guideline x="1024" y="1024" angle="55.9722402378" identifier="V5YUK5E6Nf"/>
+  <anchor x="1024" y="2304" name="top"/>
+  <anchor x="1972" y="2200" name="top_dd"/>
+  <anchor x="1972" y="2304" name="top0315"/>
+  <outline>
+    <contour>
+      <point x="424" y="-100" type="line"/>
+      <point x="1848" y="2008" type="line"/>
+      <point x="1648" y="2144" type="line"/>
+      <point x="224" y="36" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.CvL0oIUS0W</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.V5YUK5E6Nf</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.jdXuyESmK5</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1939, 'leftMargin': 170, 'rightMargin': 33}</string>
+</dict>
+  </lib>
+</glyph>

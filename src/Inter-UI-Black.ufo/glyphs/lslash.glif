@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lslash" format="1">
+<glyph name="lslash" format="2">
   <advance width="748"/>
   <unicode hex="0142"/>
+  <anchor x="400" y="2308" name="top"/>
+  <anchor x="376" y="0" name="bottom"/>
+  <anchor x="852" y="2308" name="top0315"/>
   <outline>
     <contour>
       <point x="776" y="1344" type="line"/>
@@ -10,20 +12,11 @@
       <point x="776" y="1096" type="line"/>
     </contour>
     <component base="l"/>
-    <contour>
-      <point x="400" y="2308" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="376" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="852" y="2308" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 895, 'leftMargin': 39, 'rightMargin': 45}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 895, 'leftMargin': 39, 'rightMargin': 45}</string>
+</dict>
   </lib>
 </glyph>

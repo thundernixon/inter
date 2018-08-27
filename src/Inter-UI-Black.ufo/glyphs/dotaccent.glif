@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotaccent" format="1">
+<glyph name="dotaccent" format="2">
   <advance width="800"/>
   <unicode hex="02D9"/>
+  <anchor x="400" y="1744" name="_top"/>
+  <anchor x="184" y="1908" name="_dot"/>
+  <anchor x="400" y="2264" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="180" y="1896" type="curve" smooth="yes"/>
@@ -17,27 +19,13 @@
       <point x="268" y="2096"/>
       <point x="180" y="2012"/>
     </contour>
-    <contour>
-      <point x="400" y="1744" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="184" y="1908" type="move" name="_dot"/>
-    </contour>
-    <contour>
-      <point x="400" y="2264" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 766, 'leftMargin': 153, 'rightMargin': 173}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 766, 'leftMargin': 153, 'rightMargin': 173}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

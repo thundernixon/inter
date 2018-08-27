@@ -1,0 +1,15 @@
+<glyph name="Zhedescendercyrillic" format="2">
+  <advance width="3360"/>
+  <unicode hex="0496"/>
+  <anchor x="2976" y="2200" name="top0315"/>
+  <outline>
+    <component base="afii10024" xOffset="64"/>
+    <component base="cyrillictic" xOffset="2604"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 3120, 'leftMargin': 96, 'rightMargin': 15}</string>
+</dict>
+  </lib>
+</glyph>

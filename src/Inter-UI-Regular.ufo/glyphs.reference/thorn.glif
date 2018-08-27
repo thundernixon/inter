@@ -1,0 +1,6 @@
+<glyph name="thorn" format="2">
+  <advance width="1716"/>
+  <outline>
+    <component base="p" xOffset="8"/>
+  </outline>
+</glyph>

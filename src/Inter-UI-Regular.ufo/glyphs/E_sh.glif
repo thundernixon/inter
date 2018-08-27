@@ -1,0 +1,20 @@
+<glyph name="Esh" format="2">
+  <advance width="1776"/>
+  <unicode hex="01A9"/>
+  <anchor x="796" y="2216" name="top"/>
+  <anchor x="1608" y="2216" name="top0315"/>
+  <anchor x="796" y="16" name="bottom"/>
+  <outline>
+    <component base="Sigma" xOffset="-16"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1616, 'leftMargin': 192, 'rightMargin': 16}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

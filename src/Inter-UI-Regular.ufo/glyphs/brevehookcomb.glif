@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevehookcomb" format="1">
+<glyph name="brevehookcomb" format="2">
   <advance width="1264"/>
+  <anchor x="648" y="1764" name="_top"/>
   <outline>
     <contour>
       <point x="820" y="2004" type="line"/>
@@ -36,25 +36,17 @@
       <point x="548" y="2208" type="curve"/>
       <point x="552" y="2032" type="line"/>
     </contour>
-    <contour>
-      <point x="648" y="1764" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1284, 'leftMargin': 176, 'rightMargin': 298}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1284, 'leftMargin': 176, 'rightMargin': 298}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

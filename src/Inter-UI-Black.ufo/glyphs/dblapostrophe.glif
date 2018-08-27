@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dblapostrophe" format="1">
+<glyph name="dblapostrophe" format="2">
   <advance width="1312"/>
   <unicode hex="02EE"/>
   <outline>
@@ -30,8 +29,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1174, 'leftMargin': 110, 'rightMargin': 110}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1174, 'leftMargin': 110, 'rightMargin': 110}</string>
+</dict>
   </lib>
 </glyph>

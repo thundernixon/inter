@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaturnsupnosp" format="1">
-  <advance width="0"/>
+<glyph name="commaturnsupnosp" format="2">
   <unicode hex="0312"/>
+  <anchor x="-791" y="1470" name="_marktop"/>
+  <anchor x="-791" y="2316" name="mkmktop"/>
+  <anchor x="-743" y="1792" name="parent_top"/>
   <outline>
-    <contour>
-      <point x="-791" y="1470" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-791" y="2316" type="move" name="mkmktop"/>
-    </contour>
-    <contour>
-      <point x="-743" y="1792" type="move" name="parent_top"/>
-    </contour>
     <contour>
       <point x="-975" y="1383" type="line"/>
       <point x="-616" y="1383" type="line"/>
@@ -27,13 +19,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

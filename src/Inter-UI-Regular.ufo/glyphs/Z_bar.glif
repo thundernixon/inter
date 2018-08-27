@@ -1,0 +1,24 @@
+<glyph name="Zbar" format="2">
+  <advance width="1760"/>
+  <unicode hex="01B5"/>
+  <anchor x="856" y="2200" name="top"/>
+  <anchor x="848" y="16" name="bottom"/>
+  <anchor x="1696" y="2200" name="top0315"/>
+  <outline>
+    <component base="Z"/>
+    <component base="crossbar" xOffset="244"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1687, 'leftMargin': 161, 'rightMargin': 151}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="afii61664" format="1">
-  <advance width="0"/>
+<glyph name="afii61664" format="2">
   <unicode hex="200C"/>
   <outline>
     <contour>
@@ -12,13 +10,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.94,0.94,0.94,1</string>
+</dict>
   </lib>
 </glyph>

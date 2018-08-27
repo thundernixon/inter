@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="koppacyrillic" format="1">
+<glyph name="koppacyrillic" format="2">
   <advance width="1520"/>
   <unicode hex="0481"/>
+  <anchor x="796" y="1776" name="top"/>
+  <anchor x="796" y="-16" name="bottom"/>
+  <anchor x="1268" y="100" name="right"/>
+  <anchor x="1524" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="796" y="192" type="line"/>
@@ -33,27 +36,15 @@
       <point x="668" y="-528" type="line"/>
       <point x="944" y="-528" type="line"/>
     </contour>
-    <contour>
-      <point x="796" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="796" y="-16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1268" y="100" type="move" name="right"/>
-    </contour>
-    <contour>
-      <point x="1524" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1514, 'leftMargin': 135, 'rightMargin': 144}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1514, 'leftMargin': 135, 'rightMargin': 144}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

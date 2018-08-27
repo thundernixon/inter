@@ -1,0 +1,15 @@
+<glyph name="uniFE2D" format="2">
+  <unicode hex="FE2D"/>
+  <guideline x="0" y="-207.625" angle="0" identifier="wIHDonYlYq"/>
+  <outline>
+    <component base="uniFE26" yOffset="-2212"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.wIHDonYlYq</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

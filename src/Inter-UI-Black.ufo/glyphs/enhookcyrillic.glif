@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="enhookcyrillic" format="1">
+<glyph name="enhookcyrillic" format="2">
   <advance width="1568"/>
   <unicode hex="04C8"/>
   <outline>
@@ -32,8 +31,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 132, 'rightMargin': 133}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 132, 'rightMargin': 133}</string>
+</dict>
   </lib>
 </glyph>

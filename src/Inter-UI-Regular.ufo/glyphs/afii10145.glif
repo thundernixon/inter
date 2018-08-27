@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="afii10145" format="1">
+<glyph name="afii10145" format="2">
   <advance width="2032"/>
   <unicode hex="040F"/>
   <outline>
@@ -22,12 +21,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2013.0, 'leftMargin': 239, 'rightMargin': 246.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2013.0, 'leftMargin': 239, 'rightMargin': 246.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

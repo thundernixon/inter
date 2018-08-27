@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotnosp" format="1">
-  <advance width="0"/>
+<glyph name="dotnosp" format="2">
   <unicode hex="0307"/>
+  <anchor x="-809" y="1774" name="_marktop"/>
+  <anchor x="-809" y="2118" name="mkmktop"/>
+  <anchor x="-807" y="1878" name="parent_top"/>
   <outline>
-    <contour>
-      <point x="-809" y="1774" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-809" y="2118" type="move" name="mkmktop"/>
-    </contour>
-    <contour>
-      <point x="-807" y="1878" type="move" name="parent_top"/>
-    </contour>
     <contour>
       <point x="-967" y="1877" type="curve" smooth="yes"/>
       <point x="-967" y="1793"/>
@@ -29,13 +21,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

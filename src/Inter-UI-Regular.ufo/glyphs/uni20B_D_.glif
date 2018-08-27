@@ -1,0 +1,49 @@
+<glyph name="uni20BD" format="2">
+  <advance width="1976"/>
+  <unicode hex="20BD"/>
+  <guideline x="1056" y="1440" angle="0" identifier="ZhQ2mj8AXB"/>
+  <outline>
+    <contour>
+      <point x="1144" y="832" type="line"/>
+      <point x="1600" y="832"/>
+      <point x="1812" y="1108"/>
+      <point x="1812" y="1440" type="curve" smooth="yes"/>
+      <point x="1812" y="1772"/>
+      <point x="1600" y="2048"/>
+      <point x="1144" y="2048" type="curve" smooth="yes"/>
+      <point x="428" y="2048" type="line"/>
+      <point x="428" y="0" type="line"/>
+      <point x="676" y="0" type="line"/>
+      <point x="676" y="1828" type="line"/>
+      <point x="1144" y="1828" type="line" smooth="yes"/>
+      <point x="1432" y="1828"/>
+      <point x="1568" y="1664"/>
+      <point x="1568" y="1440" type="curve" smooth="yes"/>
+      <point x="1568" y="1216"/>
+      <point x="1432" y="1052"/>
+      <point x="1144" y="1052" type="curve" smooth="yes"/>
+      <point x="104" y="1052" type="line"/>
+      <point x="104" y="832" type="line"/>
+    </contour>
+    <contour>
+      <point x="1128" y="640" type="line"/>
+      <point x="104" y="640" type="line"/>
+      <point x="104" y="420" type="line"/>
+      <point x="1128" y="420" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.ZhQ2mj8AXB</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1882, 'leftMargin': 41, 'rightMargin': 99}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

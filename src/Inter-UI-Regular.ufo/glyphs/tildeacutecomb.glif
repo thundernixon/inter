@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildeacutecomb" format="1">
-  <advance width="0"/>
+<glyph name="tildeacutecomb" format="2">
+  <anchor x="-809" y="1737" name="_top"/>
   <outline>
-    <contour>
-      <point x="-809" y="1737" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-545" y="1973" type="line"/>
       <point x="-545" y="1906"/>
@@ -36,13 +32,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="chook" format="1">
+<glyph name="chook" format="2">
   <advance width="1720"/>
   <unicode hex="0188"/>
   <outline>
@@ -25,15 +24,15 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1701, 'leftMargin': 256, 'rightMargin': 28}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1701, 'leftMargin': 256, 'rightMargin': 28}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

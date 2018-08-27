@@ -1,29 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0458.ccmp" format="1">
+<glyph name="uni0458.ccmp" format="2">
   <advance width="784"/>
+  <anchor x="556" y="1716" name="top"/>
+  <anchor x="908" y="1716" name="top0315"/>
+  <anchor x="556" y="-632" name="bottom"/>
   <outline>
     <component base="dotlessj" xOffset="176"/>
-    <contour>
-      <point x="556" y="1716" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="908" y="1716" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="556" y="-632" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 723, 'leftMargin': -92, 'rightMargin': 213}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 723, 'leftMargin': -92, 'rightMargin': 213}</string>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

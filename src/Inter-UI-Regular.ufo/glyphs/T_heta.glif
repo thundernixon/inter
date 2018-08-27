@@ -1,0 +1,26 @@
+<glyph name="Theta" format="2">
+  <advance width="2144"/>
+  <unicode hex="0398"/>
+  <guideline x="1064" y="1536" angle="90" identifier="JQWb84x81h"/>
+  <outline>
+    <contour>
+      <point x="1424" y="1136" type="line"/>
+      <point x="724" y="1136" type="line"/>
+      <point x="724" y="916" type="line"/>
+      <point x="1424" y="916" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.JQWb84x81h</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1921, 'leftMargin': 233, 'rightMargin': 152}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

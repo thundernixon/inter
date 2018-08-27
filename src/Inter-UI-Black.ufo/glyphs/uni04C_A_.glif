@@ -1,0 +1,15 @@
+<glyph name="uni04CA" format="2">
+  <advance width="2080"/>
+  <unicode hex="04CA"/>
+  <anchor x="1684" y="1744" name="top0315"/>
+  <outline>
+    <component base="encyrillic" xOffset="84"/>
+    <component base="comma" xOffset="1296" yOffset="-48"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1860, 'leftMargin': 108, 'rightMargin': 84}</string>
+</dict>
+  </lib>
+</glyph>

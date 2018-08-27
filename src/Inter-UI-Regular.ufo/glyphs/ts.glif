@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ts" format="1">
+<glyph name="ts" format="2">
   <advance width="2032"/>
   <unicode hex="02A6"/>
+  <anchor x="1356" y="2200" name="top"/>
+  <anchor x="1356" y="0" name="bottom"/>
+  <anchor x="2076" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="364" y="1844" type="line"/>
@@ -59,24 +61,15 @@
       <point x="92" y="1284" type="line"/>
       <point x="1184" y="1284" type="line"/>
     </contour>
-    <contour>
-      <point x="1356" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1356" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="2076" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1990, 'leftMargin': 8, 'rightMargin': 135}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1990, 'leftMargin': 8, 'rightMargin': 135}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

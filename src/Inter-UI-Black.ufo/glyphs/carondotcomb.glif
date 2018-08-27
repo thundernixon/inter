@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="carondotcomb" format="1">
-  <advance width="0"/>
+<glyph name="carondotcomb" format="2">
+  <anchor x="-792" y="1682" name="_top"/>
   <outline>
-    <contour>
-      <point x="-792" y="1682" type="move" name="_top"/>
-    </contour>
     <contour>
       <point x="-987" y="2243" type="curve" smooth="yes"/>
       <point x="-987" y="2149"/>
@@ -33,13 +29,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

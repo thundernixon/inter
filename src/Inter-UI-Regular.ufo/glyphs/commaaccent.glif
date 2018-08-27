@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="commaaccent" format="1">
+<glyph name="commaaccent" format="2">
   <advance width="752"/>
   <unicode hex="F6C3"/>
+  <anchor x="392" y="512" name="_bottom"/>
+  <anchor x="252" y="340" name="_caron"/>
+  <anchor x="372" y="108" name="_right"/>
+  <anchor x="428" y="-216" name="mkmkbottom_acc"/>
   <outline>
     <contour>
       <point x="512" y="384" type="line"/>
@@ -15,27 +18,15 @@
       <point x="508" y="84"/>
       <point x="512" y="260" type="curve"/>
     </contour>
-    <contour>
-      <point x="392" y="512" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="252" y="340" type="move" name="_caron"/>
-    </contour>
-    <contour>
-      <point x="372" y="108" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="428" y="-216" type="move" name="mkmkbottom_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 718, 'leftMargin': 118, 'rightMargin': 235}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 718, 'leftMargin': 118, 'rightMargin': 235}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

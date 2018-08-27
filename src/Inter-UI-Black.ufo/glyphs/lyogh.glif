@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lyogh" format="1">
+<glyph name="lyogh" format="2">
   <advance width="1824"/>
   <unicode hex="026E"/>
+  <anchor x="900" y="1776" name="top"/>
+  <anchor x="900" y="-616" name="bottom"/>
+  <anchor x="1704" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="276" y="1488" type="line"/>
@@ -38,20 +40,11 @@
       <point x="908" y="652" type="curve"/>
     </contour>
     <component base="l" xOffset="4"/>
-    <contour>
-      <point x="900" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="900" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1704" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1684, 'leftMargin': 161, 'rightMargin': 61}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1684, 'leftMargin': 161, 'rightMargin': 61}</string>
+</dict>
   </lib>
 </glyph>

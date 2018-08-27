@@ -1,0 +1,6 @@
+<glyph name="punctuationspace" format="2">
+  <advance width="784"/>
+  <outline>
+    <component base="period"/>
+  </outline>
+</glyph>

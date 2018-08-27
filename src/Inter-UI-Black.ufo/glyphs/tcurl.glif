@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tcurl" format="1">
+<glyph name="tcurl" format="2">
   <advance width="1396"/>
   <unicode hex="0236"/>
   <outline>
@@ -52,8 +51,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1513, 'leftMargin': 28, 'rightMargin': 42}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1513, 'leftMargin': 28, 'rightMargin': 42}</string>
+</dict>
   </lib>
 </glyph>

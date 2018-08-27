@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ghemiddlehookcyrillic" format="1">
+<glyph name="ghemiddlehookcyrillic" format="2">
   <advance width="1568"/>
   <unicode hex="0495"/>
   <outline>
@@ -25,8 +24,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1515, 'leftMargin': 120, 'rightMargin': 95.78143050934614}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1515, 'leftMargin': 120, 'rightMargin': 95.78143050934614}</string>
+</dict>
   </lib>
 </glyph>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="thorn" format="1">
+<glyph name="thorn" format="2">
   <advance width="1652"/>
   <unicode hex="00FE"/>
   <outline>
@@ -16,8 +15,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 139, 'rightMargin': 81}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 139, 'rightMargin': 81}</string>
+</dict>
   </lib>
 </glyph>

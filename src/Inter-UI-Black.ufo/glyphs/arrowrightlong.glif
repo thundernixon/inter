@@ -1,36 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arrowrightlong" format="1">
+<glyph name="arrowrightlong" format="2">
   <advance width="3872"/>
   <unicode hex="27F6"/>
+  <guideline x="904" y="832" angle="90" identifier="9YTrmYb6T5"/>
   <outline>
     <component base="arrowleftlong" xScale="-1" xOffset="3840"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>904</integer>
-          <key>y</key>
-          <integer>832</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.9YTrmYb6T5</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

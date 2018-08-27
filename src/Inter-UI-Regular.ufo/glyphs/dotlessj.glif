@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotlessj" format="1">
+<glyph name="dotlessj" format="2">
   <advance width="668"/>
   <unicode hex="0237"/>
+  <guideline x="320" y="1516" angle="90" identifier="VsTlZ5z5d6"/>
+  <anchor x="336" y="1716" name="top"/>
+  <anchor x="652" y="0" name="_right"/>
+  <anchor x="688" y="1716" name="top0315"/>
   <outline>
     <contour>
       <point x="216" y="1536" type="line"/>
@@ -17,41 +20,17 @@
       <point x="452" y="-112" type="curve"/>
       <point x="452" y="1536" type="line"/>
     </contour>
-    <contour>
-      <point x="336" y="1716" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="652" y="0" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="688" y="1716" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>320</integer>
-          <key>y</key>
-          <integer>1516</integer>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 723, 'leftMargin': -92, 'rightMargin': 213}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.VsTlZ5z5d6</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 723, 'leftMargin': -92, 'rightMargin': 213}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

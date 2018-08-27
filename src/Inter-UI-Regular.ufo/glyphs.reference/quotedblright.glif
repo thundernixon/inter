@@ -1,0 +1,6 @@
+<glyph name="quotedblright" format="2">
+  <advance width="1136"/>
+  <outline>
+    <component base="quoteright"/>
+  </outline>
+</glyph>

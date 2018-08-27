@@ -1,28 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lbar" format="1">
+<glyph name="lbar" format="2">
   <advance width="840"/>
   <unicode hex="019A"/>
+  <anchor x="436" y="2336" name="top"/>
+  <anchor x="908" y="2336" name="top0315"/>
+  <anchor x="436" y="16" name="bottom"/>
   <outline>
     <component base="l" xOffset="80"/>
     <component base="crossbar" xOffset="-216" yOffset="96"/>
-    <contour>
-      <point x="436" y="2336" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="908" y="2336" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="436" y="16" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 938, 'leftMargin': 27, 'rightMargin': 28}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 938, 'leftMargin': 27, 'rightMargin': 28}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

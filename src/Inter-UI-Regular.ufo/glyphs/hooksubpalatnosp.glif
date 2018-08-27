@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hooksubpalatnosp" format="1">
-  <advance width="0"/>
+<glyph name="hooksubpalatnosp" format="2">
   <unicode hex="0321"/>
   <outline>
     <contour>
@@ -24,13 +22,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

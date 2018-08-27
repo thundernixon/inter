@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lrthook" format="1">
+<glyph name="lrthook" format="2">
   <advance width="748"/>
   <unicode hex="026D"/>
+  <anchor x="352" y="2200" name="top"/>
+  <anchor x="352" y="-616" name="bottom"/>
+  <anchor x="924" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="604" y="184" type="line"/>
@@ -22,20 +24,11 @@
       <point x="604" y="-80" type="curve" smooth="yes"/>
     </contour>
     <component base="l"/>
-    <contour>
-      <point x="352" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="352" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="924" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 949, 'leftMargin': 161, 'rightMargin': 0}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 949, 'leftMargin': 161, 'rightMargin': 0}</string>
+</dict>
   </lib>
 </glyph>

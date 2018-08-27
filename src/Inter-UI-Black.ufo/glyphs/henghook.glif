@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="henghook" format="1">
+<glyph name="henghook" format="2">
   <advance width="1612"/>
   <unicode hex="0267"/>
+  <anchor x="852" y="2340" name="top"/>
+  <anchor x="796" y="-616" name="bottom"/>
+  <anchor x="1580" y="2340" name="top0315"/>
   <outline>
     <contour>
       <point x="596" y="1316" type="line"/>
@@ -62,20 +64,11 @@
       <point x="1468" y="-80" type="curve" smooth="yes"/>
       <point x="1468" y="184" type="line"/>
     </contour>
-    <contour>
-      <point x="852" y="2340" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="796" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1580" y="2340" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 128, 'rightMargin': 133}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 128, 'rightMargin': 133}</string>
+</dict>
   </lib>
 </glyph>

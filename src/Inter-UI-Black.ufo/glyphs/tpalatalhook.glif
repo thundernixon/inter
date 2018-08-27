@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tpalatalhook" format="1">
+<glyph name="tpalatalhook" format="2">
   <advance width="1048"/>
   <unicode hex="01AB"/>
   <outline>
@@ -25,8 +24,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 963, 'leftMargin': 60, 'rightMargin': -5}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 963, 'leftMargin': 60, 'rightMargin': -5}</string>
+</dict>
   </lib>
 </glyph>

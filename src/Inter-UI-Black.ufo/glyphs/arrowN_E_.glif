@@ -1,0 +1,18 @@
+<glyph name="arrowNE" format="2">
+  <advance width="2592"/>
+  <unicode hex="2197"/>
+  <guideline x="1280" y="452" angle="90" identifier="NFn6oIDW5U"/>
+  <outline>
+    <component base="arrowNW" xScale="-1" xOffset="2560"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.NFn6oIDW5U</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 950, 'leftMargin': 121, 'rightMargin': 97}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

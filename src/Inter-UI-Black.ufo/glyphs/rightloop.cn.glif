@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rightloop.cn" format="1">
+<glyph name="rightloop.cn" format="2">
   <advance width="1824"/>
+  <guideline x="1576" y="756" angle="90" identifier="YfctLhrFCp"/>
+  <guideline x="640" y="932" angle="90" identifier="uxmVRBwzKl"/>
+  <guideline x="984" y="1524" angle="90" identifier="eX7BRdMYsx"/>
   <outline>
     <contour>
       <point x="456" y="1372" type="line"/>
@@ -36,96 +38,14 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1576</integer>
-          <key>y</key>
-          <integer>756</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>640</integer>
-          <key>y</key>
-          <integer>932</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>984</integer>
-          <key>y</key>
-          <integer>1524</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>reference</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>o</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>192</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>rightloop.cn</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1824</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.77</real>
-        <real>0.95</real>
-        <real>0.76</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.YfctLhrFCp</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.eX7BRdMYsx</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.uxmVRBwzKl</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.77,0.95,0.76,1</string>
+</dict>
   </lib>
 </glyph>

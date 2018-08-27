@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lcurl" format="1">
+<glyph name="lcurl" format="2">
   <advance width="1216"/>
   <unicode hex="0234"/>
   <outline>
@@ -41,11 +40,11 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1513, 'leftMargin': 28, 'rightMargin': 42}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1513, 'leftMargin': 28, 'rightMargin': 42}</string>
+</dict>
   </lib>
 </glyph>

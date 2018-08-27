@@ -1,0 +1,21 @@
+<glyph name="a_uni02DE" format="2">
+  <advance width="2308"/>
+  <anchor x="660" y="32" name="bottom"/>
+  <anchor x="788" y="1776" name="top"/>
+  <anchor x="2128" y="1776" name="top0315"/>
+  <anchor x="660" y="32" name="markbottom"/>
+  <anchor x="1516" y="2200" name="top_dd"/>
+  <anchor x="1372" y="0" name="ogonek"/>
+  <anchor x="1516" y="-560" name="bottom_dd"/>
+  <anchor x="792" y="1776" name="rhalfring"/>
+  <outline>
+    <component base="a"/>
+    <component base="rhotichookmod" xOffset="1424"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2109, 'leftMargin': 92, 'rightMargin': -150}</string>
+</dict>
+  </lib>
+</glyph>

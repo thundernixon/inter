@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="njecyrillic" format="1">
+<glyph name="njecyrillic" format="2">
   <advance width="2592"/>
   <unicode hex="045A"/>
   <outline>
@@ -40,8 +39,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2426, 'leftMargin': 132, 'rightMargin': 51}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2426, 'leftMargin': 132, 'rightMargin': 51}</string>
+</dict>
   </lib>
 </glyph>

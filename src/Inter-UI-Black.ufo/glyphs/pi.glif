@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pi" format="1">
+<glyph name="pi" format="2">
   <advance width="2080"/>
   <unicode hex="03C0"/>
+  <guideline x="0" y="906.125" angle="0" identifier="US5BkLIPDz"/>
+  <guideline x="0" y="1381.875" angle="0" identifier="syJRhGuB9n"/>
   <outline>
     <contour>
       <point x="1884" y="1536" type="line"/>
@@ -36,35 +37,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>906.125</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1381.875</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1863, 'leftMargin': 80, 'rightMargin': 59}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.US5BkLIPDz</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.syJRhGuB9n</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1863, 'leftMargin': 80, 'rightMargin': 59}</string>
+</dict>
   </lib>
 </glyph>

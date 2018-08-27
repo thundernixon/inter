@@ -1,0 +1,20 @@
+<glyph name="uni1DD6" format="2">
+  <unicode hex="1DD6"/>
+  <anchor x="-825" y="1609" name="_marktop"/>
+  <outline>
+    <contour>
+      <point x="-718" y="1917" type="line"/>
+      <point x="-774" y="1651" type="line"/>
+      <point x="-598" y="1651" type="line"/>
+      <point x="-279" y="2419" type="line"/>
+      <point x="-516" y="2419" type="line"/>
+    </contour>
+    <component base="uni0363" xOffset="-234"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

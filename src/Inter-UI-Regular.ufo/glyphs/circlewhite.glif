@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circlewhite" format="1">
+<glyph name="circlewhite" format="2">
   <advance width="2576"/>
   <unicode hex="25CB"/>
+  <guideline x="1212" y="1856" angle="0" identifier="yFeApvRzDE"/>
+  <guideline x="448" y="936" angle="90" identifier="2WaXoPrs66"/>
+  <guideline x="2112" y="948" angle="90" identifier="tH6YUy07S2"/>
+  <guideline x="1284" y="188" angle="0" identifier="X0ZHd2hj2S"/>
   <outline>
     <contour>
       <point x="1288" y="188" type="curve" smooth="yes"/>
@@ -21,65 +24,14 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1212</integer>
-          <key>y</key>
-          <integer>1856</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>448</integer>
-          <key>y</key>
-          <integer>936</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>2112</integer>
-          <key>y</key>
-          <integer>948</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1284</integer>
-          <key>y</key>
-          <integer>188</integer>
-        </dict>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.2WaXoPrs66</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.X0ZHd2hj2S</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.tH6YUy07S2</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.yFeApvRzDE</key>
+	<integer>5</integer>
+</dict>
   </lib>
 </glyph>

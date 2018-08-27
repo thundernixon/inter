@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexacutecomb" format="1">
+<glyph name="circumflexacutecomb" format="2">
   <advance width="1520"/>
+  <anchor x="568" y="1788" name="_top"/>
   <outline>
     <contour>
       <point x="52" y="1724" type="line"/>
@@ -17,25 +17,17 @@
       <point x="1468" y="2328" type="line"/>
       <point x="1176" y="2328" type="line"/>
     </contour>
-    <contour>
-      <point x="568" y="1788" type="move" name="_top"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1430.0, 'leftMargin': 158, 'rightMargin': -143.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1430.0, 'leftMargin': 158, 'rightMargin': -143.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

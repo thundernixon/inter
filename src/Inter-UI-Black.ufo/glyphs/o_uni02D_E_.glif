@@ -1,0 +1,21 @@
+<glyph name="o_uni02DE" format="2">
+  <advance width="2456"/>
+  <anchor x="2224" y="1776" name="top0315"/>
+  <anchor x="808" y="1776" name="top"/>
+  <anchor x="808" y="-16" name="bottom"/>
+  <anchor x="808" y="-16" name="markbottom"/>
+  <anchor x="1604" y="2200" name="top_dd"/>
+  <anchor x="1604" y="-560" name="bottom_dd"/>
+  <outline>
+    <component base="o"/>
+    <component base="rhotichookmod" xOffset="1524"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2208, 'leftMargin': 184, 'rightMargin': -150}</string>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
+  </lib>
+</glyph>

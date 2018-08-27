@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pipedblbar" format="1">
+<glyph name="pipedblbar" format="2">
   <advance width="1312"/>
   <unicode hex="01C2"/>
+  <guideline x="522.5" y="0" angle="90" identifier="kfoPincU1Y"/>
   <outline>
     <component base="pipe" xOffset="256"/>
     <component base="crossbar" yOffset="332"/>
@@ -9,23 +9,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>522.5</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1046, 'leftMargin': -20, 'rightMargin': 74}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.kfoPincU1Y</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1046, 'leftMargin': -20, 'rightMargin': 74}</string>
+</dict>
   </lib>
 </glyph>

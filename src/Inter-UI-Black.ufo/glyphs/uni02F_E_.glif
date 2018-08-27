@@ -1,0 +1,26 @@
+<glyph name="uni02FE" format="2">
+  <advance width="1312"/>
+  <unicode hex="02FE"/>
+  <outline>
+    <contour>
+      <point x="1092" y="-368" type="line"/>
+      <point x="404" y="-368" type="line"/>
+      <point x="404" y="-628" type="line"/>
+      <point x="1092" y="-628" type="line"/>
+    </contour>
+    <contour>
+      <point x="496" y="-68" type="line"/>
+      <point x="220" y="-68" type="line"/>
+      <point x="220" y="-628" type="line"/>
+      <point x="496" y="-628" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1093, 'leftMargin': 110, 'rightMargin': 110}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

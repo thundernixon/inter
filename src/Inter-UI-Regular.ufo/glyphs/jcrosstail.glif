@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jcrosstail" format="1">
+<glyph name="jcrosstail" format="2">
   <advance width="976"/>
   <unicode hex="029D"/>
+  <anchor x="664" y="2200" name="top"/>
+  <anchor x="640" y="-616" name="bottom"/>
+  <anchor x="1084" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="1056" y="156" type="line"/>
@@ -30,24 +32,15 @@
       <point x="1056" y="-64" type="line"/>
     </contour>
     <component base="i" xOffset="308"/>
-    <contour>
-      <point x="664" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="640" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1084" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1177.0, 'leftMargin': 41, 'rightMargin': 27.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1177.0, 'leftMargin': 41, 'rightMargin': 27.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

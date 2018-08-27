@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="B" format="1">
+<glyph name="B" format="2">
   <advance width="1784"/>
   <unicode hex="0042"/>
+  <anchor x="876" y="2260" name="top"/>
+  <anchor x="928" y="24" name="bottom"/>
+  <anchor x="1920" y="2244" name="top_dd"/>
+  <anchor x="1920" y="-560" name="bottom_dd"/>
+  <anchor x="1920" y="2260" name="top0315"/>
   <outline>
     <contour>
       <point x="964" y="876" type="line"/>
@@ -47,129 +51,13 @@
       <point x="380" y="384" type="line"/>
       <point x="380" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="876" y="2260" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="928" y="24" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1920" y="2244" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="1920" y="-560" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="1920" y="2260" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>reference</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>P</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-            <dict>
-              <key>baseGlyph</key>
-              <string>P</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>-1</integer>
-                <integer>48</integer>
-                <integer>2048</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-            <dict>
-              <key>points</key>
-              <array>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1268</integer>
-                  <key>y</key>
-                  <integer>2247</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1353</integer>
-                  <key>y</key>
-                  <integer>2247</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1353</integer>
-                  <key>y</key>
-                  <integer>2328</integer>
-                </dict>
-                <dict>
-                  <key>segmentType</key>
-                  <string>line</string>
-                  <key>smooth</key>
-                  <false/>
-                  <key>x</key>
-                  <integer>1268</integer>
-                  <key>y</key>
-                  <integer>2328</integer>
-                </dict>
-              </array>
-            </dict>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>B</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1784</integer>
-        </dict>
-      </dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.86</real>
-        <real>0.92</real>
-        <real>0.97</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1811, 'leftMargin': 161, 'rightMargin': 120}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1811, 'leftMargin': 161, 'rightMargin': 120}</string>
+	<key>public.markColor</key>
+	<string>0.86,0.92,0.97,1</string>
+</dict>
   </lib>
 </glyph>

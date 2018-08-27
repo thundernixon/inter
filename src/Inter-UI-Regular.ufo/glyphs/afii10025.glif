@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="afii10025" format="1">
+<glyph name="afii10025" format="2">
   <advance width="1776"/>
   <unicode hex="0417"/>
+  <anchor x="888" y="2244" name="top"/>
+  <anchor x="888" y="-16" name="bottom"/>
+  <anchor x="1728" y="2244" name="top0315"/>
   <outline>
     <contour>
       <point x="904" y="960" type="line"/>
@@ -51,24 +53,15 @@
       <point x="1352" y="1080"/>
       <point x="904" y="1080" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="888" y="2244" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="888" y="-16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1728" y="2244" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1671, 'leftMargin': 107, 'rightMargin': 114}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1671, 'leftMargin': 107, 'rightMargin': 114}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

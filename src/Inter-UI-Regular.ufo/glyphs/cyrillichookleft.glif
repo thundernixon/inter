@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cyrillichookleft" format="1">
+<glyph name="cyrillichookleft" format="2">
   <advance width="752"/>
+  <anchor x="532" y="0" name="_left"/>
+  <anchor x="268" y="0" name="_right"/>
+  <anchor x="396" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="264" y="0" type="line"/>
@@ -24,31 +26,17 @@
       <point x="596" y="-4"/>
       <point x="392" y="96" type="curve"/>
     </contour>
-    <contour>
-      <point x="532" y="0" type="move" name="_left"/>
-    </contour>
-    <contour>
-      <point x="268" y="0" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="396" y="0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>0.87</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 776, 'leftMargin': 25, 'rightMargin': 145}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 776, 'leftMargin': 25, 'rightMargin': 145}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
   </lib>
 </glyph>

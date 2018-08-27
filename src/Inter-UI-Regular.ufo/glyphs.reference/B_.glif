@@ -1,0 +1,7 @@
+<glyph name="B" format="2">
+  <advance width="1832"/>
+  <outline>
+    <component base="P" xOffset="8"/>
+    <component base="P" yScale="-1" xOffset="88" yOffset="2048"/>
+  </outline>
+</glyph>

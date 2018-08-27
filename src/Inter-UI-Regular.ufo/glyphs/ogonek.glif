@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ogonek" format="1">
+<glyph name="ogonek" format="2">
   <advance width="752"/>
   <unicode hex="02DB"/>
+  <anchor x="600" y="0" name="_ogonek"/>
+  <anchor x="600" y="0" name="_right"/>
+  <anchor x="488" y="0" name="_bottom"/>
+  <anchor x="488" y="-600" name="mkmkbottom_acc"/>
   <outline>
     <contour>
       <point x="492" y="84" type="line"/>
@@ -25,34 +28,17 @@
       <point x="480" y="-88"/>
       <point x="600" y="0" type="curve"/>
     </contour>
-    <contour>
-      <point x="600" y="0" type="move" name="_ogonek"/>
-    </contour>
-    <contour>
-      <point x="600" y="0" type="move" name="_right"/>
-    </contour>
-    <contour>
-      <point x="488" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="488" y="-600" type="move" name="mkmkbottom_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 776, 'leftMargin': 66, 'rightMargin': 214}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 776, 'leftMargin': 66, 'rightMargin': 214}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

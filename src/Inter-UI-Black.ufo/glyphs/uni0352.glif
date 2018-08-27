@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0352" format="1">
-  <advance width="0"/>
+<glyph name="uni0352" format="2">
   <unicode hex="0352"/>
+  <guideline x="631.125" y="0" angle="90" identifier="oo1DE1y60P"/>
+  <anchor x="-792" y="1719" name="_marktop"/>
+  <anchor x="-792" y="2613" name="mkmktop"/>
   <outline>
-    <contour>
-      <point x="-792" y="1719" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-792" y="2613" type="move" name="mkmktop"/>
-    </contour>
     <contour>
       <point x="-293" y="2047" type="line"/>
       <point x="-293" y="2296"/>
@@ -42,28 +37,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>631.125</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.oo1DE1y60P</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

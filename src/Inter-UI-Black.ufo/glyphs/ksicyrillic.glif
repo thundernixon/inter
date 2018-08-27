@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ksicyrillic" format="1">
+<glyph name="ksicyrillic" format="2">
   <advance width="1568"/>
   <unicode hex="046F"/>
+  <anchor x="780" y="2392" name="top"/>
+  <anchor x="1576" y="2392" name="top0315"/>
   <outline>
     <contour>
       <point x="300" y="1488" type="line"/>
@@ -56,17 +57,11 @@
       <point x="680" y="796" type="curve" smooth="yes"/>
     </contour>
     <component base="caron" xOffset="100" yOffset="-16"/>
-    <contour>
-      <point x="780" y="2392" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1576" y="2392" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1442, 'leftMargin': 18, 'rightMargin': 160}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1442, 'leftMargin': 18, 'rightMargin': 160}</string>
+</dict>
   </lib>
 </glyph>

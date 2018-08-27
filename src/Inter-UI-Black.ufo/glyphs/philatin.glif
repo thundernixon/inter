@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="philatin" format="1">
+<glyph name="philatin" format="2">
   <advance width="2080"/>
   <unicode hex="0278"/>
+  <guideline x="930.875" y="0" angle="90" identifier="ofVQhxliO2"/>
+  <anchor x="1040" y="2200" name="top"/>
+  <anchor x="1040" y="-616" name="bottom"/>
+  <anchor x="1972" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="188" y="728" type="line"/>
@@ -41,35 +44,13 @@
       <point x="1260" y="2112" type="line"/>
       <point x="820" y="2112" type="line"/>
     </contour>
-    <contour>
-      <point x="1040" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1040" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1972" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>930.875</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1862, 'leftMargin': 80, 'rightMargin': 80}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.ofVQhxliO2</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1862, 'leftMargin': 80, 'rightMargin': 80}</string>
+</dict>
   </lib>
 </glyph>

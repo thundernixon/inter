@@ -1,0 +1,21 @@
+<glyph name="uni04FC" format="2">
+  <advance width="1808"/>
+  <unicode hex="04FC"/>
+  <anchor x="1784" y="2200" name="top_dd"/>
+  <anchor x="1784" y="-560" name="bottom_dd"/>
+  <anchor x="1784" y="2216" name="top0315"/>
+  <outline>
+    <component base="X"/>
+    <component base="cyrillichook" xOffset="1080" yOffset="24"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1837.0, 'leftMargin': 124, 'rightMargin': -133.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

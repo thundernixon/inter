@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="phook" format="1">
+<glyph name="phook" format="2">
   <advance width="1652"/>
   <unicode hex="01A5"/>
   <outline>
@@ -25,8 +24,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 140, 'rightMargin': 79}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 140, 'rightMargin': 79}</string>
+</dict>
   </lib>
 </glyph>

@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zecyrillic" format="1">
+<glyph name="zecyrillic" format="2">
   <advance width="1568"/>
   <unicode hex="0437"/>
+  <guideline x="0" y="1823.25" angle="0" identifier="hdC8ljtLl0"/>
+  <guideline x="0" y="610.5" angle="0" identifier="ksewB2YMoB"/>
+  <anchor x="792" y="1772" name="top"/>
+  <anchor x="792" y="-12" name="bottom"/>
+  <anchor x="1504" y="1772" name="top0315"/>
   <outline>
     <contour>
       <point x="888" y="712" type="line"/>
@@ -51,47 +55,15 @@
       <point x="1240" y="808"/>
       <point x="888" y="808" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="792" y="1772" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="792" y="-12" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1504" y="1772" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1823.25</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>610.5</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1453, 'leftMargin': 87, 'rightMargin': 72}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.hdC8ljtLl0</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.ksewB2YMoB</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1453, 'leftMargin': 87, 'rightMargin': 72}</string>
+</dict>
   </lib>
 </glyph>

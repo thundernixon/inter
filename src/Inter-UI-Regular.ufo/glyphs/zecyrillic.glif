@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zecyrillic" format="1">
+<glyph name="zecyrillic" format="2">
   <advance width="1520"/>
   <unicode hex="0437"/>
+  <anchor x="768" y="1772" name="top"/>
+  <anchor x="768" y="-12" name="bottom"/>
+  <anchor x="1484" y="1772" name="top0315"/>
   <outline>
     <contour>
       <point x="808" y="712" type="line"/>
@@ -51,24 +53,15 @@
       <point x="1160" y="808"/>
       <point x="808" y="808" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="768" y="1772" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="768" y="-12" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1484" y="1772" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1431, 'leftMargin': 118, 'rightMargin': 134}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1431, 'leftMargin': 118, 'rightMargin': 134}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresis" format="1">
+<glyph name="dieresis" format="2">
   <advance width="1312"/>
   <unicode hex="00A8"/>
+  <anchor x="656" y="1772" name="_top"/>
+  <anchor x="660" y="2216" name="mkmktop_acc"/>
   <outline>
     <contour>
       <point x="372" y="1712" type="curve" smooth="yes"/>
@@ -31,24 +32,13 @@
       <point x="748" y="1792"/>
       <point x="828" y="1712"/>
     </contour>
-    <contour>
-      <point x="656" y="1772" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="660" y="2216" type="move" name="mkmktop_acc"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1368, 'leftMargin': 131, 'rightMargin': 133}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1368, 'leftMargin': 131, 'rightMargin': 133}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

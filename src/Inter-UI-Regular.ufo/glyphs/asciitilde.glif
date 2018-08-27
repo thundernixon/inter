@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="asciitilde" format="1">
+<glyph name="asciitilde" format="2">
   <advance width="1680"/>
   <unicode hex="007E"/>
+  <guideline x="784" y="880" angle="315.3603460634" identifier="0kBtwIPaWO"/>
+  <guideline x="904" y="1068" angle="315.5305013167" identifier="MEkY32mVO6"/>
   <outline>
     <contour>
       <point x="1320" y="1172" type="line"/>
@@ -34,48 +35,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>-44.63965393661277</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>784</integer>
-          <key>y</key>
-          <integer>880</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>-44.46949868332619</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>904</integer>
-          <key>y</key>
-          <integer>1068</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.0kBtwIPaWO</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.MEkY32mVO6</key>
+	<integer>5</integer>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

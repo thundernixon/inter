@@ -1,0 +1,21 @@
+<glyph name="Hadescendercyrillic" format="2">
+  <advance width="1872"/>
+  <unicode hex="04B2"/>
+  <anchor x="1784" y="2200" name="top_dd"/>
+  <anchor x="1784" y="-560" name="bottom_dd"/>
+  <anchor x="1784" y="2216" name="top0315"/>
+  <outline>
+    <component base="X"/>
+    <component base="cyrillictic" xOffset="1424"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1803, 'leftMargin': 124, 'rightMargin': 38}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

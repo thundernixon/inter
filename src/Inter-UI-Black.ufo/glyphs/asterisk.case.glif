@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="asterisk.case" format="1">
+<glyph name="asterisk.case" format="2">
   <advance width="1568"/>
   <note>
-    Recipe:
-    1. make horizontal rect
-    2. copy rect and paste
-    3. rotate by 60 deg
-    4. enter transform mode and center it
-    5. copy the rotated piece and paste
-    6. flip on vertical axis
-    7. enter transform mode and center it
-  </note>
+Recipe:
+1. make horizontal rect
+2. copy rect and paste
+3. rotate by 60 deg
+4. enter transform mode and center it
+5. copy the rotated piece and paste
+6. flip on vertical axis
+7. enter transform mode and center it
+</note>
+  <guideline x="768" y="636" angle="90" identifier="uvwCKeurBJ"/>
+  <guideline x="1516" y="1024" angle="0" identifier="aywLmXJwtB"/>
   <outline>
     <contour>
       <point x="568" y="408" type="line"/>
@@ -41,44 +42,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>768</integer>
-          <key>y</key>
-          <integer>636</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1516</integer>
-          <key>y</key>
-          <integer>1024</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.aywLmXJwtB</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.uvwCKeurBJ</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.94,0.94,0.94,1</string>
+</dict>
   </lib>
 </glyph>

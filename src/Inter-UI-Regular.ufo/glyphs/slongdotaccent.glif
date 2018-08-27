@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slongdotaccent" format="1">
+<glyph name="slongdotaccent" format="2">
   <advance width="824"/>
   <unicode hex="1E9B"/>
   <outline>
@@ -25,12 +24,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 989, 'leftMargin': 315, 'rightMargin': -1}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 989, 'leftMargin': 315, 'rightMargin': -1}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

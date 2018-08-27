@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eng" format="1">
+<glyph name="eng" format="2">
   <advance width="1656"/>
   <unicode hex="014B"/>
+  <anchor x="784" y="1776" name="top"/>
+  <anchor x="784" y="16" name="bottom"/>
+  <anchor x="1064" y="-424" name="parenthesses.w1"/>
+  <anchor x="784" y="16" name="markbottom"/>
+  <anchor x="1576" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1052" y="128" type="line"/>
@@ -22,26 +26,11 @@
       <point x="1512" y="128" type="line"/>
     </contour>
     <component base="n"/>
-    <contour>
-      <point x="784" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="784" y="16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1064" y="-424" type="move" name="parenthesses.w1"/>
-    </contour>
-    <contour>
-      <point x="784" y="16" type="move" name="markbottom"/>
-    </contour>
-    <contour>
-      <point x="1576" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 132, 'rightMargin': 129}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 132, 'rightMargin': 129}</string>
+</dict>
   </lib>
 </glyph>

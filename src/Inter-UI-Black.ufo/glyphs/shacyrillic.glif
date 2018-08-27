@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shacyrillic" format="1">
+<glyph name="shacyrillic" format="2">
   <advance width="2336"/>
   <unicode hex="0448"/>
+  <anchor x="1140" y="1744" name="top"/>
+  <anchor x="2352" y="1744" name="top0315"/>
   <outline>
     <contour>
       <point x="136" y="1488" type="line"/>
@@ -17,17 +18,11 @@
       <point x="580" y="360" type="line"/>
       <point x="580" y="1488" type="line"/>
     </contour>
-    <contour>
-      <point x="1140" y="1744" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="2352" y="1744" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2346, 'leftMargin': 132, 'rightMargin': 150}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2346, 'leftMargin': 132, 'rightMargin': 150}</string>
+</dict>
   </lib>
 </glyph>

@@ -1,0 +1,16 @@
+<glyph name="uni1FC0" format="2">
+  <advance width="1312"/>
+  <unicode hex="1FC0"/>
+  <anchor x="668" y="1624" name="_top"/>
+  <outline>
+    <component base="tilde"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1357, 'leftMargin': 112, 'rightMargin': 189}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

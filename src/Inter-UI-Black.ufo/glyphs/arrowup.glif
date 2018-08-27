@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arrowup" format="1">
+<glyph name="arrowup" format="2">
   <advance width="2592"/>
   <unicode hex="2191"/>
+  <guideline x="1280" y="452" angle="90" identifier="ygwRMTteeb"/>
   <outline>
     <contour>
       <point x="1120" y="0" type="line"/>
@@ -19,32 +19,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1280</integer>
-          <key>y</key>
-          <integer>452</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 950, 'leftMargin': 121, 'rightMargin': 97}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.ygwRMTteeb</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 950, 'leftMargin': 121, 'rightMargin': 97}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

@@ -1,0 +1,12 @@
+<glyph name="X" format="2">
+  <advance width="1808"/>
+  <outline>
+    <contour>
+      <point x="1144" y="2184" type="line"/>
+      <point x="1204" y="2184" type="line"/>
+      <point x="1204" y="2222" type="line"/>
+      <point x="1144" y="2222" type="line"/>
+    </contour>
+    <component base="Y" xOffset="-28"/>
+  </outline>
+</glyph>

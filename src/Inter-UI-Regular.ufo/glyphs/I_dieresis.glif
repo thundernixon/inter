@@ -1,0 +1,16 @@
+<glyph name="Idieresis" format="2">
+  <advance width="848"/>
+  <unicode hex="00CF"/>
+  <outline>
+    <component base="casedieresis.cn" xOffset="-400"/>
+    <component base="I" xOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

@@ -1,0 +1,6 @@
+<glyph name="t" format="2">
+  <advance width="1000"/>
+  <outline>
+    <component base="f" xOffset="-16"/>
+  </outline>
+</glyph>

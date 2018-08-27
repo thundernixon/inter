@@ -1,0 +1,6 @@
+<glyph name="dngb_ballotx" format="2">
+  <advance width="1808"/>
+  <outline>
+    <component base="dngb:check" xOffset="-4"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<glyph name="Adieresis" format="2">
+  <advance width="2168"/>
+  <unicode hex="00C4"/>
+  <guideline x="1084" y="1232" angle="90" identifier="IBr18o8epi"/>
+  <outline>
+    <component base="A"/>
+    <component base="casedieresis.cn" xOffset="428"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.IBr18o8epi</key>
+	<integer>5</integer>
+</dict>
+  </lib>
+</glyph>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gamma1" format="1">
+<glyph name="gamma1" format="2">
   <advance width="1824"/>
   <unicode hex="0263"/>
+  <anchor x="916" y="1776" name="top"/>
+  <anchor x="916" y="-616" name="bottom"/>
+  <anchor x="1704" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="912" y="-600" type="curve" smooth="yes"/>
@@ -35,20 +37,11 @@
       <point x="388" y="-488"/>
       <point x="636" y="-600"/>
     </contour>
-    <contour>
-      <point x="916" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="916" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1704" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1579, 'leftMargin': 0, 'rightMargin': 0}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1579, 'leftMargin': 0, 'rightMargin': 0}</string>
+</dict>
   </lib>
 </glyph>

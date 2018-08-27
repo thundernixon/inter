@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedillanosp" format="1">
-  <advance width="0"/>
+<glyph name="cedillanosp" format="2">
   <unicode hex="0327"/>
+  <anchor x="-837" y="12" name="_markbottom"/>
   <outline>
-    <contour>
-      <point x="-837" y="12" type="move" name="_markbottom"/>
-    </contour>
     <contour>
       <point x="-1005" y="14" type="line"/>
       <point x="-1048" y="-187" type="line"/>
@@ -27,13 +23,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

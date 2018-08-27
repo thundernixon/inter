@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yturn" format="1">
+<glyph name="yturn" format="2">
   <advance width="1568"/>
   <unicode hex="028E"/>
+  <anchor x="788" y="2200" name="top"/>
+  <anchor x="788" y="0" name="bottom"/>
+  <anchor x="1468" y="2200" name="top0315"/>
   <outline>
-    <component base="y" xScale="-1.0" yScale="-1.0" xOffset="1552" yOffset="1536"/>
-    <contour>
-      <point x="788" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="788" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1468" y="2200" type="move" name="top0315"/>
-    </contour>
+    <component base="y" xScale="-1" yScale="-1" xOffset="1552" yOffset="1536"/>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1331.0, 'leftMargin': 28, 'rightMargin': 33.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1331.0, 'leftMargin': 28, 'rightMargin': 33.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

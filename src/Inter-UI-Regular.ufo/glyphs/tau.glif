@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tau" format="1">
+<glyph name="tau" format="2">
   <advance width="1328"/>
   <unicode hex="03C4"/>
   <outline>
@@ -30,12 +29,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1475, 'leftMargin': 113, 'rightMargin': 115}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1475, 'leftMargin': 113, 'rightMargin': 115}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

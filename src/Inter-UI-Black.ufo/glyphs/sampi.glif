@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sampi" format="1">
+<glyph name="sampi" format="2">
   <advance width="2080"/>
   <unicode hex="03E1"/>
   <outline>
@@ -28,11 +27,11 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1943, 'leftMargin': 14, 'rightMargin': 44}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1943, 'leftMargin': 14, 'rightMargin': 44}</string>
+</dict>
   </lib>
 </glyph>

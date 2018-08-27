@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bar" format="1">
+<glyph name="bar" format="2">
   <advance width="952"/>
   <unicode hex="007C"/>
+  <guideline x="0" y="1238.875" angle="0" identifier="N4xi7w8mKs"/>
+  <guideline x="0" y="763.125" angle="0" identifier="hawP7Zu57x"/>
   <outline>
     <contour>
       <point x="680" y="2048" type="line"/>
@@ -12,42 +13,14 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1238.875</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>763.125</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 718, 'leftMargin': 238, 'rightMargin': 231}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.N4xi7w8mKs</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.hawP7Zu57x</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 718, 'leftMargin': 238, 'rightMargin': 231}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

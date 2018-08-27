@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="thook" format="1">
+<glyph name="thook" format="2">
   <advance width="1312"/>
   <unicode hex="01AD"/>
   <outline>
@@ -48,11 +47,11 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1057, 'leftMargin': 17, 'rightMargin': 55}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1057, 'leftMargin': 17, 'rightMargin': 55}</string>
+</dict>
   </lib>
 </glyph>

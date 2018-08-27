@@ -1,17 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevesubnosp" format="1">
-  <advance width="0"/>
+<glyph name="brevesubnosp" format="2">
   <unicode hex="032E"/>
+  <anchor x="-792" y="0" name="_bottom"/>
+  <anchor x="-792" y="0" name="_markbottom"/>
+  <anchor x="-792" y="-539" name="mkmkbottom_acc"/>
   <outline>
-    <contour>
-      <point x="-792" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-792" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-792" y="-539" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <contour>
       <point x="-602" y="-113" type="line"/>
       <point x="-602" y="-204"/>
@@ -31,13 +23,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

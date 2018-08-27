@@ -1,45 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tildesubnosp" format="1">
-  <advance width="0"/>
+<glyph name="tildesubnosp" format="2">
   <unicode hex="0330"/>
+  <guideline x="-836" y="-1088" angle="90" identifier="xsvIIjSGh5"/>
+  <anchor x="-836" y="0" name="_bottom"/>
+  <anchor x="-836" y="0" name="_markbottom"/>
+  <anchor x="-836" y="-560" name="mkmkbottom_acc"/>
   <outline>
-    <contour>
-      <point x="-836" y="0" type="move" name="_bottom"/>
-    </contour>
-    <contour>
-      <point x="-836" y="0" type="move" name="_markbottom"/>
-    </contour>
-    <contour>
-      <point x="-836" y="-560" type="move" name="mkmkbottom_acc"/>
-    </contour>
     <component base="tilde" xOffset="-1477" yOffset="-2283"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>-836</integer>
-          <key>y</key>
-          <integer>-1088</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.xsvIIjSGh5</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="glottalstopreversedmod" format="1">
+<glyph name="glottalstopreversedmod" format="2">
   <advance width="1312"/>
   <unicode hex="02C1"/>
   <outline>
@@ -38,8 +37,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1045.0, 'leftMargin': 83, 'rightMargin': 55.0}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1045.0, 'leftMargin': 83, 'rightMargin': 55.0}</string>
+</dict>
   </lib>
 </glyph>

@@ -1,0 +1,28 @@
+<glyph name="Omegaroundcyrillic" format="2">
+  <advance width="2040"/>
+  <unicode hex="047A"/>
+  <guideline x="1024" y="1348" angle="90" identifier="8LlWsaufB1"/>
+  <outline>
+    <contour>
+      <point x="1156" y="600" type="line"/>
+      <point x="892" y="600" type="line"/>
+      <point x="892" y="-220" type="line"/>
+      <point x="1156" y="-220" type="line"/>
+    </contour>
+    <contour>
+      <point x="1156" y="2264" type="line"/>
+      <point x="892" y="2264" type="line"/>
+      <point x="892" y="1444" type="line"/>
+      <point x="1156" y="1444" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.8LlWsaufB1</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1944, 'leftMargin': 173, 'rightMargin': 35}</string>
+</dict>
+  </lib>
+</glyph>

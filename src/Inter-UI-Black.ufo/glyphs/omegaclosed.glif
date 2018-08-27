@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="omegaclosed" format="1">
+<glyph name="omegaclosed" format="2">
   <advance width="2592"/>
   <unicode hex="0277"/>
+  <guideline x="1061.5" y="0" angle="90" identifier="74cYnQEmbJ"/>
+  <anchor x="1296" y="1776" name="top"/>
+  <anchor x="1296" y="0" name="bottom"/>
+  <anchor x="2452" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1296" y="1516" type="line"/>
@@ -51,35 +54,13 @@
       <point x="1940" y="1516"/>
       <point x="1296" y="1516" type="curve"/>
     </contour>
-    <contour>
-      <point x="1296" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1296" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="2452" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>1061.5</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2311, 'leftMargin': 94, 'rightMargin': 93}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.74cYnQEmbJ</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2311, 'leftMargin': 94, 'rightMargin': 93}</string>
+</dict>
   </lib>
 </glyph>

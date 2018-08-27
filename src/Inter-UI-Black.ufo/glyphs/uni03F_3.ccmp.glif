@@ -1,0 +1,17 @@
+<glyph name="uni03F3.ccmp" format="2">
+  <advance width="1056"/>
+  <anchor x="520" y="1744" name="top"/>
+  <anchor x="964" y="1744" name="top0315"/>
+  <anchor x="524" y="-632" name="bottom"/>
+  <outline>
+    <component base="dotlessj" xOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 820, 'leftMargin': 4, 'rightMargin': 52}</string>
+	<key>public.markColor</key>
+	<string>0.87,0.87,0.87,1</string>
+</dict>
+  </lib>
+</glyph>

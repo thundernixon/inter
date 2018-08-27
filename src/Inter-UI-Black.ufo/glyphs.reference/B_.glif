@@ -1,0 +1,13 @@
+<glyph name="B" format="2">
+  <advance width="1784"/>
+  <outline>
+    <contour>
+      <point x="1268" y="2247" type="line"/>
+      <point x="1353" y="2247" type="line"/>
+      <point x="1353" y="2328" type="line"/>
+      <point x="1268" y="2328" type="line"/>
+    </contour>
+    <component base="P"/>
+    <component base="P" yScale="-1" xOffset="48" yOffset="2048"/>
+  </outline>
+</glyph>

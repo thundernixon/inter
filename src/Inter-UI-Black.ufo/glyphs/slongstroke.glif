@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slongstroke" format="1">
+<glyph name="slongstroke" format="2">
   <advance width="1056"/>
   <unicode hex="1E9C"/>
   <outline>
@@ -30,11 +29,11 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1018, 'leftMargin': 25, 'rightMargin': 0}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1018, 'leftMargin': 25, 'rightMargin': 0}</string>
+</dict>
   </lib>
 </glyph>

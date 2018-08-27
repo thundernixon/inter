@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rturnrthook" format="1">
+<glyph name="rturnrthook" format="2">
   <advance width="1312"/>
   <unicode hex="027B"/>
+  <anchor x="356" y="1776" name="top"/>
+  <anchor x="356" y="-616" name="bottom"/>
+  <anchor x="1300" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="512" y="296" type="line"/>
@@ -22,20 +24,11 @@
       <point x="956" y="296" type="line"/>
     </contour>
     <component base="r" xScale="-1" yScale="-1" xOffset="1080" yOffset="1488"/>
-    <contour>
-      <point x="356" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="356" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1300" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1258, 'leftMargin': -29, 'rightMargin': 0}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1258, 'leftMargin': -29, 'rightMargin': 0}</string>
+</dict>
   </lib>
 </glyph>

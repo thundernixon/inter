@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hhooksuper" format="1">
+<glyph name="hhooksuper" format="2">
   <advance width="1312"/>
   <unicode hex="02B1"/>
   <outline>
@@ -42,8 +41,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1240, 'leftMargin': 138, 'rightMargin': 137}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1240, 'leftMargin': 138, 'rightMargin': 137}</string>
+</dict>
   </lib>
 </glyph>

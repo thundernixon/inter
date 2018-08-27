@@ -1,0 +1,13 @@
+<glyph name="uni1DF5" format="2">
+  <unicode hex="1DF5"/>
+  <anchor x="-809" y="1609" name="_marktop"/>
+  <outline>
+    <component base="uptackmod" xOffset="-1199" yOffset="1361"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

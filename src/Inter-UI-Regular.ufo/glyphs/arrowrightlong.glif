@@ -1,54 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arrowrightlong" format="1">
+<glyph name="arrowrightlong" format="2">
   <advance width="3856"/>
   <unicode hex="27F6"/>
+  <guideline x="272" y="896" angle="0" identifier="cBMiKuaWNX"/>
+  <guideline x="668" y="1008" angle="90" identifier="zFZ2HoDsNF"/>
   <outline>
     <component base="arrowleftlong" xScale="-1" xOffset="3840"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>272</integer>
-          <key>y</key>
-          <integer>896</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>668</integer>
-          <key>y</key>
-          <integer>1008</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.cBMiKuaWNX</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.zFZ2HoDsNF</key>
+	<integer>5</integer>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

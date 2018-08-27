@@ -1,0 +1,6 @@
+<glyph name="Lambda" format="2">
+  <advance width="2168"/>
+  <outline>
+    <component base="V" yScale="-1" xOffset="-20" yOffset="2048"/>
+  </outline>
+</glyph>

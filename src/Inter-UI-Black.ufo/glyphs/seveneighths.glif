@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seveneighths" format="1">
+<glyph name="seveneighths" format="2">
   <advance width="2592"/>
   <unicode hex="215E"/>
   <outline>
@@ -9,15 +8,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.89</real>
-        <real>0.96</real>
-        <real>0.92</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2479, 'leftMargin': 129, 'rightMargin': 272}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2479, 'leftMargin': 129, 'rightMargin': 272}</string>
+	<key>public.markColor</key>
+	<string>0.89,0.96,0.92,1</string>
+</dict>
   </lib>
 </glyph>

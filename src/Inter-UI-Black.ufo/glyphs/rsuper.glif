@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rsuper" format="1">
+<glyph name="rsuper" format="2">
   <advance width="1056"/>
   <unicode hex="02B3"/>
   <outline>
@@ -29,8 +28,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 824, 'leftMargin': 138, 'rightMargin': 55}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 824, 'leftMargin': 138, 'rightMargin': 55}</string>
+</dict>
   </lib>
 </glyph>

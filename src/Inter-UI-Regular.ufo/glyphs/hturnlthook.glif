@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hturnlthook" format="1">
+<glyph name="hturnlthook" format="2">
   <advance width="1636"/>
   <unicode hex="02AE"/>
+  <anchor x="1004" y="1776" name="top"/>
+  <anchor x="1004" y="-616" name="bottom"/>
+  <anchor x="1860" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1184" y="608" type="line" smooth="yes"/>
@@ -44,27 +46,18 @@
       <point x="216" y="1304"/>
       <point x="216" y="1144" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="1004" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1004" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1860" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1766, 'leftMargin': 41, 'rightMargin': 214}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1766, 'leftMargin': 41, 'rightMargin': 214}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

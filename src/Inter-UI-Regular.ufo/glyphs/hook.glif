@@ -1,23 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hook" format="1">
-  <advance width="0"/>
+<glyph name="hook" format="2">
   <unicode hex="0309"/>
+  <anchor x="-814" y="1755" name="_top"/>
+  <anchor x="-814" y="1755" name="_marktop"/>
+  <anchor x="-814" y="2373" name="mkmktop"/>
+  <anchor x="-814" y="2373" name="mkmktop_acc"/>
+  <anchor x="-718" y="1994" name="parent_top"/>
   <outline>
-    <contour>
-      <point x="-814" y="1755" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="-814" y="1755" type="move" name="_marktop"/>
-    </contour>
-    <contour>
-      <point x="-814" y="2373" type="move" name="mkmktop"/>
-    </contour>
-    <contour>
-      <point x="-814" y="2373" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
-      <point x="-718" y="1994" type="move" name="parent_top"/>
-    </contour>
     <contour>
       <point x="-711" y="1709" type="line"/>
       <point x="-710" y="1808" type="line"/>
@@ -39,13 +27,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

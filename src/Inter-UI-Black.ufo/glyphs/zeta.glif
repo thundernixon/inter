@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zeta" format="1">
+<glyph name="zeta" format="2">
   <advance width="1568"/>
   <unicode hex="03B6"/>
+  <guideline x="0" y="1131.625" angle="0" identifier="TTvOn4Fcma"/>
   <outline>
     <contour>
       <point x="1120" y="2004" type="line"/>
@@ -45,23 +45,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1131.625</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1387, 'leftMargin': 84, 'rightMargin': 57}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.TTvOn4Fcma</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1387, 'leftMargin': 84, 'rightMargin': 57}</string>
+</dict>
   </lib>
 </glyph>

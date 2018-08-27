@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="finalmem" format="1">
+<glyph name="finalmem" format="2">
   <advance width="1312"/>
   <unicode hex="02AD"/>
+  <anchor x="664" y="2200" name="top"/>
+  <anchor x="664" y="0" name="bottom"/>
+  <anchor x="1360" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="920" y="804" type="line"/>
@@ -39,20 +41,11 @@
       <point x="900" y="1200" type="line"/>
       <point x="1220" y="1200" type="line"/>
     </contour>
-    <contour>
-      <point x="664" y="2200" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="664" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1360" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1404, 'leftMargin': 138, 'rightMargin': 138}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1404, 'leftMargin': 138, 'rightMargin': 138}</string>
+</dict>
   </lib>
 </glyph>

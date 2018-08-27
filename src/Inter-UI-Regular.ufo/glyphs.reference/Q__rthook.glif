@@ -1,0 +1,6 @@
+<glyph name="Q_rthook" format="2">
+  <advance width="2128"/>
+  <outline>
+    <component base="O" xOffset="8"/>
+  </outline>
+</glyph>

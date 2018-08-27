@@ -1,0 +1,74 @@
+<glyph name="Euro" format="2">
+  <advance width="1872"/>
+  <unicode hex="20AC"/>
+  <guideline x="1092" y="616" angle="90" identifier="tAw4Mb5qzF"/>
+  <guideline x="1092" y="1024" angle="39.8055710923" identifier="C9o6bA80H8"/>
+  <guideline x="1092" y="1024" angle="319.9989643201" identifier="l3SbEv4Wwy"/>
+  <guideline x="1540" y="1528" angle="64.9727212076" identifier="LDEZAbkASO"/>
+  <guideline x="1600" y="1616" angle="90" identifier="oJ3iOup9jK"/>
+  <guideline x="1600" y="368" angle="295.0037129447" identifier="L2xmrhdSH9"/>
+  <outline>
+    <contour>
+      <point x="1468" y="1324" type="line"/>
+      <point x="144" y="1324" type="line"/>
+      <point x="72" y="1124" type="line"/>
+      <point x="1376" y="1124" type="line"/>
+    </contour>
+    <contour>
+      <point x="1296" y="924" type="line"/>
+      <point x="144" y="924" type="line"/>
+      <point x="72" y="724" type="line"/>
+      <point x="1204" y="724" type="line"/>
+    </contour>
+    <contour>
+      <point x="1704" y="1864" type="line"/>
+      <point x="1560" y="2000"/>
+      <point x="1372" y="2076"/>
+      <point x="1160" y="2076" type="curve" smooth="yes"/>
+      <point x="668" y="2076"/>
+      <point x="320" y="1672"/>
+      <point x="320" y="1024" type="curve"/>
+      <point x="320" y="376"/>
+      <point x="668" y="-28"/>
+      <point x="1160" y="-28" type="curve" smooth="yes"/>
+      <point x="1364" y="-28"/>
+      <point x="1560" y="40"/>
+      <point x="1700" y="172" type="curve"/>
+      <point x="1600" y="380" type="line"/>
+      <point x="1484" y="280"/>
+      <point x="1336" y="204"/>
+      <point x="1160" y="204" type="curve" smooth="yes"/>
+      <point x="820" y="204"/>
+      <point x="560" y="492"/>
+      <point x="560" y="1024" type="curve"/>
+      <point x="560" y="1556"/>
+      <point x="820" y="1844"/>
+      <point x="1160" y="1844" type="curve" smooth="yes"/>
+      <point x="1332" y="1844"/>
+      <point x="1480" y="1772"/>
+      <point x="1608" y="1656" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.C9o6bA80H8</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.L2xmrhdSH9</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.LDEZAbkASO</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.l3SbEv4Wwy</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.oJ3iOup9jK</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.tAw4Mb5qzF</key>
+	<integer>5</integer>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

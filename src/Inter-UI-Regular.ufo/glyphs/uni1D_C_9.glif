@@ -1,0 +1,24 @@
+<glyph name="uni1DC9" format="2">
+  <unicode hex="1DC9"/>
+  <anchor x="-639" y="1609" name="_marktop"/>
+  <outline>
+    <contour>
+      <point x="-1214" y="1705" type="line"/>
+      <point x="-996" y="1705" type="line"/>
+      <point x="-820" y="1946" type="line"/>
+      <point x="-630" y="1705" type="line"/>
+      <point x="-349" y="1705" type="line"/>
+      <point x="-66" y="2112" type="line"/>
+      <point x="-370" y="2112" type="line"/>
+      <point x="-496" y="1891" type="line"/>
+      <point x="-635" y="2112" type="line"/>
+      <point x="-1016" y="2112" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

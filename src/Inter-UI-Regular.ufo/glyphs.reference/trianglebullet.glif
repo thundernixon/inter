@@ -1,0 +1,6 @@
+<glyph name="trianglebullet" format="2">
+  <advance width="1408"/>
+  <outline>
+    <component base="bullet" xOffset="-4"/>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<glyph name="Itildebelow" format="2">
+  <advance width="1088"/>
+  <unicode hex="1E2C"/>
+  <anchor x="808" y="0" name="right"/>
+  <anchor x="588" y="0" name="bottom"/>
+  <anchor x="168" y="2004" name="tonos"/>
+  <anchor x="588" y="-560" name="mkmkbottom_acc"/>
+  <anchor x="588" y="2200" name="top"/>
+  <anchor x="1012" y="2200" name="top0315"/>
+  <anchor x="1012" y="2200" name="top_dd"/>
+  <anchor x="728" y="0" name="ogonek"/>
+  <anchor x="1012" y="-560" name="bottom_dd"/>
+  <outline>
+    <component base="I" xOffset="152"/>
+    <component base="tilde" xOffset="-112" yOffset="-2284"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1082, 'leftMargin': -31, 'rightMargin': 57}</string>
+</dict>
+  </lib>
+</glyph>

@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="erev" format="1">
+<glyph name="erev" format="2">
   <advance width="1568"/>
   <unicode hex="0258"/>
+  <anchor x="1256" y="900" name="rhotichook"/>
+  <anchor x="764" y="1776" name="top"/>
+  <anchor x="716" y="0" name="bottom"/>
+  <anchor x="1564" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="716" y="-28" type="curve" smooth="yes"/>
@@ -37,23 +40,11 @@
       <point x="228" y="104"/>
       <point x="428" y="-28"/>
     </contour>
-    <contour>
-      <point x="1256" y="900" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="764" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="716" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1564" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1530, 'leftMargin': 62, 'rightMargin': 89}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1530, 'leftMargin': 62, 'rightMargin': 89}</string>
+</dict>
   </lib>
 </glyph>

@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="mu" format="1">
+<glyph name="mu" format="2">
   <advance width="1636"/>
   <unicode hex="00B5"/>
+  <guideline x="1300" y="692" angle="0" identifier="ljZ0L1j7iQ"/>
+  <guideline x="1300" y="304" angle="0" identifier="YNfsT8soN6"/>
+  <guideline x="1204" y="400" angle="0" identifier="WJ9CZulunU"/>
   <outline>
     <contour>
       <point x="1196" y="1536" type="line"/>
@@ -35,95 +37,18 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1300</integer>
-          <key>y</key>
-          <integer>692</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1300</integer>
-          <key>y</key>
-          <integer>304</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1204</integer>
-          <key>y</key>
-          <integer>400</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>reference</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-            <dict>
-              <key>baseGlyph</key>
-              <string>u</string>
-              <key>transformation</key>
-              <array>
-                <integer>1</integer>
-                <integer>0</integer>
-                <integer>0</integer>
-                <integer>1</integer>
-                <integer>8</integer>
-                <integer>0</integer>
-              </array>
-            </dict>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-          </dict>
-          <key>name</key>
-          <string>mu</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>1636</integer>
-        </dict>
-      </dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1796, 'leftMargin': 256, 'rightMargin': 292}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.WJ9CZulunU</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.YNfsT8soN6</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.ljZ0L1j7iQ</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1796, 'leftMargin': 256, 'rightMargin': 292}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

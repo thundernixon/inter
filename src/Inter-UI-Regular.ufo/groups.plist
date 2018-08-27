@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>@KERN_LEFT_A</key>
+	<key>public.kern1.@KERN_LEFT_A</key>
 	<array>
 		<string>A</string>
 		<string>uni023A</string>
@@ -18,24 +18,24 @@
 		<string>Aogonek</string>
 		<string>Acaron</string>
 	</array>
-	<key>@KERN_LEFT_AE</key>
+	<key>public.kern1.@KERN_LEFT_AE</key>
 	<array>
 		<string>AE</string>
 		<string>AEacute</string>
 		<string>AEmacron</string>
 	</array>
-	<key>@KERN_LEFT_Alphagreek</key>
+	<key>public.kern1.@KERN_LEFT_Alphagreek</key>
 	<array>
 		<string>Lambda</string>
 		<string>Delta</string>
 	</array>
-	<key>@KERN_LEFT_B</key>
+	<key>public.kern1.@KERN_LEFT_B</key>
 	<array>
 		<string>B</string>
 		<string>uni0243</string>
 		<string>Bhook</string>
 	</array>
-	<key>@KERN_LEFT_C</key>
+	<key>public.kern1.@KERN_LEFT_C</key>
 	<array>
 		<string>C</string>
 		<string>coloncurrency</string>
@@ -46,7 +46,7 @@
 		<string>Ccaron</string>
 		<string>uni023B</string>
 	</array>
-	<key>@KERN_LEFT_D</key>
+	<key>public.kern1.@KERN_LEFT_D</key>
 	<array>
 		<string>Oslash</string>
 		<string>D</string>
@@ -67,13 +67,13 @@
 		<string>Ocaron</string>
 		<string>Oogonek</string>
 	</array>
-	<key>@KERN_LEFT_Decyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Decyrillic</key>
 	<array>
 		<string>afii10021</string>
 		<string>afii10043</string>
 		<string>afii10040</string>
 	</array>
-	<key>@KERN_LEFT_E</key>
+	<key>public.kern1.@KERN_LEFT_E</key>
 	<array>
 		<string>E</string>
 		<string>uni0246</string>
@@ -88,25 +88,25 @@
 		<string>Eogonek</string>
 		<string>Ecaron</string>
 	</array>
-	<key>@KERN_LEFT_Ecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Ecyrillic</key>
 	<array>
 		<string>afii10053</string>
 	</array>
-	<key>@KERN_LEFT_Epsilongreek</key>
+	<key>public.kern1.@KERN_LEFT_Epsilongreek</key>
 	<array>
 		<string>Xi</string>
 	</array>
-	<key>@KERN_LEFT_Ereversedcyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Ereversedcyrillic</key>
 	<array>
 		<string>afii10048</string>
 		<string>afii10047</string>
 	</array>
-	<key>@KERN_LEFT_F</key>
+	<key>public.kern1.@KERN_LEFT_F</key>
 	<array>
 		<string>F</string>
 		<string>Fhook</string>
 	</array>
-	<key>@KERN_LEFT_G</key>
+	<key>public.kern1.@KERN_LEFT_G</key>
 	<array>
 		<string>G</string>
 		<string>guarani</string>
@@ -117,11 +117,11 @@
 		<string>Gcaron</string>
 		<string>Gacute</string>
 	</array>
-	<key>@KERN_LEFT_Gecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Gecyrillic</key>
 	<array>
 		<string>afii10050</string>
 	</array>
-	<key>@KERN_LEFT_H</key>
+	<key>public.kern1.@KERN_LEFT_H</key>
 	<array>
 		<string>Itildebelow</string>
 		<string>Idieresisacute</string>
@@ -153,14 +153,14 @@
 		<string>Ncaron</string>
 		<string>Icaron</string>
 	</array>
-	<key>@KERN_LEFT_Hardsigncyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Hardsigncyrillic</key>
 	<array>
 		<string>afii10059</string>
 		<string>afii10044</string>
 		<string>afii10046</string>
 		<string>afii10058</string>
 	</array>
-	<key>@KERN_LEFT_IJacute</key>
+	<key>public.kern1.@KERN_LEFT_IJacute</key>
 	<array>
 		<string>J</string>
 		<string>uni0248</string>
@@ -179,7 +179,7 @@
 		<string>Uogonek</string>
 		<string>Ucaron</string>
 	</array>
-	<key>@KERN_LEFT_K</key>
+	<key>public.kern1.@KERN_LEFT_K</key>
 	<array>
 		<string>K</string>
 		<string>Khook</string>
@@ -187,7 +187,7 @@
 		<string>Kcaron</string>
 		<string>Kacyr</string>
 	</array>
-	<key>@KERN_LEFT_L</key>
+	<key>public.kern1.@KERN_LEFT_L</key>
 	<array>
 		<string>L</string>
 		<string>Lacute</string>
@@ -195,24 +195,24 @@
 		<string>Lcaron</string>
 		<string>L_bar</string>
 	</array>
-	<key>@KERN_LEFT_Ohorn</key>
+	<key>public.kern1.@KERN_LEFT_Ohorn</key>
 	<array>
 		<string>Ohorn</string>
 	</array>
-	<key>@KERN_LEFT_Omegagreek</key>
+	<key>public.kern1.@KERN_LEFT_Omegagreek</key>
 	<array>
 		<string>Omega</string>
 	</array>
-	<key>@KERN_LEFT_Omicrongreek</key>
+	<key>public.kern1.@KERN_LEFT_Omicrongreek</key>
 	<array>
 		<string>Theta</string>
 		<string>Phi</string>
 	</array>
-	<key>@KERN_LEFT_P</key>
+	<key>public.kern1.@KERN_LEFT_P</key>
 	<array>
 		<string>P</string>
 	</array>
-	<key>@KERN_LEFT_R</key>
+	<key>public.kern1.@KERN_LEFT_R</key>
 	<array>
 		<string>R</string>
 		<string>uni024C</string>
@@ -220,7 +220,7 @@
 		<string>Rcommaaccent</string>
 		<string>Rcaron</string>
 	</array>
-	<key>@KERN_LEFT_S</key>
+	<key>public.kern1.@KERN_LEFT_S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -230,7 +230,7 @@
 		<string>Germandbls</string>
 		<string>dollar</string>
 	</array>
-	<key>@KERN_LEFT_T</key>
+	<key>public.kern1.@KERN_LEFT_T</key>
 	<array>
 		<string>T</string>
 		<string>Trthook</string>
@@ -238,24 +238,24 @@
 		<string>Tcaron</string>
 		<string>Thook</string>
 	</array>
-	<key>@KERN_LEFT_Ucyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Ucyrillic</key>
 	<array>
 		<string>afii10037</string>
 	</array>
-	<key>@KERN_LEFT_Uhorn</key>
+	<key>public.kern1.@KERN_LEFT_Uhorn</key>
 	<array>
 		<string>Uhorn</string>
 	</array>
-	<key>@KERN_LEFT_V</key>
+	<key>public.kern1.@KERN_LEFT_V</key>
 	<array>
 		<string>V</string>
 		<string>Gamma1</string>
 	</array>
-	<key>@KERN_LEFT_Vecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_Vecyrillic</key>
 	<array>
 		<string>afii10025</string>
 	</array>
-	<key>@KERN_LEFT_W</key>
+	<key>public.kern1.@KERN_LEFT_W</key>
 	<array>
 		<string>W</string>
 		<string>Wcircumflex</string>
@@ -263,11 +263,11 @@
 		<string>Wacute</string>
 		<string>Wdieresis</string>
 	</array>
-	<key>@KERN_LEFT_X</key>
+	<key>public.kern1.@KERN_LEFT_X</key>
 	<array>
 		<string>X</string>
 	</array>
-	<key>@KERN_LEFT_Y</key>
+	<key>public.kern1.@KERN_LEFT_Y</key>
 	<array>
 		<string>Y</string>
 		<string>Yhook</string>
@@ -276,7 +276,7 @@
 		<string>Ydieresis</string>
 		<string>Ygrave</string>
 	</array>
-	<key>@KERN_LEFT_Z</key>
+	<key>public.kern1.@KERN_LEFT_Z</key>
 	<array>
 		<string>Z</string>
 		<string>uni0224</string>
@@ -286,7 +286,7 @@
 		<string>Zdotaccent</string>
 		<string>Zcaron</string>
 	</array>
-	<key>@KERN_LEFT_a</key>
+	<key>public.kern1.@KERN_LEFT_a</key>
 	<array>
 		<string>hcedilla</string>
 		<string>a</string>
@@ -317,12 +317,12 @@
 		<string>ncaron</string>
 		<string>acaron</string>
 	</array>
-	<key>@KERN_LEFT_acyrillic</key>
+	<key>public.kern1.@KERN_LEFT_acyrillic</key>
 	<array>
 		<string>tshecyrillic</string>
 		<string>djecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_ae</key>
+	<key>public.kern1.@KERN_LEFT_ae</key>
 	<array>
 		<string>ae</string>
 		<string>e</string>
@@ -341,11 +341,11 @@
 		<string>aeacute</string>
 		<string>aemacron</string>
 	</array>
-	<key>@KERN_LEFT_alphagreek</key>
+	<key>public.kern1.@KERN_LEFT_alphagreek</key>
 	<array>
 		<string>alpha</string>
 	</array>
-	<key>@KERN_LEFT_approxequal</key>
+	<key>public.kern1.@KERN_LEFT_approxequal</key>
 	<array>
 		<string>plusminus</string>
 		<string>greaterequal</string>
@@ -354,13 +354,13 @@
 		<string>approxequal</string>
 		<string>equal</string>
 	</array>
-	<key>@KERN_LEFT_asciicircum</key>
+	<key>public.kern1.@KERN_LEFT_asciicircum</key>
 	<array>
 		<string>asciicircum</string>
 		<string>asterisk</string>
 		<string>degree</string>
 	</array>
-	<key>@KERN_LEFT_b</key>
+	<key>public.kern1.@KERN_LEFT_b</key>
 	<array>
 		<string>oslash</string>
 		<string>b</string>
@@ -381,26 +381,26 @@
 		<string>ocaron</string>
 		<string>oogonek</string>
 	</array>
-	<key>@KERN_LEFT_becyrillic</key>
+	<key>public.kern1.@KERN_LEFT_becyrillic</key>
 	<array>
 		<string>becyrillic</string>
 		<string>ereversedcyrillic</string>
 		<string>iucyrillic</string>
 		<string>efcyrillic</string>
 	</array>
-	<key>@KERN_LEFT_braceleft</key>
+	<key>public.kern1.@KERN_LEFT_braceleft</key>
 	<array>
 		<string>bracketleft</string>
 		<string>parenleft</string>
 		<string>braceleft</string>
 	</array>
-	<key>@KERN_LEFT_braceleft.case</key>
+	<key>public.kern1.@KERN_LEFT_braceleft.case</key>
 	<array>
 		<string>bracketleft.case</string>
 		<string>parenleft.case</string>
 		<string>braceleft.case</string>
 	</array>
-	<key>@KERN_LEFT_c</key>
+	<key>public.kern1.@KERN_LEFT_c</key>
 	<array>
 		<string>c</string>
 		<string>cent</string>
@@ -410,23 +410,23 @@
 		<string>ccircumflex</string>
 		<string>ccaron</string>
 	</array>
-	<key>@KERN_LEFT_colon</key>
+	<key>public.kern1.@KERN_LEFT_colon</key>
 	<array>
 		<string>colon</string>
 		<string>semicolon</string>
 	</array>
-	<key>@KERN_LEFT_colon.case</key>
+	<key>public.kern1.@KERN_LEFT_colon.case</key>
 	<array>
 		<string>punctuationspace</string>
 		<string>colon.case</string>
 	</array>
-	<key>@KERN_LEFT_comma</key>
+	<key>public.kern1.@KERN_LEFT_comma</key>
 	<array>
 		<string>ellipsis</string>
 		<string>comma</string>
 		<string>period</string>
 	</array>
-	<key>@KERN_LEFT_dagger</key>
+	<key>public.kern1.@KERN_LEFT_dagger</key>
 	<array>
 		<string>ordfeminine</string>
 		<string>dagger</string>
@@ -437,31 +437,31 @@
 		<string>isuperior</string>
 		<string>nsuperior</string>
 	</array>
-	<key>@KERN_LEFT_dcaron</key>
+	<key>public.kern1.@KERN_LEFT_dcaron</key>
 	<array>
 		<string>dcaron</string>
 		<string>lcaron</string>
 	</array>
-	<key>@KERN_LEFT_decyrillic</key>
+	<key>public.kern1.@KERN_LEFT_decyrillic</key>
 	<array>
 		<string>decyrillic</string>
 		<string>shchacyrillic</string>
 		<string>tsecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_deltagreek</key>
+	<key>public.kern1.@KERN_LEFT_deltagreek</key>
 	<array>
 		<string>delta</string>
 		<string>phi</string>
 		<string>rho</string>
 	</array>
-	<key>@KERN_LEFT_divide</key>
+	<key>public.kern1.@KERN_LEFT_divide</key>
 	<array>
 		<string>hyphen</string>
 		<string>plus</string>
 		<string>divide</string>
 		<string>minus</string>
 	</array>
-	<key>@KERN_LEFT_dotlessi</key>
+	<key>public.kern1.@KERN_LEFT_dotlessi</key>
 	<array>
 		<string>j</string>
 		<string>jcrosstail</string>
@@ -478,16 +478,16 @@
 		<string>jcircumflex</string>
 		<string>icaron</string>
 	</array>
-	<key>@KERN_LEFT_ecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_ecyrillic</key>
 	<array>
 		<string>ecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_eight</key>
+	<key>public.kern1.@KERN_LEFT_eight</key>
 	<array>
 		<string>eight</string>
 		<string>three</string>
 	</array>
-	<key>@KERN_LEFT_eight.subs</key>
+	<key>public.kern1.@KERN_LEFT_eight.subs</key>
 	<array>
 		<string>eightsub</string>
 		<string>fivesub</string>
@@ -505,7 +505,7 @@
 		<string>parenrightsub</string>
 		<string>twosub</string>
 	</array>
-	<key>@KERN_LEFT_eight.sups</key>
+	<key>public.kern1.@KERN_LEFT_eight.sups</key>
 	<array>
 		<string>foursuperior</string>
 		<string>sevensuperior</string>
@@ -523,21 +523,21 @@
 		<string>minussuperior</string>
 		<string>equalsuperior</string>
 	</array>
-	<key>@KERN_LEFT_epsilongreek</key>
+	<key>public.kern1.@KERN_LEFT_epsilongreek</key>
 	<array>
 		<string>epsilon</string>
 	</array>
-	<key>@KERN_LEFT_etagreek</key>
+	<key>public.kern1.@KERN_LEFT_etagreek</key>
 	<array>
 		<string>eta</string>
 	</array>
-	<key>@KERN_LEFT_f</key>
+	<key>public.kern1.@KERN_LEFT_f</key>
 	<array>
 		<string>f</string>
 		<string>slongstroke</string>
 		<string>yturn</string>
 	</array>
-	<key>@KERN_LEFT_g</key>
+	<key>public.kern1.@KERN_LEFT_g</key>
 	<array>
 		<string>g</string>
 		<string>q</string>
@@ -550,100 +550,100 @@
 		<string>gcaron</string>
 		<string>gacute</string>
 	</array>
-	<key>@KERN_LEFT_gammagreek</key>
+	<key>public.kern1.@KERN_LEFT_gammagreek</key>
 	<array>
 		<string>gamma</string>
 	</array>
-	<key>@KERN_LEFT_gecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_gecyrillic</key>
 	<array>
 		<string>gheupturncyrillic</string>
 		<string>gecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_guillemotleft</key>
+	<key>public.kern1.@KERN_LEFT_guillemotleft</key>
 	<array>
 		<string>guilsinglleft</string>
 		<string>guillemotleft</string>
 	</array>
-	<key>@KERN_LEFT_guillemotright</key>
+	<key>public.kern1.@KERN_LEFT_guillemotright</key>
 	<array>
 		<string>guillemotright</string>
 		<string>guilsinglright</string>
 	</array>
-	<key>@KERN_LEFT_hardsigncyrillic</key>
+	<key>public.kern1.@KERN_LEFT_hardsigncyrillic</key>
 	<array>
 		<string>njecyrillic</string>
 		<string>hardsigncyrillic</string>
 		<string>softsigncyrillic</string>
 		<string>ljecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_idieresis</key>
+	<key>public.kern1.@KERN_LEFT_idieresis</key>
 	<array>
 		<string>idieresis</string>
 		<string>idieresisacute</string>
 		<string>itilde</string>
 	</array>
-	<key>@KERN_LEFT_iotadieresisgreek</key>
+	<key>public.kern1.@KERN_LEFT_iotadieresisgreek</key>
 	<array>
 		<string>iota</string>
 	</array>
-	<key>@KERN_LEFT_k</key>
+	<key>public.kern1.@KERN_LEFT_k</key>
 	<array>
 		<string>k</string>
 		<string>khook</string>
 		<string>kcommaaccent</string>
 		<string>kcaron</string>
 	</array>
-	<key>@KERN_LEFT_kacyrillic</key>
+	<key>public.kern1.@KERN_LEFT_kacyrillic</key>
 	<array>
 		<string>kacyrillic</string>
 	</array>
-	<key>@KERN_LEFT_nine</key>
+	<key>public.kern1.@KERN_LEFT_nine</key>
 	<array>
 		<string>zero</string>
 		<string>zero.slash</string>
 		<string>nine</string>
 		<string>nine.1</string>
 	</array>
-	<key>@KERN_LEFT_ohorn</key>
+	<key>public.kern1.@KERN_LEFT_ohorn</key>
 	<array>
 		<string>ohorn</string>
 	</array>
-	<key>@KERN_LEFT_omegagreek</key>
+	<key>public.kern1.@KERN_LEFT_omegagreek</key>
 	<array>
 		<string>omega</string>
 	</array>
-	<key>@KERN_LEFT_one</key>
+	<key>public.kern1.@KERN_LEFT_one</key>
 	<array>
 		<string>one</string>
 		<string>one.1</string>
 	</array>
-	<key>@KERN_LEFT_psigreek</key>
+	<key>public.kern1.@KERN_LEFT_psigreek</key>
 	<array>
 		<string>psi</string>
 		<string>upsilon</string>
 	</array>
-	<key>@KERN_LEFT_quotedbl</key>
+	<key>public.kern1.@KERN_LEFT_quotedbl</key>
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@KERN_LEFT_quotedblbase</key>
+	<key>public.kern1.@KERN_LEFT_quotedblbase</key>
 	<array>
 		<string>quotedblbase</string>
 		<string>quotesinglbase</string>
 	</array>
-	<key>@KERN_LEFT_quotedblleft</key>
+	<key>public.kern1.@KERN_LEFT_quotedblleft</key>
 	<array>
 		<string>quotedblleft</string>
 		<string>quoteleft</string>
 	</array>
-	<key>@KERN_LEFT_quotedblright</key>
+	<key>public.kern1.@KERN_LEFT_quotedblright</key>
 	<array>
 		<string>quoteright</string>
 		<string>quotedblright</string>
 		<string>primetripl1</string>
 	</array>
-	<key>@KERN_LEFT_r</key>
+	<key>public.kern1.@KERN_LEFT_r</key>
 	<array>
 		<string>r</string>
 		<string>rfishhook</string>
@@ -653,7 +653,7 @@
 		<string>rcommaaccent</string>
 		<string>rcaron</string>
 	</array>
-	<key>@KERN_LEFT_rthook</key>
+	<key>public.kern1.@KERN_LEFT_rthook</key>
 	<array>
 		<string>drthook</string>
 		<string>nrthook</string>
@@ -661,7 +661,7 @@
 		<string>Q_rthook</string>
 		<string>hturnhook2</string>
 	</array>
-	<key>@KERN_LEFT_s</key>
+	<key>public.kern1.@KERN_LEFT_s</key>
 	<array>
 		<string>s</string>
 		<string>srthook</string>
@@ -671,13 +671,13 @@
 		<string>scaron</string>
 		<string>germandbls</string>
 	</array>
-	<key>@KERN_LEFT_t</key>
+	<key>public.kern1.@KERN_LEFT_t</key>
 	<array>
 		<string>t</string>
 		<string>tcaron</string>
 		<string>tpalatalhook</string>
 	</array>
-	<key>@KERN_LEFT_u</key>
+	<key>public.kern1.@KERN_LEFT_u</key>
 	<array>
 		<string>uni01F6</string>
 		<string>u</string>
@@ -694,11 +694,11 @@
 		<string>uogonek</string>
 		<string>ucaron</string>
 	</array>
-	<key>@KERN_LEFT_uhorn</key>
+	<key>public.kern1.@KERN_LEFT_uhorn</key>
 	<array>
 		<string>uhorn</string>
 	</array>
-	<key>@KERN_LEFT_v</key>
+	<key>public.kern1.@KERN_LEFT_v</key>
 	<array>
 		<string>y</string>
 		<string>yhook</string>
@@ -710,12 +710,12 @@
 		<string>ycircumflex</string>
 		<string>ygrave</string>
 	</array>
-	<key>@KERN_LEFT_vecyrillic</key>
+	<key>public.kern1.@KERN_LEFT_vecyrillic</key>
 	<array>
 		<string>vecyrillic</string>
 		<string>zecyrillic</string>
 	</array>
-	<key>@KERN_LEFT_w</key>
+	<key>public.kern1.@KERN_LEFT_w</key>
 	<array>
 		<string>w</string>
 		<string>wcircumflex</string>
@@ -723,11 +723,11 @@
 		<string>wacute</string>
 		<string>wdieresis</string>
 	</array>
-	<key>@KERN_LEFT_x</key>
+	<key>public.kern1.@KERN_LEFT_x</key>
 	<array>
 		<string>x</string>
 	</array>
-	<key>@KERN_LEFT_z</key>
+	<key>public.kern1.@KERN_LEFT_z</key>
 	<array>
 		<string>Dzcaron_</string>
 		<string>dzcaron</string>
@@ -740,7 +740,11 @@
 		<string>zdotaccent</string>
 		<string>zcaron</string>
 	</array>
-	<key>@KERN_RIGHT_A</key>
+	<key>public.kern2.@KERN_LEFT_T</key>
+	<array>
+		<string>Thook</string>
+	</array>
+	<key>public.kern2.@KERN_RIGHT_A</key>
 	<array>
 		<string>A</string>
 		<string>yturn</string>
@@ -757,18 +761,18 @@
 		<string>Aogonek</string>
 		<string>Acaron</string>
 	</array>
-	<key>@KERN_RIGHT_AE</key>
+	<key>public.kern2.@KERN_RIGHT_AE</key>
 	<array>
 		<string>AE</string>
 		<string>AEacute</string>
 		<string>AEmacron</string>
 	</array>
-	<key>@KERN_RIGHT_Alphagreek</key>
+	<key>public.kern2.@KERN_RIGHT_Alphagreek</key>
 	<array>
 		<string>Lambda</string>
 		<string>Delta</string>
 	</array>
-	<key>@KERN_RIGHT_B</key>
+	<key>public.kern2.@KERN_RIGHT_B</key>
 	<array>
 		<string>h</string>
 		<string>b</string>
@@ -837,7 +841,7 @@
 		<string>Icaron</string>
 		<string>Kcaron</string>
 	</array>
-	<key>@KERN_RIGHT_C</key>
+	<key>public.kern2.@KERN_RIGHT_C</key>
 	<array>
 		<string>Ohorn</string>
 		<string>OE</string>
@@ -871,36 +875,36 @@
 		<string>Oogonek</string>
 		<string>Gacute</string>
 	</array>
-	<key>@KERN_RIGHT_Dcroat</key>
+	<key>public.kern2.@KERN_RIGHT_Dcroat</key>
 	<array>
 		<string>Eth</string>
 	</array>
-	<key>@KERN_RIGHT_Djecyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_Djecyrillic</key>
 	<array>
 		<string>afii10060</string>
 		<string>afii10051</string>
 	</array>
-	<key>@KERN_RIGHT_Ecyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_Ecyrillic</key>
 	<array>
 		<string>afii10053</string>
 	</array>
-	<key>@KERN_RIGHT_Elcyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_Elcyrillic</key>
 	<array>
 		<string>afii10058</string>
 		<string>afii10029</string>
 	</array>
-	<key>@KERN_RIGHT_J</key>
+	<key>public.kern2.@KERN_RIGHT_J</key>
 	<array>
 		<string>J</string>
 		<string>uni0248</string>
 		<string>Jcircumflex</string>
 	</array>
-	<key>@KERN_RIGHT_Omicrongreek</key>
+	<key>public.kern2.@KERN_RIGHT_Omicrongreek</key>
 	<array>
 		<string>Theta</string>
 		<string>Phi</string>
 	</array>
-	<key>@KERN_RIGHT_S</key>
+	<key>public.kern2.@KERN_RIGHT_S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -909,14 +913,14 @@
 		<string>Scaron</string>
 		<string>dollar</string>
 	</array>
-	<key>@KERN_RIGHT_T</key>
+	<key>public.kern2.@KERN_RIGHT_T</key>
 	<array>
 		<string>T</string>
 		<string>Trthook</string>
 		<string>uni023E</string>
 		<string>Tcaron</string>
 	</array>
-	<key>@KERN_RIGHT_U</key>
+	<key>public.kern2.@KERN_RIGHT_U</key>
 	<array>
 		<string>Uhorn</string>
 		<string>U</string>
@@ -933,16 +937,16 @@
 		<string>Uogonek</string>
 		<string>Ucaron</string>
 	</array>
-	<key>@KERN_RIGHT_Ucyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_Ucyrillic</key>
 	<array>
 		<string>afii10037</string>
 	</array>
-	<key>@KERN_RIGHT_V</key>
+	<key>public.kern2.@KERN_RIGHT_V</key>
 	<array>
 		<string>V</string>
 		<string>Gamma1</string>
 	</array>
-	<key>@KERN_RIGHT_W</key>
+	<key>public.kern2.@KERN_RIGHT_W</key>
 	<array>
 		<string>W</string>
 		<string>Wcircumflex</string>
@@ -950,11 +954,11 @@
 		<string>Wacute</string>
 		<string>Wdieresis</string>
 	</array>
-	<key>@KERN_RIGHT_X</key>
+	<key>public.kern2.@KERN_RIGHT_X</key>
 	<array>
 		<string>X</string>
 	</array>
-	<key>@KERN_RIGHT_Y</key>
+	<key>public.kern2.@KERN_RIGHT_Y</key>
 	<array>
 		<string>Y</string>
 		<string>Yhook</string>
@@ -963,7 +967,7 @@
 		<string>Ydieresis</string>
 		<string>Ygrave</string>
 	</array>
-	<key>@KERN_RIGHT_Z</key>
+	<key>public.kern2.@KERN_RIGHT_Z</key>
 	<array>
 		<string>Z</string>
 		<string>uni0224</string>
@@ -973,7 +977,7 @@
 		<string>Zdotaccent</string>
 		<string>Zcaron</string>
 	</array>
-	<key>@KERN_RIGHT_a</key>
+	<key>public.kern2.@KERN_RIGHT_a</key>
 	<array>
 		<string>ae</string>
 		<string>a</string>
@@ -992,11 +996,11 @@
 		<string>acaron</string>
 		<string>aemacron</string>
 	</array>
-	<key>@KERN_RIGHT_alphagreek</key>
+	<key>public.kern2.@KERN_RIGHT_alphagreek</key>
 	<array>
 		<string>alpha</string>
 	</array>
-	<key>@KERN_RIGHT_approxequal</key>
+	<key>public.kern2.@KERN_RIGHT_approxequal</key>
 	<array>
 		<string>notequal</string>
 		<string>greaterequal</string>
@@ -1005,25 +1009,25 @@
 		<string>lessequal</string>
 		<string>equal</string>
 	</array>
-	<key>@KERN_RIGHT_asciicircum</key>
+	<key>public.kern2.@KERN_RIGHT_asciicircum</key>
 	<array>
 		<string>asciicircum</string>
 		<string>asterisk</string>
 		<string>degree</string>
 	</array>
-	<key>@KERN_RIGHT_braceright</key>
+	<key>public.kern2.@KERN_RIGHT_braceright</key>
 	<array>
 		<string>parenright</string>
 		<string>bracketright</string>
 		<string>braceright</string>
 	</array>
-	<key>@KERN_RIGHT_braceright.case</key>
+	<key>public.kern2.@KERN_RIGHT_braceright.case</key>
 	<array>
 		<string>parenright.case</string>
 		<string>bracketright.case</string>
 		<string>braceright.case</string>
 	</array>
-	<key>@KERN_RIGHT_c</key>
+	<key>public.kern2.@KERN_RIGHT_c</key>
 	<array>
 		<string>dzcaron</string>
 		<string>ohorn</string>
@@ -1060,10 +1064,8 @@
 		<string>dyogh</string>
 		<string>dz</string>
 		<string>dzcurl</string>
-		<string>dzcaron</string>
 		<string>dhook</string>
 		<string>drthook</string>
-		<string>dcroat</string>
 		<string>emacron</string>
 		<string>ebreve</string>
 		<string>edotaccent</string>
@@ -1080,23 +1082,23 @@
 		<string>oogonek</string>
 		<string>gacute</string>
 	</array>
-	<key>@KERN_RIGHT_colon</key>
+	<key>public.kern2.@KERN_RIGHT_colon</key>
 	<array>
 		<string>colon</string>
 		<string>colon.case</string>
 		<string>semicolon</string>
 	</array>
-	<key>@KERN_RIGHT_colon.case</key>
+	<key>public.kern2.@KERN_RIGHT_colon.case</key>
 	<array>
 		<string>punctuationspace</string>
 	</array>
-	<key>@KERN_RIGHT_comma</key>
+	<key>public.kern2.@KERN_RIGHT_comma</key>
 	<array>
 		<string>ellipsis</string>
 		<string>comma</string>
 		<string>period</string>
 	</array>
-	<key>@KERN_RIGHT_dagger</key>
+	<key>public.kern2.@KERN_RIGHT_dagger</key>
 	<array>
 		<string>ordfeminine</string>
 		<string>dagger</string>
@@ -1107,21 +1109,21 @@
 		<string>isuperior</string>
 		<string>nsuperior</string>
 	</array>
-	<key>@KERN_RIGHT_deltagreek</key>
+	<key>public.kern2.@KERN_RIGHT_deltagreek</key>
 	<array>
 		<string>sigma</string>
 		<string>delta</string>
 		<string>sigma1</string>
 		<string>phi</string>
 	</array>
-	<key>@KERN_RIGHT_divide</key>
+	<key>public.kern2.@KERN_RIGHT_divide</key>
 	<array>
 		<string>hyphen</string>
 		<string>plus</string>
 		<string>minus</string>
 		<string>divide</string>
 	</array>
-	<key>@KERN_RIGHT_dotlessi</key>
+	<key>public.kern2.@KERN_RIGHT_dotlessi</key>
 	<array>
 		<string>itildebelow</string>
 		<string>dotlessi</string>
@@ -1134,14 +1136,14 @@
 		<string>iogonek</string>
 		<string>icaron</string>
 	</array>
-	<key>@KERN_RIGHT_dotlessj</key>
+	<key>public.kern2.@KERN_RIGHT_dotlessj</key>
 	<array>
 		<string>dotlessj</string>
 		<string>j</string>
 		<string>jcrosstail</string>
 		<string>jcircumflex</string>
 	</array>
-	<key>@KERN_RIGHT_dzhecyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_dzhecyrillic</key>
 	<array>
 		<string>kacyrillic</string>
 		<string>njecyrillic</string>
@@ -1160,12 +1162,12 @@
 		<string>pecyrillic</string>
 		<string>iicyrillic</string>
 	</array>
-	<key>@KERN_RIGHT_ecyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_ecyrillic</key>
 	<array>
 		<string>ecyrillic</string>
 		<string>efcyrillic</string>
 	</array>
-	<key>@KERN_RIGHT_eight.subs</key>
+	<key>public.kern2.@KERN_RIGHT_eight.subs</key>
 	<array>
 		<string>plussub</string>
 		<string>oneinferior</string>
@@ -1183,7 +1185,7 @@
 		<string>parenrightsub</string>
 		<string>nineinferior</string>
 	</array>
-	<key>@KERN_RIGHT_eight.sups</key>
+	<key>public.kern2.@KERN_RIGHT_eight.sups</key>
 	<array>
 		<string>foursuperior</string>
 		<string>sevensuperior</string>
@@ -1201,50 +1203,50 @@
 		<string>ninesuperior</string>
 		<string>threesuperior</string>
 	</array>
-	<key>@KERN_RIGHT_elcyrillic</key>
+	<key>public.kern2.@KERN_RIGHT_elcyrillic</key>
 	<array>
 		<string>ljecyrillic</string>
 		<string>elcyrillic</string>
 	</array>
-	<key>@KERN_RIGHT_epsilongreek</key>
+	<key>public.kern2.@KERN_RIGHT_epsilongreek</key>
 	<array>
 		<string>epsilon</string>
 	</array>
-	<key>@KERN_RIGHT_etagreek</key>
+	<key>public.kern2.@KERN_RIGHT_etagreek</key>
 	<array>
 		<string>eta</string>
 	</array>
-	<key>@KERN_RIGHT_f</key>
+	<key>public.kern2.@KERN_RIGHT_f</key>
 	<array>
 		<string>f</string>
 		<string>slongstroke</string>
 		<string>feng</string>
 	</array>
-	<key>@KERN_RIGHT_gammagreek</key>
+	<key>public.kern2.@KERN_RIGHT_gammagreek</key>
 	<array>
 		<string>gamma</string>
 	</array>
-	<key>@KERN_RIGHT_guillemotleft</key>
+	<key>public.kern2.@KERN_RIGHT_guillemotleft</key>
 	<array>
 		<string>guillemotleft</string>
 		<string>guilsinglleft</string>
 	</array>
-	<key>@KERN_RIGHT_guillemotright</key>
+	<key>public.kern2.@KERN_RIGHT_guillemotright</key>
 	<array>
 		<string>guilsinglright</string>
 		<string>guillemotright</string>
 	</array>
-	<key>@KERN_RIGHT_idieresis</key>
+	<key>public.kern2.@KERN_RIGHT_idieresis</key>
 	<array>
 		<string>idieresis</string>
 		<string>idieresisacute</string>
 		<string>itilde</string>
 	</array>
-	<key>@KERN_RIGHT_iotadieresisgreek</key>
+	<key>public.kern2.@KERN_RIGHT_iotadieresisgreek</key>
 	<array>
 		<string>iota</string>
 	</array>
-	<key>@KERN_RIGHT_m</key>
+	<key>public.kern2.@KERN_RIGHT_m</key>
 	<array>
 		<string>r</string>
 		<string>rfishhook</string>
@@ -1266,42 +1268,42 @@
 		<string>rcommaaccent</string>
 		<string>rcaron</string>
 	</array>
-	<key>@KERN_RIGHT_omegagreek</key>
+	<key>public.kern2.@KERN_RIGHT_omegagreek</key>
 	<array>
 		<string>omega</string>
 	</array>
-	<key>@KERN_RIGHT_one</key>
+	<key>public.kern2.@KERN_RIGHT_one</key>
 	<array>
 		<string>one</string>
 		<string>one.1</string>
 	</array>
-	<key>@KERN_RIGHT_psigreek</key>
+	<key>public.kern2.@KERN_RIGHT_psigreek</key>
 	<array>
 		<string>psi</string>
 		<string>upsilon</string>
 	</array>
-	<key>@KERN_RIGHT_quotedbl</key>
+	<key>public.kern2.@KERN_RIGHT_quotedbl</key>
 	<array>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
 	</array>
-	<key>@KERN_RIGHT_quotedblbase</key>
+	<key>public.kern2.@KERN_RIGHT_quotedblbase</key>
 	<array>
 		<string>quotedblbase</string>
 		<string>quotesinglbase</string>
 	</array>
-	<key>@KERN_RIGHT_quotedblleft</key>
+	<key>public.kern2.@KERN_RIGHT_quotedblleft</key>
 	<array>
 		<string>quotedblleft</string>
 		<string>quoteleft</string>
 	</array>
-	<key>@KERN_RIGHT_quotedblright</key>
+	<key>public.kern2.@KERN_RIGHT_quotedblright</key>
 	<array>
 		<string>quoteright</string>
 		<string>quotedblright</string>
 		<string>primetripl1</string>
 	</array>
-	<key>@KERN_RIGHT_s</key>
+	<key>public.kern2.@KERN_RIGHT_s</key>
 	<array>
 		<string>s</string>
 		<string>srthook</string>
@@ -1310,21 +1312,21 @@
 		<string>scedilla</string>
 		<string>scaron</string>
 	</array>
-	<key>@KERN_RIGHT_six</key>
+	<key>public.kern2.@KERN_RIGHT_six</key>
 	<array>
 		<string>zero</string>
 		<string>zero.slash</string>
 		<string>six</string>
 		<string>six.1</string>
 	</array>
-	<key>@KERN_RIGHT_t</key>
+	<key>public.kern2.@KERN_RIGHT_t</key>
 	<array>
 		<string>t</string>
 		<string>tcaron</string>
 		<string>tccurl</string>
 		<string>tpalatalhook</string>
 	</array>
-	<key>@KERN_RIGHT_u</key>
+	<key>public.kern2.@KERN_RIGHT_u</key>
 	<array>
 		<string>uhorn</string>
 		<string>u</string>
@@ -1343,7 +1345,7 @@
 		<string>uogonek</string>
 		<string>ucaron</string>
 	</array>
-	<key>@KERN_RIGHT_v</key>
+	<key>public.kern2.@KERN_RIGHT_v</key>
 	<array>
 		<string>y</string>
 		<string>yhook</string>
@@ -1355,7 +1357,7 @@
 		<string>ycircumflex</string>
 		<string>ygrave</string>
 	</array>
-	<key>@KERN_RIGHT_w</key>
+	<key>public.kern2.@KERN_RIGHT_w</key>
 	<array>
 		<string>w</string>
 		<string>wcircumflex</string>
@@ -1363,11 +1365,11 @@
 		<string>wacute</string>
 		<string>wdieresis</string>
 	</array>
-	<key>@KERN_RIGHT_x</key>
+	<key>public.kern2.@KERN_RIGHT_x</key>
 	<array>
 		<string>x</string>
 	</array>
-	<key>@KERN_RIGHT_z</key>
+	<key>public.kern2.@KERN_RIGHT_z</key>
 	<array>
 		<string>z</string>
 		<string>zrthook</string>

@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="w" format="1">
+<glyph name="w" format="2">
   <advance width="2204"/>
   <unicode hex="0077"/>
+  <guideline x="1084" y="776" angle="90" identifier="0zmcxFHwtO"/>
+  <anchor x="1100" y="1776" name="top"/>
+  <anchor x="1100" y="0" name="bottom"/>
+  <anchor x="1100" y="1776" name="marktop"/>
+  <anchor x="2196" y="2200" name="top_dd"/>
+  <anchor x="2196" y="-560" name="bottom_dd"/>
+  <anchor x="2196" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="2108" y="1536" type="line"/>
@@ -21,53 +27,15 @@
       <point x="1360" y="0" type="line"/>
       <point x="1732" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="1100" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1100" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1100" y="1776" type="move" name="marktop"/>
-    </contour>
-    <contour>
-      <point x="2196" y="2200" type="move" name="top_dd"/>
-    </contour>
-    <contour>
-      <point x="2196" y="-560" type="move" name="bottom_dd"/>
-    </contour>
-    <contour>
-      <point x="2196" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>1084</integer>
-          <key>y</key>
-          <integer>776</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.86</real>
-        <real>0.92</real>
-        <real>0.97</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 2053, 'leftMargin': 33, 'rightMargin': 39}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.0zmcxFHwtO</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2053, 'leftMargin': 33, 'rightMargin': 39}</string>
+	<key>public.markColor</key>
+	<string>0.86,0.92,0.97,1</string>
+</dict>
   </lib>
 </glyph>

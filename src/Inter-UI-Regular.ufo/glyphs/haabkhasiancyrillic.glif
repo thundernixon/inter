@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="haabkhasiancyrillic" format="1">
+<glyph name="haabkhasiancyrillic" format="2">
   <advance width="1776"/>
   <unicode hex="04A9"/>
+  <anchor x="792" y="1776" name="top"/>
+  <anchor x="792" y="-16" name="bottom"/>
+  <anchor x="1704" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1632" y="212" type="line"/>
@@ -49,24 +51,15 @@
       <point x="1044" y="-16"/>
       <point x="1632" y="-16" type="curve"/>
     </contour>
-    <contour>
-      <point x="792" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="792" y="-16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1704" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1705.0, 'leftMargin': 149, 'rightMargin': 73.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1705.0, 'leftMargin': 149, 'rightMargin': 73.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

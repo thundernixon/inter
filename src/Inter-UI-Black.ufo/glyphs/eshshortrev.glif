@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eshshortrev" format="1">
+<glyph name="eshshortrev" format="2">
   <advance width="1312"/>
   <unicode hex="0285"/>
+  <guideline x="0" y="1515.25" angle="0" identifier="oalb2F7Ejt"/>
+  <guideline x="0" y="-600.875" angle="0" identifier="BOs9Rw68uD"/>
+  <anchor x="364" y="1776" name="top"/>
+  <anchor x="940" y="-616" name="bottom"/>
+  <anchor x="1240" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="880" y="0" type="line" name="hr00"/>
@@ -39,50 +43,18 @@
       <point x="880" y="-68" type="curve" smooth="yes"/>
       <point x="880" y="916" type="line"/>
     </contour>
-    <contour>
-      <point x="364" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="940" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1240" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>1515.25</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>-600.875</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1167, 'leftMargin': 30, 'rightMargin': 30}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>com.typemytype.robofont.guideline.magnetic.BOs9Rw68uD</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.oalb2F7Ejt</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1167, 'leftMargin': 30, 'rightMargin': 30}</string>
+</dict>
   </lib>
 </glyph>

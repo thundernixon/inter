@@ -1,0 +1,29 @@
+<glyph name="uni03D8" format="2">
+  <advance width="2144"/>
+  <unicode hex="03D8"/>
+  <guideline x="1048" y="128" angle="90" identifier="mDF699ssGs"/>
+  <outline>
+    <contour>
+      <point x="1196" y="56" type="line" name="hr00"/>
+      <point x="948" y="56" type="line"/>
+      <point x="948" y="-572" type="line"/>
+      <point x="1196" y="-572" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>com.typemytype.robofont.guideline.magnetic.mDF699ssGs</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1944, 'leftMargin': 256, 'rightMargin': 152}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

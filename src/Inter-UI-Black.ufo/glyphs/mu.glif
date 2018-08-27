@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="mu" format="1">
+<glyph name="mu" format="2">
   <advance width="1664"/>
   <unicode hex="00B5"/>
+  <guideline x="0" y="277.75" angle="0" identifier="FRM1hmmpSV"/>
+  <guideline x="0" y="752.125" angle="0" identifier="8ja6QBhWv1"/>
   <outline>
     <contour>
       <point x="1076" y="1536" type="line"/>
@@ -35,35 +36,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>277.75</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>752.125</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1783, 'leftMargin': 186, 'rightMargin': 221}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.8ja6QBhWv1</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.FRM1hmmpSV</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1783, 'leftMargin': 186, 'rightMargin': 221}</string>
+</dict>
   </lib>
 </glyph>

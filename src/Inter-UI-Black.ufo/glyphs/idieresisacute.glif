@@ -1,30 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="idieresisacute" format="1">
-  <advance width="1042"/>
+<glyph name="idieresisacute" format="2">
+  <advance width="1040"/>
   <unicode hex="1E2F"/>
+  <anchor x="632" y="900" name="rhotichook"/>
+  <anchor x="548" y="1744" name="top"/>
+  <anchor x="944" y="1744" name="top0315"/>
+  <anchor x="548" y="2708" name="mkmktop_acc"/>
+  <anchor x="532" y="0" name="bottom"/>
   <outline>
     <component base="dotlessi" xOffset="132"/>
     <component base="dieresisacutecomb.lc" xOffset="1316" yOffset="-28"/>
-    <contour>
-      <point x="632" y="900" type="move" name="rhotichook"/>
-    </contour>
-    <contour>
-      <point x="548" y="1744" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="944" y="1744" type="move" name="top0315"/>
-    </contour>
-    <contour>
-      <point x="548" y="2708" type="move" name="mkmktop_acc"/>
-    </contour>
-    <contour>
-      <point x="532" y="0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1159, 'leftMargin': 28, 'rightMargin': 27}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1159, 'leftMargin': 28, 'rightMargin': 27}</string>
+</dict>
   </lib>
 </glyph>

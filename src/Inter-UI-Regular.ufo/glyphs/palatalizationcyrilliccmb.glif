@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="palatalizationcyrilliccmb" format="1">
-  <advance width="0"/>
+<glyph name="palatalizationcyrilliccmb" format="2">
   <unicode hex="0484"/>
+  <anchor x="-608" y="1636" name="_marktop"/>
   <outline>
-    <contour>
-      <point x="-608" y="1636" type="move" name="_marktop"/>
-    </contour>
     <contour>
       <point x="-1258" y="1976" type="line"/>
       <point x="-1258" y="1792" type="line"/>
@@ -29,13 +25,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

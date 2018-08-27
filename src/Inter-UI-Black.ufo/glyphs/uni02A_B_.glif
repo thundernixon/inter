@@ -1,0 +1,36 @@
+<glyph name="uni02AB" format="2">
+  <advance width="2184"/>
+  <unicode hex="02AB"/>
+  <anchor x="1172" y="2200" name="top"/>
+  <anchor x="1172" y="0" name="bottom"/>
+  <anchor x="1984" y="2200" name="top0315"/>
+  <outline>
+    <contour>
+      <point x="2040" y="360" type="line"/>
+      <point x="896" y="360" type="line"/>
+      <point x="896" y="0" type="line"/>
+      <point x="2040" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="2024" y="1276" type="line"/>
+      <point x="2024" y="1536" type="line"/>
+      <point x="1720" y="1536" type="line"/>
+      <point x="784" y="260" type="line"/>
+      <point x="784" y="0" type="line"/>
+      <point x="1088" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1876" y="1536" type="line"/>
+      <point x="364" y="1536" type="line"/>
+      <point x="364" y="1176" type="line"/>
+      <point x="1876" y="1176" type="line"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1955, 'leftMargin': 161, 'rightMargin': 96}</string>
+</dict>
+  </lib>
+</glyph>

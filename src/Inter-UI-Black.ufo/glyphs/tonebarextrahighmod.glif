@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tonebarextrahighmod" format="1">
+<glyph name="tonebarextrahighmod" format="2">
   <advance width="1056"/>
   <unicode hex="02E5"/>
   <outline>
@@ -18,15 +17,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1004, 'leftMargin': 0, 'rightMargin': 168}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1004, 'leftMargin': 0, 'rightMargin': 168}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

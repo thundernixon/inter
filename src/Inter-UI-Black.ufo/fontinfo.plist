@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
@@ -13,6 +13,91 @@ Glyphs from Roboto: Copyright 2011 Google Inc. All Rights Reserved.</string>
 	<integer>-660</integer>
 	<key>familyName</key>
 	<string>Inter UI</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>aE4apPImjU</string>
+			<key>x</key>
+			<integer>0</integer>
+			<key>y</key>
+			<integer>-221</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>wCw2psF5xE</string>
+			<key>name</key>
+			<string>anchors_Cap</string>
+			<key>x</key>
+			<integer>52</integer>
+			<key>y</key>
+			<integer>1620</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>identifier</key>
+			<string>VMLiWuICZV</string>
+			<key>x</key>
+			<integer>128</integer>
+			<key>y</key>
+			<integer>2152</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>90</integer>
+			<key>identifier</key>
+			<string>uaMeyzeKnb</string>
+			<key>x</key>
+			<integer>592</integer>
+			<key>y</key>
+			<integer>2168</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>14ETgN1wtD</string>
+			<key>x</key>
+			<integer>1512</integer>
+			<key>y</key>
+			<integer>1216</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>PDlCxRTATp</string>
+			<key>x</key>
+			<integer>1016</integer>
+			<key>y</key>
+			<integer>832</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>RbCBkdnn0Z</string>
+			<key>x</key>
+			<integer>1496</integer>
+			<key>y</key>
+			<integer>384</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>identifier</key>
+			<string>6jsd1B0QMY</string>
+			<key>x</key>
+			<integer>1624</integer>
+			<key>y</key>
+			<integer>-576</integer>
+		</dict>
+	</array>
 	<key>italicAngle</key>
 	<integer>0</integer>
 	<key>openTypeHeadCreated</key>
@@ -76,8 +161,7 @@ Glyphs from Roboto: Copyright 2011 Google Inc. All Rights Reserved.</string>
 		<integer>0</integer>
 	</array>
 	<key>openTypeOS2Selection</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2StrikeoutPosition</key>
 	<integer>512</integer>
 	<key>openTypeOS2StrikeoutSize</key>
@@ -99,8 +183,7 @@ Glyphs from Roboto: Copyright 2011 Google Inc. All Rights Reserved.</string>
 	<key>openTypeOS2SuperscriptYSize</key>
 	<integer>1280</integer>
 	<key>openTypeOS2Type</key>
-	<array>
-	</array>
+	<array/>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>2708</integer>
 	<key>openTypeOS2TypoLineGap</key>
@@ -160,11 +243,9 @@ Glyphs from Roboto: Copyright 2011 Google Inc. All Rights Reserved.</string>
 	<key>postscriptDefaultWidthX</key>
 	<integer>256</integer>
 	<key>postscriptFamilyBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptFamilyOtherBlues</key>
-	<array>
-	</array>
+	<array/>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptIsFixedPitch</key>

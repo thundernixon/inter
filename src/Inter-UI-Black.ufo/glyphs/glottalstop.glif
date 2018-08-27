@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="glottalstop" format="1">
+<glyph name="glottalstop" format="2">
   <advance width="1568"/>
   <unicode hex="0294"/>
+  <guideline x="0" y="2140.875" angle="0" identifier="ZvvCj6Ddmv"/>
+  <anchor x="752" y="2244" name="top"/>
+  <anchor x="800" y="0" name="bottom"/>
+  <anchor x="1524" y="2244" name="top0315"/>
   <outline>
     <contour>
       <point x="596" y="780" type="line" name="hr00"/>
@@ -35,38 +38,16 @@
       <point x="572" y="0" type="line"/>
       <point x="1016" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="752" y="2244" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="800" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1524" y="2244" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>2140.875</real>
-        </dict>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1466, 'leftMargin': 69, 'rightMargin': 79}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>com.typemytype.robofont.guideline.magnetic.ZvvCj6Ddmv</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1466, 'leftMargin': 69, 'rightMargin': 79}</string>
+</dict>
   </lib>
 </glyph>

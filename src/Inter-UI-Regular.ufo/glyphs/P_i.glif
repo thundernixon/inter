@@ -1,0 +1,27 @@
+<glyph name="Pi" format="2">
+  <advance width="2032"/>
+  <unicode hex="03A0"/>
+  <anchor x="1776" y="0" name="right"/>
+  <outline>
+    <contour>
+      <point x="1780" y="2048" type="line"/>
+      <point x="252" y="2048" type="line"/>
+      <point x="252" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="500" y="1828" type="line"/>
+      <point x="1532" y="1828" type="line"/>
+      <point x="1532" y="0" type="line"/>
+      <point x="1780" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2013.0, 'leftMargin': 242, 'rightMargin': 245.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

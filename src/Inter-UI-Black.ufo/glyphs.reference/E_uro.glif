@@ -1,0 +1,45 @@
+<glyph name="Euro" format="2">
+  <advance width="1864"/>
+  <outline>
+    <contour>
+      <point x="1476" y="1324" type="line"/>
+      <point x="152" y="1324" type="line"/>
+      <point x="80" y="1124" type="line"/>
+      <point x="1384" y="1124" type="line"/>
+    </contour>
+    <contour>
+      <point x="1304" y="924" type="line"/>
+      <point x="152" y="924" type="line"/>
+      <point x="80" y="724" type="line"/>
+      <point x="1212" y="724" type="line"/>
+    </contour>
+    <contour>
+      <point x="1712" y="1864" type="line"/>
+      <point x="1568" y="2000"/>
+      <point x="1380" y="2076"/>
+      <point x="1168" y="2076" type="curve" smooth="yes"/>
+      <point x="676" y="2076"/>
+      <point x="328" y="1672"/>
+      <point x="328" y="1024" type="curve"/>
+      <point x="328" y="376"/>
+      <point x="676" y="-28"/>
+      <point x="1168" y="-28" type="curve" smooth="yes"/>
+      <point x="1372" y="-28"/>
+      <point x="1568" y="40"/>
+      <point x="1708" y="172" type="curve"/>
+      <point x="1608" y="380" type="line"/>
+      <point x="1492" y="280"/>
+      <point x="1344" y="204"/>
+      <point x="1168" y="204" type="curve" smooth="yes"/>
+      <point x="828" y="204"/>
+      <point x="568" y="492"/>
+      <point x="568" y="1024" type="curve"/>
+      <point x="568" y="1556"/>
+      <point x="828" y="1844"/>
+      <point x="1168" y="1844" type="curve" smooth="yes"/>
+      <point x="1340" y="1844"/>
+      <point x="1488" y="1772"/>
+      <point x="1616" y="1656" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

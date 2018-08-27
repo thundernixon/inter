@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bracketright" format="1">
+<glyph name="bracketright" format="2">
   <advance width="1072"/>
   <unicode hex="005D"/>
   <outline>
@@ -16,15 +15,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>0.94</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 791, 'leftMargin': 19, 'rightMargin': 154}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 791, 'leftMargin': 19, 'rightMargin': 154}</string>
+	<key>public.markColor</key>
+	<string>0.94,0.94,0.94,1</string>
+</dict>
   </lib>
 </glyph>

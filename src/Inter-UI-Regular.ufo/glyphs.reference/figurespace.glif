@@ -1,0 +1,6 @@
+<glyph name="figurespace" format="2">
+  <advance width="1688"/>
+  <outline>
+    <component base="one.tnum"/>
+  </outline>
+</glyph>

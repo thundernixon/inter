@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="longs" format="1">
+<glyph name="longs" format="2">
   <advance width="800"/>
   <unicode hex="017F"/>
+  <anchor x="368" y="2284" name="top"/>
+  <anchor x="240" y="16" name="bottom"/>
+  <anchor x="596" y="2284" name="top0315"/>
   <outline>
     <contour>
       <point x="444" y="0" type="line" name="hr00"/>
@@ -21,23 +23,14 @@
       <point x="0" y="1608" type="curve"/>
       <point x="0" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="368" y="2284" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="240" y="16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="596" y="2284" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-      </data>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 738, 'leftMargin': 140, 'rightMargin': -204}</string>
-    </dict>
+	<key>com.adobe.type.autohint</key>
+	<data>
+	</data>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 738, 'leftMargin': 140, 'rightMargin': -204}</string>
+</dict>
   </lib>
 </glyph>

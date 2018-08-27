@@ -1,0 +1,22 @@
+<glyph name="Hbar" format="2">
+  <advance width="1952"/>
+  <unicode hex="0126"/>
+  <anchor x="976" y="2200" name="top"/>
+  <anchor x="976" y="16" name="bottom"/>
+  <anchor x="1992" y="2200" name="top0315"/>
+  <outline>
+    <contour>
+      <point x="1960" y="1708" type="line"/>
+      <point x="-8" y="1708" type="line"/>
+      <point x="-8" y="1460" type="line"/>
+      <point x="1960" y="1460" type="line"/>
+    </contour>
+    <component base="H"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 2045, 'leftMargin': 45, 'rightMargin': 32}</string>
+</dict>
+  </lib>
+</glyph>

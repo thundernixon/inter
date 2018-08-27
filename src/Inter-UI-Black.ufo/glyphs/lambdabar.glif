@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lambdabar" format="1">
+<glyph name="lambdabar" format="2">
   <advance width="1824"/>
   <unicode hex="019B"/>
+  <anchor x="1476" y="2200" name="top0315"/>
   <outline>
     <contour>
       <point x="1088" y="1876" type="line"/>
@@ -10,14 +10,11 @@
       <point x="1088" y="1600" type="line"/>
     </contour>
     <component base="lambda"/>
-    <contour>
-      <point x="1476" y="2200" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1539, 'leftMargin': 120, 'rightMargin': -133}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1539, 'leftMargin': 120, 'rightMargin': -133}</string>
+</dict>
   </lib>
 </glyph>

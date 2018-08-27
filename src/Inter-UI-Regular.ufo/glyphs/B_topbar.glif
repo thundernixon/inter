@@ -1,0 +1,21 @@
+<glyph name="Btopbar" format="2">
+  <advance width="1856"/>
+  <unicode hex="0182"/>
+  <guideline x="240" y="1684" angle="90" identifier="0C8cl58oex"/>
+  <outline>
+    <component base="Gamma" xOffset="-24"/>
+    <component base="afii10046" xOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.0C8cl58oex</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1777, 'leftMargin': 171, 'rightMargin': 158}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

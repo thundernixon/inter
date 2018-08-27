@@ -1,0 +1,19 @@
+<glyph name="Odieresis" format="2">
+  <advance width="2144"/>
+  <unicode hex="00D6"/>
+  <guideline x="1652" y="1556" angle="0" identifier="zWnZrswV28"/>
+  <outline>
+    <component base="casedieresis.cn" xOffset="248"/>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>com.typemytype.robofont.guideline.magnetic.zWnZrswV28</key>
+	<integer>5</integer>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

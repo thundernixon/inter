@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="upsilonlatin" format="1">
+<glyph name="upsilonlatin" format="2">
   <advance width="1776"/>
   <unicode hex="028A"/>
+  <anchor x="892" y="1776" name="top"/>
+  <anchor x="892" y="0" name="bottom"/>
+  <anchor x="1756" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="888" y="192" type="curve" smooth="yes"/>
@@ -43,24 +45,15 @@
       <point x="1332" y="444"/>
       <point x="1268" y="192"/>
     </contour>
-    <contour>
-      <point x="892" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="892" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1756" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1734, 'leftMargin': 138, 'rightMargin': 138}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1734, 'leftMargin': 138, 'rightMargin': 138}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

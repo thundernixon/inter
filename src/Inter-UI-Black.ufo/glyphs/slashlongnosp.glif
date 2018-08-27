@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slashlongnosp" format="1">
-  <advance width="0"/>
+<glyph name="slashlongnosp" format="2">
   <unicode hex="0338"/>
+  <guideline x="-970.75" y="0" angle="90" identifier="IWiQYCjuPt"/>
   <outline>
     <contour>
       <point x="-231" y="2087" type="line"/>
@@ -12,28 +11,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>-970.75</real>
-          <key>y</key>
-          <real>0.0</real>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.IWiQYCjuPt</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

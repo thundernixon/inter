@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="srthook" format="1">
+<glyph name="srthook" format="2">
   <advance width="1460"/>
   <unicode hex="0282"/>
+  <anchor x="760" y="1776" name="top"/>
+  <anchor x="760" y="-616" name="bottom"/>
+  <anchor x="1464" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="100" y="356" type="line"/>
@@ -22,24 +24,15 @@
       <point x="336" y="356" type="line"/>
     </contour>
     <component base="s"/>
-    <contour>
-      <point x="760" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="760" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1464" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1459, 'leftMargin': 129, 'rightMargin': 167}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1459, 'leftMargin': 129, 'rightMargin': 167}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

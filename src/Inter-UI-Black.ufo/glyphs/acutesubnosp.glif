@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutesubnosp" format="1">
-  <advance width="0"/>
+<glyph name="acutesubnosp" format="2">
   <unicode hex="0317"/>
+  <anchor x="-843" y="-536" name="mkmkbottom_acc"/>
+  <anchor x="-843" y="0" name="_markbottom"/>
   <outline>
-    <contour>
-      <point x="-843" y="-536" type="move" name="mkmkbottom_acc"/>
-    </contour>
-    <contour>
-      <point x="-843" y="0" type="move" name="_markbottom"/>
-    </contour>
     <component base="acute" xOffset="-1306" yOffset="-2217"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.98</real>
-        <real>0.89</real>
-        <real>0.89</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
   </lib>
 </glyph>

@@ -1,0 +1,16 @@
+<glyph name="uni02F6" format="2">
+  <advance width="1568"/>
+  <unicode hex="02F6"/>
+  <outline>
+    <component base="acute" xOffset="-76" yOffset="-1404"/>
+    <component base="acute" xOffset="612" yOffset="-1404"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1660, 'leftMargin': 101, 'rightMargin': 128}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

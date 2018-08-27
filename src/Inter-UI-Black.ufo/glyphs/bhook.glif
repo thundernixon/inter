@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="bhook" format="1">
+<glyph name="bhook" format="2">
   <advance width="1652"/>
   <unicode hex="0253"/>
+  <anchor x="1012" y="2340" name="top"/>
+  <anchor x="1024" y="-16" name="bottom"/>
+  <anchor x="1676" y="2340" name="top0315"/>
   <outline>
     <contour>
       <point x="604" y="1444" type="line"/>
@@ -56,20 +58,11 @@
       <point x="1024" y="1192"/>
       <point x="1124" y="1036"/>
     </contour>
-    <contour>
-      <point x="1012" y="2340" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1024" y="-16" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1676" y="2340" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1585, 'leftMargin': 140, 'rightMargin': 79}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1585, 'leftMargin': 140, 'rightMargin': 79}</string>
+</dict>
   </lib>
 </glyph>

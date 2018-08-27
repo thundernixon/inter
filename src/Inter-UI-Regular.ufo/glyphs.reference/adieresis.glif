@@ -1,0 +1,48 @@
+<glyph name="adieresis" format="2">
+  <advance width="1588"/>
+  <outline>
+    <contour>
+      <point x="1136" y="796" type="line"/>
+      <point x="1136" y="556" type="line" smooth="yes"/>
+      <point x="1136" y="364"/>
+      <point x="980" y="176"/>
+      <point x="704" y="176" type="curve" smooth="yes"/>
+      <point x="516" y="176"/>
+      <point x="380" y="264"/>
+      <point x="380" y="424" type="curve" smooth="yes"/>
+      <point x="380" y="744"/>
+      <point x="996" y="684"/>
+      <point x="1132" y="796" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1136" y="0" type="line"/>
+      <point x="1372" y="0" type="line"/>
+      <point x="1372" y="1012" type="line" smooth="yes"/>
+      <point x="1372" y="1500"/>
+      <point x="1000" y="1556"/>
+      <point x="804" y="1556" type="curve" smooth="yes"/>
+      <point x="572" y="1556"/>
+      <point x="308" y="1476"/>
+      <point x="188" y="1196" type="curve"/>
+      <point x="412" y="1116" type="line"/>
+      <point x="464" y="1228"/>
+      <point x="580" y="1348"/>
+      <point x="804" y="1348" type="curve" smooth="yes"/>
+      <point x="1000" y="1348"/>
+      <point x="1136" y="1256"/>
+      <point x="1136" y="1012" type="curve" smooth="yes"/>
+      <point x="1136" y="1000" type="line"/>
+      <point x="1064" y="964" type="line" smooth="yes"/>
+      <point x="832" y="848"/>
+      <point x="144" y="920"/>
+      <point x="144" y="424" type="curve" smooth="yes"/>
+      <point x="144" y="136"/>
+      <point x="376" y="-36"/>
+      <point x="668" y="-36" type="curve" smooth="yes"/>
+      <point x="936" y="-36"/>
+      <point x="1076" y="108"/>
+      <point x="1124" y="208" type="curve"/>
+      <point x="1136" y="208" type="line"/>
+    </contour>
+  </outline>
+</glyph>

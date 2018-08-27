@@ -1,18 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="space" format="1">
+<glyph name="space" format="2">
   <advance width="792"/>
   <unicode hex="0020"/>
   <outline>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.93</real>
-        <real>0.9</real>
-        <real>0.98</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>public.markColor</key>
+	<string>0.93,0.9,0.98,1</string>
+</dict>
   </lib>
 </glyph>

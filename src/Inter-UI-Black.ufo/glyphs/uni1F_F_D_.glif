@@ -1,0 +1,24 @@
+<glyph name="uni1FFD" format="2">
+  <advance width="800"/>
+  <unicode hex="1FFD"/>
+  <anchor x="236" y="1624" name="_top"/>
+  <anchor x="584" y="2000" name="_tonos"/>
+  <outline>
+    <contour>
+      <point x="180" y="1600" type="line"/>
+      <point x="332" y="2028" type="line"/>
+      <point x="620" y="2028" type="line"/>
+      <point x="620" y="2000" type="line"/>
+      <point x="304" y="1560" type="line"/>
+      <point x="180" y="1560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 699, 'leftMargin': 131, 'rightMargin': 126}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
+  </lib>
+</glyph>

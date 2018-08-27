@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tavdages" format="1">
+<glyph name="tavdages" format="2">
   <advance width="1312"/>
   <unicode hex="02E2"/>
   <outline>
@@ -46,8 +45,8 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1123, 'leftMargin': 83, 'rightMargin': 82}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1123, 'leftMargin': 83, 'rightMargin': 82}</string>
+</dict>
   </lib>
 </glyph>

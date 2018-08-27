@@ -1,0 +1,6 @@
+<glyph name="rfishhook" format="2">
+  <advance width="860"/>
+  <outline>
+    <component base="r" xOffset="8"/>
+  </outline>
+</glyph>

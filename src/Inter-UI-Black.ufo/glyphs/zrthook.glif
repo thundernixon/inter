@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zrthook" format="1">
+<glyph name="zrthook" format="2">
   <advance width="1544"/>
   <unicode hex="0290"/>
+  <anchor x="672" y="1776" name="top"/>
+  <anchor x="672" y="-616" name="bottom"/>
+  <anchor x="1740" y="1776" name="top0315"/>
   <outline>
     <contour>
       <point x="1096" y="360" type="line"/>
@@ -22,20 +24,11 @@
       <point x="1400" y="360" type="line"/>
     </contour>
     <component base="z"/>
-    <contour>
-      <point x="672" y="1776" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="672" y="-616" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="1740" y="1776" type="move" name="top0315"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1749.0, 'leftMargin': 95, 'rightMargin': 0.0}</string>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1749.0, 'leftMargin': 95, 'rightMargin': 0.0}</string>
+</dict>
   </lib>
 </glyph>

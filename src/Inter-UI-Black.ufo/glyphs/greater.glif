@@ -1,48 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="greater" format="1">
+<glyph name="greater" format="2">
   <advance width="1312"/>
   <unicode hex="003E"/>
+  <guideline x="0" y="248.875" angle="0" identifier="cN2t7jMKK9"/>
+  <guideline x="1456" y="896" angle="0" identifier="sg4hX6kssa"/>
   <outline>
     <component base="less" xScale="-1" xOffset="1280"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <real>0.0</real>
-          <key>y</key>
-          <real>248.875</real>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>0.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>1456</integer>
-          <key>y</key>
-          <integer>896</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.8</real>
-        <real>0.94</real>
-        <real>0.95</real>
-        <real>1.0</real>
-      </array>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1448, 'leftMargin': 157, 'rightMargin': 85}</string>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.cN2t7jMKK9</key>
+	<integer>5</integer>
+	<key>com.typemytype.robofont.guideline.magnetic.sg4hX6kssa</key>
+	<integer>5</integer>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1448, 'leftMargin': 157, 'rightMargin': 85}</string>
+	<key>public.markColor</key>
+	<string>0.8,0.94,0.95,1</string>
+</dict>
   </lib>
 </glyph>

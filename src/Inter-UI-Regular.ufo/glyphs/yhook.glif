@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yhook" format="1">
+<glyph name="yhook" format="2">
   <advance width="1716"/>
   <unicode hex="01B4"/>
   <outline>
@@ -46,12 +45,12 @@
   </outline>
   <lib>
     <dict>
-      <key>interface.gridadjust.original</key>
-      <string>{'width': 1672.0, 'leftMargin': 28, 'rightMargin': -41.0}</string>
-      <key>interface.width-adjustments</key>
-      <array>
-        <integer>-16</integer>
-      </array>
-    </dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1672.0, 'leftMargin': 28, 'rightMargin': -41.0}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
   </lib>
 </glyph>

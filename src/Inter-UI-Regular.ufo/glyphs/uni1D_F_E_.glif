@@ -1,0 +1,13 @@
+<glyph name="uni1DFE" format="2">
+  <unicode hex="1DFE"/>
+  <anchor x="-807" y="1609" name="_marktop"/>
+  <outline>
+    <component base="arrowheadleftmod" xOffset="-1376" yOffset="802"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>0.98,0.89,0.89,1</string>
+</dict>
+  </lib>
+</glyph>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="leftloop.cn" format="1">
+<glyph name="leftloop.cn" format="2">
   <advance width="1576"/>
+  <guideline x="80" y="768" angle="90" identifier="jlzj9qw1qh"/>
   <outline>
     <contour>
       <point x="1232" y="1372" type="line"/>
@@ -36,30 +36,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>80</integer>
-          <key>y</key>
-          <integer>768</integer>
-        </dict>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.77</real>
-        <real>0.95</real>
-        <real>0.76</real>
-        <real>1.0</real>
-      </array>
-    </dict>
+	<key>com.typemytype.robofont.guideline.magnetic.jlzj9qw1qh</key>
+	<integer>5</integer>
+	<key>public.markColor</key>
+	<string>0.77,0.95,0.76,1</string>
+</dict>
   </lib>
 </glyph>

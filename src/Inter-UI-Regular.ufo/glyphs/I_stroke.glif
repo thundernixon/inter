@@ -1,0 +1,21 @@
+<glyph name="Istroke" format="2">
+  <advance width="800"/>
+  <unicode hex="0197"/>
+  <anchor x="440" y="2216" name="top"/>
+  <anchor x="912" y="2216" name="top0315"/>
+  <anchor x="440" y="16" name="bottom"/>
+  <outline>
+    <component base="I" xOffset="40"/>
+    <component base="crossbar" xOffset="-236" yOffset="96"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 938, 'leftMargin': 27, 'rightMargin': 28}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>

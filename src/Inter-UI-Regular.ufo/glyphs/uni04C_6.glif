@@ -1,0 +1,19 @@
+<glyph name="uni04C6" format="2">
+  <advance width="1776"/>
+  <unicode hex="04C6"/>
+  <anchor x="1600" y="1744" name="top0315"/>
+  <outline>
+    <component base="elcyrillic" xOffset="-48"/>
+    <component base="comma" xOffset="1208" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>interface.gridadjust.original</key>
+	<string>{'width': 1764, 'leftMargin': 88, 'rightMargin': -5}</string>
+	<key>interface.width-adjustments</key>
+	<array>
+		<integer>-16</integer>
+	</array>
+</dict>
+  </lib>
+</glyph>
