@@ -48,6 +48,7 @@ __getstate__() and __setstate__().  See the documentation for module
 "pickle" for information on these methods.
 """
 
+from __future__ import print_function
 import types
 import weakref
 from copy_reg import dispatch_table
@@ -370,11 +371,11 @@ def _test():
     l = [None, 1, 2L, 3.14, 'xyzzy', (1, 2L), [3.14, 'abc'],
          {'abc': 'ABC'}, (), [], {}]
     l1 = copy(l)
-    print l1==l
+    print(l1==l)
     l1 = map(copy, l)
-    print l1==l
+    print(l1==l)
     l1 = deepcopy(l)
-    print l1==l
+    print(l1==l)
     class C:
         def __init__(self, arg=None):
             self.a = 1
@@ -398,26 +399,26 @@ def _test():
     c = C('argument sketch')
     l.append(c)
     l2 = copy(l)
-    print l == l2
-    print l
-    print l2
+    print(l == l2)
+    print(l)
+    print(l2)
     l2 = deepcopy(l)
-    print l == l2
-    print l
-    print l2
+    print(l == l2)
+    print(l)
+    print(l2)
     l.append({l[1]: l, 'xyz': l[2]})
     l3 = copy(l)
     import repr
-    print map(repr.repr, l)
-    print map(repr.repr, l1)
-    print map(repr.repr, l2)
-    print map(repr.repr, l3)
+    print(map(repr.repr, l))
+    print(map(repr.repr, l1))
+    print(map(repr.repr, l2))
+    print(map(repr.repr, l3))
     l3 = deepcopy(l)
     import repr
-    print map(repr.repr, l)
-    print map(repr.repr, l1)
-    print map(repr.repr, l2)
-    print map(repr.repr, l3)
+    print(map(repr.repr, l))
+    print(map(repr.repr, l1))
+    print(map(repr.repr, l2))
+    print(map(repr.repr, l3))
     class odict(dict):
         def __init__(self, d = {}):
             self.a = 99

@@ -76,7 +76,11 @@ machine that cuts the punches." [1932]
 
 """
 
-from .exceptions import RoboFabError, RoboFabWarning
+
+class RoboFabError(Exception): pass
+
+class RoboFabWarning(Warning): pass
+
 
 numberVersion = (1, 2, "release", 1)
 version = "1.2.1"

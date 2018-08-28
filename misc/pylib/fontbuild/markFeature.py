@@ -13,11 +13,14 @@
 # limitations under the License.
 
 
-from ufo2ft.kernFeatureWriter import KernFeatureWriter
-from ufo2ft.makeotfParts import FeatureOTFCompiler
+from ufo2ft.featureWriters import KernFeatureWriter, MarkFeatureWriter
+from ufo2ft.featureCompiler import FeatureCompiler
+
+# from ufo2ft.kernFeatureWriter import KernFeatureWriter
+# from ufo2ft.makeotfParts import FeatureOTFCompiler
 
 
-class RobotoFeatureCompiler(FeatureOTFCompiler):
+class RobotoFeatureCompiler(FeatureCompiler):
     def precompile(self):
         self.overwriteFeatures = True
 
@@ -45,6 +48,10 @@ class RobotoFeatureCompiler(FeatureOTFCompiler):
         ]
 
         self.ligaAnchorPairs = []
+
+
+class RobotoMarkWriter(MarkFeatureWriter):
+    pass
 
 
 class RobotoKernWriter(KernFeatureWriter):

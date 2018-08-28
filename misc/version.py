@@ -3,7 +3,7 @@
 from __future__ import print_function
 import os, sys
 from collections import OrderedDict
-from ConfigParser import RawConfigParser
+from configparser import RawConfigParser
 
 
 def main():

@@ -14,7 +14,7 @@
 
 
 def getGlyph(gname, font):
-    return font[gname] if font.has_key(gname) else None
+    return font[gname] if gname in font else None
 
 
 def getComponentByName(f, g, componentName):

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+from __future__ import print_function
 import ConfigParser
 import os
 import sys
@@ -108,7 +108,7 @@ class FontProject:
 
             for g in f:
                 i += 1
-                if i % 10 == 0: print g.name
+                if i % 10 == 0: print(g.name)
 
                 if g.name not in self.noItalic:
                     if g.name in self.lessItalic:
@@ -127,7 +127,7 @@ class FontProject:
             for swap in swapSuffixes:
                 swapList = [g.name for g in f if g.name.endswith(swap)]
                 for gname in swapList:
-                    print gname
+                    print(gname)
                     swapContours(f, gname.replace(swap,""), gname)
         
         if self.predecompose_auto == 1:
@@ -286,7 +286,7 @@ def swapContours(f,gName1,gName2):
 
 
 def log(msg):
-    print msg
+    print(msg)
 
 
 def generateGlyphs(f, glyphNames, glyphList={}):

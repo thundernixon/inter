@@ -238,7 +238,7 @@ def setNames(f,names,foundry="",version="1.0",build=""):
 def setInfoRF(f, names, attrs={}, panose={}):
     i = InstanceNames(names)
     version, versionMinor = (1, 0)
-    for k,v in attrs.iteritems():
+    for k,v in attrs.items():
         if k == 'version':
             if v.find('.') != -1:
                 version, versionMinor = [int(num) for num in v.split(".")]

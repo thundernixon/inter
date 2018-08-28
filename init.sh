@@ -11,6 +11,12 @@ DIST_DIR=$BUILD_DIR/dist #-hinted|-unhinted
 BUILD_TMP_DIR=$BUILD_DIR/tmp
 VENV_DIR=$BUILD_DIR/venv
 
+if ! (pip --version 2>&1 | grep -q 'ython 3'); then
+  export pip=$(which pip3)
+else
+  export pip=$(which pip)
+fi
+
 if [[ "${BASH_SOURCE[0]}" != "${0}" ]]; then
   # sourced
   if [[ -z $VIRTUAL_ENV ]] && [[ ! -f "$VENV_DIR/bin/activate" ]]; then
@@ -27,6 +33,11 @@ else
   # Subshell
   set -e
   cd "$SRCDIR"
+
+  if [ "$pip" = "" ]; then
+    echo "Pip for Python 3 not found (tried pip and pip3 from PATH)" >&2
+    exit 1
+  fi
 
   if [[ "$1" == "-h" ]] || [[ "$1" == "-help" ]] || [[ "$1" == "--help" ]]; then
     echo "usage: $0 [options]" >&2
@@ -50,18 +61,25 @@ else
     VENV_ACTIVE=true
   fi
 
-  if ! (which virtualenv >/dev/null); then
-    echo "$0: Can't find virtualenv in PATH -- install through 'pip install --user virtualenv'" >&2
-    exit 1
-  fi
+  require_virtualenv() {
+    if ! ($pip show virtualenv >/dev/null); then
+      echo "$0: Can't find virtualenv -- install through '$pip install --user virtualenv'" >&2
+      exit 1
+    fi
+    virtualenv_pkgdir=$($pip show virtualenv | grep Location | cut -d ' ' -f 2)
+    export virtualenv="$(dirname "$(dirname "$(dirname "$virtualenv_pkgdir")")")/bin/virtualenv"
+    echo "using $virtualenv"
+  }  
 
   if [[ ! -d "$VENV_DIR/bin" ]]; then
     echo "Setting up virtualenv in '$VENV_DIR'"
-    virtualenv "$VENV_DIR"
+    require_virtualenv
+    $virtualenv "$VENV_DIR"
   else
     if [[ ! -z $VIRTUAL_ENV ]] && [[ "$VIRTUAL_ENV" != "$VENV_DIR_ABS" ]]; then
       echo "Looks like the repository has moved location -- updating virtualenv"
-      virtualenv "$VENV_DIR"
+      require_virtualenv
+      $virtualenv "$VENV_DIR"
     fi
   fi
 
@@ -106,10 +124,10 @@ else
   }
 
   if ! (check_dep \
-    woff2 https://github.com/google/woff2.git master 36e6555b92a1519c927ebd43b79621810bf17c1a )
+    woff2 https://github.com/google/woff2.git master a0d0ed7da27b708c0a4e96ad7a998bddc933c06e )
   then
     echo "Building woff2"
-    git -C "$DEPS_DIR/woff2" apply "$PATCH_DIR/woff2.patch"
+    # git -C "$DEPS_DIR/woff2" apply "$PATCH_DIR/woff2.patch"
     if !(make -C "$DEPS_DIR/woff2" -j8 clean all); then
       rm -rf "$DEPS_DIR/woff2"
       exit 1
@@ -131,7 +149,7 @@ else
   # fi
 
   if [[ ! -f "$DEPS_DIR/ttfautohint" ]]; then
-    URL=https://download.savannah.gnu.org/releases/freetype/ttfautohint-1.6-tty-osx.tar.gz
+    URL=https://download.savannah.gnu.org/releases/freetype/ttfautohint-1.8.2-tty-osx.tar.gz
     echo "Fetching $URL"
     curl '-#' -o "$DEPS_DIR/ttfautohint.tar.gz" -L "$URL"
     tar -C "$DEPS_DIR" -xzf "$DEPS_DIR/ttfautohint.tar.gz"
@@ -158,26 +176,29 @@ else
     return 1
   }
 
-  check_cython_dep() {
-    DIR=$1
-    REF_FILE=$DIR/$2
-    set -e
-    if [ ! -f "$REF_FILE" ] || has_newer "$DIR" "$REF_FILE"; then
-      pushd "$DIR" >/dev/null
-      if [ -f requirements.txt ]; then
-        pip install -r requirements.txt
-      fi
-      python setup.py build_ext --inplace
-      popd >/dev/null
-      touch "$REF_FILE"
-    fi
-  }
-
-  # native booleanOperations module
-  check_cython_dep  misc/pylib/booleanOperations  flatten.so
-  check_cython_dep  misc/pylib/copy  copy.so
-  check_cython_dep  misc/pylib/fontbuild  mix.so
-  check_cython_dep  misc/pylib/robofab  glifLib.so
+  # Note: Cython is not yet compatible with Python 3.7, so we are disabling
+  # the cython-compiled versions of these libraries for now.
+  #
+  # check_cython_dep() {
+  #   DIR=$1
+  #   REF_FILE=$DIR/$2
+  #   set -e
+  #   if [ ! -f "$REF_FILE" ] || has_newer "$DIR" "$REF_FILE"; then
+  #     pushd "$DIR" >/dev/null
+  #     if [ -f requirements.txt ]; then
+  #       pip install -r requirements.txt
+  #     fi
+  #     python setup.py build_ext --inplace
+  #     popd >/dev/null
+  #     touch "$REF_FILE"
+  #   fi
+  # }
+  #
+  # # native booleanOperations module
+  # check_cython_dep  misc/pylib/booleanOperations_cy  flatten.so
+  # check_cython_dep  misc/pylib/copy_cy               copy.so
+  # check_cython_dep  misc/pylib/fontbuild_cy          mix.so
+  # check_cython_dep  misc/pylib/robofab_cy            glifLib.so
 
   # ————————————————————————————————————————————————————————————————————————————————————————————————
   # $BUILD_TMP_DIR

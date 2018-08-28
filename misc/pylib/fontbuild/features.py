@@ -67,7 +67,7 @@ class FilterFeatureWriter(FDKSyntaxFeatureWriter):
             if ref[-1] == "'":
                 ref = ref[:-1]
             if ref not in self.refs:
-                print errorMsg % ref
+                print(errorMsg % ref)
                 # insert an empty instruction so that we can't end up with an
                 # empty block, which is illegal syntax
                 super(FilterFeatureWriter, self).rawText(";")
@@ -81,7 +81,7 @@ class FilterFeatureWriter(FDKSyntaxFeatureWriter):
         newContents = []
         for ref in contents:
             if ref not in self.refs and ref != "-":
-                print self.classErr % (ref, name)
+                print(self.classErr % (ref, name))
             else:
                 newContents.append(ref)
         self.refs.add(name)

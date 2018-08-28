@@ -82,12 +82,12 @@ def extractTTFFontInfo(font):
 		entry = font["name"].getName(index, 3, 1, 0x409)
 		if entry is not None:
 			try:
-				value = unicode(entry.string, "utf_16_be")
+				value = str(entry.string, "utf_16_be")
 				if name == "styleMapStyleName":
 					value = value.lower()
 				setattr(info, name, value)
-			except Exception, e:
-				print "Error importing value %s: %s: %s"%(str(name), value, e.message)
+			except Exception as e:
+				print("Error importing value %s: %s: %s"%(str(name), value, e.message))
 	return info
 
 def extractT1FontInfo(font):
@@ -102,7 +102,7 @@ def extractT1FontInfo(font):
 	info.versionMajor = font.font['FontInfo']['version']
 	info.fullName = font.font['FontInfo']['FullName']
 	info.familyName = font.font['FontInfo']['FullName'].split("-")[0]
-	info.notice = unicode(font.font['FontInfo']['Notice'], "macroman")
+	info.notice = str(font.font['FontInfo']['Notice'], "macroman")
 	info.italicAngle = font.font['FontInfo']['ItalicAngle']
 	info.uniqueID = font['UniqueID']
 	return info
@@ -113,7 +113,7 @@ def fontToUFO(src, dst, fileType=None):
 	if fileType is None:
 		fileType = guessFileType(src)
 		if fileType is None:
-			raise ValueError, "Can't determine input file type"
+			raise ValueError("Can't determine input file type")
 	ufoWriter = UFOWriter(dst)
 	if fileType == "TTF":
 		from fontTools.ttLib import TTFont
@@ -125,8 +125,8 @@ def fontToUFO(src, dst, fileType=None):
 		assert 0, "unknown file type: %r" % fileType
 	inGlyphSet = font.getGlyphSet()
 	outGlyphSet = ufoWriter.getGlyphSet()
-	for glyphName in inGlyphSet.keys():
-		print "-", glyphName
+	for glyphName in list(inGlyphSet.keys()):
+		print("-", glyphName)
 		glyph = inGlyphSet[glyphName]
 		def drawPoints(pen):
 			pen = SegmentToPointPen(pen)
@@ -140,6 +140,6 @@ def fontToUFO(src, dst, fileType=None):
 	ufoWriter.writeInfo(info)
 
 if __name__ == "__main__":
-	print readGlyphConstructions()
+	print(readGlyphConstructions())
 	
 	
