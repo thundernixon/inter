@@ -10,8 +10,7 @@ from shutil import copyfile
 from robofab.objects.objectsRF import RPoint
 from robofab.world import OpenFont
 from fontbuild.Build import FontProject
-from fontbuild.mix import Master
-from fontbuild.mix import Mix
+from fontbuild.mix import Master, Mix
 
 
 FAMILYNAME = "Inter UI"
@@ -148,9 +147,10 @@ def main():
   }
 
   def mkpanose(weight):
-    return dict(panose.items() + {
+    return {
+      **panose,
       'bWeight': weight
-    }.items())
+    }
 
 
   if args.otf:
