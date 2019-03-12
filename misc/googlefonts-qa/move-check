@@ -1,12 +1,17 @@
 #!/bin/bash
 
 # USAGE: 
+# Install requirements with `pip install -U -r misc/googlefonts-qa/requirements.txt`
+# 
 # use `ln -s <absolute_path>` to symbolically link this script into build/venv/bin, then activate the venv
 # have a google/fonts repo on your local machine
-# call this script, with the absolute path your your google/fonts repo
+# 
+# after `make -j all_ttf`
+# call this script from the root of your inter repo, with the absolute path your your google/fonts repo
 # `move-check <your_username>/<path>/fonts`
 
 set -e
+source build/venv3/bin/activate
 
 gFontsDir=$1
 
@@ -16,6 +21,10 @@ if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
     exit 2
 fi
 
+interDir=$(pwd)
+
+echo $interDir
+
 # navigating to google/fonts repo, then inter branch
 
 cd $gFontsDir
@@ -24,8 +33,39 @@ git checkout master
 
 git checkout -B inter # TODO: check how this "reset" works with updating PRs
 
-git status
-
 # TODO: move fonts
 
+mkdir -p ofl/inter
+
+cd ofl/inter
+
+
+cp $interDir/LICENSE.txt OFL.txt
+cp $interDir/build/fonts/var/Inter.var.ttf            Inter-Regular.ttf
+cp $interDir/build/fonts/var/Inter-italic.var.ttf     Inter-Italic.ttf
+
+
+mkdir -p static
+
+statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
+
+for ttf in $statics
+do
+    cp $ttf static/$(basename $ttf)
+done
+
+# TODO: make/update metadata with gftools add-font
+# gftools add-font .
+
+
 # TODO: run checks, saving to inter/misc/googlefonts-qa/checks
+
+checkDir=$interDir/misc/googlefonts-qa/checks
+
+mkdir -p $checkDir
+
+vfs=$(ls *.ttf)
+for vf in $vfs
+do
+    fontbakery check-googlefonts $vf --ghmarkdown $checkDir/${vf/".ttf"/".checks.md"}
+done
