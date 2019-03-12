@@ -23,49 +23,52 @@ fi
 
 interDir=$(pwd)
 
-echo $interDir
+interGfontsDir=$interDir/misc/googlefonts-qa
 
-# navigating to google/fonts repo, then inter branch
+# -------------------------------------------------------------------
+# navigate to google/fonts repo, then inter branch ------------------
 
 cd $gFontsDir
-
 git checkout master
+git checkout -B inter
 
-git checkout -B inter # TODO: check how this "reset" works with updating PRs
-
-# TODO: move fonts
+# -------------------------------------------------------------------
+# move fonts --------------------------------------------------------
 
 mkdir -p ofl/inter
-
 cd ofl/inter
 
-
-cp $interDir/LICENSE.txt OFL.txt
 cp $interDir/build/fonts/var/Inter.var.ttf            Inter-Regular.ttf
 cp $interDir/build/fonts/var/Inter-italic.var.ttf     Inter-Italic.ttf
 
-
 mkdir -p static
-
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
-
 for ttf in $statics
 do
     cp $ttf static/$(basename $ttf)
 done
 
+# -------------------------------------------------------------------
+# make or move basic metadata ---------------------------------------
+
 # TODO: make/update metadata with gftools add-font
 # gftools add-font .
 
+cp $interDir/LICENSE.txt OFL.txt
 
-# TODO: run checks, saving to inter/misc/googlefonts-qa/checks
+cp $interGfontsDir/gfonts-description.html DESCRIPTION.en_us.html
 
-checkDir=$interDir/misc/googlefonts-qa/checks
+# -------------------------------------------------------------------
+# run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
-mkdir -p $checkDir
+set +e # otherwise, the script stops after the first fontbakery check output
 
-vfs=$(ls *.ttf)
-for vf in $vfs
+mkdir -p $interGfontsDir/checks/static
+
+ttfs=$(ls -R */*.ttf)
+echo $ttfs
+
+for ttf in $ttfs
 do
-    fontbakery check-googlefonts $vf --ghmarkdown $checkDir/${vf/".ttf"/".checks.md"}
+    fontbakery check-googlefonts $ttf --ghmarkdown $interGfontsDir/checks/${ttf/".ttf"/".checks.md"}
 done
