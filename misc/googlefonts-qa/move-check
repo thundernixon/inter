@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# USAGE: 
+# use `ln -s <absolute_path>` to symbolically link this script into build/venv/bin, then activate the venv
+# have a google/fonts repo on your local machine
+# call this script, with the absolute path your your google/fonts repo
+# `move-check <your_username>/<path>/fonts`
+
+set -e
+
+gFontsDir=$1
+
+if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
+    echo 'Add absolute path to your Google Fonts Git directory, like:'
+    echo 'move-check /Users/username/type-repos/google-font-repos/fonts'
+    exit 2
+fi
+
+# navigating to google/fonts repo, then inter branch
+
+cd $gFontsDir
+
+git checkout master
+
+git checkout -B inter
+
+git status
+
+# moving fonts
+
