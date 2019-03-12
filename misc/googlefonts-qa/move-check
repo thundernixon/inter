@@ -52,6 +52,7 @@ done
 # make or move basic metadata ---------------------------------------
 
 # TODO: make/update metadata with gftools add-font
+# TODO: remove handmade metadata and replace with generated version (to have accurate subsets)
 # gftools add-font .
 
 cp $interDir/LICENSE.txt OFL.txt
@@ -65,8 +66,8 @@ set +e # otherwise, the script stops after the first fontbakery check output
 
 mkdir -p $interGfontsDir/checks/static
 
-ttfs=$(ls -R */*.ttf)
-echo $ttfs
+ttfs=$(ls -R */*.ttf && ls *.ttf)
+# ttfs=$(ls *.ttf) # use this to check only the VFs
 
 for ttf in $ttfs
 do

@@ -222,15 +222,6 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[116] Inter-Medium.ttf</b></summary>
 <details>
-<summary>:broken_heart: <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
-
-* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/165)
-* :broken_heart: **ERROR** Failed to access: 'http://namecheck.fontdata.com/?q=Inter'.
-Please report this issue at:
-https://github.com/googlefonts/fontbakery/issues
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> "License URL matches License text on name table?</summary>
 
 * [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
@@ -747,7 +738,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [cvt , fpgm, prep, loca, gasp, GSUB, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [loca, fpgm, GSUB, prep, GPOS, cvt , gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -885,6 +876,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/164](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/164)
 * :bread: **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com </summary>
+
+* [com.google.fonts/check/165](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/165)
+* :bread: **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -1125,5 +1123,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 7 | 4 | 63 | 7 | 64 |
-| 1% | 5% | 3% | 43% | 5% | 44% |
+| 0 | 7 | 4 | 63 | 7 | 65 |
+| 0% | 5% | 3% | 43% | 5% | 45% |
