@@ -222,24 +222,10 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[116] Inter-Italic.ttf</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
-* :fire: **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> "License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
-* :fire: **FAIL** A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry. Currently accepted licenses are Apache or Open Font License. For a small set of legacy families the Ubuntu Font License may be acceptable as well. [code: no-license-found]
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Version format is correct in 'name' table?</summary>
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/055)
-* :fire: **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y between 1.000 and 9.999. Current version string is: "3.4;6e0206421" [code: bad-version-strings]
+* :fire: **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y between 1.000 and 9.999. Current version string is: "3.4;678e5afc0" [code: bad-version-strings]
 
 </details>
 <details>
@@ -254,9 +240,9 @@ Fontbakery version: 0.6.12
 
 * [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
 * :fire: **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 The Inter project authors'
+But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
 * :fire: **FAIL** Name table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 The Inter project authors'
+But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
 
 </details>
 <details>
@@ -450,8 +436,8 @@ But instead we have got: 'Copyright 2017-2019 The Inter project authors'
 
 |  | Inter-Italic.ttf |
 |:--- | ---:|
-| Dehinted Size | 915.1kb |
-| Hinted Size | 911.8kb |
+| Dehinted Size | 915.3kb |
+| Hinted Size | 912.0kb |
 | Increase | -3400 bytes |
 | Change   | -0.4 % |
 
@@ -461,7 +447,7 @@ But instead we have got: 'Copyright 2017-2019 The Inter project authors'
 <summary>:information_source: <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/056](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/056)
-* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['3.4;6e0206421']
+* :information_source: **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['3.4;678e5afc0']
 
 </details>
 <details>
@@ -475,7 +461,7 @@ But instead we have got: 'Copyright 2017-2019 The Inter project authors'
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
-* :information_source: **INFO** Version string is: "3.4;6e0206421"
+* :information_source: **INFO** Version string is: "3.4;678e5afc0"
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -484,7 +470,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GPOS, GSUB, loca]
+* :information_source: **INFO** This font contains the following optional tables [loca, GPOS, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -514,6 +500,20 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/020](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/020)
 * :bread: **PASS** OS/2 usWeightClass value looks good!
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
+* :bread: **PASS** Licensing entry on name table is correctly set.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> "License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
+* :bread: **PASS** Font has a valid license URL in NAME table.
 
 </details>
 <details>
@@ -1058,5 +1058,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 3 | 19 | 6 | 108 |
-| 0% | 7% | 2% | 13% | 4% | 74% |
+| 0 | 8 | 3 | 19 | 6 | 110 |
+| 0% | 5% | 2% | 13% | 4% | 75% |

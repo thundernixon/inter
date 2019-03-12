@@ -6,7 +6,7 @@
 # use `ln -s <absolute_path>` to symbolically link this script into build/venv/bin, then activate the venv
 # have a google/fonts repo on your local machine
 # 
-# after `make -j all_ttf`
+# after  `make -j all_ttf`
 # call this script from the root of your inter repo, with the absolute path your your google/fonts repo
 # `move-check <your_username>/<path>/fonts`
 
@@ -66,8 +66,8 @@ set +e # otherwise, the script stops after the first fontbakery check output
 
 mkdir -p $interGfontsDir/checks/static
 
-ttfs=$(ls -R */*.ttf && ls *.ttf)
-# ttfs=$(ls *.ttf) # use this to check only the VFs
+# ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
+ttfs=$(ls *.ttf) # use this to check only the VFs
 
 for ttf in $ttfs
 do
