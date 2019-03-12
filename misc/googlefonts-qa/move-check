@@ -22,9 +22,10 @@ cd $gFontsDir
 
 git checkout master
 
-git checkout -B inter
+git checkout -B inter # TODO: check how this "reset" works with updating PRs
 
 git status
 
-# moving fonts
+# TODO: move fonts
 
+# TODO: run checks, saving to inter/misc/googlefonts-qa/checks
