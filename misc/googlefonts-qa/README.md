@@ -11,15 +11,31 @@ This process must be run multiple times, tweaking source files and rebuilding ou
 
 ## Usage
 
-### First, build Inter fonts
+### First, setup prerequisites
 
-Follow the guidelines at https://github.com/rsms/inter/blob/master/CONTRIBUTING.md#local-toolchain to setup the local toolchain.
-
-This will setup a `build` directory, including a virtual environment at `build/venv`. Activate this:
+If you haven't already done so, open a terminal, clone this repo, and move to the `qa` branch:
 
 ```
-source build/venv/bin/activate
+git clone git@github.com:thundernixon/inter.git
+cd inter
+git checkout qa
 ```
+
+FontBakery checks are made to be run on fonts within the folder structure of the [google/fonts repo](https://github.com/google/fonts). Therefore, you must have a local copy of this repo on your computer to run this QA procedure. If you don't yet have a local google/fonts repo, open a new terminal session, navigate to a parent folder for this (e.g. `cd ~/yourusername/type_repos`, but use whatever location makes sense), and clone the repo:
+
+```
+git clone git@github.com:google/fonts.git
+```
+
+Follow the guidelines at [CONTRIBUTING.md#local-toolchain](CONTRIBUTING.md#local-toolchain) to setup the local toolchain:
+
+> **Local toolchain:** Currently the toolchain has only been tested on macOS and Linux. All you need to have preinstalled is Python 3.
+> 
+> The first step is to initialize the toolchain itself:
+> 
+> `./init.sh`
+
+This will setup a `build` directory, including a virtual environment at `build/venv`, with dependencies necessary to build Inter fonts.
 
 ### Second, set up your testing environment
 
@@ -52,13 +68,7 @@ chmod +x misc/googlefonts-qa/move-check
 
 ### Third, run the QA scripts to move and check the fonts
 
-FontBakery checks are made to be run on fonts within the folder structure of the [google/fonts repo](https://github.com/google/fonts). Therefore, you must have a local copy of this repo on your computer to run this QA procedure. If you don't yet have a local google/fonts repo, open a new terminal session, navigate to a parent folder for this (I use `~/stephennixon/type_repos`, but you can use whatever makes sense), and clone the repo:
-
-```
-git clone git@github.com:google/fonts.git
-```
-
-Next, get your terminal back into your Inter project, and build fresh copies of the relevant fonts by running:
+With your terminal at the top level of your Inter directory, build fresh copies of the relevant fonts by running:
 
 ```
 chmod +x misc/googlefonts-qa/build.sh ; misc/googlefonts-qa/build.sh
