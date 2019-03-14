@@ -2,6 +2,16 @@
 
 ## Issues raised by Fontbakery
 
+### Open issues
+
+<details>
+<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
+
+* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
+* :fire: **FAIL** More than a single license file found. Please review. [code: multiple]
+
+</details>
+
 <details>
 <summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -20,20 +30,6 @@
 * 🔥**FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
 
 </details>
-
-<details>
-<summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
-
-* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
-* :fire: **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
-* :fire: **FAIL** Name table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
-
-</details>
-
-- [x] rebuild and check again
-- This check is being overly strict. The copyright is now extremely close.
 
 <details>
 <summary>🔥<b>FAIL:</b> Version format is correct in 'name' table?</summary>
@@ -55,7 +51,6 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 - [ ] use gftools fix-gasp
 
-
 <details>
 <summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
 
@@ -69,7 +64,8 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 - [x] add git repo URL
 - [x] check again
-- [ ] file fontbakery issue – this check seems overly-strict
+- [x] file fontbakery issue – this check seems overly-strict
+- [ ] resolve
 
 <details>
 <summary>🔥<b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
@@ -141,3 +137,4 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 - [ ] get Rasmus to register a vendor ID
 
 
+### Closed issues
