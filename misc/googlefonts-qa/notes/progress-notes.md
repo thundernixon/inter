@@ -6,16 +6,7 @@
 
 
 
-<details>
-<summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
 
-* [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
-* 🔥**FAIL** Style name used in "Inter-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic".
-
-</details>
-
-- this appears to be an invalid check for now
-- [ ] check on canonical naming for VFs
 
 <details>
 <summary>🔥<b>FAIL:</b> Version format is correct in 'name' table?</summary>
@@ -25,8 +16,26 @@
 
 </details>
 
-- [ ] file issue to find out how Rasmus is setting version numbers; make them the canonical format unless this check is unfairly strict
+<details>
+<summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table).</summary>
 
+* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
+* 🔥 **FAIL** head version is ('3', '004'), name version string for platform 3, encoding 1, is ('3', '400') [code: mismatch]
+
+</details>
+
+<details>
+<summary>ℹ️ <b>INFO:</b> Check for font-v versioning </summary>
+
+* [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
+* ℹ️ **INFO** Version string is: "3.4;862d1a785"
+The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
+"Version 1.3; git-0d08353-release"
+
+</details>
+
+- [x] suggestions for improving version numbers has been posted to https://github.com/rsms/inter/issues/138
+- [ ] Check 055 is probably overly strict; fix manually in TTX, then file issue with FontBakery if need be
 
 
 <details>
@@ -123,7 +132,16 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 - [x] get Rasmus to register a vendor ID (https://github.com/rsms/inter/issues/137)
 - [ ] confirm vendor ID registration
 
+<details>
+<summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
 
+* [com.google.fonts/check/001](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/001)
+* 🔥**FAIL** Style name used in "Inter-Regular.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic".
+
+</details>
+
+- this appears to be an invalid check for now
+- [x] file issue w/ FB (https://github.com/googlefonts/fontbakery/issues/2396)
 
 ===========================================================================================================
 

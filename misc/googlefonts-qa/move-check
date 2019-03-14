@@ -33,6 +33,7 @@ interItalicVF=$interDir/build/fonts/var/Inter-italic.var.ttf
 # -------------------------------------------------------------------
 # fix variable font metadata as needed ------------------------------
 # note: this assumes variable fonts have no hinting -----------------
+# note: these should probably be moved into main build --------------
 
 # TODO: test VFs with TTFautohint-VF vs no hinting
 

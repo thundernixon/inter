@@ -81,3 +81,19 @@ move-check <absolute_path_to_parent_dir>/fonts
 ```
 
 If all goes well, you will have created a local `inter` branch in your google fonts directory, moved the fresh fonts there, and run QA checks which will create new markdown documents at `misc/googlefonts-qa/checks`.
+
+## Re-running checks after changes to source
+
+If you have changed the source file (`Inter.glyphs`) to solve for an issue flagged by FontBakery checks, you need to rebuild the fonts in order to rerun the checks, and verify your attempted solution.
+
+Simply re-run the build:
+
+```
+misc/googlefonts-qa/build.sh
+```
+
+...then re-run the move and checks:
+
+```
+move-check <absolute_path_to_parent_dir>/fonts
+```
