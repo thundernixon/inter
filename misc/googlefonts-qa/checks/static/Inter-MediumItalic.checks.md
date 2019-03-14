@@ -5,13 +5,6 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[30] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
-
-* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
-* :fire: **FAIL** No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: no-license]
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
@@ -33,6 +26,13 @@ Fontbakery version: 0.6.12
 
 * [com.google.fonts/check/012](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/012)
 * :bread: **PASS** All font files have identical glyph names.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check font has a license.</summary>
+
+* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
+* :bread: **PASS** Found license at '/Users/stephennixon/type-repos/google-font-repos/fonts/OFL.txt'
 
 </details>
 <details>
@@ -222,6 +222,13 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[116] Inter-MediumItalic.ttf</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
+* :fire: **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> "License URL matches License text on name table?</summary>
 
 * [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
@@ -357,13 +364,6 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 * :warning: **WARN** The following glyphs have coordinates which are out of bounds:
 [('uni00CE', 1099.1216, 2247.0), ('uni0134', 1897.1216, 2247.0), ('uni0418', 2088.0928, 2048.0), ('uni040D', 2088.0928, 2048.0), ('uni0419', 2088.0928, 2048.0), ('uni04E2', 2088.0928, 2048.0), ('uni04E4', 2088.0928, 2048.0), ('uni048A', 2088.0928, 2048.0), ('uni0376', 2106.0928, 2048.0), ('uni01A7', 1753.2815, 1665.0), ('uni018C', 1721.0928, 2048.0), ('uni00EE', 990.1216, 1738.0), ('uni0135', 983.1216, 1735.0), ('uni01A8', 51.66110000000003, 301.0), ('uni01A8', 1411.2262, 1242.0), ('uni042F', 1787.0928, 2048.0), ('uni025C', 35.99890000000005, 299.0), ('uni025E', 1470.0520000000001, 1320.0), ('uni02C6', 1326.1216, 1735.0), ('uni0302', -212.87840000000006, 1735.0), ('uni032D', -567.8784, -552.0), ('uni01B8', 1857.0928, 2048.0), ('uni01B8', -19.42489999999998, 41.0), ('uni01B9', 49.57899999999995, -110.0), ('uni031F', -706.0, -668.0260000000001), ('uni031F', -935.0, -668.0260000000001), ('dotmacroncomb.lc', -667.0, 1692.84602), ('dotmacroncomb.lc', -744.0, 1692.84602), ('dotmacroncomb.lc', -589.0, 1692.84602), ('dotmacroncomb.cn', -576.0, 2214.84602), ('dotmacroncomb.cn', -653.0, 2214.84602), ('dotmacroncomb.cn', -498.0, 2214.84602)]
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
-* :zzz: **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -538,7 +538,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 <summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
 
 * [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
 
 </details>
 <details>
@@ -746,7 +746,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [fpgm, GSUB, prep, cvt , gasp, loca, GPOS]
+* :information_source: **INFO** This font contains the following optional tables [cvt , loca, fpgm, gasp, GSUB, GPOS, prep]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1124,5 +1124,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 4 | 63 | 7 | 64 |
-| 0% | 5% | 3% | 43% | 5% | 44% |
+| 0 | 8 | 4 | 62 | 7 | 65 |
+| 0% | 5% | 3% | 42% | 5% | 45% |

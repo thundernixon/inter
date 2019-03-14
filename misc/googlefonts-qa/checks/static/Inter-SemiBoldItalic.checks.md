@@ -5,13 +5,6 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[30] Family checks</b></summary>
 <details>
-<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
-
-* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
-* :fire: **FAIL** No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: no-license]
-
-</details>
-<details>
 <summary>:information_source: <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
@@ -33,6 +26,13 @@ Fontbakery version: 0.6.12
 
 * [com.google.fonts/check/012](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/012)
 * :bread: **PASS** All font files have identical glyph names.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check font has a license.</summary>
+
+* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
+* :bread: **PASS** Found license at '/Users/stephennixon/type-repos/google-font-repos/fonts/OFL.txt'
 
 </details>
 <details>
@@ -222,6 +222,13 @@ Fontbakery version: 0.6.12
 <details>
 <summary><b>[116] Inter-SemiBoldItalic.ttf</b></summary>
 <details>
+<summary>:fire: <b>FAIL:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
+* :fire: **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
+
+</details>
+<details>
 <summary>:fire: <b>FAIL:</b> "License URL matches License text on name table?</summary>
 
 * [com.google.fonts/check/030](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/030)
@@ -388,13 +395,6 @@ Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 * :warning: **WARN** The following glyphs have coordinates which are out of bounds:
 [('uni01E0', 1862.0, 2971.392), ('uni01E0', 898.0, 2971.392), ('uni00CE', 1151.4728, 2246.0), ('uni00CE.1', 1423.4728, 2246.0), ('uni0134', 1959.4728, 2246.0), ('uni0418', 2094.0928, 2048.0), ('uni040D', 2094.0928, 2048.0), ('uni0419', 2094.0928, 2048.0), ('uni04E2', 2094.0928, 2048.0), ('uni04E4', 2094.0928, 2048.0), ('uni0376', 2131.0928, 2048.0), ('uni0230', 1932.0, 2971.392), ('uni0230', 968.0, 2971.392), ('uni01A7', 60.78449999999998, 395.0), ('uni1E70', 202.8373999999999, -574.0), ('uni00E2', 1509.4728, 1734.0), ('uni01E1', 1582.0, 2402.392), ('uni01E1', 618.0, 2402.392), ('uni1EAD', 1509.4728, 1734.0), ('uni018C', 58.85429999999997, 513.0), ('uni018C', 1764.0928, 2048.0), ('uni1E13', 61.83739999999989, -574.0), ('uni00EE', 1048.4728, 1736.0), ('uni00EE', 5.837400000000002, 1722.0), ('uni0135', 1043.4728, 1734.0), ('uni1E3D', -355.1626000000001, -574.0), ('uni1E3D.ss02', -357.1626000000001, -574.0), ('uni0231', 1609.0, 2402.392), ('uni0231', 645.0, 2402.392), ('uni0071', 81.85429999999997, 513.0), ('uni015D', 1468.4728, 1734.0), ('uni01A8', 42.9855, 305.0), ('uni01A8', 1470.2262, 1242.0), ('uni1E71', -174.1626000000001, -574.0), ('uni042F', 1837.0928, 2048.0), ('uni025E', 1503.0453, 1323.0), ('uni025E', 33.503099999999904, 521.0), ('uni02C6', 1419.4728, 1734.0), ('uni02C6', 376.8374, 1720.0), ('uni0302', -186.5272, 1734.0), ('uni0302', -1229.1626, 1720.0), ('uni032D', -549.5272, -560.0), ('uni032D', -1592.1626, -574.0), ('uni01B8', 1891.0928, 2048.0), ('uni01B9', 30.57899999999995, -110.0), ('dotmacroncomb.lc', -128.0, 2392.392), ('dotmacroncomb.lc', -1092.0, 2392.392), ('dotmacroncomb.cn', -38.0, 2921.392), ('dotmacroncomb.cn', -1002.0, 2921.392)]
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message
-
-</details>
-<details>
-<summary>:zzz: <b>SKIP:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
-* :zzz: **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -569,7 +569,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 <summary>:zzz: <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
 
 * [com.google.fonts/check/117](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/117)
-* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+* :zzz: **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
 
 </details>
 <details>
@@ -777,7 +777,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [loca, gasp, prep, GSUB, GPOS, cvt , fpgm]
+* :information_source: **INFO** This font contains the following optional tables [fpgm, GPOS, GSUB, gasp, prep, loca, cvt ]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -1127,5 +1127,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 5 | 63 | 7 | 60 |
-| 0% | 8% | 3% | 43% | 5% | 41% |
+| 0 | 11 | 5 | 62 | 7 | 61 |
+| 0% | 8% | 3% | 42% | 5% | 42% |

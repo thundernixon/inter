@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script copies the latest builds to the google fonts dir in order to run QA checks and prep for a PR
+#
 # USAGE: 
 # Install requirements with `pip install -U -r misc/googlefonts-qa/requirements.txt`
 # 
@@ -23,7 +25,7 @@ fi
 
 interDir=$(pwd)
 
-interGfontsDir=$interDir/misc/googlefonts-qa
+interQADir=$interDir/misc/googlefonts-qa
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, then inter branch ------------------
@@ -36,40 +38,40 @@ git checkout -B inter
 # move fonts --------------------------------------------------------
 
 mkdir -p ofl/inter
-cd ofl/inter
 
-cp $interDir/build/fonts/var/Inter.var.ttf            Inter-Regular.ttf
-cp $interDir/build/fonts/var/Inter-italic.var.ttf     Inter-Italic.ttf
+cp $interDir/build/fonts/var/Inter-upright.var.ttf            ofl/inter/Inter-Regular.ttf
+cp $interDir/build/fonts/var/Inter-italic.var.ttf     ofl/inter/Inter-Italic.ttf
 
-mkdir -p static
+mkdir -p ofl/inter/static
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
 for ttf in $statics
 do
-    cp $ttf static/$(basename $ttf)
+    cp $ttf ofl/inter/static/$(basename $ttf)
 done
 
 # -------------------------------------------------------------------
 # make or move basic metadata ---------------------------------------
 
-# TODO: make/update metadata with gftools add-font
-# TODO: remove handmade metadata and replace with generated version (to have accurate subsets)
-# gftools add-font .
+gftools add-font ofl/inter
 
 cp $interDir/LICENSE.txt OFL.txt
 
-cp $interGfontsDir/gfonts-description.html DESCRIPTION.en_us.html
+cp $interQADir/gfonts-description.html DESCRIPTION.en_us.html
 
 # -------------------------------------------------------------------
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
 set +e # otherwise, the script stops after the first fontbakery check output
 
-mkdir -p $interGfontsDir/checks/static
+mkdir -p $interQADir/checks/static
+
+cd ofl/inter
 
 # ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
-ttfs=$(ls *.ttf) # use this to check only the VFs
+# ttfs=$(ls *.ttf) # use this to check only the VFs
+ttfs=$(ls -R */*.ttf ) # use this to check only statics
 
 for ttf in $ttfs
 do
-    fontbakery check-googlefonts $ttf --ghmarkdown $interGfontsDir/checks/${ttf/".ttf"/".checks.md"}
+    fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 done
