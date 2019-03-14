@@ -4,15 +4,7 @@
 
 ### Open issues
 
-<details>
-<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
 
-* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
-* :fire: **FAIL** More than a single license file found. Please review. [code: multiple]
-
-</details>
-
-- [ ] investigate; probably file issue with FontBakery
 
 <details>
 <summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
@@ -157,3 +149,14 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 </details>
 
 - [x] run the  `gftools fix-nonhinting` script
+
+<details>
+<summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
+
+* [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
+* :fire: **FAIL** More than a single license file found. Please review. [code: multiple]
+
+</details>
+
+- [x] investigate; ~~probably file issue with FontBakery~~
+- Actually, my `move-check` was accidentally copying the license and description to the top level of google/fonts

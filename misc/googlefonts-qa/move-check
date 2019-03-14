@@ -70,9 +70,9 @@ done
 
 gftools add-font ofl/inter
 
-cp $interDir/LICENSE.txt OFL.txt
+cp $interDir/LICENSE.txt ofl/inter/OFL.txt
 
-cp $interQADir/gfonts-description.html DESCRIPTION.en_us.html
+cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 
 # -------------------------------------------------------------------
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
