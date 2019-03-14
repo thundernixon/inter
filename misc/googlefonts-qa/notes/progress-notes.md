@@ -12,6 +12,8 @@
 
 </details>
 
+- [ ] investigate; probably file issue with FontBakery
+
 <details>
 <summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -24,14 +26,6 @@
 - [ ] check on canonical naming for VFs
 
 <details>
-<summary>🔥<b>FAIL:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
-* 🔥**FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
-
-</details>
-
-<details>
 <summary>🔥<b>FAIL:</b> Version format is correct in 'name' table?</summary>
 
 * [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/055)
@@ -41,15 +35,7 @@
 
 - [ ] file issue to find out how Rasmus is setting version numbers; make them the canonical format unless this check is unfairly strict
 
-<details>
-<summary>🔥<b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
 
-* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
-* 🔥**FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-
-</details>
-
-- [ ] use gftools fix-gasp
 
 <details>
 <summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
@@ -97,16 +83,6 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 - [ ] set vmetrics according to latest specs, then check again
 
 <details>
-<summary>🔥<b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
-* 🔥**FAIL** 'prep' table does not contain TrueType  instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the  `gftools fix-nonhinting` script.
-
-</details>
-
-- [ ] run the  `gftools fix-nonhinting` script
-
-<details>
 <summary>🔥<b>FAIL:</b> Checking font version fields (head and name table).</summary>
 
 * [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
@@ -127,6 +103,24 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 - [ ] set up gftools fix-dsig
 
 <details>
+<summary>🔥<b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
+* 🔥**FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+
+</details>
+
+- [x] use gftools fix-gasp
+- [ ] proof rendering on Windows; ask Rasmus if he has an opinion here
+
+
+===========================================================================================================
+
+
+### Waiting for others
+
+
+<details>
 <summary>🚨<b>WARN:</b> Checking OS/2 achVendID.</summary>
 
 * [com.google.fonts/check/018](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/018)
@@ -134,7 +128,32 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 </details>
 
-- [ ] get Rasmus to register a vendor ID
+- [x] get Rasmus to register a vendor ID (https://github.com/rsms/inter/issues/137)
+- [ ] confirm vendor ID registration
+
+
+
+===========================================================================================================
 
 
 ### Closed issues
+
+<details>
+<summary>🔥<b>FAIL:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/029](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/029)
+* 🔥**FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
+
+</details>
+
+- Updated this in the Glyphs source under `openTypeNameLicense`
+
+<details>
+<summary>🔥<b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
+* 🔥**FAIL** 'prep' table does not contain TrueType  instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the  `gftools fix-nonhinting` script.
+
+</details>
+
+- [x] run the  `gftools fix-nonhinting` script

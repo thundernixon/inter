@@ -229,13 +229,6 @@ Fontbakery version: 0.6.12
 
 </details>
 <details>
-<summary>:fire: <b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
-
-* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
-* :fire: **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-
-</details>
-<details>
 <summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
 
 * [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
@@ -258,13 +251,6 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 * [com.google.fonts/check/040](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/040)
 * :fire: **FAIL** OS/2.usWinAscent value should be equal or greater than 3072, but got 2708 instead [code: ascent]
 * :fire: **FAIL** OS/2.usWinDescent value should be equal or greater than 1080, but got 660 instead [code: descent]
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
-
-* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
-* :fire: **FAIL** 'prep' table does not contain TrueType  instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the  `gftools fix-nonhinting` script.
 
 </details>
 <details>
@@ -444,8 +430,8 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 |  | Inter-Italic.ttf |
 |:--- | ---:|
 | Dehinted Size | 915.3kb |
-| Hinted Size | 912.0kb |
-| Increase | -3400 bytes |
+| Hinted Size | 912.1kb |
+| Increase | -3352 bytes |
 | Change   | -0.4 % |
 
 
@@ -465,6 +451,22 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 </details>
 <details>
+<summary>:information_source: <b>INFO:</b> Is 'gasp' table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
+* :information_source: **INFO** These are the ppm ranges declared on the gasp table:
+
+PPM <= 65535:
+	flag = 0x0F
+	- Use gridfitting
+	- Use grayscale rendering
+	- Use gridfitting with ClearType symmetric smoothing
+	- Use smoothing along multiple axes with ClearType®
+
+* :bread: **PASS** 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
+
+</details>
+<details>
 <summary>:information_source: <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
@@ -477,7 +479,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [loca, GPOS, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GSUB, GPOS, gasp, prep, loca]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -807,6 +809,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/072](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/072)
+* :bread: **PASS** 'prep' table contains instructions enabling smart dropout control.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> There must not be VTT Talk sources in the font.</summary>
 
 * [com.google.fonts/check/vttclean](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/vttclean)
@@ -1058,5 +1067,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 3 | 20 | 6 | 108 |
-| 0% | 6% | 2% | 14% | 4% | 74% |
+| 0 | 7 | 3 | 20 | 7 | 109 |
+| 0% | 5% | 2% | 14% | 5% | 75% |

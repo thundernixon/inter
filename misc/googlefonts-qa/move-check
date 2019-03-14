@@ -27,6 +27,22 @@ interDir=$(pwd)
 
 interQADir=$interDir/misc/googlefonts-qa
 
+interUprightVF=$interDir/build/fonts/var/Inter-upright.var.ttf
+interItalicVF=$interDir/build/fonts/var/Inter-italic.var.ttf
+
+# -------------------------------------------------------------------
+# fix variable font metadata as needed ------------------------------
+# note: this assumes variable fonts have no hinting -----------------
+
+# TODO: test VFs with TTFautohint-VF vs no hinting
+
+gftools fix-nonhinting $interUprightVF $interUprightVF
+gftools fix-nonhinting $interItalicVF $interItalicVF
+
+# TODO: decide if `--autofix` is really the best option, or if we should assert more control
+gftools fix-gasp --autofix $interUprightVF
+gftools fix-gasp --autofix $interItalicVF
+
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, then inter branch ------------------
 
@@ -39,8 +55,8 @@ git checkout -B inter
 
 mkdir -p ofl/inter
 
-cp $interDir/build/fonts/var/Inter-upright.var.ttf            ofl/inter/Inter-Regular.ttf
-cp $interDir/build/fonts/var/Inter-italic.var.ttf     ofl/inter/Inter-Italic.ttf
+cp $interUprightVF    ofl/inter/Inter-Regular.ttf
+cp $interItalicVF     ofl/inter/Inter-Italic.ttf
 
 mkdir -p ofl/inter/static
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
@@ -68,8 +84,8 @@ mkdir -p $interQADir/checks/static
 cd ofl/inter
 
 # ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
-# ttfs=$(ls *.ttf) # use this to check only the VFs
-ttfs=$(ls -R */*.ttf ) # use this to check only statics
+ttfs=$(ls *.ttf) # use this to check only the VFs
+# ttfs=$(ls -R */*.ttf ) # use this to check only statics
 
 for ttf in $ttfs
 do
