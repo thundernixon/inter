@@ -5,103 +5,7 @@
 ### Open issues
 
 
-
-
-
-<details>
-<summary>🔥<b>FAIL:</b> Version format is correct in 'name' table?</summary>
-
-* [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/055)
-* 🔥**FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y between 1.000 and 9.999. Current version string is: "3.4;6e0206421" [code: bad-version-strings]
-
-</details>
-
-<details>
-<summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table).</summary>
-
-* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
-* 🔥 **FAIL** head version is ('3', '004'), name version string for platform 3, encoding 1, is ('3', '400') [code: mismatch]
-
-</details>
-
-<details>
-<summary>ℹ️ <b>INFO:</b> Check for font-v versioning </summary>
-
-* [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
-* ℹ️ **INFO** Version string is: "3.4;862d1a785"
-The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
-"Version 1.3; git-0d08353-release"
-
-</details>
-
-- [x] suggestions for improving version numbers has been posted to https://github.com/rsms/inter/issues/138
-- [ ] Check 055 is probably overly strict; fix manually in TTX, then file issue with FontBakery if need be
-
-
-<details>
-<summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
-
-* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
-* :fire: **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
-* :fire: **FAIL** Name table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
-
-</details>
-
-- [x] add git repo URL
-- [x] check again
-- [x] file fontbakery issue – this check seems overly-strict
-- [ ] resolve
-
-<details>
-<summary>🔥<b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
-
-* [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/116)
-* 🔥**FAIL** Font em size (unitsPerEm) is 2816. If possible, please consider using 1000 or even 2000 (which is ideal for Variable Fonts). The acceptable values for unitsPerEm, though, are: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048].
-
-</details>
-
-<details>
-<summary>🚨<b>WARN:</b> Checking unitsPerEm value is reasonable.</summary>
-
-* [com.google.fonts/check/043](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/043)
-* 🚨**WARN** In order to optimize performance on some legacy renderers, the value of unitsPerEm at the head table should idealy be a power of between 16 to 16384. And values of 1000 and 2000 are also common and may be just fine as well. But we got upm=2816 instead.
-
-</details>
-
-- [ ] find UPM requirements in the OpenType spec; ask Marc if we should change it in Inter
-
-<details>
-<summary>🔥<b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/040](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/040)
-* 🔥**FAIL** OS/2.usWinAscent value should be equal or greater than 3072, but got 2708 instead [code: ascent]
-* 🔥**FAIL** OS/2.usWinDescent value should be equal or greater than 1084, but got 660 instead [code: descent]
-
-</details>
-
-- [ ] set vmetrics according to latest specs, then check again
-
-<details>
-<summary>🔥<b>FAIL:</b> Checking font version fields (head and name table).</summary>
-
-* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
-* 🔥**FAIL** head version is ('3', '004'), name version string for platform 3, encoding 1, is ('3', '400') [code: mismatch]
-
-</details>
-
-- [ ] find out how Rasmus is setting version numbers; make them the same
-
-<details>
-<summary>🔥<b>FAIL:</b> Does the font have a DSIG table?</summary>
-
-* [com.google.fonts/check/045](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/045)
-* 🔥**FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly.
-
-</details>
-
-- [ ] set up gftools fix-dsig
+--------------------------------
 
 <details>
 <summary>🔥<b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
@@ -132,6 +36,8 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 - [x] get Rasmus to register a vendor ID (https://github.com/rsms/inter/issues/137)
 - [ ] confirm vendor ID registration
 
+--------------------------------
+
 <details>
 <summary>🔥<b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -158,6 +64,8 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 - Updated this in the Glyphs source under `openTypeNameLicense`
 
+--------------------------------
+
 <details>
 <summary>🔥<b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
 
@@ -167,6 +75,8 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 </details>
 
 - [x] run the  `gftools fix-nonhinting` script
+
+--------------------------------
 
 <details>
 <summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
@@ -178,3 +88,103 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 - [x] investigate; ~~probably file issue with FontBakery~~
 - Actually, my `move-check` was accidentally copying the license and description to the top level of google/fonts
+
+
+--------------------------------
+
+<details>
+<summary>🔥<b>FAIL:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/045](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/045)
+* 🔥**FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly.
+
+</details>
+
+- [x] set up gftools fix-dsig
+
+
+--------------------------------
+
+<details>
+<summary>🔥<b>FAIL:</b> Stricter unitsPerEm criteria for Google Fonts. </summary>
+
+* [com.google.fonts/check/116](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/116)
+* 🔥**FAIL** Font em size (unitsPerEm) is 2816. If possible, please consider using 1000 or even 2000 (which is ideal for Variable Fonts). The acceptable values for unitsPerEm, though, are: [16, 32, 64, 128, 256, 500, 512, 1000, 1024, 2000, 2048].
+
+</details>
+
+<details>
+<summary>🚨<b>WARN:</b> Checking unitsPerEm value is reasonable.</summary>
+
+* [com.google.fonts/check/043](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/043)
+* 🚨**WARN** In order to optimize performance on some legacy renderers, the value of unitsPerEm at the head table should idealy be a power of between 16 to 16384. And values of 1000 and 2000 are also common and may be just fine as well. But we got upm=2816 instead.
+
+</details>
+
+- [x] find UPM requirements in the OpenType spec; ask Marc if we should change it in Inter
+    - Nope, not unless we actually run into issues.
+
+------------------------------
+
+<details>
+<summary>🔥<b>FAIL:</b> Version format is correct in 'name' table?</summary>
+
+* [com.google.fonts/check/055](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/055)
+* 🔥**FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y between 1.000 and 9.999. Current version string is: "3.4;6e0206421" [code: bad-version-strings]
+
+</details>
+
+<details>
+<summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table).</summary>
+
+* [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
+* 🔥 **FAIL** head version is ('3', '004'), name version string for platform 3, encoding 1, is ('3', '400') [code: mismatch]
+
+</details>
+
+<details>
+<summary>ℹ️ <b>INFO:</b> Check for font-v versioning </summary>
+
+* [com.google.fonts/check/166](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/166)
+* ℹ️ **INFO** Version string is: "3.4;862d1a785"
+The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
+"Version 1.3; git-0d08353-release"
+
+</details>
+
+- [x] suggestions for improving version numbers has been posted to https://github.com/rsms/inter/issues/138
+- [x] 044 is parsing incorrectly – bug filed and closed: https://github.com/googlefonts/fontbakery/issues/2403
+- [x] find out how Rasmus is setting version numbers; make them the same
+- [x] ~~Check 055 is probably overly strict; fix manually in TTX, then file issue with FontBakery if need be~~ The `Version ` part is actually in the spec (https://github.com/rsms/inter/pull/140)
+
+
+------------------------------
+
+<details>
+<summary>:fire: <b>FAIL:</b> Copyright notices match canonical pattern?</summary>
+
+* [com.google.fonts/check/102](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/102)
+* :fire: **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
+But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
+* :fire: **FAIL** Name table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
+But instead we have got: 'Copyright 2017-2019 the Inter project authors (https://github.com/rsms/inter)'
+
+</details>
+
+- [x] add git repo URL
+- [x] check again
+- [x] file fontbakery issue – this check seems overly-strict (https://github.com/googlefonts/fontbakery/issues/2393)
+
+--------------------------------
+
+<details>
+<summary>🔥<b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/040](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/040)
+* 🔥**FAIL** OS/2.usWinAscent value should be equal or greater than 3072, but got 2708 instead [code: ascent]
+* 🔥**FAIL** OS/2.usWinDescent value should be equal or greater than 1084, but got 660 instead [code: descent]
+
+</details>
+
+- [x] set vmetrics according to latest specs, then check again 
+- [x] PR and merge – done! (https://github.com/rsms/inter/pull/141)
