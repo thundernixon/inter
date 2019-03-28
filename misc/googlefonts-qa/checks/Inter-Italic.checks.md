@@ -5,13 +5,6 @@ Fontbakery version: 0.7.0
 <details>
 <summary><b>[31] Family checks</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
-
-* [com.google.fonts/check/metadata/unknown_designer](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/unknown_designer)
-* 🔥 **FAIL** Font designer field is 'UNKNOWN'.
-
-</details>
-<details>
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
@@ -54,6 +47,13 @@ Fontbakery version: 0.7.0
 
 * [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
 * 🍞 **PASS** METADATA.pb parsed successfuly.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
+
+* [com.google.fonts/check/metadata/unknown_designer](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/unknown_designer)
+* 🍞 **PASS** Font designer field is not 'unknown'.
 
 </details>
 <details>
@@ -478,7 +478,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [DSIG, GPOS, loca, gasp, GSUB, prep]
+* ℹ **INFO** This font contains the following optional tables [loca, DSIG, GSUB, GPOS, gasp, prep]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1094,5 +1094,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 6 | 3 | 21 | 7 | 113 |
-| 0% | 4% | 2% | 14% | 5% | 75% |
+| 0 | 5 | 3 | 21 | 7 | 114 |
+| 0% | 3% | 2% | 14% | 5% | 76% |
