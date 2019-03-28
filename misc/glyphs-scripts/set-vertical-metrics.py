@@ -22,6 +22,8 @@ font = Glyphs.font
 caps = ["A", "Aacute", "Abreve", "Acircumflex", "Adieresis", "Agrave", "Amacron", "Aogonek", "Aring", "Aringacute", "Atilde", "AE", "AEacute", "B", "C", "Cacute", "Ccaron", "Ccedilla", "Ccircumflex", "Cdotaccent", "D", "Eth", "Dcaron", "Dcroat", "Ddotbelow", "E", "Eacute", "Ebreve", "Ecaron", "Ecircumflex", "Edieresis", "Edotaccent", "Edotbelow", "Egrave", "Emacron", "Eogonek", "Etilde", "F", "G", "Gbreve", "Gcircumflex", "Gcommaaccent", "Gdotaccent", "H", "Hbar", "Hcircumflex", "Hdotbelow", "I", "IJ", "Iacute", "Ibreve", "Icircumflex", "Idieresis", "Idotaccent", "Idotbelow", "Igrave", "Imacron", "Iogonek", "Itilde", "J", "Jcircumflex", "K", "Kcommaaccent", "L", "Lacute", "Lcaron", "Lcommaaccent", "Ldot", "Lslash", "M", "N", "Nacute", "Ncaron", "Ncommaaccent", "Ndotaccent", "Eng", "Ntilde", "O", "Oacute", "Obreve", "Ocircumflex", "Odieresis", "Odotbelow", "Ograve", "Ohungarumlaut", "Omacron", "Oogonek", "Oslash", "Oslashacute", "Otilde", "OE", "P", "Thorn", "Q", "R", "Racute", "Rcaron", "Rcommaaccent", "Rdotbelow", "S", "Sacute", "Scaron", "Scircumflex", "Sdotbelow", "Schwa", "T", "Tbar", "Tcaron", "Tdotbelow", "U", "Uacute", "Ubreve", "Ucircumflex", "Udieresis", "Udotbelow", "Ugrave", "Uhungarumlaut", "Umacron", "Uogonek", "Uring", "Utilde", "V", "W", "Wacute", "Wcircumflex", "Wdieresis", "Wgrave", "X", "Y", "Yacute", "Ycircumflex", "Ydieresis", "Ygrave", "Ytilde", "Z", "Zacute", "Zcaron", "Zdotaccent", "Zdotbelow", "uni015E", "uni0162", "uni01C4", "uni01C5", "uni01C7", "uni01C8", "uni01CA", "uni01CB", "uni01F1", "uni01F2", "uni0218", "uni021A" ]  
 lowercase = ["a", "aacute", "abreve", "acircumflex", "adieresis", "agrave", "amacron", "aogonek", "aring", "aringacute", "atilde", "ae", "aeacute", "b", "c", "cacute", "ccaron", "ccedilla", "ccircumflex", "cdotaccent", "d", "eth", "dcaron", "dcroat", "ddotbelow", "e", "eacute", "ebreve", "ecaron", "ecircumflex", "edieresis", "edotaccent", "edotbelow", "egrave", "emacron", "eogonek", "etilde", "schwa", "f", "g", "gbreve", "gcircumflex", "gcommaaccent", "gdotaccent", "h", "hbar", "hcircumflex", "hdotbelow", "i", "dotlessi", "iacute", "ibreve", "icircumflex", "idieresis", "idotbelow", "igrave", "ij", "imacron", "iogonek", "itilde", "j", "dotlessj", "jcircumflex", "k", "kcommaaccent", "kgreenlandic", "l", "lacute", "lcaron", "lcommaaccent", "ldot", "lslash", "m", "n", "nacute", "napostrophe", "ncaron", "ncommaaccent", "ndotaccent", "eng", "ntilde", "o", "oacute", "obreve", "ocircumflex", "odieresis", "odotbelow", "ograve", "ohungarumlaut", "omacron", "oogonek", "oslash", "oslashacute", "otilde", "oe", "p", "thorn", "q", "r", "racute", "rcaron", "rcommaaccent", "rdotbelow", "s", "sacute", "scaron", "scircumflex", "sdotbelow", "germandbls", "t", "tbar", "tcaron", "tdotbelow", "u", "uacute", "ubreve", "ucircumflex", "udieresis", "udotbelow", "ugrave", "uhungarumlaut", "umacron", "uni015F", "uni0163", "uni01C6", "uni01C9", "uni01CC", "uni01F3", "uni0219", "uni021B", "uogonek", "uring", "utilde", "v", "w", "wacute", "wcircumflex", "wdieresis", "wgrave", "x", "y", "yacute", "ycircumflex", "ydieresis", "ygrave", "ytilde", "z", "zacute", "zcaron", "zdotaccent", "zdotbelow", "c_t", "f_b", "f_f", "f_f_b", "f_f_h", "f_f_i", "f_f_j", "f_f_k", "f_f_l", "f_f_t", "f_h", "f_i", "f_j", "f_k", "f_l", "f_t", "s_t", ]
 
+basicLowercase=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
 # starter values
 mainMaxDescent = 0
 mainMaxDescentGlyph = ""
@@ -66,17 +68,31 @@ for glyph in font.glyphs:
         mainMaxAscentGlyph = glyph.name
 
 
-  if glyph.name in lowercase:
+  # if glyph.name in lowercase:
+  if glyph.name in basicLowercase:
       # if descent/ascent of current layer is greater than previous max descents/ascents, update the max descent/ascent
       if descent <= mainMaxDescent:
         mainMaxDescent = descent
         mainMaxDescentGlyph = glyph.name
 
 
-      
-
 # check values for sanity
-print(maxDescentGlyph, maxDescent, maxAscentGlyph, maxAscent)
+
+valuesToPrint={
+    "maxDescentGlyph": maxDescentGlyph, 
+    "maxDescent": maxDescent, 
+    "maxAscentGlyph": maxAscentGlyph, 
+    "maxAscent": maxAscent, 
+    "maxDescentGlyph": maxDescentGlyph, 
+    "mainMaxAscentGlyph": mainMaxAscentGlyph,
+    "mainMaxAscent": mainMaxAscent,
+    "mainMaxDescentGlyph": mainMaxDescentGlyph,
+    "mainMaxDescent": mainMaxDescent
+  }
+
+for key, value in valuesToPrint.items():
+  print("-" * 64)
+  print(key.ljust(32) + str(value))
 
 # make lineGap so that the total of `ascent + descent + lineGap` equals 120% of UPM size
 
