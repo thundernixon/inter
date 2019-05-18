@@ -4,19 +4,14 @@
 
 ### Open issues
 
-
---------------------------------
-
 <details>
-<summary>🔥<b>FAIL:</b> Is 'gasp' table set to optimize rendering?</summary>
+<summary>🔥 <b>FAIL:</b> Check glyph coverage.</summary>
 
-* [com.google.fonts/check/062](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/062)
-* 🔥**FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
+* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
+* 🔥 **FAIL** Missing required codepoints: 0x000D (CARRIAGE RETURN) and 0x2215 (DIVISION SLASH)
 
 </details>
 
-- [x] use gftools fix-gasp
-- [ ] proof rendering on Windows; ask Rasmus if he has an opinion here
 
 
 ===========================================================================================================
@@ -25,16 +20,7 @@
 ### Waiting for others
 
 
-<details>
-<summary>🚨<b>WARN:</b> Checking OS/2 achVendID.</summary>
 
-* [com.google.fonts/check/018](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/018)
-* 🚨**WARN** OS/2 VendorID value 'RSMS' is not a known registered id. You should set it to your own 4 character code, and register that code with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx [code: unknown]
-
-</details>
-
-- [x] get Rasmus to register a vendor ID (https://github.com/rsms/inter/issues/137)
-- [ ] confirm vendor ID registration
 
 --------------------------------
 
@@ -188,3 +174,30 @@ But instead we have got: 'Copyright 2017-2019 the Inter project authors (https:/
 
 - [x] set vmetrics according to latest specs, then check again 
 - [x] PR and merge – done! (https://github.com/rsms/inter/pull/141)
+
+Details: we had to reduce the vertical metrics values by a bit, to ensure that line heights weren't significantly higher than comparable UI fonts.
+
+--------------------------------
+
+<details>
+<summary>💔 <b>ERROR:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/description/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links)
+* 💔 **ERROR** Failed with XMLSyntaxError: xmlParseEntityRef: no name, line 2, column 44 (<string>, line 2)
+
+</details>
+
+- [x] chaning the `&` to `&amp;` fixed the issue, and the check is now passing.
+
+--------------------------------
+
+<details>
+<summary>🚨<b>WARN:</b> Checking OS/2 achVendID.</summary>
+
+* [com.google.fonts/check/018](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/018)
+* 🚨**WARN** OS/2 VendorID value 'RSMS' is not a known registered id. You should set it to your own 4 character code, and register that code with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx [code: unknown]
+
+</details>
+
+- [x] get Rasmus to register a vendor ID (https://github.com/rsms/inter/issues/137)
+- [x] confirm vendor ID registration

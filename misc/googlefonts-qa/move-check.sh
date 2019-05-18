@@ -114,9 +114,9 @@ do
     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 done
 
-git add .
-git commit -m "inter: $fontVersion added."
+# git add .
+# git commit -m "inter: $fontVersion added."
 
-# push to upstream branch (you must manually go to GitHub to make PR from there)
-# this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
-git push --force upstream inter
+# # push to upstream branch (you must manually go to GitHub to make PR from there)
+# # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+# git push --force upstream inter
