@@ -40,34 +40,34 @@ rm ${interUprightVF/".ttf"/".ttx"}
 # # note: this assumes variable fonts have no hinting -----------------
 # # note: these should probably be moved into main build --------------
 
-# # build stat tables for proper style linking
+# build stat tables for proper style linking
 
-# gftools fix-vf-meta $interUprightVF
-# gftools fix-vf-meta $interItalicVF
+gftools fix-vf-meta $interUprightVF
+gftools fix-vf-meta $interItalicVF
 
-# mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
-# mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
+mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
+mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
 
-# # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
+# prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
-# gftools fix-nonhinting $interUprightVF $interUprightVF
-# gftools fix-nonhinting $interItalicVF $interItalicVF
+gftools fix-nonhinting $interUprightVF $interUprightVF
+gftools fix-nonhinting $interItalicVF $interItalicVF
 
-# rm ${interUprightVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
-# rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+rm ${interUprightVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
-# # assert google fonts spec for how fonts should rasterize in different contexts
+# assert google fonts spec for how fonts should rasterize in different contexts
 
-# gftools fix-gasp --autofix $interUprightVF
-# gftools fix-gasp --autofix $interItalicVF
+gftools fix-gasp --autofix $interUprightVF
+gftools fix-gasp --autofix $interItalicVF
 
-# mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
-# mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
+mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
+mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
 
-# # prevent warnings/issues caused by no digital signature tables
+# prevent warnings/issues caused by no digital signature tables
 
-# gftools fix-dsig --autofix $interUprightVF 
-# gftools fix-dsig --autofix $interItalicVF
+gftools fix-dsig --autofix $interUprightVF 
+gftools fix-dsig --autofix $interItalicVF
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
