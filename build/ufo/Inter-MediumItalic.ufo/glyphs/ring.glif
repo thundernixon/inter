@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
+  <advance width="947"/>
+  <unicode hex="02DA"/>
+  <note>
+recipe: offset curve 30, no auto; then redrawn two circles manually for perfect fit.
+</note>
+  <outline>
+    <contour>
+      <point x="645" y="1706" type="curve" smooth="yes"/>
+      <point x="844" y="1706"/>
+      <point x="1018" y="1853"/>
+      <point x="1038" y="2042" type="curve" smooth="yes"/>
+      <point x="1058" y="2230"/>
+      <point x="922" y="2387"/>
+      <point x="723" y="2387" type="curve" smooth="yes"/>
+      <point x="524" y="2387"/>
+      <point x="347" y="2230"/>
+      <point x="327" y="2042" type="curve" smooth="yes"/>
+      <point x="307" y="1853"/>
+      <point x="446" y="1706"/>
+    </contour>
+    <contour>
+      <point x="666" y="1866" type="curve" smooth="yes"/>
+      <point x="561" y="1866"/>
+      <point x="493" y="1951"/>
+      <point x="504" y="2042" type="curve" smooth="yes"/>
+      <point x="515" y="2135"/>
+      <point x="598" y="2223"/>
+      <point x="703" y="2223" type="curve" smooth="yes"/>
+      <point x="807" y="2223"/>
+      <point x="875" y="2135"/>
+      <point x="864" y="2042" type="curve" smooth="yes"/>
+      <point x="853" y="1951"/>
+      <point x="770" y="1866"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

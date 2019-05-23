@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="crossbar" format="2">
+  <advance width="1395"/>
+  <outline>
+    <contour>
+      <point x="179" y="958" type="line"/>
+      <point x="1216" y="958" type="line"/>
+      <point x="1216" y="1231" type="line"/>
+      <point x="179" y="1231" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

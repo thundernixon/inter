@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tel" format="2">
+  <advance width="2106"/>
+  <unicode hex="2121"/>
+  <outline>
+    <contour>
+      <point x="874" y="1312" type="line"/>
+      <point x="1379" y="1312" type="line"/>
+      <point x="1379" y="1465" type="line"/>
+      <point x="1059" y="1465" type="line"/>
+      <point x="1059" y="1895" type="line"/>
+      <point x="1379" y="1895" type="line"/>
+      <point x="1379" y="2048" type="line"/>
+      <point x="874" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="1312" type="line"/>
+      <point x="522" y="1312" type="line"/>
+      <point x="522" y="1984" type="line"/>
+      <point x="336" y="1984" type="line"/>
+    </contour>
+    <contour>
+      <point x="112" y="1895" type="line"/>
+      <point x="746" y="1895" type="line"/>
+      <point x="746" y="2048" type="line"/>
+      <point x="112" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="1007" y="1614" type="line"/>
+      <point x="1315" y="1614" type="line"/>
+      <point x="1315" y="1760" type="line"/>
+      <point x="1007" y="1760" type="line"/>
+    </contour>
+    <contour>
+      <point x="1507" y="1312" type="line"/>
+      <point x="1994" y="1312" type="line"/>
+      <point x="1994" y="1465" type="line"/>
+      <point x="1693" y="1465" type="line"/>
+      <point x="1693" y="2048" type="line"/>
+      <point x="1507" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

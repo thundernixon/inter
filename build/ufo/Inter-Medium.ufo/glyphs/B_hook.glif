@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Bhook" format="2">
+  <advance width="2320"/>
+  <unicode hex="0181"/>
+  <outline>
+    <contour>
+      <point x="824" y="1783" type="line"/>
+      <point x="824" y="2048" type="line"/>
+      <point x="591" y="2048" type="line" smooth="yes"/>
+      <point x="294" y="2048"/>
+      <point x="124" y="1857"/>
+      <point x="124" y="1600" type="curve" smooth="yes"/>
+      <point x="124" y="1442" type="line"/>
+      <point x="407" y="1442" type="line"/>
+      <point x="407" y="1533" type="line" smooth="yes"/>
+      <point x="407" y="1659"/>
+      <point x="432" y="1783"/>
+      <point x="594" y="1783" type="curve" smooth="yes"/>
+    </contour>
+    <component base="B" xOffset="478"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.11</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

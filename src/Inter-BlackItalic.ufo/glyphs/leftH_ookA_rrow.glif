@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftHookArrow" format="2">
+  <advance width="3298.0"/>
+  <unicode hex="21A9"/>
+  <note>
+stroke offset curve:
+L head: 32, 0%
+L stem: 32, 50%
+R stem: 110, 50%
+R head: 108, 0%
+B head: 200, 0%
+B stem: 208, 50%
+</note>
+  <outline>
+    <contour>
+      <point x="656.0" y="688.0" type="line"/>
+      <point x="2300.0" y="688.0" type="line" smooth="yes"/>
+      <point x="2694.0" y="688.0"/>
+      <point x="3066.0" y="1007.0"/>
+      <point x="3130.0" y="1400.0" type="curve" smooth="yes"/>
+      <point x="3196.0" y="1793.0"/>
+      <point x="2929.0" y="2112.0"/>
+      <point x="2536.0" y="2112.0" type="curve" smooth="yes"/>
+      <point x="2384.0" y="2112.0" type="line"/>
+      <point x="2316.0" y="1696.0" type="line"/>
+      <point x="2468.0" y="1696.0" type="line" smooth="yes"/>
+      <point x="2631.0" y="1696.0"/>
+      <point x="2742.0" y="1563.0"/>
+      <point x="2714.0" y="1400.0" type="curve" smooth="yes"/>
+      <point x="2687.0" y="1236.0"/>
+      <point x="2534.0" y="1104.0"/>
+      <point x="2370.0" y="1104.0" type="curve" smooth="yes"/>
+      <point x="726.0" y="1104.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1098.0" y="-64.0" type="line"/>
+      <point x="1428.0" y="220.0" type="line"/>
+      <point x="864.0" y="896.0" type="line"/>
+      <point x="1652.0" y="1574.0" type="line"/>
+      <point x="1416.0" y="1856.0" type="line"/>
+      <point x="298.0" y="896.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftArrow</string>
+    </dict>
+  </lib>
+</glyph>

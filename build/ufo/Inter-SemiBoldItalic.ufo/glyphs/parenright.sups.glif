@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.sups" format="2">
+  <advance width="758"/>
+  <unicode hex="207E"/>
+  <outline>
+    <contour>
+      <point x="713" y="1570" type="curve" smooth="yes"/>
+      <point x="770" y="1916"/>
+      <point x="724" y="2182"/>
+      <point x="584" y="2418" type="curve"/>
+      <point x="326" y="2418" type="line"/>
+      <point x="436" y="2242"/>
+      <point x="483" y="1890"/>
+      <point x="429" y="1570" type="curve" smooth="yes"/>
+      <point x="376" y="1256"/>
+      <point x="211" y="902"/>
+      <point x="46" y="731" type="curve"/>
+      <point x="306" y="731" type="line"/>
+      <point x="525" y="966"/>
+      <point x="658" y="1241"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>66.6</real>
+        <key>verticalShift</key>
+        <integer>1024</integer>
+        <key>width</key>
+        <real>66.6</real>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>parenleft.sups</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

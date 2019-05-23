@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphenbullet" format="2">
+  <advance width="1280.0"/>
+  <unicode hex="2043"/>
+  <guideline x="1036.0" y="816.0" angle="0.0"/>
+  <outline>
+    <contour>
+      <point x="924.0" y="848.0" type="line"/>
+      <point x="380.0" y="848.0" type="line"/>
+      <point x="370.0" y="784.0" type="line"/>
+      <point x="914.0" y="784.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>bullet</string>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

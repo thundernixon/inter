@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnomf" format="2">
+  <advance width="1006"/>
+  <outline>
+    <contour>
+      <point x="150" y="0" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="926" y="877" type="line"/>
+      <point x="926" y="1088" type="line"/>
+      <point x="66" y="1088" type="line"/>
+      <point x="66" y="880" type="line"/>
+      <point x="659" y="880" type="line"/>
+      <point x="659" y="870" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>53.15</real>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iicyrillic" format="2">
+  <advance width="1651"/>
+  <unicode hex="0438"/>
+  <outline>
+    <contour>
+      <point x="275" y="159" type="line"/>
+      <point x="503" y="1536" type="line"/>
+      <point x="381" y="1536" type="line"/>
+      <point x="125" y="0" type="line"/>
+      <point x="281" y="0" type="line"/>
+      <point x="1389" y="1377" type="line"/>
+      <point x="1161" y="0" type="line"/>
+      <point x="1283" y="0" type="line"/>
+      <point x="1539" y="1536" type="line"/>
+      <point x="1384" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+    </dict>
+  </lib>
+</glyph>

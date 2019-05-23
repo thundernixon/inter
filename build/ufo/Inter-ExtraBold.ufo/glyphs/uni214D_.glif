@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni214D" format="2">
+  <advance width="2899"/>
+  <unicode hex="214D"/>
+  <outline>
+    <contour>
+      <point x="951" y="1440" type="line"/>
+      <point x="367" y="1440" type="line"/>
+      <point x="367" y="1229" type="line"/>
+      <point x="951" y="1229" type="line"/>
+    </contour>
+    <contour>
+      <point x="948" y="1024" type="line"/>
+      <point x="1270" y="1024" type="line"/>
+      <point x="830" y="2048" type="line"/>
+      <point x="489" y="2048" type="line"/>
+      <point x="52" y="1024" type="line"/>
+      <point x="373" y="1024" type="line"/>
+      <point x="716" y="1864" type="line"/>
+      <point x="602" y="1864" type="line"/>
+    </contour>
+    <component base="fraction" xOffset="1248"/>
+    <component base="s.subs" xOffset="1819" yOffset="336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a.sups</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>s.subs</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="1875"/>
+  <unicode hex="003E"/>
+  <guideline x="296" y="806" angle="0.0"/>
+  <outline>
+    <contour>
+      <point x="1602" y="694" type="line"/>
+      <point x="1602" y="918" type="line"/>
+      <point x="274" y="1562" type="line"/>
+      <point x="274" y="1257" type="line"/>
+      <point x="1254" y="810" type="line"/>
+      <point x="1244" y="828" type="line"/>
+      <point x="1244" y="785" type="line"/>
+      <point x="1254" y="802" type="line"/>
+      <point x="274" y="356" type="line"/>
+      <point x="274" y="50" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

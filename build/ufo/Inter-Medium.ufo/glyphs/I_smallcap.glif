@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ismallcap" format="2">
+  <advance width="1112"/>
+  <unicode hex="026A"/>
+  <outline>
+    <contour>
+      <point x="926" y="1488" type="line"/>
+      <point x="189" y="1488" type="line"/>
+      <point x="189" y="1230" type="line"/>
+      <point x="926" y="1230" type="line"/>
+    </contour>
+    <contour>
+      <point x="716" y="1488" type="line"/>
+      <point x="392" y="1488" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="716" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="926" y="259" type="line"/>
+      <point x="189" y="259" type="line"/>
+      <point x="189" y="0" type="line"/>
+      <point x="926" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.3</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexacutecomb.cn" format="2">
+  <advance width="1581"/>
+  <outline>
+    <contour>
+      <point x="55" y="1730" type="line"/>
+      <point x="357" y="1730" type="line"/>
+      <point x="575" y="1914" type="line"/>
+      <point x="792" y="1730" type="line"/>
+      <point x="1093" y="1730" type="line"/>
+      <point x="686" y="2059" type="line"/>
+      <point x="460" y="2059" type="line"/>
+    </contour>
+    <contour>
+      <point x="986" y="1930" type="line"/>
+      <point x="1217" y="1930" type="line"/>
+      <point x="1526" y="2299" type="line"/>
+      <point x="1208" y="2299" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

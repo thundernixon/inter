@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cruzeiro" format="2">
+  <advance width="2044"/>
+  <unicode hex="20A2"/>
+  <outline>
+    <contour>
+      <point x="1800" y="1107" type="line"/>
+      <point x="1754" y="1131"/>
+      <point x="1687" y="1153"/>
+      <point x="1612" y="1153" type="curve" smooth="yes"/>
+      <point x="1420" y="1153"/>
+      <point x="1228" y="1025"/>
+      <point x="1151" y="873" type="curve"/>
+      <point x="1137" y="873" type="line"/>
+      <point x="1180" y="1131" type="line"/>
+      <point x="1001" y="1131" type="line"/>
+      <point x="829" y="85" type="line"/>
+      <point x="1008" y="85" type="line"/>
+      <point x="1077" y="517" type="line" smooth="yes"/>
+      <point x="1118" y="745"/>
+      <point x="1317" y="969"/>
+      <point x="1576" y="969" type="curve" smooth="yes"/>
+      <point x="1641" y="969"/>
+      <point x="1681" y="953"/>
+      <point x="1708" y="940" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1979" y="1408" type="line"/>
+      <point x="1975" y="1785"/>
+      <point x="1715" y="2076"/>
+      <point x="1280" y="2076" type="curve" smooth="yes"/>
+      <point x="762" y="2076"/>
+      <point x="325" y="1665"/>
+      <point x="223" y="1024" type="curve" smooth="yes"/>
+      <point x="114" y="383"/>
+      <point x="413" y="-28"/>
+      <point x="932" y="-28" type="curve" smooth="yes"/>
+      <point x="1367" y="-28"/>
+      <point x="1722" y="264"/>
+      <point x="1855" y="640" type="curve"/>
+      <point x="1667" y="640" type="line"/>
+      <point x="1562" y="359"/>
+      <point x="1282" y="148"/>
+      <point x="963" y="148" type="curve" smooth="yes"/>
+      <point x="573" y="148"/>
+      <point x="308" y="455"/>
+      <point x="404" y="1024" type="curve" smooth="yes"/>
+      <point x="496" y="1591"/>
+      <point x="863" y="1900"/>
+      <point x="1252" y="1900" type="curve" smooth="yes"/>
+      <point x="1573" y="1900"/>
+      <point x="1781" y="1688"/>
+      <point x="1791" y="1408" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>C</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

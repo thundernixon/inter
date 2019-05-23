@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rsmallcap" format="2">
+  <advance width="1696"/>
+  <unicode hex="0280"/>
+  <outline>
+    <contour>
+      <point x="808" y="692" type="line"/>
+      <point x="1252" y="0" type="line"/>
+      <point x="1460" y="0" type="line"/>
+      <point x="1019" y="692" type="line"/>
+    </contour>
+    <contour>
+      <point x="236" y="1488" type="line"/>
+      <point x="236" y="0" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="416" y="1352" type="line"/>
+      <point x="836" y="1352" type="line" smooth="yes"/>
+      <point x="1075" y="1351"/>
+      <point x="1171" y="1203"/>
+      <point x="1172" y="1072" type="curve" smooth="yes"/>
+      <point x="1171" y="940"/>
+      <point x="1087" y="797"/>
+      <point x="880" y="799" type="curve" smooth="yes"/>
+      <point x="400" y="799" type="line"/>
+      <point x="400" y="624" type="line"/>
+      <point x="880" y="624" type="line" smooth="yes"/>
+      <point x="1185" y="623"/>
+      <point x="1352" y="815"/>
+      <point x="1352" y="1064" type="curve" smooth="yes"/>
+      <point x="1352" y="1311"/>
+      <point x="1171" y="1488"/>
+      <point x="836" y="1488" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

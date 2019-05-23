@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yatcyrillic" format="2">
+  <advance width="1733"/>
+  <unicode hex="0463"/>
+  <outline>
+    <contour>
+      <point x="1210" y="1740" type="line"/>
+      <point x="218" y="1740" type="line"/>
+      <point x="177" y="1496" type="line"/>
+      <point x="1168" y="1496" type="line"/>
+    </contour>
+    <contour>
+      <point x="586" y="1036" type="line"/>
+      <point x="537" y="739" type="line"/>
+      <point x="990" y="739" type="line"/>
+      <point x="1145" y="739"/>
+      <point x="1242" y="646"/>
+      <point x="1220" y="513" type="curve"/>
+      <point x="1199" y="386"/>
+      <point x="1073" y="297"/>
+      <point x="914" y="297" type="curve"/>
+      <point x="565" y="297" type="line"/>
+      <point x="890" y="2254" type="line"/>
+      <point x="541" y="2254" type="line"/>
+      <point x="166" y="0" type="line"/>
+      <point x="865" y="0" type="line"/>
+      <point x="1257" y="0"/>
+      <point x="1516" y="215"/>
+      <point x="1569" y="518" type="curve"/>
+      <point x="1618" y="827"/>
+      <point x="1429" y="1036"/>
+      <point x="1038" y="1036" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

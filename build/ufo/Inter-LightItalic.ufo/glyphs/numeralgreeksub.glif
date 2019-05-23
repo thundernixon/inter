@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numeralgreeksub" format="2">
+  <advance width="726"/>
+  <unicode hex="0375"/>
+  <outline>
+    <contour>
+      <point x="421" y="-75" type="line"/>
+      <point x="275" y="-75" type="line"/>
+      <point x="-52" y="-561" type="line"/>
+      <point x="155" y="-561" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

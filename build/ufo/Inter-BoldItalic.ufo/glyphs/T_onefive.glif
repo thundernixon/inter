@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tonefive" format="2">
+  <advance width="1790"/>
+  <unicode hex="01BC"/>
+  <outline>
+    <contour>
+      <point x="757" y="2048" type="line"/>
+      <point x="313" y="2048" type="line"/>
+      <point x="254" y="1694" type="line"/>
+      <point x="698" y="1694" type="line"/>
+    </contour>
+    <component base="five" xOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

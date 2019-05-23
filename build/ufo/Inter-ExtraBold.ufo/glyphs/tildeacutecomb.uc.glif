@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildeacutecomb.uc" format="2">
+  <outline>
+    <contour>
+      <point x="-736" y="2704" type="line"/>
+      <point x="-397" y="2704" type="line"/>
+      <point x="-48" y="3074" type="line"/>
+      <point x="-465" y="3074" type="line"/>
+    </contour>
+    <component base="tilde" xScale="0.947664" yScale="0.90956" xOffset="-1201" yOffset="646"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M" format="2">
+  <advance width="2576"/>
+  <unicode hex="004D"/>
+  <outline>
+    <contour>
+      <point x="390" y="2048" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="694" y="1338" type="line"/>
+      <point x="711" y="1338" type="line"/>
+      <point x="1019" y="10" type="line"/>
+      <point x="1306" y="10" type="line"/>
+      <point x="2054" y="1333" type="line"/>
+      <point x="2072" y="1333" type="line"/>
+      <point x="1850" y="0" type="line"/>
+      <point x="2270" y="0" type="line"/>
+      <point x="2610" y="2048" type="line"/>
+      <point x="2076" y="2048" type="line"/>
+      <point x="1285" y="672" type="line"/>
+      <point x="1261" y="672" type="line"/>
+      <point x="924" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

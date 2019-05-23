@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="palatalizationcyrilliccmb" format="2">
+  <unicode hex="0484"/>
+  <outline>
+    <contour>
+      <point x="-1156" y="1976" type="line"/>
+      <point x="-1188" y="1792" type="line"/>
+      <point x="-1155" y="1792" type="line" smooth="yes"/>
+      <point x="-826" y="1792"/>
+      <point x="-585" y="1956"/>
+      <point x="-422" y="1956" type="curve" smooth="yes"/>
+      <point x="-337" y="1956"/>
+      <point x="-280" y="1914"/>
+      <point x="-298" y="1816" type="curve" smooth="yes"/>
+      <point x="-302" y="1792" type="line"/>
+      <point x="-109" y="1792" type="line"/>
+      <point x="-97" y="1844" type="line" smooth="yes"/>
+      <point x="-65" y="2046"/>
+      <point x="-178" y="2140"/>
+      <point x="-386" y="2140" type="curve" smooth="yes"/>
+      <point x="-610" y="2140"/>
+      <point x="-825" y="1976"/>
+      <point x="-1127" y="1976" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

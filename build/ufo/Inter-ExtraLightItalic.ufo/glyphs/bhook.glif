@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bhook" format="2">
+  <advance width="1673"/>
+  <unicode hex="0253"/>
+  <outline>
+    <contour>
+      <point x="120" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="257" y="231" type="line"/>
+      <point x="291" y="231" type="line"/>
+      <point x="333" y="175"/>
+      <point x="377" y="-37"/>
+      <point x="705" y="-37" type="curve" smooth="yes"/>
+      <point x="1111" y="-37"/>
+      <point x="1431" y="292"/>
+      <point x="1508" y="764" type="curve" smooth="yes"/>
+      <point x="1583" y="1217"/>
+      <point x="1383" y="1556"/>
+      <point x="963" y="1556" type="curve" smooth="yes"/>
+      <point x="633" y="1556"/>
+      <point x="527" y="1351"/>
+      <point x="472" y="1303" type="curve"/>
+      <point x="447" y="1303" type="line"/>
+      <point x="512" y="1712" type="line" smooth="yes"/>
+      <point x="545" y="1897"/>
+      <point x="636" y="1957"/>
+      <point x="775" y="1957" type="curve" smooth="yes"/>
+      <point x="799" y="1957"/>
+      <point x="823" y="1953"/>
+      <point x="828" y="1949" type="curve"/>
+      <point x="853" y="2067" type="line"/>
+      <point x="827" y="2081"/>
+      <point x="784" y="2076"/>
+      <point x="771" y="2076" type="curve" smooth="yes"/>
+      <point x="571" y="2076"/>
+      <point x="431" y="1881"/>
+      <point x="404" y="1712" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="837" y="-55" type="curve" smooth="yes"/>
+      <point x="425" y="-147"/>
+      <point x="216" y="135"/>
+      <point x="235" y="624" type="curve" smooth="yes"/>
+      <point x="251" y="1104"/>
+      <point x="495" y="1483"/>
+      <point x="912" y="1576" type="curve" smooth="yes"/>
+      <point x="1347" y="1665"/>
+      <point x="1537" y="1367"/>
+      <point x="1525" y="915" type="curve" smooth="yes"/>
+      <point x="1507" y="455"/>
+      <point x="1265" y="35"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

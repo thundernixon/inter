@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yhook" format="2">
+  <advance width="2302"/>
+  <unicode hex="01B3"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <outline>
+    <contour>
+      <point x="1938" y="1461" type="line"/>
+      <point x="1986" y="1522" type="line" smooth="yes"/>
+      <point x="2092" y="1665"/>
+      <point x="2169" y="1699"/>
+      <point x="2310" y="1656" type="curve"/>
+      <point x="2473" y="2022" type="line"/>
+      <point x="2218" y="2121"/>
+      <point x="1897" y="2090"/>
+      <point x="1654" y="1764" type="curve" smooth="yes"/>
+      <point x="1562" y="1638" type="line"/>
+    </contour>
+    <contour>
+      <point x="1171" y="1143" type="line"/>
+      <point x="1219" y="1143" type="line"/>
+      <point x="1227" y="1191" type="line"/>
+      <point x="1179" y="1191" type="line"/>
+    </contour>
+    <contour>
+      <point x="818" y="2048" type="line"/>
+      <point x="285" y="2048" type="line"/>
+      <point x="889" y="774" type="line"/>
+      <point x="758" y="0" type="line"/>
+      <point x="1250" y="0" type="line"/>
+      <point x="1380" y="774" type="line"/>
+      <point x="1938" y="1461" type="line"/>
+      <point x="1562" y="1638" type="line"/>
+      <point x="1200" y="1171" type="line"/>
+    </contour>
+  </outline>
+</glyph>

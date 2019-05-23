@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FBD" format="2">
+  <advance width="798"/>
+  <unicode hex="1FBD"/>
+  <note>
+greek koronis
+</note>
+  <outline>
+    <contour>
+      <point x="793" y="2056" type="line"/>
+      <point x="543" y="2056" type="line"/>
+      <point x="528" y="1959" type="line" smooth="yes"/>
+      <point x="506" y="1818"/>
+      <point x="450" y="1723"/>
+      <point x="360" y="1631" type="curve"/>
+      <point x="455" y="1560" type="line"/>
+      <point x="641" y="1656"/>
+      <point x="750" y="1794"/>
+      <point x="779" y="1951" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

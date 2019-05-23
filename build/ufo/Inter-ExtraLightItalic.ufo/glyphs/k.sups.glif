@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.sups" format="2">
+  <advance width="968"/>
+  <unicode hex="1D4F"/>
+  <outline>
+    <contour>
+      <point x="365" y="1407" type="line"/>
+      <point x="555" y="1569" type="line"/>
+      <point x="573" y="1572" type="line"/>
+      <point x="1116" y="2048" type="line"/>
+      <point x="975" y="2048" type="line"/>
+      <point x="412" y="1557" type="line"/>
+      <point x="389" y="1557" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="1024" type="line"/>
+      <point x="313" y="1024" type="line"/>
+      <point x="541" y="2388" type="line"/>
+      <point x="431" y="2388" type="line"/>
+    </contour>
+    <contour>
+      <point x="831" y="1024" type="line"/>
+      <point x="964" y="1024" type="line"/>
+      <point x="595" y="1631" type="line"/>
+      <point x="507" y="1555" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>66.6</real>
+        <key>verticalShift</key>
+        <integer>1024</integer>
+        <key>width</key>
+        <real>66.6</real>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sups</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

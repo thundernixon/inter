@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eurocurrency" format="2">
+  <advance width="2142"/>
+  <unicode hex="20A0"/>
+  <outline>
+    <contour>
+      <point x="830" y="896" type="line"/>
+      <point x="643" y="896"/>
+      <point x="544" y="1035"/>
+      <point x="545" y="1223" type="curve" smooth="yes"/>
+      <point x="545" y="1465" type="line" smooth="yes"/>
+      <point x="544" y="1650"/>
+      <point x="641" y="1786"/>
+      <point x="828" y="1786" type="curve" smooth="yes"/>
+      <point x="993" y="1786"/>
+      <point x="1061" y="1707"/>
+      <point x="1090" y="1546" type="curve"/>
+      <point x="1503" y="1546" type="line"/>
+      <point x="1473" y="1927"/>
+      <point x="1228" y="2112"/>
+      <point x="828" y="2112" type="curve" smooth="yes"/>
+      <point x="411" y="2112"/>
+      <point x="129" y="1849"/>
+      <point x="130" y="1463" type="curve" smooth="yes"/>
+      <point x="130" y="1223" type="line" smooth="yes"/>
+      <point x="129" y="838"/>
+      <point x="411" y="570"/>
+      <point x="830" y="570" type="curve"/>
+    </contour>
+    <contour>
+      <point x="2011" y="329" type="line"/>
+      <point x="1094" y="329" type="line"/>
+      <point x="1094" y="-2" type="line"/>
+      <point x="2011" y="-2" type="line"/>
+    </contour>
+    <contour>
+      <point x="1242" y="1424" type="line"/>
+      <point x="828" y="1424" type="line"/>
+      <point x="828" y="-2" type="line"/>
+      <point x="1242" y="-2" type="line"/>
+    </contour>
+    <contour>
+      <point x="1894" y="901" type="line"/>
+      <point x="1094" y="901" type="line"/>
+      <point x="1094" y="570" type="line"/>
+      <point x="1894" y="570" type="line"/>
+    </contour>
+    <contour>
+      <point x="2011" y="1424" type="line"/>
+      <point x="1094" y="1424" type="line"/>
+      <point x="1094" y="1094" type="line"/>
+      <point x="2011" y="1094" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

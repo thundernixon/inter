@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="1606"/>
+  <unicode hex="0141"/>
+  <outline>
+    <contour>
+      <point x="904" y="1294" type="line"/>
+      <point x="54" y="1038" type="line"/>
+      <point x="54" y="839" type="line"/>
+      <point x="904" y="1095" type="line"/>
+    </contour>
+    <component base="L" xOffset="29"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tackrightsubnosp" format="2">
+  <unicode hex="0319"/>
+  <outline>
+    <contour>
+      <point x="-1226" y="-593" type="line"/>
+      <point x="-682" y="-593" type="line"/>
+      <point x="-682" y="-209" type="line"/>
+      <point x="-1226" y="-209" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1241" y="-646" type="line"/>
+      <point x="-839" y="-646" type="line"/>
+      <point x="-839" y="-158" type="line"/>
+      <point x="-1241" y="-158" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

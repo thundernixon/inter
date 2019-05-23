@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="versicle" format="2">
+  <advance width="1680"/>
+  <unicode hex="2123"/>
+  <outline>
+    <contour>
+      <point x="1585" y="2203" type="line"/>
+      <point x="1231" y="2488" type="line"/>
+      <point x="1063" y="2275" type="line"/>
+      <point x="1296" y="2109" type="line"/>
+      <point x="-152" y="-496" type="line"/>
+      <point x="77" y="-496" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="2048" type="line"/>
+      <point x="276" y="2048" type="line"/>
+      <point x="669" y="0" type="line"/>
+      <point x="789" y="0" type="line"/>
+      <point x="1865" y="2048" type="line"/>
+      <point x="1733" y="2048" type="line"/>
+      <point x="775" y="180" type="line"/>
+      <point x="751" y="180" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

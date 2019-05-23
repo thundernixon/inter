@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eshshortrev" format="2">
+  <advance width="1358"/>
+  <unicode hex="0285"/>
+  <outline>
+    <contour>
+      <point x="762" y="0" type="line"/>
+      <point x="926" y="990" type="line" smooth="yes"/>
+      <point x="983" y="1328"/>
+      <point x="797" y="1516"/>
+      <point x="447" y="1516" type="curve" smooth="yes"/>
+      <point x="376" y="1516"/>
+      <point x="302" y="1506"/>
+      <point x="233" y="1490" type="curve"/>
+      <point x="180" y="1166" type="line"/>
+      <point x="215" y="1176"/>
+      <point x="255" y="1180"/>
+      <point x="308" y="1180" type="curve" smooth="yes"/>
+      <point x="453" y="1180"/>
+      <point x="525" y="1111"/>
+      <point x="505" y="990" type="curve" smooth="yes"/>
+      <point x="342" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="494" y="914" type="line"/>
+      <point x="330" y="-74" type="line" smooth="yes"/>
+      <point x="273" y="-417"/>
+      <point x="458" y="-600"/>
+      <point x="804" y="-600" type="curve" smooth="yes"/>
+      <point x="886" y="-600"/>
+      <point x="959" y="-587"/>
+      <point x="1025" y="-573" type="curve"/>
+      <point x="1076" y="-252" type="line"/>
+      <point x="1037" y="-260"/>
+      <point x="999" y="-264"/>
+      <point x="945" y="-264" type="curve" smooth="yes"/>
+      <point x="803" y="-264"/>
+      <point x="730" y="-199"/>
+      <point x="751" y="-74" type="curve" smooth="yes"/>
+      <point x="914" y="914" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.15</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

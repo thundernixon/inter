@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.sups" format="2">
+  <advance width="440"/>
+  <unicode hex="02B2"/>
+  <outline>
+    <contour>
+      <point x="377" y="2048" type="line"/>
+      <point x="189" y="909" type="line" smooth="yes"/>
+      <point x="171" y="805"/>
+      <point x="93" y="737"/>
+      <point x="-11" y="737" type="curve" smooth="yes"/>
+      <point x="-20" y="737"/>
+      <point x="-27" y="737"/>
+      <point x="-36" y="739" type="curve"/>
+      <point x="-53" y="644" type="line"/>
+      <point x="-43" y="641"/>
+      <point x="-33" y="641"/>
+      <point x="-23" y="641" type="curve" smooth="yes"/>
+      <point x="139" y="641"/>
+      <point x="275" y="737"/>
+      <point x="303" y="908" type="curve" smooth="yes"/>
+      <point x="491" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="468" y="2220" type="curve" smooth="yes"/>
+      <point x="501" y="2220"/>
+      <point x="544" y="2241"/>
+      <point x="549" y="2291" type="curve" smooth="yes"/>
+      <point x="555" y="2337"/>
+      <point x="521" y="2368"/>
+      <point x="476" y="2368" type="curve" smooth="yes"/>
+      <point x="439" y="2368"/>
+      <point x="400" y="2337"/>
+      <point x="396" y="2296" type="curve" smooth="yes"/>
+      <point x="392" y="2253"/>
+      <point x="425" y="2220"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>66.6</real>
+        <key>verticalShift</key>
+        <integer>1024</integer>
+        <key>width</key>
+        <real>66.6</real>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

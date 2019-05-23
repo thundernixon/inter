@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hardsigncyrillic" format="2">
+  <advance width="2033"/>
+  <unicode hex="044A"/>
+  <outline>
+    <contour>
+      <point x="628" y="1536" type="line"/>
+      <point x="245" y="1536" type="line"/>
+      <point x="183" y="1159" type="line"/>
+      <point x="570" y="1159" type="line"/>
+    </contour>
+    <component base="softsigncyrillic" xOffset="342"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

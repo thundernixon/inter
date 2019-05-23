@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="austral" format="2">
+  <advance width="2173"/>
+  <unicode hex="20B3"/>
+  <outline>
+    <contour>
+      <point x="91" y="881" type="line"/>
+      <point x="2118" y="881" type="line"/>
+      <point x="2151" y="1085" type="line"/>
+      <point x="124" y="1085" type="line"/>
+    </contour>
+    <contour>
+      <point x="24" y="465" type="line"/>
+      <point x="2051" y="465" type="line"/>
+      <point x="2084" y="669" type="line"/>
+      <point x="57" y="669" type="line"/>
+    </contour>
+    <component base="Lambda"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

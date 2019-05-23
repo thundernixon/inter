@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cyrillictail.cn" format="2">
+  <advance width="752"/>
+  <outline>
+    <contour>
+      <point x="480" y="256" type="line"/>
+      <point x="301" y="256" type="line"/>
+      <point x="301" y="64" type="line" smooth="yes"/>
+      <point x="301" y="-75"/>
+      <point x="257" y="-204"/>
+      <point x="197" y="-349" type="curve"/>
+      <point x="351" y="-383" type="line"/>
+      <point x="435" y="-239"/>
+      <point x="477" y="-91"/>
+      <point x="480" y="67" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

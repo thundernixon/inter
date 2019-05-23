@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rturnrthook" format="2">
+  <advance width="1357"/>
+  <unicode hex="027B"/>
+  <outline>
+    <contour>
+      <point x="913" y="-600" type="curve" smooth="yes"/>
+      <point x="1012" y="-600"/>
+      <point x="1091" y="-593"/>
+      <point x="1165" y="-581" type="curve"/>
+      <point x="1216" y="-269" type="line"/>
+      <point x="1174" y="-274"/>
+      <point x="1144" y="-277"/>
+      <point x="1098" y="-277" type="curve" smooth="yes"/>
+      <point x="929" y="-277"/>
+      <point x="865" y="-215"/>
+      <point x="890" y="-74" type="curve" smooth="yes"/>
+      <point x="903" y="0" type="line"/>
+      <point x="429" y="0" type="line"/>
+      <point x="413" y="-99" type="line" smooth="yes"/>
+      <point x="346" y="-517"/>
+      <point x="597" y="-600"/>
+    </contour>
+    <component base="rturn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>rturn</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

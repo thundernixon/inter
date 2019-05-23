@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncmb" format="2">
+  <unicode hex="030C"/>
+  <outline>
+    <contour>
+      <point x="-1035" y="1712" type="line"/>
+      <point x="-792" y="1712" type="line"/>
+      <point x="-359" y="2095" type="line"/>
+      <point x="-359" y="2114" type="line"/>
+      <point x="-694" y="2114" type="line"/>
+      <point x="-914" y="1918" type="line"/>
+      <point x="-1132" y="2114" type="line"/>
+      <point x="-1459" y="2114" type="line"/>
+      <point x="-1459" y="2090" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="enhookcyrillic" format="2">
+  <advance width="1631"/>
+  <unicode hex="04C8"/>
+  <outline>
+    <contour>
+      <point x="1397" y="0" type="line"/>
+      <point x="1217" y="0" type="line"/>
+      <point x="1217" y="-145" type="line" smooth="yes"/>
+      <point x="1217" y="-312"/>
+      <point x="1103" y="-418"/>
+      <point x="996" y="-419" type="curve" smooth="yes"/>
+      <point x="979" y="-418"/>
+      <point x="882" y="-414"/>
+      <point x="863" y="-403" type="curve"/>
+      <point x="843" y="-580" type="line"/>
+      <point x="892" y="-596"/>
+      <point x="930" y="-600"/>
+      <point x="980" y="-600" type="curve" smooth="yes"/>
+      <point x="1242" y="-600"/>
+      <point x="1397" y="-436"/>
+      <point x="1397" y="-145" type="curve" smooth="yes"/>
+    </contour>
+    <component base="encyrillic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>encyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>encyrillic</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

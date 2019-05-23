@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khook" format="2">
+  <advance width="1625"/>
+  <unicode hex="0199"/>
+  <outline>
+    <contour>
+      <point x="1150" y="0" type="line"/>
+      <point x="1616" y="0" type="line"/>
+      <point x="1001" y="880" type="line"/>
+      <point x="1581" y="1536" type="line"/>
+      <point x="1084" y="1536" type="line"/>
+      <point x="616" y="998" type="line"/>
+      <point x="596" y="998" type="line"/>
+      <point x="596" y="1492" type="line"/>
+      <point x="170" y="1492" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="596" y="0" type="line"/>
+      <point x="596" y="414" type="line"/>
+      <point x="744" y="576" type="line"/>
+    </contour>
+    <contour>
+      <point x="596" y="1339" type="line"/>
+      <point x="596" y="1594" type="line" smooth="yes"/>
+      <point x="597" y="1714"/>
+      <point x="702" y="1745"/>
+      <point x="810" y="1745" type="curve" smooth="yes"/>
+      <point x="846" y="1745"/>
+      <point x="881" y="1741"/>
+      <point x="915" y="1737" type="curve"/>
+      <point x="915" y="2062" type="line"/>
+      <point x="863" y="2069"/>
+      <point x="787" y="2076"/>
+      <point x="698" y="2076" type="curve" smooth="yes"/>
+      <point x="438" y="2076"/>
+      <point x="171" y="1990"/>
+      <point x="170" y="1594" type="curve" smooth="yes"/>
+      <point x="170" y="1339" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DE5" format="2">
+  <unicode hex="1DE5"/>
+  <outline>
+    <contour>
+      <point x="-699" y="1652" type="line"/>
+      <point x="-699" y="2488" type="line" smooth="yes"/>
+      <point x="-699" y="2592"/>
+      <point x="-637" y="2637"/>
+      <point x="-587" y="2637" type="curve" smooth="yes"/>
+      <point x="-565" y="2637"/>
+      <point x="-545" y="2631"/>
+      <point x="-523" y="2629" type="curve"/>
+      <point x="-495" y="2748" type="line"/>
+      <point x="-549" y="2757"/>
+      <point x="-565" y="2760"/>
+      <point x="-591" y="2760" type="curve" smooth="yes"/>
+      <point x="-721" y="2760"/>
+      <point x="-851" y="2671"/>
+      <point x="-852" y="2488" type="curve" smooth="yes"/>
+      <point x="-852" y="1652" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.15</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinverteddoublecmb" format="2">
+  <unicode hex="0361"/>
+  <outline>
+    <contour>
+      <point x="961" y="1661" type="line"/>
+      <point x="799" y="1874"/>
+      <point x="399" y="2044"/>
+      <point x="21" y="2044" type="curve" smooth="yes"/>
+      <point x="-359" y="2044"/>
+      <point x="-755" y="1869"/>
+      <point x="-917" y="1661" type="curve"/>
+      <point x="-723" y="1661" type="line"/>
+      <point x="-617" y="1765"/>
+      <point x="-260" y="1894"/>
+      <point x="21" y="1893" type="curve" smooth="yes"/>
+      <point x="304" y="1894"/>
+      <point x="658" y="1765"/>
+      <point x="767" y="1661" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

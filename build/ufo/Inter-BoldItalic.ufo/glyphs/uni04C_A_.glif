@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04CA" format="2">
+  <advance width="1936"/>
+  <unicode hex="04CA"/>
+  <outline>
+    <component base="encyrillic"/>
+    <component base="cyrillictail.cn" xOffset="1218" yOffset="-100"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>encyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

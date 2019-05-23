@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="w.sups" format="2">
+  <advance width="1535"/>
+  <unicode hex="02B7"/>
+  <outline>
+    <contour>
+      <point x="359" y="1024" type="line"/>
+      <point x="536" y="1024" type="line"/>
+      <point x="763" y="1817" type="line"/>
+      <point x="772" y="1817" type="line"/>
+      <point x="999" y="1024" type="line"/>
+      <point x="1176" y="1024" type="line"/>
+      <point x="1469" y="2048" type="line"/>
+      <point x="1303" y="2048" type="line"/>
+      <point x="1084" y="1227" type="line"/>
+      <point x="1076" y="1227" type="line"/>
+      <point x="848" y="2048" type="line"/>
+      <point x="687" y="2048" type="line"/>
+      <point x="460" y="1227" type="line"/>
+      <point x="453" y="1227" type="line"/>
+      <point x="231" y="2048" type="line"/>
+      <point x="65" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>66.6</real>
+        <key>verticalShift</key>
+        <integer>1024</integer>
+        <key>width</key>
+        <real>66.6</real>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

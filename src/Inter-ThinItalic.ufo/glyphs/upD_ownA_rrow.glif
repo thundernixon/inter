@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upDownArrow" format="2">
+  <advance width="2688.0"/>
+  <unicode hex="2195"/>
+  <note>
+vertical align with hyphen
+</note>
+  <outline>
+    <contour>
+      <point x="1116.0" y="-612.0" type="line"/>
+      <point x="2160.0" y="284.0" type="line"/>
+      <point x="2124.0" y="330.0" type="line"/>
+      <point x="1168.0" y="-490.0" type="line"/>
+      <point x="1620.0" y="2246.0" type="line"/>
+      <point x="2306.0" y="1426.0" type="line"/>
+      <point x="2356.0" y="1472.0" type="line"/>
+      <point x="1608.0" y="2368.0" type="line"/>
+      <point x="564.0" y="1472.0" type="line"/>
+      <point x="604.0" y="1426.0" type="line"/>
+      <point x="1556.0" y="2246.0" type="line"/>
+      <point x="1104.0" y="-490.0" type="line"/>
+      <point x="422.0" y="330.0" type="line"/>
+      <point x="368.0" y="284.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>leftArrow</string>
+    </dict>
+  </lib>
+</glyph>

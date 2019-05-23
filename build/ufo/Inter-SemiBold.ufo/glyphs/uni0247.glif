@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0247" format="2">
+  <advance width="1675"/>
+  <unicode hex="0247"/>
+  <outline>
+    <contour>
+      <point x="1418" y="2048" type="line"/>
+      <point x="1191" y="2048" type="line"/>
+      <point x="240" y="-576" type="line"/>
+      <point x="467" y="-576" type="line"/>
+    </contour>
+    <component base="e"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

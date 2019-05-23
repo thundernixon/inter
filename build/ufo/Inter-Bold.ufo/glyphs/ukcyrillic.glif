@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ukcyrillic" format="2">
+  <advance width="3434"/>
+  <unicode hex="0479"/>
+  <outline>
+    <component base="o"/>
+    <component base="yhook" xOffset="1677"/>
+  </outline>
+</glyph>

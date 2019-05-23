@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n.sups" format="2">
+  <advance width="1148"/>
+  <unicode hex="207F"/>
+  <outline>
+    <contour>
+      <point x="366" y="1627" type="line" smooth="yes"/>
+      <point x="366" y="1770"/>
+      <point x="455" y="1856"/>
+      <point x="579" y="1856" type="curve" smooth="yes"/>
+      <point x="702" y="1856"/>
+      <point x="782" y="1774"/>
+      <point x="782" y="1638" type="curve" smooth="yes"/>
+      <point x="782" y="1024" type="line"/>
+      <point x="1025" y="1024" type="line"/>
+      <point x="1025" y="1679" type="line" smooth="yes"/>
+      <point x="1025" y="1916"/>
+      <point x="882" y="2060"/>
+      <point x="673" y="2060" type="curve" smooth="yes"/>
+      <point x="526" y="2060"/>
+      <point x="412" y="1987"/>
+      <point x="365" y="1870" type="curve"/>
+      <point x="355" y="1870" type="line"/>
+      <point x="355" y="2048" type="line"/>
+      <point x="123" y="2048" type="line"/>
+      <point x="123" y="1024" type="line"/>
+      <point x="366" y="1024" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>66.6</real>
+        <key>verticalShift</key>
+        <integer>1024</integer>
+        <key>width</key>
+        <real>66.6</real>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m.sups</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

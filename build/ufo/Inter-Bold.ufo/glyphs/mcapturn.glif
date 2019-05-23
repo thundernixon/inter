@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mcapturn" format="2">
+  <advance width="2686"/>
+  <unicode hex="019C"/>
+  <outline>
+    <contour>
+      <point x="2046" y="352" type="line"/>
+      <point x="2087" y="0" type="line"/>
+      <point x="2467" y="0" type="line"/>
+      <point x="2467" y="2004" type="line"/>
+      <point x="2046" y="2004" type="line"/>
+    </contour>
+    <contour>
+      <point x="2095" y="692" type="line"/>
+      <point x="2095" y="476"/>
+      <point x="2010" y="310"/>
+      <point x="1766" y="310" type="curve" smooth="yes"/>
+      <point x="1638" y="310"/>
+      <point x="1550" y="388"/>
+      <point x="1550" y="584" type="curve"/>
+      <point x="1550" y="2004" type="line"/>
+      <point x="1134" y="2004" type="line"/>
+      <point x="1134" y="584" type="line"/>
+      <point x="1134" y="133"/>
+      <point x="1334" y="-28"/>
+      <point x="1643" y="-28" type="curve" smooth="yes"/>
+      <point x="2030" y="-28"/>
+      <point x="2228" y="280"/>
+      <point x="2228" y="696" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1184" y="692" type="line"/>
+      <point x="1184" y="474"/>
+      <point x="1097" y="310"/>
+      <point x="854" y="310" type="curve" smooth="yes"/>
+      <point x="726" y="310"/>
+      <point x="638" y="388"/>
+      <point x="638" y="584" type="curve" smooth="yes"/>
+      <point x="638" y="2004" type="line"/>
+      <point x="221" y="2004" type="line"/>
+      <point x="221" y="584" type="line" smooth="yes"/>
+      <point x="221" y="137"/>
+      <point x="394" y="-28"/>
+      <point x="730" y="-28" type="curve" smooth="yes"/>
+      <point x="1126" y="-28"/>
+      <point x="1322" y="273"/>
+      <point x="1322" y="696" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

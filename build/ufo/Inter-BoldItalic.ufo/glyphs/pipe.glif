@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pipe" format="2">
+  <advance width="844"/>
+  <unicode hex="01C0"/>
+  <outline>
+    <contour>
+      <point x="751" y="2012" type="line"/>
+      <point x="502" y="2012" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="418" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

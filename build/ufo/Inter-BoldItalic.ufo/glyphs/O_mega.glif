@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omega" format="2">
+  <advance width="2192"/>
+  <unicode hex="03A9"/>
+  <unicode hex="2126"/>
+  <outline>
+    <contour>
+      <point x="-1" y="0" type="line"/>
+      <point x="811" y="0" type="line"/>
+      <point x="886" y="448" type="line"/>
+      <point x="683" y="536"/>
+      <point x="566" y="780"/>
+      <point x="616" y="1078" type="curve"/>
+      <point x="674" y="1429"/>
+      <point x="938" y="1690"/>
+      <point x="1250" y="1690" type="curve" smooth="yes"/>
+      <point x="1563" y="1690"/>
+      <point x="1738" y="1429"/>
+      <point x="1680" y="1078" type="curve" smooth="yes"/>
+      <point x="1630" y="780"/>
+      <point x="1429" y="536"/>
+      <point x="1199" y="448" type="curve"/>
+      <point x="1125" y="0" type="line"/>
+      <point x="1937" y="0" type="line"/>
+      <point x="1997" y="357" type="line"/>
+      <point x="1614" y="357" type="line"/>
+      <point x="1616" y="373" type="line"/>
+      <point x="1877" y="523"/>
+      <point x="2065" y="769"/>
+      <point x="2122" y="1111" type="curve"/>
+      <point x="2215" y="1676"/>
+      <point x="1878" y="2076"/>
+      <point x="1312" y="2076" type="curve" smooth="yes"/>
+      <point x="746" y="2076"/>
+      <point x="278" y="1676"/>
+      <point x="184" y="1111" type="curve" smooth="yes"/>
+      <point x="127" y="769"/>
+      <point x="234" y="523"/>
+      <point x="443" y="373" type="curve"/>
+      <point x="442" y="357" type="line"/>
+      <point x="59" y="357" type="line"/>
+    </contour>
+  </outline>
+</glyph>

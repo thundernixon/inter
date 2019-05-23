@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibar" format="2">
+  <advance width="639"/>
+  <unicode hex="0268"/>
+  <outline>
+    <component base="i"/>
+    <component base="crossbar" xOffset="-280" yOffset="-187"/>
+  </outline>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rx" format="2">
+  <advance width="2079"/>
+  <unicode hex="211E"/>
+  <outline>
+    <contour>
+      <point x="414" y="2048" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="445" y="0" type="line"/>
+      <point x="733" y="1737" type="line"/>
+      <point x="1116" y="1737" type="line" smooth="yes"/>
+      <point x="1379" y="1737"/>
+      <point x="1454" y="1590"/>
+      <point x="1423" y="1407" type="curve" smooth="yes"/>
+      <point x="1390" y="1206"/>
+      <point x="1257" y="1085"/>
+      <point x="996" y="1085" type="curve" smooth="yes"/>
+      <point x="503" y="1085" type="line"/>
+      <point x="452" y="772" type="line"/>
+      <point x="1138" y="772" type="line"/>
+      <point x="1230" y="803" type="line"/>
+      <point x="1519" y="891"/>
+      <point x="1737" y="1087"/>
+      <point x="1790" y="1414" type="curve" smooth="yes"/>
+      <point x="1853" y="1787"/>
+      <point x="1662" y="2048"/>
+      <point x="1168" y="2048" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1484" y="0" type="line"/>
+      <point x="1830" y="0" type="line"/>
+      <point x="1310" y="918" type="line"/>
+      <point x="972" y="918" type="line"/>
+    </contour>
+    <contour>
+      <point x="1134" y="0" type="line"/>
+      <point x="1947" y="918" type="line"/>
+      <point x="1658" y="918" type="line"/>
+      <point x="835" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.20</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

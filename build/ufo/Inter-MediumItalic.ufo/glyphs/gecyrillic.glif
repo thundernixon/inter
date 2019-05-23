@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gecyrillic" format="2">
+  <advance width="1299"/>
+  <unicode hex="0433"/>
+  <outline>
+    <contour>
+      <point x="1312" y="1536" type="line"/>
+      <point x="330" y="1536" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="369" y="0" type="line"/>
+      <point x="582" y="1278" type="line"/>
+      <point x="1270" y="1278" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tecyrillic</string>
+    </dict>
+  </lib>
+</glyph>

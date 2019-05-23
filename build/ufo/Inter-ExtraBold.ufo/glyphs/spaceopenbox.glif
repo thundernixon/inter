@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="spaceopenbox" format="2">
+  <advance width="2189"/>
+  <unicode hex="2423"/>
+  <outline>
+    <contour>
+      <point x="189" y="192" type="line"/>
+      <point x="189" y="-481" type="line"/>
+      <point x="2000" y="-481" type="line"/>
+      <point x="2000" y="192" type="line"/>
+      <point x="1627" y="192" type="line"/>
+      <point x="1627" y="-130" type="line"/>
+      <point x="559" y="-130" type="line"/>
+      <point x="559" y="192" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zecyrillic" format="2">
+  <advance width="1392.0"/>
+  <unicode hex="0437"/>
+  <note>
+stroke L: ({Filter="OffsetCurve;32;32;1;1;";})
+</note>
+  <outline>
+    <contour>
+      <point x="120.0" y="392.0" type="line"/>
+      <point x="128.0" y="140.0"/>
+      <point x="369.0" y="-32.0"/>
+      <point x="696.0" y="-32.0" type="curve" smooth="yes"/>
+      <point x="1032.0" y="-32.0"/>
+      <point x="1276.0" y="148.0"/>
+      <point x="1276.0" y="428.0" type="curve" smooth="yes"/>
+      <point x="1276.0" y="620.0"/>
+      <point x="1161.0" y="776.0"/>
+      <point x="988.0" y="788.0" type="curve"/>
+      <point x="988.0" y="804.0" type="line"/>
+      <point x="1134.0" y="849.0"/>
+      <point x="1244.0" y="955.0"/>
+      <point x="1244.0" y="1128.0" type="curve" smooth="yes"/>
+      <point x="1244.0" y="1371.0"/>
+      <point x="1036.0" y="1556.0"/>
+      <point x="712.0" y="1556.0" type="curve" smooth="yes"/>
+      <point x="392.0" y="1556.0"/>
+      <point x="164.0" y="1380.0"/>
+      <point x="156.0" y="1132.0" type="curve"/>
+      <point x="404.0" y="1132.0" type="line"/>
+      <point x="411.0" y="1259.0"/>
+      <point x="544.0" y="1348.0"/>
+      <point x="724.0" y="1348.0" type="curve" smooth="yes"/>
+      <point x="903.0" y="1348.0"/>
+      <point x="1004.0" y="1257.0"/>
+      <point x="1004.0" y="1120.0" type="curve" smooth="yes"/>
+      <point x="1004.0" y="992.0"/>
+      <point x="916.0" y="896.0"/>
+      <point x="728.0" y="896.0" type="curve" smooth="yes"/>
+      <point x="464.0" y="896.0" type="line"/>
+      <point x="464.0" y="684.0" type="line"/>
+      <point x="728.0" y="684.0" type="line" smooth="yes"/>
+      <point x="916.0" y="684.0"/>
+      <point x="1036.0" y="581.0"/>
+      <point x="1036.0" y="428.0" type="curve" smooth="yes"/>
+      <point x="1036.0" y="253.0"/>
+      <point x="881.0" y="180.0"/>
+      <point x="692.0" y="180.0" type="curve" smooth="yes"/>
+      <point x="507.0" y="180.0"/>
+      <point x="383.0" y="253.0"/>
+      <point x="372.0" y="392.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>three.subs</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>three.subs</string>
+    </dict>
+  </lib>
+</glyph>

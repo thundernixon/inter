@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ezh" format="2">
+  <advance width="1924"/>
+  <unicode hex="01B7"/>
+  <outline>
+    <contour>
+      <point x="19" y="132" type="line"/>
+      <point x="-30" y="-279"/>
+      <point x="279" y="-570"/>
+      <point x="726" y="-570" type="curve" smooth="yes"/>
+      <point x="1232" y="-570"/>
+      <point x="1622" y="-201"/>
+      <point x="1702" y="283" type="curve" smooth="yes"/>
+      <point x="1776" y="737"/>
+      <point x="1544" y="1088"/>
+      <point x="1082" y="1115" type="curve"/>
+      <point x="1086" y="1135" type="line"/>
+      <point x="1907" y="1824" type="line"/>
+      <point x="1942" y="2048" type="line"/>
+      <point x="450" y="2048" type="line"/>
+      <point x="406" y="1778" type="line"/>
+      <point x="1490" y="1778" type="line"/>
+      <point x="1486" y="1762" type="line"/>
+      <point x="737" y="1136" type="line"/>
+      <point x="696" y="893" type="line"/>
+      <point x="871" y="893" type="line" smooth="yes"/>
+      <point x="1236" y="893"/>
+      <point x="1449" y="647"/>
+      <point x="1390" y="290" type="curve" smooth="yes"/>
+      <point x="1339" y="-34"/>
+      <point x="1100" y="-298"/>
+      <point x="777" y="-298" type="curve" smooth="yes"/>
+      <point x="510" y="-298"/>
+      <point x="306" y="-121"/>
+      <point x="333" y="132" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+    </dict>
+  </lib>
+</glyph>

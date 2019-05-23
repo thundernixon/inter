@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphendot" format="2">
+  <advance width="858"/>
+  <unicode hex="2027"/>
+  <outline>
+    <contour>
+      <point x="171" y="867" type="curve" smooth="yes"/>
+      <point x="170" y="729"/>
+      <point x="274" y="632"/>
+      <point x="430" y="632" type="curve" smooth="yes"/>
+      <point x="584" y="632"/>
+      <point x="688" y="729"/>
+      <point x="690" y="867" type="curve" smooth="yes"/>
+      <point x="688" y="1002"/>
+      <point x="584" y="1102"/>
+      <point x="430" y="1102" type="curve" smooth="yes"/>
+      <point x="270" y="1102"/>
+      <point x="170" y="1002"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

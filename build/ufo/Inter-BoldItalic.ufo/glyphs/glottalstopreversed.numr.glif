@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstopreversed.numr" format="2">
+  <advance width="1362"/>
+  <unicode hex="02E4"/>
+  <outline>
+    <contour>
+      <point x="1018" y="1594" type="curve"/>
+      <point x="1302" y="1594" type="line"/>
+      <point x="1344" y="1843"/>
+      <point x="1176" y="2016"/>
+      <point x="894" y="2016" type="curve" smooth="yes"/>
+      <point x="606" y="2016"/>
+      <point x="375" y="1838"/>
+      <point x="322" y="1514" type="curve" smooth="yes"/>
+      <point x="278" y="1240"/>
+      <point x="419" y="1032"/>
+      <point x="686" y="1032" type="curve" smooth="yes"/>
+      <point x="844" y="1032" type="line"/>
+      <point x="882" y="1257" type="line"/>
+      <point x="771" y="1257" type="line" smooth="yes"/>
+      <point x="642" y="1257"/>
+      <point x="600" y="1355"/>
+      <point x="622" y="1501" type="curve" smooth="yes"/>
+      <point x="648" y="1658"/>
+      <point x="736" y="1761"/>
+      <point x="866" y="1761" type="curve" smooth="yes"/>
+      <point x="969" y="1761"/>
+      <point x="1030" y="1696"/>
+    </contour>
+    <contour>
+      <point x="854" y="898" type="line"/>
+      <point x="916" y="1257" type="line"/>
+      <point x="616" y="1257" type="line"/>
+      <point x="554" y="898" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0365" format="2">
+  <unicode hex="0365"/>
+  <outline>
+    <contour>
+      <point x="-510" y="2412" type="line"/>
+      <point x="-745" y="2412" type="line"/>
+      <point x="-869" y="1652" type="line"/>
+      <point x="-634" y="1652" type="line"/>
+    </contour>
+    <contour>
+      <point x="-730" y="2608" type="curve" smooth="yes"/>
+      <point x="-742" y="2540"/>
+      <point x="-694" y="2490"/>
+      <point x="-618" y="2490" type="curve" smooth="yes"/>
+      <point x="-539" y="2490"/>
+      <point x="-480" y="2540"/>
+      <point x="-467" y="2608" type="curve" smooth="yes"/>
+      <point x="-457" y="2674"/>
+      <point x="-501" y="2724"/>
+      <point x="-580" y="2724" type="curve" smooth="yes"/>
+      <point x="-656" y="2724"/>
+      <point x="-719" y="2677"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

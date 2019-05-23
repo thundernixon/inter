@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10024" format="2">
+  <advance width="2928"/>
+  <unicode hex="0416"/>
+  <outline>
+    <contour>
+      <point x="1858" y="2048" type="line"/>
+      <point x="1494" y="2048" type="line"/>
+      <point x="1154" y="0" type="line"/>
+      <point x="1518" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-49" y="0" type="line"/>
+      <point x="386" y="0" type="line"/>
+      <point x="1010" y="839" type="line"/>
+      <point x="1948" y="839" type="line"/>
+      <point x="2282" y="0" type="line"/>
+      <point x="2721" y="0" type="line"/>
+      <point x="2258" y="1077" type="line"/>
+      <point x="3023" y="2048" type="line"/>
+      <point x="2570" y="2048" type="line"/>
+      <point x="1950" y="1183" type="line"/>
+      <point x="1123" y="1183" type="line"/>
+      <point x="783" y="2048" type="line"/>
+      <point x="328" y="2048" type="line"/>
+      <point x="778" y="1076" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>X</string>
+    </dict>
+  </lib>
+</glyph>

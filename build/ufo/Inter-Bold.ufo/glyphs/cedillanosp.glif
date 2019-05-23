@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillanosp" format="2">
+  <advance width="36"/>
+  <unicode hex="0327"/>
+  <outline>
+    <contour>
+      <point x="-1088" y="12" type="line"/>
+      <point x="-1132" y="-188" type="line"/>
+      <point x="-990" y="-195"/>
+      <point x="-933" y="-222"/>
+      <point x="-933" y="-292" type="curve" smooth="yes"/>
+      <point x="-933" y="-370"/>
+      <point x="-998" y="-401"/>
+      <point x="-1086" y="-401" type="curve"/>
+      <point x="-1076" y="-641" type="line"/>
+      <point x="-750" y="-641"/>
+      <point x="-577" y="-506"/>
+      <point x="-577" y="-308" type="curve" smooth="yes"/>
+      <point x="-577" y="-150"/>
+      <point x="-683" y="-88"/>
+      <point x="-790" y="-72" type="curve"/>
+      <point x="-772" y="12" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

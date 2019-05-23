@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="deleteleft" format="2">
+  <advance width="3424"/>
+  <unicode hex="232B"/>
+  <note>
+stroke:
+L: 32
+R outer: 108,110,100%
+R x: 104,104,50%
+B outer: 208,200,100%
+B x: 200,200,50%
+</note>
+  <outline>
+    <contour>
+      <point x="1256" y="0" type="line"/>
+      <point x="3168" y="0" type="line"/>
+      <point x="3168" y="2048" type="line"/>
+      <point x="1256" y="2048" type="line"/>
+      <point x="238" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="1363" y="256" type="line"/>
+      <point x="599" y="1024" type="line"/>
+      <point x="1363" y="1792" type="line"/>
+      <point x="2912" y="1792" type="line"/>
+      <point x="2912" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="2555" y="608" type="line"/>
+      <point x="1539" y="1616" type="line"/>
+      <point x="1367" y="1440" type="line"/>
+      <point x="2383" y="432" type="line"/>
+    </contour>
+    <contour>
+      <point x="1539" y="432" type="line"/>
+      <point x="2555" y="1440" type="line"/>
+      <point x="2383" y="1616" type="line"/>
+      <point x="1367" y="608" type="line"/>
+    </contour>
+  </outline>
+</glyph>

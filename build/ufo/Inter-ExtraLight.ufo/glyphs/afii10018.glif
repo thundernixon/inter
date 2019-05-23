@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10018" format="2">
+  <advance width="1871"/>
+  <unicode hex="0411"/>
+  <note>
+Originally composed of afii10046 and Gamma
+</note>
+  <outline>
+    <contour>
+      <point x="296" y="0" type="line"/>
+      <point x="1064" y="0" type="line" smooth="yes"/>
+      <point x="1473" y="0"/>
+      <point x="1672" y="235"/>
+      <point x="1672" y="572" type="curve" smooth="yes"/>
+      <point x="1672" y="905"/>
+      <point x="1473" y="1119"/>
+      <point x="1064" y="1119" type="curve" smooth="yes"/>
+      <point x="419" y="1119" type="line"/>
+      <point x="419" y="1919" type="line"/>
+      <point x="1449" y="1919" type="line"/>
+      <point x="1449" y="2048" type="line"/>
+      <point x="296" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="419" y="128" type="line"/>
+      <point x="419" y="981" type="line"/>
+      <point x="1064" y="981" type="line" smooth="yes"/>
+      <point x="1376" y="981"/>
+      <point x="1551" y="793"/>
+      <point x="1551" y="576" type="curve" smooth="yes"/>
+      <point x="1551" y="353"/>
+      <point x="1376" y="128"/>
+      <point x="1064" y="128" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+    </dict>
+  </lib>
+</glyph>

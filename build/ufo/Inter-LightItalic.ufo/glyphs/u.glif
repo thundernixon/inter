@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u" format="2">
+  <advance width="1624"/>
+  <unicode hex="0075"/>
+  <outline>
+    <contour>
+      <point x="1180" y="587" type="line" smooth="yes"/>
+      <point x="1133" y="305"/>
+      <point x="897" y="153"/>
+      <point x="689" y="153" type="curve" smooth="yes"/>
+      <point x="468" y="153"/>
+      <point x="339" y="312"/>
+      <point x="377" y="552" type="curve" smooth="yes"/>
+      <point x="541" y="1536" type="line"/>
+      <point x="363" y="1536" type="line"/>
+      <point x="196" y="541" type="line" smooth="yes"/>
+      <point x="136" y="177"/>
+      <point x="313" y="-20"/>
+      <point x="608" y="-20" type="curve" smooth="yes"/>
+      <point x="833" y="-20"/>
+      <point x="1016" y="97"/>
+      <point x="1112" y="255" type="curve"/>
+      <point x="1125" y="255" type="line"/>
+      <point x="1083" y="0" type="line"/>
+      <point x="1261" y="0" type="line"/>
+      <point x="1517" y="1536" type="line"/>
+      <point x="1339" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seagullsubnosp" format="2">
+  <advance width="36.0"/>
+  <unicode hex="033C"/>
+  <note>
+position under "x".
+offset curve settings:
+L: 32,32,0%
+R: 70,80,0%
+B: 110,90,0%
+</note>
+  <outline>
+    <contour>
+      <point x="-936.0" y="-480.0" type="line"/>
+      <point x="-918.0" y="-370.0"/>
+      <point x="-844.0" y="-310.0"/>
+      <point x="-732.0" y="-310.0" type="curve" smooth="yes"/>
+      <point x="-622.0" y="-310.0"/>
+      <point x="-566.0" y="-370.0"/>
+      <point x="-584.0" y="-480.0" type="curve"/>
+      <point x="-364.0" y="-480.0" type="line"/>
+      <point x="-328.0" y="-264.0"/>
+      <point x="-478.0" y="-130.0"/>
+      <point x="-702.0" y="-130.0" type="curve" smooth="yes"/>
+      <point x="-928.0" y="-130.0"/>
+      <point x="-1120.0" y="-264.0"/>
+      <point x="-1156.0" y="-480.0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-1508.0" y="-480.0" type="line"/>
+      <point x="-1490.0" y="-370.0"/>
+      <point x="-1416.0" y="-310.0"/>
+      <point x="-1304.0" y="-310.0" type="curve" smooth="yes"/>
+      <point x="-1194.0" y="-310.0"/>
+      <point x="-1138.0" y="-370.0"/>
+      <point x="-1156.0" y="-480.0" type="curve"/>
+      <point x="-936.0" y="-480.0" type="line"/>
+      <point x="-900.0" y="-264.0"/>
+      <point x="-1050.0" y="-130.0"/>
+      <point x="-1274.0" y="-130.0" type="curve" smooth="yes"/>
+      <point x="-1500.0" y="-130.0"/>
+      <point x="-1692.0" y="-264.0"/>
+      <point x="-1728.0" y="-480.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

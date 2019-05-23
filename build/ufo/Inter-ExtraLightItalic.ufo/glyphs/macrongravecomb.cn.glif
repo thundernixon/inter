@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macrongravecomb.cn" format="2">
+  <outline>
+    <contour>
+      <point x="-285" y="2565" type="line"/>
+      <point x="-153" y="2565" type="line"/>
+      <point x="-365" y="2837" type="line"/>
+      <point x="-521" y="2837" type="line"/>
+    </contour>
+    <component base="macron" xOffset="-939" yOffset="435"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

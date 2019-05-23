@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0230" format="2">
+  <advance width="2182"/>
+  <unicode hex="0230"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotmacroncomb.cn" xOffset="1970" yOffset="50"/>
+  </outline>
+</glyph>

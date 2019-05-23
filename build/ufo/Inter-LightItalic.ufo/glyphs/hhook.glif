@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hhook" format="2">
+  <advance width="1632"/>
+  <unicode hex="0266"/>
+  <outline>
+    <contour>
+      <point x="536" y="1536" type="line"/>
+      <point x="563" y="1707" type="line" smooth="yes"/>
+      <point x="587" y="1857"/>
+      <point x="699" y="1919"/>
+      <point x="827" y="1919" type="curve" smooth="yes"/>
+      <point x="851" y="1919"/>
+      <point x="877" y="1916"/>
+      <point x="892" y="1913" type="curve"/>
+      <point x="920" y="2068" type="line"/>
+      <point x="891" y="2076"/>
+      <point x="850" y="2076"/>
+      <point x="812" y="2076" type="curve" smooth="yes"/>
+      <point x="608" y="2076"/>
+      <point x="426" y="1938"/>
+      <point x="389" y="1707" type="curve" smooth="yes"/>
+      <point x="363" y="1536" type="line"/>
+    </contour>
+    <component base="n"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

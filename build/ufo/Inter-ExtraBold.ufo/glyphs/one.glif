@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one" format="2">
+  <advance width="1401"/>
+  <unicode hex="0031"/>
+  <outline>
+    <contour>
+      <point x="1098" y="2048" type="line"/>
+      <point x="639" y="2048" type="line"/>
+      <point x="134" y="1734" type="line"/>
+      <point x="134" y="1306" type="line"/>
+      <point x="592" y="1586" type="line"/>
+      <point x="604" y="1586" type="line"/>
+      <point x="604" y="0" type="line"/>
+      <point x="1098" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>one</string>
+    </dict>
+  </lib>
+</glyph>

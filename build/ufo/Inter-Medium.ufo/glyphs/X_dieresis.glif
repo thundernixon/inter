@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xdieresis" format="2">
+  <advance width="1876"/>
+  <unicode hex="1E8C"/>
+  <outline>
+    <component base="X"/>
+    <component base="casedieresis.cn" xOffset="132" yOffset="28"/>
+  </outline>
+</glyph>

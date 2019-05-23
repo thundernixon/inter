@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonostop" format="2">
+  <advance width="955"/>
+  <outline>
+    <contour>
+      <point x="434" y="1716" type="line"/>
+      <point x="656" y="1716" type="line"/>
+      <point x="945" y="2189" type="line"/>
+      <point x="606" y="2189" type="line"/>
+    </contour>
+  </outline>
+</glyph>

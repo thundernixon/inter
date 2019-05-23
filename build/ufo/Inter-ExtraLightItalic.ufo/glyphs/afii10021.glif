@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10021" format="2">
+  <advance width="2047"/>
+  <unicode hex="0414"/>
+  <outline>
+    <contour>
+      <point x="-133" y="-499" type="line"/>
+      <point x="-17" y="-499" type="line"/>
+      <point x="63" y="0" type="line"/>
+      <point x="1648" y="0" type="line"/>
+      <point x="1568" y="-492" type="line"/>
+      <point x="1684" y="-492" type="line"/>
+      <point x="1784" y="137" type="line"/>
+      <point x="1540" y="137" type="line"/>
+      <point x="1860" y="2048" type="line"/>
+      <point x="735" y="2048" type="line"/>
+      <point x="557" y="1187" type="line" smooth="yes"/>
+      <point x="434" y="563"/>
+      <point x="253" y="275"/>
+      <point x="96" y="137" type="curve"/>
+      <point x="-31" y="137" type="line"/>
+    </contour>
+    <contour>
+      <point x="256" y="137" type="line"/>
+      <point x="431" y="351"/>
+      <point x="576" y="709"/>
+      <point x="673" y="1187" type="curve" smooth="yes"/>
+      <point x="829" y="1919" type="line"/>
+      <point x="1724" y="1919" type="line"/>
+      <point x="1424" y="137" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

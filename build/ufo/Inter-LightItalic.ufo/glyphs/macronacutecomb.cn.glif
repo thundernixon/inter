@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronacutecomb.cn" format="2">
+  <outline>
+    <contour>
+      <point x="-325" y="2603" type="line"/>
+      <point x="-137" y="2603" type="line"/>
+      <point x="222" y="2891" type="line"/>
+      <point x="2" y="2891" type="line"/>
+    </contour>
+    <component base="macron" xOffset="-1007" yOffset="445"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

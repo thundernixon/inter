@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilon" format="2">
+  <advance width="1661"/>
+  <unicode hex="03C5"/>
+  <outline>
+    <contour>
+      <point x="155" y="1536" type="line"/>
+      <point x="155" y="564" type="line"/>
+      <point x="154" y="154"/>
+      <point x="402" y="-28"/>
+      <point x="778" y="-28" type="curve" smooth="yes"/>
+      <point x="1293" y="-28"/>
+      <point x="1505" y="315"/>
+      <point x="1506" y="780" type="curve"/>
+      <point x="1505" y="1080"/>
+      <point x="1432" y="1368"/>
+      <point x="1346" y="1536" type="curve"/>
+      <point x="906" y="1536" type="line"/>
+      <point x="981" y="1308"/>
+      <point x="1032" y="1030"/>
+      <point x="1040" y="780" type="curve"/>
+      <point x="1039" y="573"/>
+      <point x="939" y="345"/>
+      <point x="764" y="345" type="curve" smooth="yes"/>
+      <point x="690" y="345"/>
+      <point x="627" y="394"/>
+      <point x="628" y="560" type="curve"/>
+      <point x="628" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+    </dict>
+  </lib>
+</glyph>

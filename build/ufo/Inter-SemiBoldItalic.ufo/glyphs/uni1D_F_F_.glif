@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DFF" format="2">
+  <unicode hex="1DFF"/>
+  <outline>
+    <contour>
+      <point x="-642" y="-741" type="line"/>
+      <point x="-443" y="-741" type="line"/>
+      <point x="60" y="-109" type="line"/>
+      <point x="-198" y="-109" type="line"/>
+      <point x="-490" y="-486" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1982" y="-757" type="line"/>
+      <point x="-990" y="-502" type="line"/>
+      <point x="-970" y="-378" type="line"/>
+      <point x="-1326" y="-422" type="line"/>
+      <point x="-1950" y="-560" type="line"/>
+    </contour>
+    <contour>
+      <point x="-984" y="-472" type="line"/>
+      <point x="-964" y="-346" type="line"/>
+      <point x="-1873" y="-94" type="line"/>
+      <point x="-1905" y="-289" type="line"/>
+      <point x="-1326" y="-429" type="line"/>
+    </contour>
+    <contour>
+      <point x="-694" y="-741" type="line"/>
+      <point x="-493" y="-741" type="line"/>
+      <point x="-568" y="-486" type="line"/>
+      <point x="-728" y="-109" type="line"/>
+      <point x="-985" y="-109" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

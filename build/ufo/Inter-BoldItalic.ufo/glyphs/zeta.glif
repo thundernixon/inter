@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <advance width="1556"/>
+  <unicode hex="03B6"/>
+  <outline>
+    <contour>
+      <point x="1378" y="2048" type="line"/>
+      <point x="692" y="1350" type="line" smooth="yes"/>
+      <point x="396" y="1054"/>
+      <point x="236" y="873"/>
+      <point x="172" y="526" type="curve" smooth="yes"/>
+      <point x="125" y="272"/>
+      <point x="274" y="86"/>
+      <point x="580" y="8" type="curve" smooth="yes"/>
+      <point x="678" y="-18" type="line" smooth="yes"/>
+      <point x="775" y="-46"/>
+      <point x="824" y="-94"/>
+      <point x="812" y="-150" type="curve" smooth="yes"/>
+      <point x="800" y="-211"/>
+      <point x="748" y="-291"/>
+      <point x="645" y="-378" type="curve"/>
+      <point x="834" y="-538" type="line"/>
+      <point x="1073" y="-394"/>
+      <point x="1218" y="-226"/>
+      <point x="1246" y="-65" type="curve" smooth="yes"/>
+      <point x="1274" y="96"/>
+      <point x="1149" y="227"/>
+      <point x="893" y="302" type="curve" smooth="yes"/>
+      <point x="786" y="334" type="line" smooth="yes"/>
+      <point x="640" y="377"/>
+      <point x="567" y="471"/>
+      <point x="588" y="592" type="curve" smooth="yes"/>
+      <point x="628" y="788"/>
+      <point x="753" y="944"/>
+      <point x="979" y="1178" type="curve" smooth="yes"/>
+      <point x="1599" y="1812" type="line"/>
+      <point x="1637" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="319" y="2048" type="line"/>
+      <point x="262" y="1694" type="line"/>
+      <point x="1392" y="1694" type="line"/>
+      <point x="1450" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seven</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seven</string>
+    </dict>
+  </lib>
+</glyph>

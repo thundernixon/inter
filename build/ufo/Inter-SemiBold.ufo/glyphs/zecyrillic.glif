@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zecyrillic" format="2">
+  <advance width="1453"/>
+  <unicode hex="0437"/>
+  <note>
+stroke L: ({Filter="OffsetCurve;32;32;1;1;";})
+</note>
+  <outline>
+    <contour>
+      <point x="101" y="421" type="line"/>
+      <point x="110" y="136"/>
+      <point x="371" y="-30"/>
+      <point x="726" y="-30" type="curve" smooth="yes"/>
+      <point x="1090" y="-30"/>
+      <point x="1353" y="143"/>
+      <point x="1353" y="426" type="curve" smooth="yes"/>
+      <point x="1353" y="633"/>
+      <point x="1212" y="775"/>
+      <point x="1030" y="786" type="curve"/>
+      <point x="1030" y="802" type="line"/>
+      <point x="1206" y="849"/>
+      <point x="1318" y="959"/>
+      <point x="1318" y="1125" type="curve" smooth="yes"/>
+      <point x="1318" y="1384"/>
+      <point x="1094" y="1556"/>
+      <point x="734" y="1556" type="curve" smooth="yes"/>
+      <point x="398" y="1556"/>
+      <point x="145" y="1382"/>
+      <point x="140" y="1114" type="curve"/>
+      <point x="497" y="1114" type="line"/>
+      <point x="501" y="1217"/>
+      <point x="607" y="1289"/>
+      <point x="751" y="1289" type="curve" smooth="yes"/>
+      <point x="895" y="1289"/>
+      <point x="982" y="1212"/>
+      <point x="982" y="1098" type="curve" smooth="yes"/>
+      <point x="982" y="993"/>
+      <point x="902" y="915"/>
+      <point x="752" y="915" type="curve"/>
+      <point x="517" y="915" type="line"/>
+      <point x="517" y="658" type="line"/>
+      <point x="752" y="658" type="line"/>
+      <point x="903" y="658"/>
+      <point x="1002" y="573"/>
+      <point x="1002" y="449" type="curve" smooth="yes"/>
+      <point x="1002" y="309"/>
+      <point x="879" y="241"/>
+      <point x="724" y="241" type="curve" smooth="yes"/>
+      <point x="571" y="241"/>
+      <point x="467" y="307"/>
+      <point x="460" y="421" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>three.subs</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>three.subs</string>
+    </dict>
+  </lib>
+</glyph>

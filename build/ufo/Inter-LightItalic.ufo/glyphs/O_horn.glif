@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorn" format="2">
+  <advance width="2143"/>
+  <unicode hex="01A0"/>
+  <outline>
+    <contour>
+      <point x="2121" y="2212" type="line"/>
+      <point x="2083" y="1986"/>
+      <point x="1959" y="1853"/>
+      <point x="1748" y="1853" type="curve"/>
+      <point x="1717" y="1665" type="line"/>
+      <point x="2068" y="1665"/>
+      <point x="2286" y="1862"/>
+      <point x="2345" y="2212" type="curve"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

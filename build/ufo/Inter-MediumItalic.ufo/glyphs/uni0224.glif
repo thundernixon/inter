@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0224" format="2">
+  <advance width="1799"/>
+  <unicode hex="0224"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <outline>
+    <contour>
+      <point x="953" y="266" type="line"/>
+      <point x="909" y="0" type="line"/>
+      <point x="1070" y="0" type="line" smooth="yes"/>
+      <point x="1219" y="0"/>
+      <point x="1244" y="-114"/>
+      <point x="1223" y="-234" type="curve"/>
+      <point x="1210" y="-320" type="line"/>
+      <point x="1478" y="-320" type="line"/>
+      <point x="1502" y="-179" type="line"/>
+      <point x="1546" y="90"/>
+      <point x="1402" y="266"/>
+      <point x="1114" y="266" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="953" y="266" type="line"/>
+      <point x="463" y="266" type="line"/>
+      <point x="1806" y="1842" type="line"/>
+      <point x="1839" y="2048" type="line"/>
+      <point x="375" y="2048" type="line"/>
+      <point x="331" y="1782" type="line"/>
+      <point x="1420" y="1782" type="line"/>
+      <point x="80" y="206" type="line"/>
+      <point x="44" y="0" type="line"/>
+      <point x="909" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

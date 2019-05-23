@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rdotbelowmacron" format="2">
+  <advance width="1848"/>
+  <unicode hex="1E5C"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotbelow" xOffset="1720"/>
+    <component base="macron" xOffset="117" yOffset="512"/>
+  </outline>
+</glyph>

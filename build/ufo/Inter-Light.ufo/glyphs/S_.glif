@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="S" format="2">
+  <advance width="1772"/>
+  <unicode hex="0053"/>
+  <note>
+recipe: use stroke + offset curve filter with 32, no autostroke
+</note>
+  <outline>
+    <contour>
+      <point x="1384" y="1536" type="curve"/>
+      <point x="1565" y="1536" type="line"/>
+      <point x="1551" y="1847"/>
+      <point x="1282" y="2077"/>
+      <point x="901" y="2077" type="curve" smooth="yes"/>
+      <point x="523" y="2077"/>
+      <point x="232" y="1850"/>
+      <point x="232" y="1520" type="curve" smooth="yes"/>
+      <point x="232" y="1257"/>
+      <point x="418" y="1092"/>
+      <point x="739" y="997" type="curve" smooth="yes"/>
+      <point x="984" y="925" type="line" smooth="yes"/>
+      <point x="1238" y="851"/>
+      <point x="1412" y="756"/>
+      <point x="1412" y="547" type="curve" smooth="yes"/>
+      <point x="1412" y="301"/>
+      <point x="1189" y="136"/>
+      <point x="883" y="136" type="curve" smooth="yes"/>
+      <point x="607" y="136"/>
+      <point x="391" y="269"/>
+      <point x="371" y="512" type="curve"/>
+      <point x="179" y="512" type="line"/>
+      <point x="201" y="188"/>
+      <point x="465" y="-35"/>
+      <point x="883" y="-35" type="curve" smooth="yes"/>
+      <point x="1327" y="-35"/>
+      <point x="1593" y="216"/>
+      <point x="1593" y="544" type="curve" smooth="yes"/>
+      <point x="1593" y="884"/>
+      <point x="1297" y="1020"/>
+      <point x="1037" y="1093" type="curve" smooth="yes"/>
+      <point x="821" y="1155" type="line" smooth="yes"/>
+      <point x="622" y="1211"/>
+      <point x="413" y="1312"/>
+      <point x="413" y="1528" type="curve" smooth="yes"/>
+      <point x="413" y="1748"/>
+      <point x="610" y="1909"/>
+      <point x="896" y="1909" type="curve" smooth="yes"/>
+      <point x="1167" y="1909"/>
+      <point x="1361" y="1764"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

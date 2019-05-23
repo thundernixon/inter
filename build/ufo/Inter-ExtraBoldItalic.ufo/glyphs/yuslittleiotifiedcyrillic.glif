@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yuslittleiotifiedcyrillic" format="2">
+  <advance width="2566"/>
+  <unicode hex="0469"/>
+  <outline>
+    <contour>
+      <point x="1309" y="635" type="line"/>
+      <point x="262" y="635" type="line"/>
+      <point x="216" y="361" type="line"/>
+      <point x="1263" y="361" type="line"/>
+    </contour>
+    <contour>
+      <point x="1675" y="851" type="line"/>
+      <point x="1938" y="1542" type="line"/>
+      <point x="1586" y="1542" type="line"/>
+      <point x="766" y="0" type="line"/>
+      <point x="1245" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1922" y="0" type="line"/>
+      <point x="2400" y="0" type="line"/>
+      <point x="2091" y="1542" type="line"/>
+      <point x="1742" y="1542" type="line"/>
+      <point x="1773" y="851" type="line"/>
+    </contour>
+    <contour>
+      <point x="2251" y="635" type="line"/>
+      <point x="1133" y="635" type="line"/>
+      <point x="1084" y="354" type="line"/>
+      <point x="2202" y="354" type="line"/>
+    </contour>
+    <contour>
+      <point x="1784" y="471" type="line"/>
+      <point x="1515" y="471" type="line"/>
+      <point x="1435" y="0" type="line"/>
+      <point x="1704" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="774" y="1536" type="line"/>
+      <point x="285" y="1536" type="line"/>
+      <point x="29" y="0" type="line"/>
+      <point x="518" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

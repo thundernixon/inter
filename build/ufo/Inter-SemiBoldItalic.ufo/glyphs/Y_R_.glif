@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="YR" format="2">
+  <advance width="2109"/>
+  <unicode hex="01A6"/>
+  <outline>
+    <contour>
+      <point x="324" y="1864" type="line"/>
+      <point x="711" y="1864" type="line"/>
+      <point x="759" y="2144" type="line"/>
+      <point x="372" y="2144" type="line"/>
+    </contour>
+    <contour>
+      <point x="346" y="2004" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="403" y="0" type="line"/>
+      <point x="685" y="1692" type="line"/>
+      <point x="1036" y="1692" type="line" smooth="yes"/>
+      <point x="1283" y="1692"/>
+      <point x="1374" y="1568"/>
+      <point x="1341" y="1373" type="curve" smooth="yes"/>
+      <point x="1312" y="1190"/>
+      <point x="1168" y="1060"/>
+      <point x="931" y="1060" type="curve" smooth="yes"/>
+      <point x="457" y="1060" type="line"/>
+      <point x="408" y="752" type="line"/>
+      <point x="1053" y="752" type="line"/>
+      <point x="1181" y="814" type="line"/>
+      <point x="1474" y="903"/>
+      <point x="1680" y="1084"/>
+      <point x="1730" y="1398" type="curve" smooth="yes"/>
+      <point x="1794" y="1792"/>
+      <point x="1554" y="2004"/>
+      <point x="1086" y="2004" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1347" y="-486" type="line"/>
+      <point x="1760" y="-486" type="line"/>
+      <point x="1762" y="-469" type="line"/>
+      <point x="1251" y="899" type="line"/>
+      <point x="844" y="899" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.1.20</key>
+      <dict>
+        <key>name</key>
+        <string>hr01</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

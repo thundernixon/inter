@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="linevert" format="2">
+  <advance width="592"/>
+  <unicode hex="02C8"/>
+  <outline>
+    <contour>
+      <point x="438" y="2179" type="line"/>
+      <point x="154" y="2179" type="line"/>
+      <point x="154" y="1562" type="line"/>
+      <point x="438" y="1562" type="line"/>
+    </contour>
+  </outline>
+</glyph>

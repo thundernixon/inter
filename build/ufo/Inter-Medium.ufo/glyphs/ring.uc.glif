@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring.uc" format="2">
+  <advance width="947"/>
+  <outline>
+    <contour>
+      <point x="474" y="2175" type="curve" smooth="yes"/>
+      <point x="655" y="2175"/>
+      <point x="803" y="2315"/>
+      <point x="803" y="2486" type="curve" smooth="yes"/>
+      <point x="803" y="2658"/>
+      <point x="655" y="2798"/>
+      <point x="474" y="2798" type="curve" smooth="yes"/>
+      <point x="292" y="2798"/>
+      <point x="144" y="2658"/>
+      <point x="144" y="2486" type="curve" smooth="yes"/>
+      <point x="144" y="2315"/>
+      <point x="292" y="2175"/>
+    </contour>
+    <contour>
+      <point x="474" y="2334" type="curve" smooth="yes"/>
+      <point x="387" y="2334"/>
+      <point x="317" y="2402"/>
+      <point x="317" y="2486" type="curve" smooth="yes"/>
+      <point x="317" y="2571"/>
+      <point x="387" y="2638"/>
+      <point x="474" y="2638" type="curve" smooth="yes"/>
+      <point x="561" y="2639"/>
+      <point x="630" y="2571"/>
+      <point x="630" y="2486" type="curve" smooth="yes"/>
+      <point x="630" y="2402"/>
+      <point x="560" y="2335"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

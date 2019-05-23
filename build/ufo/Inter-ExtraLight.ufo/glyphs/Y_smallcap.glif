@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ysmallcap" format="2">
+  <advance width="1463"/>
+  <unicode hex="028F"/>
+  <outline>
+    <contour>
+      <point x="649" y="548" type="line"/>
+      <point x="691" y="512" type="line"/>
+      <point x="815" y="512" type="line"/>
+      <point x="1419" y="1488" type="line"/>
+      <point x="1207" y="1488" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="1488" type="line"/>
+      <point x="45" y="1488" type="line"/>
+      <point x="647" y="512" type="line"/>
+      <point x="771" y="512" type="line"/>
+      <point x="823" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="747" type="line"/>
+      <point x="639" y="747" type="line"/>
+      <point x="639" y="0" type="line"/>
+      <point x="815" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

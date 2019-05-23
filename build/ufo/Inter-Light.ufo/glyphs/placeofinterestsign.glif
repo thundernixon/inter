@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="placeofinterestsign" format="2">
+  <advance width="2815"/>
+  <unicode hex="2318"/>
+  <outline>
+    <contour>
+      <point x="761" y="-43" type="curve"/>
+      <point x="994" y="-43"/>
+      <point x="1183" y="146"/>
+      <point x="1184" y="378" type="curve"/>
+      <point x="1184" y="643" type="line"/>
+      <point x="1632" y="643" type="line"/>
+      <point x="1632" y="378" type="line"/>
+      <point x="1631" y="146"/>
+      <point x="1820" y="-43"/>
+      <point x="2053" y="-43" type="curve"/>
+      <point x="2286" y="-43"/>
+      <point x="2475" y="146"/>
+      <point x="2475" y="378" type="curve"/>
+      <point x="2475" y="611"/>
+      <point x="2286" y="800"/>
+      <point x="2053" y="801" type="curve"/>
+      <point x="1789" y="801" type="line"/>
+      <point x="1789" y="1249" type="line"/>
+      <point x="2053" y="1249" type="line"/>
+      <point x="2286" y="1248"/>
+      <point x="2475" y="1437"/>
+      <point x="2475" y="1670" type="curve" smooth="yes"/>
+      <point x="2475" y="1902"/>
+      <point x="2286" y="2091"/>
+      <point x="2053" y="2091" type="curve" smooth="yes"/>
+      <point x="1820" y="2091"/>
+      <point x="1631" y="1902"/>
+      <point x="1632" y="1670" type="curve"/>
+      <point x="1632" y="1406" type="line"/>
+      <point x="1184" y="1406" type="line"/>
+      <point x="1184" y="1670" type="line"/>
+      <point x="1183" y="1902"/>
+      <point x="994" y="2091"/>
+      <point x="761" y="2091" type="curve"/>
+      <point x="529" y="2091"/>
+      <point x="340" y="1902"/>
+      <point x="340" y="1670" type="curve"/>
+      <point x="340" y="1437"/>
+      <point x="529" y="1248"/>
+      <point x="761" y="1249" type="curve"/>
+      <point x="1027" y="1249" type="line"/>
+      <point x="1027" y="801" type="line"/>
+      <point x="761" y="801" type="line"/>
+      <point x="529" y="800"/>
+      <point x="340" y="611"/>
+      <point x="340" y="378" type="curve"/>
+      <point x="340" y="146"/>
+      <point x="529" y="-43"/>
+    </contour>
+    <contour>
+      <point x="761" y="114" type="curve"/>
+      <point x="616" y="114"/>
+      <point x="497" y="232"/>
+      <point x="497" y="378" type="curve"/>
+      <point x="497" y="524"/>
+      <point x="616" y="643"/>
+      <point x="761" y="643" type="curve"/>
+      <point x="1027" y="643" type="line"/>
+      <point x="1027" y="378" type="line"/>
+      <point x="1026" y="232"/>
+      <point x="908" y="114"/>
+    </contour>
+    <contour>
+      <point x="761" y="1406" type="line"/>
+      <point x="616" y="1405"/>
+      <point x="497" y="1524"/>
+      <point x="497" y="1670" type="curve"/>
+      <point x="497" y="1816"/>
+      <point x="616" y="1934"/>
+      <point x="761" y="1934" type="curve"/>
+      <point x="908" y="1934"/>
+      <point x="1026" y="1816"/>
+      <point x="1027" y="1670" type="curve"/>
+      <point x="1027" y="1406" type="line"/>
+    </contour>
+    <contour>
+      <point x="1789" y="1406" type="line"/>
+      <point x="1789" y="1670" type="line"/>
+      <point x="1789" y="1816"/>
+      <point x="1907" y="1934"/>
+      <point x="2053" y="1934" type="curve" smooth="yes"/>
+      <point x="2199" y="1934"/>
+      <point x="2317" y="1816"/>
+      <point x="2317" y="1670" type="curve" smooth="yes"/>
+      <point x="2317" y="1524"/>
+      <point x="2199" y="1405"/>
+      <point x="2053" y="1406" type="curve"/>
+    </contour>
+    <contour>
+      <point x="2053" y="114" type="curve"/>
+      <point x="1907" y="114"/>
+      <point x="1789" y="232"/>
+      <point x="1789" y="378" type="curve"/>
+      <point x="1789" y="643" type="line"/>
+      <point x="2053" y="643" type="line"/>
+      <point x="2199" y="643"/>
+      <point x="2317" y="524"/>
+      <point x="2317" y="378" type="curve"/>
+      <point x="2317" y="232"/>
+      <point x="2199" y="114"/>
+    </contour>
+    <contour>
+      <point x="1184" y="801" type="line"/>
+      <point x="1184" y="1249" type="line"/>
+      <point x="1632" y="1249" type="line"/>
+      <point x="1632" y="801" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

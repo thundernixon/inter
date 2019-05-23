@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance width="1738"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="155" y="0" type="line"/>
+      <point x="1583" y="0" type="line"/>
+      <point x="1583" y="402" type="line"/>
+      <point x="650" y="402" type="line"/>
+      <point x="650" y="823" type="line"/>
+      <point x="1510" y="823" type="line"/>
+      <point x="1510" y="1226" type="line"/>
+      <point x="650" y="1226" type="line"/>
+      <point x="650" y="1646" type="line"/>
+      <point x="1583" y="1646" type="line"/>
+      <point x="1583" y="2048" type="line"/>
+      <point x="155" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

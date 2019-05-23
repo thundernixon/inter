@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright.sups" format="2">
+  <advance width="677"/>
+  <outline>
+    <contour>
+      <point x="44" y="740" type="line"/>
+      <point x="457" y="740" type="line"/>
+      <point x="738" y="2436" type="line"/>
+      <point x="325" y="2436" type="line"/>
+      <point x="300" y="2284" type="line"/>
+      <point x="543" y="2284" type="line"/>
+      <point x="311" y="892" type="line"/>
+      <point x="69" y="892" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>parenleft.sups</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

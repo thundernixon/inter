@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonacutehooksymbolgreek" format="2">
+  <advance width="2016"/>
+  <unicode hex="03D3"/>
+  <outline>
+    <component base="Upsilonhooksymbol" xOffset="192"/>
+    <component base="tonos" xOffset="-239" yOffset="-48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

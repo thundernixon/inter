@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tonesix" format="2">
+  <advance width="2209"/>
+  <unicode hex="0184"/>
+  <outline>
+    <contour>
+      <point x="890" y="2048" type="line"/>
+      <point x="35" y="2048" type="line"/>
+      <point x="35" y="1691" type="line"/>
+      <point x="890" y="1691" type="line"/>
+    </contour>
+    <contour>
+      <point x="807" y="1291" type="line"/>
+      <point x="807" y="949" type="line"/>
+      <point x="1295" y="949" type="line"/>
+      <point x="1527" y="949"/>
+      <point x="1654" y="821"/>
+      <point x="1654" y="658" type="curve"/>
+      <point x="1654" y="490"/>
+      <point x="1527" y="348"/>
+      <point x="1295" y="348" type="curve"/>
+      <point x="962" y="348" type="line"/>
+      <point x="962" y="2048" type="line"/>
+      <point x="530" y="2048" type="line"/>
+      <point x="530" y="0" type="line"/>
+      <point x="1295" y="0" type="line"/>
+      <point x="1781" y="0"/>
+      <point x="2083" y="267"/>
+      <point x="2083" y="654" type="curve"/>
+      <point x="2083" y="1042"/>
+      <point x="1781" y="1291"/>
+      <point x="1295" y="1291" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

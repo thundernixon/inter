@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbrevebelow" format="2">
+  <advance width="2080"/>
+  <unicode hex="1E2A"/>
+  <outline>
+    <component base="H"/>
+    <component base="brevesubnosp" xOffset="1815" yOffset="-1"/>
+  </outline>
+</glyph>

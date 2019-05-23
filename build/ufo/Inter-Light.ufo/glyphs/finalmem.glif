@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalmem" format="2">
+  <advance width="1558"/>
+  <unicode hex="02AD"/>
+  <outline>
+    <contour>
+      <point x="1177" y="800" type="line"/>
+      <point x="377" y="800" type="line"/>
+      <point x="377" y="655" type="line"/>
+      <point x="1177" y="655" type="line"/>
+    </contour>
+    <contour>
+      <point x="407" y="800" type="line"/>
+      <point x="232" y="800" type="line"/>
+      <point x="232" y="0" type="line"/>
+      <point x="407" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1333" y="800" type="line"/>
+      <point x="1157" y="800" type="line"/>
+      <point x="1157" y="0" type="line"/>
+      <point x="1333" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1177" y="2000" type="line"/>
+      <point x="377" y="2000" type="line"/>
+      <point x="377" y="1856" type="line"/>
+      <point x="1177" y="1856" type="line"/>
+    </contour>
+    <contour>
+      <point x="407" y="2000" type="line"/>
+      <point x="232" y="2000" type="line"/>
+      <point x="232" y="1205" type="line"/>
+      <point x="407" y="1205" type="line"/>
+    </contour>
+    <contour>
+      <point x="1333" y="2000" type="line"/>
+      <point x="1157" y="2000" type="line"/>
+      <point x="1157" y="1205" type="line"/>
+      <point x="1333" y="1205" type="line"/>
+    </contour>
+  </outline>
+</glyph>

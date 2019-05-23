@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubar" format="2">
+  <advance width="1679"/>
+  <unicode hex="0289"/>
+  <outline>
+    <contour>
+      <point x="1680" y="972" type="line"/>
+      <point x="0" y="972" type="line"/>
+      <point x="0" y="808" type="line"/>
+      <point x="1680" y="808" type="line"/>
+    </contour>
+    <component base="u" xOffset="41"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zcurl" format="2">
+  <advance width="1663"/>
+  <unicode hex="0291"/>
+  <outline>
+    <contour>
+      <point x="877" y="0" type="line"/>
+      <point x="996" y="0" type="line"/>
+      <point x="1456" y="0"/>
+      <point x="1601" y="286"/>
+      <point x="1601" y="459" type="curve" smooth="yes"/>
+      <point x="1601" y="634"/>
+      <point x="1448" y="766"/>
+      <point x="1261" y="765" type="curve" smooth="yes"/>
+      <point x="987" y="766"/>
+      <point x="821" y="478"/>
+      <point x="499" y="31" type="curve" smooth="yes"/>
+      <point x="388" y="-124" type="line"/>
+      <point x="544" y="-236" type="line"/>
+      <point x="731" y="29" type="line" smooth="yes"/>
+      <point x="960" y="358"/>
+      <point x="1075" y="571"/>
+      <point x="1253" y="572" type="curve" smooth="yes"/>
+      <point x="1329" y="571"/>
+      <point x="1405" y="532"/>
+      <point x="1405" y="439" type="curve" smooth="yes"/>
+      <point x="1405" y="318"/>
+      <point x="1265" y="181"/>
+      <point x="993" y="181" type="curve"/>
+      <point x="877" y="181" type="line"/>
+    </contour>
+    <contour>
+      <point x="968" y="181" type="line"/>
+      <point x="449" y="181" type="line"/>
+      <point x="1352" y="1368" type="line"/>
+      <point x="1352" y="1536" type="line"/>
+      <point x="187" y="1536" type="line"/>
+      <point x="187" y="1356" type="line"/>
+      <point x="1123" y="1356" type="line"/>
+      <point x="215" y="184" type="line"/>
+      <point x="215" y="0" type="line"/>
+      <point x="968" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>z</string>
+    </dict>
+  </lib>
+</glyph>

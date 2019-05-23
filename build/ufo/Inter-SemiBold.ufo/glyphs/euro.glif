@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="euro" format="2">
+  <advance width="1912"/>
+  <unicode hex="20AC"/>
+  <guideline x="1364" y="1163" angle="90.0"/>
+  <guideline x="1400" y="630" angle="39.80560000000003"/>
+  <outline>
+    <contour>
+      <point x="1502" y="1337" type="line"/>
+      <point x="157" y="1337" type="line"/>
+      <point x="78" y="1124" type="line"/>
+      <point x="1405" y="1124" type="line"/>
+    </contour>
+    <contour>
+      <point x="1317" y="924" type="line"/>
+      <point x="157" y="924" type="line"/>
+      <point x="78" y="708" type="line"/>
+      <point x="1214" y="708" type="line"/>
+    </contour>
+    <contour>
+      <point x="1754" y="1882" type="line"/>
+      <point x="1606" y="2006"/>
+      <point x="1422" y="2076"/>
+      <point x="1208" y="2076" type="curve" smooth="yes"/>
+      <point x="695" y="2076"/>
+      <point x="333" y="1680"/>
+      <point x="333" y="1022" type="curve" smooth="yes"/>
+      <point x="333" y="365"/>
+      <point x="695" y="-28"/>
+      <point x="1208" y="-28" type="curve" smooth="yes"/>
+      <point x="1414" y="-28"/>
+      <point x="1605" y="35"/>
+      <point x="1748" y="159" type="curve"/>
+      <point x="1606" y="457" type="line"/>
+      <point x="1519" y="387"/>
+      <point x="1384" y="306"/>
+      <point x="1208" y="306" type="curve" smooth="yes"/>
+      <point x="910" y="306"/>
+      <point x="702" y="534"/>
+      <point x="702" y="1022" type="curve" smooth="yes"/>
+      <point x="702" y="1510"/>
+      <point x="910" y="1742"/>
+      <point x="1208" y="1742" type="curve" smooth="yes"/>
+      <point x="1383" y="1742"/>
+      <point x="1518" y="1660"/>
+      <point x="1614" y="1584" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=C+32</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

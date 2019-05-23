@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstop" format="2">
+  <advance width="1618"/>
+  <unicode hex="0294"/>
+  <outline>
+    <contour>
+      <point x="614" y="775" type="line"/>
+      <point x="614" y="442" type="line"/>
+      <point x="782" y="442" type="line" smooth="yes"/>
+      <point x="1248" y="442"/>
+      <point x="1484" y="770"/>
+      <point x="1483" y="1194" type="curve" smooth="yes"/>
+      <point x="1483" y="1390" type="line" smooth="yes"/>
+      <point x="1484" y="1813"/>
+      <point x="1248" y="2140"/>
+      <point x="772" y="2140" type="curve" smooth="yes"/>
+      <point x="418" y="2140"/>
+      <point x="140" y="1918"/>
+      <point x="135" y="1594" type="curve"/>
+      <point x="530" y="1594" type="line"/>
+      <point x="534" y="1723"/>
+      <point x="635" y="1805"/>
+      <point x="782" y="1805" type="curve" smooth="yes"/>
+      <point x="1025" y="1805"/>
+      <point x="1063" y="1602"/>
+      <point x="1062" y="1390" type="curve" smooth="yes"/>
+      <point x="1062" y="1194" type="line" smooth="yes"/>
+      <point x="1063" y="958"/>
+      <point x="1006" y="775"/>
+      <point x="782" y="775" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1018" y="775" type="line"/>
+      <point x="595" y="775" type="line"/>
+      <point x="595" y="0" type="line"/>
+      <point x="1018" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.23</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

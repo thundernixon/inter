@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii57596" format="2">
+  <advance width="6"/>
+  <unicode hex="200E"/>
+  <outline>
+    <contour>
+      <point x="-1201" y="1595" type="line"/>
+      <point x="-466" y="1595" type="line"/>
+      <point x="-466" y="1797" type="line"/>
+      <point x="-1201" y="1797" type="line"/>
+    </contour>
+    <contour>
+      <point x="-621" y="1374" type="line"/>
+      <point x="-294" y="1696" type="line"/>
+      <point x="-455" y="1777" type="line"/>
+      <point x="-889" y="1374" type="line"/>
+    </contour>
+    <contour>
+      <point x="-877" y="2037" type="line"/>
+      <point x="-461" y="1621" type="line"/>
+      <point x="-294" y="1696" type="line"/>
+      <point x="-612" y="2037" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1201" y="-276" type="line"/>
+      <point x="-991" y="-276" type="line"/>
+      <point x="-991" y="1764" type="line"/>
+      <point x="-1201" y="1764" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

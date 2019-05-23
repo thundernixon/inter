@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecmb" format="2">
+  <unicode hex="030F"/>
+  <outline>
+    <contour>
+      <point x="-892.0" y="1760.0" type="line"/>
+      <point x="-828.0" y="1760.0" type="line"/>
+      <point x="-1126.0" y="2192.0" type="line"/>
+      <point x="-1208.0" y="2192.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-672.0" y="1760.0" type="line"/>
+      <point x="-608.0" y="1760.0" type="line"/>
+      <point x="-848.0" y="2192.0" type="line"/>
+      <point x="-926.0" y="2192.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

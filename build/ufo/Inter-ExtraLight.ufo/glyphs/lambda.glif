@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambda" format="2">
+  <advance width="1607"/>
+  <unicode hex="03BB"/>
+  <outline>
+    <contour>
+      <point x="1419" y="-18" type="curve" smooth="yes"/>
+      <point x="1434" y="-19"/>
+      <point x="1450" y="-19"/>
+      <point x="1493" y="-11" type="curve"/>
+      <point x="1431" y="128" type="line"/>
+      <point x="1427" y="128"/>
+      <point x="1383" y="123"/>
+      <point x="1367" y="124" type="curve" smooth="yes"/>
+      <point x="1285" y="123"/>
+      <point x="1267" y="194"/>
+      <point x="1263" y="208" type="curve" smooth="yes"/>
+      <point x="695" y="1759" type="line" smooth="yes"/>
+      <point x="603" y="2008"/>
+      <point x="475" y="2089"/>
+      <point x="299" y="2091" type="curve" smooth="yes"/>
+      <point x="225" y="2089"/>
+      <point x="161" y="2073"/>
+      <point x="164" y="2071" type="curve"/>
+      <point x="200" y="1943" type="line"/>
+      <point x="385" y="1981"/>
+      <point x="499" y="1963"/>
+      <point x="596" y="1719" type="curve" smooth="yes"/>
+      <point x="671" y="1519" type="line"/>
+      <point x="679" y="1519" type="line"/>
+      <point x="1119" y="259" type="line"/>
+      <point x="1189" y="43"/>
+      <point x="1312" y="-18"/>
+    </contour>
+    <contour>
+      <point x="115" y="0" type="line"/>
+      <point x="248" y="0" type="line"/>
+      <point x="720" y="1359" type="line"/>
+      <point x="691" y="1359" type="line"/>
+      <point x="707" y="1639" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.1.1</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni048F" format="2">
+  <advance width="1718"/>
+  <unicode hex="048F"/>
+  <outline>
+    <contour>
+      <point x="1023" y="575" type="line"/>
+      <point x="846" y="434" type="line"/>
+      <point x="1245" y="-127" type="line"/>
+      <point x="1423" y="14" type="line"/>
+    </contour>
+    <component base="p" xOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="deleteright" format="2">
+  <advance width="3424"/>
+  <unicode hex="2326"/>
+  <outline>
+    <contour>
+      <point x="128" y="0" type="line"/>
+      <point x="2040" y="0" type="line"/>
+      <point x="3228" y="1024" type="line"/>
+      <point x="2380" y="2048" type="line"/>
+      <point x="468" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="1082" y="456" type="line"/>
+      <point x="2130" y="1332" type="line"/>
+      <point x="1921" y="1592" type="line"/>
+      <point x="874" y="716" type="line"/>
+    </contour>
+    <contour>
+      <point x="1733" y="456" type="line"/>
+      <point x="2028" y="716" type="line"/>
+      <point x="1271" y="1592" type="line"/>
+      <point x="976" y="1332" type="line"/>
+    </contour>
+    <contour>
+      <point x="566" y="364" type="line"/>
+      <point x="784" y="1684" type="line"/>
+      <point x="2160" y="1684" type="line"/>
+      <point x="2708" y="1024" type="line"/>
+      <point x="1942" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>deleteleft</string>
+    </dict>
+  </lib>
+</glyph>

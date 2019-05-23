@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DCF" format="2">
+  <unicode hex="1DCF"/>
+  <outline>
+    <contour>
+      <point x="-999" y="-156" type="line"/>
+      <point x="-1218" y="-156" type="line"/>
+      <point x="-1399" y="-540" type="line"/>
+      <point x="-1180" y="-540" type="line"/>
+    </contour>
+    <contour>
+      <point x="-732" y="-380" type="line"/>
+      <point x="-955" y="-380" type="line"/>
+      <point x="-1132" y="-764" type="line"/>
+      <point x="-912" y="-764" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1249" y="-540" type="line"/>
+      <point x="-893" y="-540" type="line"/>
+      <point x="-869" y="-380" type="line"/>
+      <point x="-1225" y="-380" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

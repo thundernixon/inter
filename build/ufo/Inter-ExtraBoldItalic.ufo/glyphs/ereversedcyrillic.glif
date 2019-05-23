@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ereversedcyrillic" format="2">
+  <advance width="1570"/>
+  <unicode hex="044D"/>
+  <outline>
+    <contour>
+      <point x="814" y="1179" type="curve" smooth="yes"/>
+      <point x="1034" y="1178"/>
+      <point x="1048" y="986"/>
+      <point x="1014" y="782" type="curve" smooth="yes"/>
+      <point x="1010" y="752" type="line" smooth="yes"/>
+      <point x="979" y="572"/>
+      <point x="904" y="360"/>
+      <point x="677" y="358" type="curve" smooth="yes"/>
+      <point x="533" y="360"/>
+      <point x="482" y="464"/>
+      <point x="503" y="594" type="curve"/>
+      <point x="70" y="594" type="line"/>
+      <point x="4" y="196"/>
+      <point x="230" y="-28"/>
+      <point x="612" y="-28" type="curve" smooth="yes"/>
+      <point x="1095" y="-28"/>
+      <point x="1398" y="304"/>
+      <point x="1473" y="752" type="curve" smooth="yes"/>
+      <point x="1478" y="782" type="line" smooth="yes"/>
+      <point x="1551" y="1227"/>
+      <point x="1355" y="1562"/>
+      <point x="876" y="1562" type="curve" smooth="yes"/>
+      <point x="504" y="1562"/>
+      <point x="193" y="1335"/>
+      <point x="132" y="980" type="curve"/>
+      <point x="566" y="980" type="line"/>
+      <point x="588" y="1105"/>
+      <point x="673" y="1178"/>
+    </contour>
+    <contour>
+      <point x="1165" y="897" type="line"/>
+      <point x="666" y="897" type="line"/>
+      <point x="620" y="635" type="line"/>
+      <point x="1119" y="635" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
+</glyph>

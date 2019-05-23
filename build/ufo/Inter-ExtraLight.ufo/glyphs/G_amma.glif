@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma" format="2">
+  <advance width="1609"/>
+  <unicode hex="0393"/>
+  <outline>
+    <contour>
+      <point x="1449" y="2048" type="line"/>
+      <point x="296" y="2048" type="line"/>
+      <point x="296" y="0" type="line"/>
+      <point x="419" y="0" type="line"/>
+      <point x="419" y="1919" type="line"/>
+      <point x="1449" y="1919" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+    </dict>
+  </lib>
+</glyph>

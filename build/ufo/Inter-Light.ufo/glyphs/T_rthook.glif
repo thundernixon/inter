@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Trthook" format="2">
+  <advance width="1783"/>
+  <unicode hex="01AE"/>
+  <outline>
+    <contour>
+      <point x="985" y="0" type="line"/>
+      <point x="797" y="0" type="line"/>
+      <point x="797" y="-193" type="line" smooth="yes"/>
+      <point x="798" y="-413"/>
+      <point x="980" y="-576"/>
+      <point x="1191" y="-576" type="curve"/>
+      <point x="1305" y="-576" type="line"/>
+      <point x="1305" y="-395" type="line"/>
+      <point x="1233" y="-395" type="line"/>
+      <point x="1099" y="-394"/>
+      <point x="986" y="-361"/>
+      <point x="985" y="-188" type="curve" smooth="yes"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

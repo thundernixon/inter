@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guarani" format="2">
+  <advance width="2084"/>
+  <unicode hex="20B2"/>
+  <outline>
+    <contour>
+      <point x="1360" y="2304" type="line"/>
+      <point x="1263" y="2304" type="line"/>
+      <point x="839" y="-256" type="line"/>
+      <point x="936" y="-256" type="line"/>
+    </contour>
+    <component base="G"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>G</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>G</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

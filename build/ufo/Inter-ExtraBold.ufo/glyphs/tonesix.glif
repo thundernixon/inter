@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonesix" format="2">
+  <advance width="1917"/>
+  <unicode hex="0185"/>
+  <outline>
+    <contour>
+      <point x="386" y="2112" type="line"/>
+      <point x="110" y="1890" type="line"/>
+      <point x="110" y="1656" type="line"/>
+      <point x="386" y="1440" type="line"/>
+      <point x="459" y="1440" type="line"/>
+      <point x="459" y="2112" type="line"/>
+    </contour>
+    <contour>
+      <point x="667" y="1382" type="line"/>
+      <point x="667" y="146" type="line"/>
+      <point x="879" y="146" type="line"/>
+      <point x="930" y="30"/>
+      <point x="1058" y="-22"/>
+      <point x="1231" y="-22" type="curve" smooth="yes"/>
+      <point x="1562" y="-22"/>
+      <point x="1843" y="241"/>
+      <point x="1845" y="767" type="curve" smooth="yes"/>
+      <point x="1843" y="1309"/>
+      <point x="1546" y="1556"/>
+      <point x="1230" y="1556" type="curve" smooth="yes"/>
+      <point x="1082" y="1556"/>
+      <point x="933" y="1506"/>
+      <point x="879" y="1382" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1385" y="768" type="curve" smooth="yes"/>
+      <point x="1383" y="510"/>
+      <point x="1282" y="359"/>
+      <point x="1084" y="359" type="curve" smooth="yes"/>
+      <point x="862" y="359"/>
+      <point x="806" y="551"/>
+      <point x="807" y="768" type="curve" smooth="yes"/>
+      <point x="806" y="987"/>
+      <point x="865" y="1174"/>
+      <point x="1084" y="1174" type="curve" smooth="yes"/>
+      <point x="1283" y="1174"/>
+      <point x="1383" y="1025"/>
+    </contour>
+    <contour>
+      <point x="374" y="2048" type="line"/>
+      <point x="374" y="0" type="line"/>
+      <point x="858" y="0" type="line"/>
+      <point x="858" y="307" type="line"/>
+      <point x="683" y="739" type="line"/>
+      <point x="862" y="1284" type="line"/>
+      <point x="862" y="2048" type="line"/>
+    </contour>
+  </outline>
+</glyph>

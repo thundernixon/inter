@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisacutecomb.cn" format="2">
+  <outline>
+    <contour>
+      <point x="-680" y="2688" type="line"/>
+      <point x="-406" y="2688" type="line"/>
+      <point x="-52" y="3025" type="line"/>
+      <point x="-398" y="3025" type="line"/>
+    </contour>
+    <component base="casedieresis.cn" xScale="0.973832" yScale="0.961104" xOffset="-1297" yOffset="38"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

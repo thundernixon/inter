@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft_quill" format="2">
+  <advance width="1108"/>
+  <unicode hex="2045"/>
+  <outline>
+    <contour>
+      <point x="1033" y="970" type="line"/>
+      <point x="531" y="970" type="line"/>
+      <point x="531" y="701" type="line"/>
+      <point x="1033" y="701" type="line"/>
+    </contour>
+    <component base="bracketleft"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>bracketleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>bracketleft</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

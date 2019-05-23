@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="capslock" format="2">
+  <advance width="3187"/>
+  <unicode hex="21EA"/>
+  <note>
+Based on upWhiteArrow
+</note>
+  <outline>
+    <contour>
+      <point x="816" y="324" type="line"/>
+      <point x="2224" y="324" type="line"/>
+      <point x="2306" y="819" type="line"/>
+      <point x="2991" y="819" type="line"/>
+      <point x="1832" y="2208" type="line"/>
+      <point x="213" y="819" type="line"/>
+      <point x="898" y="819" type="line"/>
+    </contour>
+    <contour>
+      <point x="668" y="-572" type="line"/>
+      <point x="2076" y="-572" type="line"/>
+      <point x="2193" y="137" type="line"/>
+      <point x="785" y="137" type="line"/>
+    </contour>
+    <contour>
+      <point x="1083" y="-312" type="line"/>
+      <point x="1115" y="-123" type="line"/>
+      <point x="1778" y="-123" type="line"/>
+      <point x="1746" y="-312" type="line"/>
+    </contour>
+    <contour>
+      <point x="1234" y="600" type="line"/>
+      <point x="1317" y="1095" type="line"/>
+      <point x="994" y="1095" type="line"/>
+      <point x="1756" y="1750" type="line"/>
+      <point x="2302" y="1095" type="line"/>
+      <point x="1979" y="1095" type="line"/>
+      <point x="1897" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>upBlackArrow</string>
+    </dict>
+  </lib>
+</glyph>

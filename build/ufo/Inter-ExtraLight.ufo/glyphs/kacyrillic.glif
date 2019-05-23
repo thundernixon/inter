@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kacyrillic" format="2">
+  <advance width="1395"/>
+  <unicode hex="043A"/>
+  <outline>
+    <contour>
+      <point x="253" y="0" type="line"/>
+      <point x="375" y="0" type="line"/>
+      <point x="375" y="707" type="line"/>
+      <point x="608" y="707" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="1317" y="0" type="line"/>
+      <point x="687" y="799" type="line"/>
+      <point x="1299" y="1536" type="line"/>
+      <point x="1141" y="1536" type="line"/>
+      <point x="552" y="823" type="line"/>
+      <point x="375" y="823" type="line"/>
+      <point x="375" y="1536" type="line"/>
+      <point x="253" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>k</string>
+    </dict>
+  </lib>
+</glyph>

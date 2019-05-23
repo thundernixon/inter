@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="paragraphreversed" format="2">
+  <advance width="1648"/>
+  <unicode hex="204B"/>
+  <outline>
+    <contour>
+      <point x="686" y="760" type="line"/>
+      <point x="802" y="760" type="line" smooth="yes"/>
+      <point x="1238" y="760"/>
+      <point x="1524" y="1032"/>
+      <point x="1586" y="1404" type="curve" smooth="yes"/>
+      <point x="1646" y="1772"/>
+      <point x="1452" y="2048"/>
+      <point x="1016" y="2048" type="curve" smooth="yes"/>
+      <point x="484" y="2048" type="line"/>
+      <point x="457" y="1880" type="line"/>
+      <point x="873" y="1880" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="0" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="671" y="2048" type="line"/>
+      <point x="484" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>P</string>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="encyrillic" format="2">
+  <advance width="1641"/>
+  <unicode hex="043D"/>
+  <outline>
+    <contour>
+      <point x="1308" y="825" type="line"/>
+      <point x="349" y="825" type="line"/>
+      <point x="331" y="709" type="line"/>
+      <point x="1289" y="709" type="line"/>
+    </contour>
+    <contour>
+      <point x="501" y="1536" type="line"/>
+      <point x="380" y="1536" type="line"/>
+      <point x="125" y="0" type="line"/>
+      <point x="247" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1509" y="1536" type="line"/>
+      <point x="1388" y="1536" type="line"/>
+      <point x="1133" y="0" type="line"/>
+      <point x="1255" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04F7" format="2">
+  <advance width="1284"/>
+  <unicode hex="04F7"/>
+  <outline>
+    <component base="gecyrillic"/>
+    <component base="cyrillictic.cn" xOffset="279" yOffset="-13"/>
+  </outline>
+</glyph>

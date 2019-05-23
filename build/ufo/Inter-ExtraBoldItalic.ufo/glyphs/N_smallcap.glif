@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Nsmallcap" format="2">
+  <advance width="1789"/>
+  <unicode hex="0274"/>
+  <outline>
+    <contour>
+      <point x="1765" y="1536" type="line"/>
+      <point x="1283" y="1536" type="line"/>
+      <point x="1152" y="753" type="line"/>
+      <point x="1135" y="753" type="line"/>
+      <point x="679" y="1536" type="line"/>
+      <point x="286" y="1536" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="503" y="0" type="line"/>
+      <point x="624" y="726" type="line"/>
+      <point x="638" y="726" type="line"/>
+      <point x="1056" y="0" type="line"/>
+      <point x="1509" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+    </dict>
+  </lib>
+</glyph>

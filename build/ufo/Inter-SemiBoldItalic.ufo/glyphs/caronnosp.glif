@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caronnosp" format="2">
+  <advance width="14"/>
+  <outline>
+    <contour>
+      <point x="-844" y="2096" type="line"/>
+      <point x="-1161" y="2096" type="line"/>
+      <point x="-1166" y="2073" type="line"/>
+      <point x="-838" y="1724" type="line"/>
+      <point x="-592" y="1724" type="line"/>
+      <point x="-151" y="2072" type="line"/>
+      <point x="-147" y="2096" type="line"/>
+      <point x="-463" y="2096" type="line"/>
+      <point x="-686" y="1902" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

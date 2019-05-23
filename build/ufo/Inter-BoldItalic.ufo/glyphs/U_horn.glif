@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="2450"/>
+  <unicode hex="01AF"/>
+  <outline>
+    <contour>
+      <point x="2300" y="2122" type="line"/>
+      <point x="2256" y="1858"/>
+      <point x="2202" y="1698"/>
+      <point x="1895" y="1698" type="curve"/>
+      <point x="1856" y="1474" type="line"/>
+      <point x="2326" y="1474"/>
+      <point x="2506" y="1713"/>
+      <point x="2575" y="2122" type="curve"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

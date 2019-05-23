@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primerev" format="2">
+  <advance width="786"/>
+  <unicode hex="2035"/>
+  <outline>
+    <contour>
+      <point x="622" y="1254" type="line"/>
+      <point x="550" y="2048" type="line"/>
+      <point x="164" y="2048" type="line"/>
+      <point x="332" y="1254" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>prime</string>
+    </dict>
+  </lib>
+</glyph>

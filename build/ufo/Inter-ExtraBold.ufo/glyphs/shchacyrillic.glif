@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shchacyrillic" format="2">
+  <advance width="2744"/>
+  <unicode hex="0449"/>
+  <outline>
+    <contour>
+      <point x="2674" y="374" type="line"/>
+      <point x="2042" y="374" type="line"/>
+      <point x="2042" y="0" type="line"/>
+      <point x="2203" y="0" type="line"/>
+      <point x="2203" y="-440" type="line"/>
+      <point x="2642" y="-440" type="line"/>
+    </contour>
+    <component base="shacyrillic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>shacyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

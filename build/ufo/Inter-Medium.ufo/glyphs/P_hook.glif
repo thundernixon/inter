@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phook" format="2">
+  <advance width="2278"/>
+  <unicode hex="01A4"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <outline>
+    <contour>
+      <point x="407" y="1442" type="line"/>
+      <point x="407" y="1533" type="line" smooth="yes"/>
+      <point x="407" y="1659"/>
+      <point x="432" y="1783"/>
+      <point x="594" y="1783" type="curve" smooth="yes"/>
+      <point x="824" y="1783" type="line"/>
+      <point x="824" y="2048" type="line"/>
+      <point x="591" y="2048" type="line" smooth="yes"/>
+      <point x="294" y="2048"/>
+      <point x="124" y="1857"/>
+      <point x="124" y="1600" type="curve" smooth="yes"/>
+      <point x="124" y="1442" type="line"/>
+    </contour>
+    <component base="P" xOffset="478"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>P</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

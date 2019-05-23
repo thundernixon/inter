@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kabashkircyrillic" format="2">
+  <advance width="1887"/>
+  <unicode hex="04A1"/>
+  <outline>
+    <contour>
+      <point x="948" y="1536" type="line"/>
+      <point x="283" y="1536" type="line"/>
+      <point x="260" y="1396" type="line"/>
+      <point x="923" y="1396" type="line"/>
+    </contour>
+    <component base="kacyrillic" xOffset="467"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>k</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

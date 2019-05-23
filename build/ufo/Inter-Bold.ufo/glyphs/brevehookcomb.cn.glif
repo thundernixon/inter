@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevehookcomb.cn" format="2">
+  <advance width="1355"/>
+  <outline>
+    <contour>
+      <point x="902" y="2004" type="line"/>
+      <point x="903" y="1925"/>
+      <point x="839" y="1858"/>
+      <point x="678" y="1858" type="curve" smooth="yes"/>
+      <point x="519" y="1858"/>
+      <point x="455" y="1922"/>
+      <point x="454" y="2004" type="curve"/>
+      <point x="180" y="2004" type="line"/>
+      <point x="181" y="1810"/>
+      <point x="371" y="1680"/>
+      <point x="678" y="1680" type="curve" smooth="yes"/>
+      <point x="986" y="1680"/>
+      <point x="1179" y="1810"/>
+      <point x="1178" y="2004" type="curve"/>
+    </contour>
+    <contour>
+      <point x="802" y="2049" type="line"/>
+      <point x="802" y="2118" type="line"/>
+      <point x="908" y="2130"/>
+      <point x="1013" y="2172"/>
+      <point x="1012" y="2269" type="curve" smooth="yes"/>
+      <point x="1013" y="2402"/>
+      <point x="846" y="2479"/>
+      <point x="524" y="2479" type="curve"/>
+      <point x="512" y="2330" type="line"/>
+      <point x="626" y="2330"/>
+      <point x="711" y="2317"/>
+      <point x="710" y="2256" type="curve" smooth="yes"/>
+      <point x="711" y="2216"/>
+      <point x="652" y="2195"/>
+      <point x="517" y="2191" type="curve"/>
+      <point x="542" y="2049" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

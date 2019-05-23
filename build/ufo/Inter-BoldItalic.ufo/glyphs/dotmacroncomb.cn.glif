@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotmacroncomb.cn" format="2">
+  <outline>
+    <component base="dotaccent" yScale="0.876298" xOffset="-1228" yOffset="674"/>
+    <component base="macroncomb" yScale="0.856" xOffset="140" yOffset="1150"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

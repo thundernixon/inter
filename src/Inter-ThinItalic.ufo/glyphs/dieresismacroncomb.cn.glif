@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresismacroncomb.cn" format="2">
+  <guideline x="-518.0" y="2396.0" angle="260.6"/>
+  <outline>
+    <component base="dieresisnosp" xOffset="2.0" yOffset="512.0"/>
+    <component base="macroncomb" xOffset="144.0" yOffset="902.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="option" format="2">
+  <advance width="2869"/>
+  <unicode hex="2325"/>
+  <note>
+stroke:
+L: 32,32,50%
+R: 108,110,50%
+B: 208,200,50%
+</note>
+  <outline>
+    <contour>
+      <point x="1867" y="2048" type="line"/>
+      <point x="1840" y="1880" type="line"/>
+      <point x="2798" y="1880" type="line"/>
+      <point x="2825" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="441" y="1880" type="line"/>
+      <point x="1095" y="1880" type="line"/>
+      <point x="1729" y="0" type="line"/>
+      <point x="2485" y="0" type="line"/>
+      <point x="2515" y="168" type="line"/>
+      <point x="1860" y="168" type="line"/>
+      <point x="1224" y="2048" type="line"/>
+      <point x="468" y="2048" type="line"/>
+    </contour>
+  </outline>
+</glyph>

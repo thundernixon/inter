@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni048D" format="2">
+  <advance width="1733"/>
+  <unicode hex="048D"/>
+  <outline>
+    <contour>
+      <point x="1048" y="2004" type="line"/>
+      <point x="57" y="2004" type="line"/>
+      <point x="57" y="1760" type="line"/>
+      <point x="1048" y="1760" type="line"/>
+    </contour>
+    <contour>
+      <point x="540" y="1036" type="line"/>
+      <point x="540" y="739" type="line"/>
+      <point x="993" y="739" type="line"/>
+      <point x="1150" y="739"/>
+      <point x="1262" y="646"/>
+      <point x="1263" y="513" type="curve"/>
+      <point x="1262" y="386"/>
+      <point x="1150" y="297"/>
+      <point x="993" y="297" type="curve"/>
+      <point x="644" y="297" type="line"/>
+      <point x="644" y="2254" type="line"/>
+      <point x="294" y="2254" type="line"/>
+      <point x="294" y="0" type="line"/>
+      <point x="993" y="0" type="line"/>
+      <point x="1384" y="0"/>
+      <point x="1609" y="216"/>
+      <point x="1610" y="518" type="curve"/>
+      <point x="1609" y="828"/>
+      <point x="1384" y="1036"/>
+      <point x="993" y="1036" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

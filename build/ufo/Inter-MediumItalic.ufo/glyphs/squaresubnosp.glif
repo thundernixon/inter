@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squaresubnosp" format="2">
+  <advance width="12"/>
+  <unicode hex="033B"/>
+  <outline>
+    <contour>
+      <point x="-1361" y="-683" type="line"/>
+      <point x="-784" y="-683" type="line"/>
+      <point x="-689" y="-112" type="line"/>
+      <point x="-1266" y="-112" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1129" y="-278" type="line"/>
+      <point x="-890" y="-278" type="line"/>
+      <point x="-928" y="-514" type="line"/>
+      <point x="-1166" y="-514" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

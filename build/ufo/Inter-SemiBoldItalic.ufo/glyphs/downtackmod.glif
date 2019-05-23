@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downtackmod" format="2">
+  <advance width="1069"/>
+  <unicode hex="02D5"/>
+  <outline>
+    <contour>
+      <point x="318" y="218" type="line"/>
+      <point x="570" y="218" type="line"/>
+      <point x="663" y="778" type="line"/>
+      <point x="412" y="778" type="line"/>
+    </contour>
+    <contour>
+      <point x="178" y="546" type="line"/>
+      <point x="820" y="546" type="line"/>
+      <point x="858" y="778" type="line"/>
+      <point x="217" y="778" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblapostrophe" format="2">
+  <advance width="1230"/>
+  <unicode hex="02EE"/>
+  <outline>
+    <contour>
+      <point x="817" y="2144" type="line"/>
+      <point x="572" y="2144" type="line"/>
+      <point x="528" y="1891" type="line" smooth="yes"/>
+      <point x="505" y="1738"/>
+      <point x="436" y="1598"/>
+      <point x="321" y="1469" type="curve"/>
+      <point x="441" y="1361" type="line"/>
+      <point x="633" y="1501"/>
+      <point x="747" y="1725"/>
+      <point x="777" y="1896" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1260" y="2144" type="line"/>
+      <point x="1013" y="2144" type="line"/>
+      <point x="969" y="1891" type="line" smooth="yes"/>
+      <point x="948" y="1739"/>
+      <point x="874" y="1601"/>
+      <point x="759" y="1469" type="curve"/>
+      <point x="877" y="1361" type="line"/>
+      <point x="1070" y="1501"/>
+      <point x="1189" y="1726"/>
+      <point x="1220" y="1896" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

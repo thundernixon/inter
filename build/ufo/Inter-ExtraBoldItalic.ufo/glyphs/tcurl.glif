@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcurl" format="2">
+  <advance width="1534"/>
+  <unicode hex="0236"/>
+  <note>
+recipe: offset curve 32, no auto
+</note>
+  <outline>
+    <contour>
+      <point x="575" y="1904" type="line"/>
+      <point x="343" y="502" type="line" smooth="yes"/>
+      <point x="272" y="78"/>
+      <point x="563" y="-32"/>
+      <point x="823" y="-32" type="curve" smooth="yes"/>
+      <point x="1216" y="-32"/>
+      <point x="1371" y="214"/>
+      <point x="1401" y="402" type="curve" smooth="yes"/>
+      <point x="1440" y="627"/>
+      <point x="1297" y="795"/>
+      <point x="1037" y="795" type="curve" smooth="yes"/>
+      <point x="781" y="795"/>
+      <point x="377" y="630"/>
+      <point x="-31" y="269" type="curve"/>
+      <point x="126" y="7" type="line"/>
+      <point x="507" y="350"/>
+      <point x="801" y="474"/>
+      <point x="940" y="474" type="curve" smooth="yes"/>
+      <point x="1003" y="474"/>
+      <point x="1034" y="438"/>
+      <point x="1026" y="386" type="curve" smooth="yes"/>
+      <point x="1016" y="326"/>
+      <point x="970" y="287"/>
+      <point x="913" y="287" type="curve" smooth="yes"/>
+      <point x="847" y="287"/>
+      <point x="804" y="338"/>
+      <point x="817" y="404" type="curve" smooth="yes"/>
+      <point x="1064" y="1904" type="line"/>
+    </contour>
+    <contour>
+      <point x="1281" y="1536" type="line"/>
+      <point x="312" y="1536" type="line"/>
+      <point x="251" y="1176" type="line"/>
+      <point x="1220" y="1176" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+    </dict>
+  </lib>
+</glyph>

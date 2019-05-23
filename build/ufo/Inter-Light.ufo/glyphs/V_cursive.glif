@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Vcursive" format="2">
+  <advance width="1741"/>
+  <unicode hex="01B2"/>
+  <outline>
+    <contour>
+      <point x="869" y="-28" type="curve" smooth="yes"/>
+      <point x="1233" y="-28"/>
+      <point x="1581" y="186"/>
+      <point x="1581" y="635" type="curve" smooth="yes"/>
+      <point x="1581" y="1581" type="line" smooth="yes"/>
+      <point x="1581" y="1870"/>
+      <point x="1405" y="2033"/>
+      <point x="1165" y="2033" type="curve" smooth="yes"/>
+      <point x="1133" y="2033"/>
+      <point x="1057" y="2019"/>
+      <point x="1027" y="2009" type="curve"/>
+      <point x="1027" y="1831" type="line"/>
+      <point x="1044" y="1838"/>
+      <point x="1083" y="1838"/>
+      <point x="1104" y="1837" type="curve" smooth="yes"/>
+      <point x="1253" y="1838"/>
+      <point x="1344" y="1769"/>
+      <point x="1344" y="1581" type="curve" smooth="yes"/>
+      <point x="1344" y="635" type="line" smooth="yes"/>
+      <point x="1344" y="304"/>
+      <point x="1147" y="160"/>
+      <point x="869" y="160" type="curve" smooth="yes"/>
+      <point x="593" y="160"/>
+      <point x="397" y="304"/>
+      <point x="397" y="635" type="curve" smooth="yes"/>
+      <point x="397" y="2004" type="line"/>
+      <point x="164" y="2004" type="line"/>
+      <point x="164" y="635" type="line" smooth="yes"/>
+      <point x="164" y="187"/>
+      <point x="475" y="-28"/>
+    </contour>
+  </outline>
+</glyph>

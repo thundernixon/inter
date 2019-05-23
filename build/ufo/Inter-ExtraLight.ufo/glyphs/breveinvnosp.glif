@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinvnosp" format="2">
+  <unicode hex="0311"/>
+  <outline>
+    <contour>
+      <point x="-1109" y="1661" type="curve"/>
+      <point x="-940" y="1661" type="line"/>
+      <point x="-939" y="1773"/>
+      <point x="-889" y="1875"/>
+      <point x="-747" y="1875" type="curve" smooth="yes"/>
+      <point x="-613" y="1875"/>
+      <point x="-557" y="1779"/>
+      <point x="-560" y="1661" type="curve"/>
+      <point x="-391" y="1661" type="line"/>
+      <point x="-389" y="1859"/>
+      <point x="-521" y="2004"/>
+      <point x="-747" y="2004" type="curve" smooth="yes"/>
+      <point x="-969" y="2004"/>
+      <point x="-1108" y="1859"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

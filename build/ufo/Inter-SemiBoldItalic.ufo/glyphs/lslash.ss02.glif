@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash.ss02" format="2">
+  <advance width="774"/>
+  <outline>
+    <contour>
+      <point x="852" y="1315" type="line"/>
+      <point x="46" y="1058" type="line"/>
+      <point x="10" y="842" type="line"/>
+      <point x="816" y="1099" type="line"/>
+    </contour>
+    <component base="l.ss02" xOffset="19"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l.ss02</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

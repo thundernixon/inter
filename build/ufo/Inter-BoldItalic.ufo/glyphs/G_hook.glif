@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ghook" format="2">
+  <advance width="2351"/>
+  <unicode hex="0193"/>
+  <outline>
+    <contour>
+      <point x="2078" y="1386" type="line"/>
+      <point x="2131" y="1698" type="line" smooth="yes"/>
+      <point x="2159" y="1866"/>
+      <point x="2289" y="1899"/>
+      <point x="2430" y="1899" type="curve" smooth="yes"/>
+      <point x="2469" y="1899"/>
+      <point x="2507" y="1893"/>
+      <point x="2545" y="1889" type="curve"/>
+      <point x="2601" y="2228" type="line"/>
+      <point x="2536" y="2245"/>
+      <point x="2472" y="2252"/>
+      <point x="2404" y="2252" type="curve" smooth="yes"/>
+      <point x="2069" y="2252"/>
+      <point x="1756" y="2056"/>
+      <point x="1692" y="1698" type="curve" smooth="yes"/>
+      <point x="1637" y="1386" type="line"/>
+    </contour>
+    <component base="G"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>G</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

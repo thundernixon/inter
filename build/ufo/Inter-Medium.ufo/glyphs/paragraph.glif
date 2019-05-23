@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="paragraph" format="2">
+  <advance width="1698"/>
+  <unicode hex="00B6"/>
+  <note>
+aka PILCROW SIGN
+</note>
+  <outline>
+    <contour>
+      <point x="1410" y="1792" type="line"/>
+      <point x="1410" y="2048" type="line"/>
+      <point x="830" y="2048" type="line" smooth="yes"/>
+      <point x="389" y="2048"/>
+      <point x="147" y="1772"/>
+      <point x="147" y="1404" type="curve" smooth="yes"/>
+      <point x="147" y="1032"/>
+      <point x="389" y="760"/>
+      <point x="830" y="760" type="curve" smooth="yes"/>
+      <point x="946" y="760" type="line"/>
+      <point x="946" y="1792" type="line"/>
+    </contour>
+    <contour>
+      <point x="1194" y="0" type="line"/>
+      <point x="1473" y="0" type="line"/>
+      <point x="1473" y="2048" type="line"/>
+      <point x="1194" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

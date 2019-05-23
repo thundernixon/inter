@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="braceleft" format="2">
+  <advance width="1108"/>
+  <unicode hex="007B"/>
+  <guideline x="516" y="1603" angle="0.0"/>
+  <guideline x="518" y="-435" angle="0.0"/>
+  <outline>
+    <contour>
+      <point x="93" y="828" type="line"/>
+      <point x="636" y="828"/>
+      <point x="742" y="992"/>
+      <point x="742" y="1197" type="curve" smooth="yes"/>
+      <point x="742" y="1525" type="line" smooth="yes"/>
+      <point x="742" y="1732"/>
+      <point x="798" y="1828"/>
+      <point x="1033" y="1828" type="curve"/>
+      <point x="1033" y="2106" type="line"/>
+      <point x="633" y="2106"/>
+      <point x="398" y="2005"/>
+      <point x="398" y="1554" type="curve" smooth="yes"/>
+      <point x="398" y="1299" type="line" smooth="yes"/>
+      <point x="398" y="1089"/>
+      <point x="320" y="1003"/>
+      <point x="93" y="1003" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1033" y="-435" type="curve"/>
+      <point x="1033" y="-158" type="line"/>
+      <point x="798" y="-158"/>
+      <point x="742" y="-62"/>
+      <point x="742" y="146" type="curve" smooth="yes"/>
+      <point x="742" y="474" type="line" smooth="yes"/>
+      <point x="742" y="678"/>
+      <point x="636" y="842"/>
+      <point x="93" y="842" type="curve"/>
+      <point x="93" y="667" type="line"/>
+      <point x="320" y="667"/>
+      <point x="398" y="581"/>
+      <point x="398" y="371" type="curve" smooth="yes"/>
+      <point x="398" y="117" type="line" smooth="yes"/>
+      <point x="398" y="-334"/>
+      <point x="633" y="-435"/>
+    </contour>
+    <contour>
+      <point x="93" y="667" type="line"/>
+      <point x="410" y="667" type="line"/>
+      <point x="410" y="1003" type="line"/>
+      <point x="93" y="1003" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>parenleft</string>
+    </dict>
+  </lib>
+</glyph>

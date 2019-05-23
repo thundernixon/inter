@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2058" format="2">
+  <advance width="1798"/>
+  <unicode hex="2058"/>
+  <outline>
+    <component base="dotbelow" xOffset="1186" yOffset="1006"/>
+    <component base="dotbelow" xOffset="1730" yOffset="461"/>
+    <component base="dotbelow" xOffset="2278" yOffset="1006"/>
+    <component base="dotbelow" xOffset="1730" yOffset="1550"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

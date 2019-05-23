@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cheabkhasiancyrillic" format="2">
+  <advance width="2206"/>
+  <unicode hex="04BD"/>
+  <outline>
+    <contour>
+      <point x="59" y="1238" type="line"/>
+      <point x="60" y="855"/>
+      <point x="262" y="650"/>
+      <point x="652" y="650" type="curve"/>
+      <point x="652" y="934" type="line"/>
+      <point x="462" y="934"/>
+      <point x="398" y="1040"/>
+      <point x="397" y="1238" type="curve"/>
+    </contour>
+    <component base="e" xOffset="495"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

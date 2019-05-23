@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="srthook" format="2">
+  <advance width="1619"/>
+  <unicode hex="0282"/>
+  <outline>
+    <contour>
+      <point x="42" y="470" type="line"/>
+      <point x="-52" y="-95" type="line" smooth="yes"/>
+      <point x="-103" y="-405"/>
+      <point x="60" y="-590"/>
+      <point x="365" y="-590" type="curve" smooth="yes"/>
+      <point x="438" y="-590"/>
+      <point x="494" y="-586"/>
+      <point x="562" y="-570" type="curve"/>
+      <point x="614" y="-264" type="line"/>
+      <point x="570" y="-272"/>
+      <point x="534" y="-272"/>
+      <point x="492" y="-272" type="curve" smooth="yes"/>
+      <point x="361" y="-272"/>
+      <point x="289" y="-207"/>
+      <point x="312" y="-66" type="curve" smooth="yes"/>
+      <point x="402" y="470" type="line"/>
+    </contour>
+    <component base="s"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>s</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>s</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

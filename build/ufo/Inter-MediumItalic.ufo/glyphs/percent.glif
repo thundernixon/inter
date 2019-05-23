@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent" format="2">
+  <advance width="2332"/>
+  <unicode hex="0025"/>
+  <outline>
+    <contour>
+      <point x="1202" y="384" type="line" smooth="yes"/>
+      <point x="1165" y="153"/>
+      <point x="1278" y="-42"/>
+      <point x="1549" y="-42" type="curve" smooth="yes"/>
+      <point x="1816" y="-42"/>
+      <point x="1996" y="153"/>
+      <point x="2034" y="384" type="curve" smooth="yes"/>
+      <point x="2054" y="492" type="line" smooth="yes"/>
+      <point x="2092" y="724"/>
+      <point x="1981" y="918"/>
+      <point x="1710" y="918" type="curve" smooth="yes"/>
+      <point x="1443" y="918"/>
+      <point x="1260" y="723"/>
+      <point x="1222" y="492" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1455" y="492" type="line" smooth="yes"/>
+      <point x="1474" y="607"/>
+      <point x="1544" y="718"/>
+      <point x="1677" y="718" type="curve" smooth="yes"/>
+      <point x="1815" y="718"/>
+      <point x="1839" y="607"/>
+      <point x="1820" y="492" type="curve" smooth="yes"/>
+      <point x="1800" y="384" type="line" smooth="yes"/>
+      <point x="1782" y="269"/>
+      <point x="1716" y="158"/>
+      <point x="1582" y="158" type="curve" smooth="yes"/>
+      <point x="1445" y="158"/>
+      <point x="1417" y="270"/>
+      <point x="1435" y="384" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="368" y="1556" type="line" smooth="yes"/>
+      <point x="328" y="1325"/>
+      <point x="444" y="1130"/>
+      <point x="714" y="1130" type="curve" smooth="yes"/>
+      <point x="982" y="1130"/>
+      <point x="1159" y="1324"/>
+      <point x="1199" y="1556" type="curve" smooth="yes"/>
+      <point x="1215" y="1664" type="line" smooth="yes"/>
+      <point x="1253" y="1896"/>
+      <point x="1143" y="2090"/>
+      <point x="871" y="2090" type="curve" smooth="yes"/>
+      <point x="605" y="2090"/>
+      <point x="422" y="1896"/>
+      <point x="384" y="1664" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="618" y="1664" type="line" smooth="yes"/>
+      <point x="636" y="1778"/>
+      <point x="705" y="1890"/>
+      <point x="838" y="1890" type="curve" smooth="yes"/>
+      <point x="976" y="1890"/>
+      <point x="1000" y="1779"/>
+      <point x="982" y="1664" type="curve" smooth="yes"/>
+      <point x="966" y="1556" type="line" smooth="yes"/>
+      <point x="944" y="1441"/>
+      <point x="881" y="1330"/>
+      <point x="747" y="1330" type="curve" smooth="yes"/>
+      <point x="612" y="1330"/>
+      <point x="580" y="1441"/>
+      <point x="602" y="1556" type="curve" smooth="yes"/>
+    </contour>
+    <component base="fraction" xOffset="743"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,885 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+    <axis tag="slnt" name="Slant" minimum="0" maximum="10" default="0"/>
+  </axes>
+  <sources>
+    <source filename="Inter-Thin.ufo" name="thin" familyname="Inter" stylename="Thin">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Inter-ThinItalic.ufo" name="thinitalic" familyname="Inter" stylename="Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Inter-Regular.ufo" name="regular" familyname="Inter" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Inter-Italic.ufo" name="italic" familyname="Inter" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Inter-Black.ufo" name="black" familyname="Inter" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Inter-BlackItalic.ufo" name="blackitalic" familyname="Inter" stylename="Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="thin" familyname="Inter" stylename="Thin" filename="../build/ufo/Inter-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>B1F27B51-9973-4381-9301-4FE46FE1CA59</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="thinitalic" familyname="Inter" stylename="Thin Italic" filename="../build/ufo/Inter-ThinItalic.ufo" stylemapfamilyname="Inter Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="extralight" familyname="Inter" stylename="Extra Light" filename="../build/ufo/Inter-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>3</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>B1F27B51-9973-4381-9301-4FE46FE1CA59</key>
+            <real>0.66667</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="extralightitalic" familyname="Inter" stylename="Extra Light Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>3</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.33333</real>
+            <key>200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="light" familyname="Inter" stylename="Light" filename="../build/ufo/Inter-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>B1F27B51-9973-4381-9301-4FE46FE1CA59</key>
+            <real>0.33333</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="lightitalic" familyname="Inter" stylename="Light Italic" filename="../build/ufo/Inter-LightItalic.ufo" stylemapfamilyname="Inter Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.66667</real>
+            <key>200BE2C5-40F6-4CF4-AF4F-A33C0CC0964F</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="regular" familyname="Inter" stylename="Regular" filename="../build/ufo/Inter-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>5</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="italic" familyname="Inter" stylename="Italic" filename="../build/ufo/Inter-Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>5</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="medium" familyname="Inter" stylename="Medium" filename="../build/ufo/Inter-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>6</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5C20EF92-B63D-42A8-8878-93C2863E0093</key>
+            <real>0.2</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="mediumitalic" familyname="Inter" stylename="Medium Italic" filename="../build/ufo/Inter-MediumItalic.ufo" stylemapfamilyname="Inter Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>6</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.8</real>
+            <key>D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="semibold" familyname="Inter" stylename="Semi Bold" filename="../build/ufo/Inter-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>7</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5C20EF92-B63D-42A8-8878-93C2863E0093</key>
+            <real>0.4</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="semibolditalic" familyname="Inter" stylename="Semi Bold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>7</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.6</real>
+            <key>D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="bold" familyname="Inter" stylename="Bold" filename="../build/ufo/Inter-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>8</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5C20EF92-B63D-42A8-8878-93C2863E0093</key>
+            <real>0.6</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.4</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="bolditalic" familyname="Inter" stylename="Bold Italic" filename="../build/ufo/Inter-BoldItalic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>8</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.4</real>
+            <key>D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E</key>
+            <real>0.6</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="extrabold" familyname="Inter" stylename="Extra Bold" filename="../build/ufo/Inter-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>9</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5C20EF92-B63D-42A8-8878-93C2863E0093</key>
+            <real>0.8</real>
+            <key>C698F293-3EC0-4A5A-A3A0-0FDB1F5CF265</key>
+            <real>0.2</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="extrabolditalic" familyname="Inter" stylename="Extra Bold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>9</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>11F4534A-B963-4AB5-820F-DAF9A20CD933</key>
+            <real>0.2</real>
+            <key>D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E</key>
+            <real>0.8</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="black" familyname="Inter" stylename="Black" filename="../build/ufo/Inter-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>10</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>5C20EF92-B63D-42A8-8878-93C2863E0093</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="blackitalic" familyname="Inter" stylename="Black Italic" filename="../build/ufo/Inter-BlackItalic.ufo" stylemapfamilyname="Inter Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Slant" xvalue="10"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>italicAngle</string>
+              <string>9.4</string>
+            </array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>10</integer>
+                <integer>3</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>2</integer>
+                <integer>0</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>D0EC06BF-13F9-4C88-A6F5-B8203AF6C77E</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Black</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

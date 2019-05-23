@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hook" format="2">
+  <unicode hex="0309"/>
+  <outline>
+    <contour>
+      <point x="-536" y="1696" type="line"/>
+      <point x="-520" y="1800" type="line"/>
+      <point x="-412" y="1815"/>
+      <point x="-301" y="1870"/>
+      <point x="-276" y="2012" type="curve" smooth="yes"/>
+      <point x="-253" y="2168"/>
+      <point x="-361" y="2273"/>
+      <point x="-611" y="2273" type="curve"/>
+      <point x="-644" y="2135" type="line"/>
+      <point x="-522" y="2134"/>
+      <point x="-427" y="2098"/>
+      <point x="-439" y="2027" type="curve" smooth="yes"/>
+      <point x="-452" y="1958"/>
+      <point x="-507" y="1932"/>
+      <point x="-647" y="1924" type="curve"/>
+      <point x="-692" y="1696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

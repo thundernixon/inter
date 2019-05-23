@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chi" format="2">
+  <advance width="1704"/>
+  <unicode hex="03C7"/>
+  <note>
+stroke R: 110, 50%
+stroke B: ({Filter="OffsetCurve;250;200;1;0.5;";})
+</note>
+  <outline>
+    <contour>
+      <point x="-56" y="-573" type="line"/>
+      <point x="253" y="-573" type="line"/>
+      <point x="792" y="206" type="line"/>
+      <point x="963" y="-294" type="line" smooth="yes"/>
+      <point x="1041" y="-524"/>
+      <point x="1129" y="-573"/>
+      <point x="1379" y="-573" type="curve" smooth="yes"/>
+      <point x="1448" y="-573" type="line"/>
+      <point x="1490" y="-317" type="line"/>
+      <point x="1421" y="-317" type="line" smooth="yes"/>
+      <point x="1292" y="-317"/>
+      <point x="1271" y="-308"/>
+      <point x="1225" y="-174" type="curve" smooth="yes"/>
+      <point x="933" y="664" type="line"/>
+      <point x="808" y="664" type="line"/>
+    </contour>
+    <contour>
+      <point x="731" y="367" type="line"/>
+      <point x="911" y="367" type="line"/>
+      <point x="1738" y="1536" type="line"/>
+      <point x="1429" y="1536" type="line"/>
+      <point x="890" y="768" type="line"/>
+      <point x="715" y="1256" type="line" smooth="yes"/>
+      <point x="629" y="1494"/>
+      <point x="548" y="1549"/>
+      <point x="302" y="1549" type="curve" smooth="yes"/>
+      <point x="232" y="1549" type="line"/>
+      <point x="189" y="1293" type="line"/>
+      <point x="258" y="1293" type="line" smooth="yes"/>
+      <point x="391" y="1293"/>
+      <point x="398" y="1286"/>
+      <point x="453" y="1136" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+    </dict>
+  </lib>
+</glyph>

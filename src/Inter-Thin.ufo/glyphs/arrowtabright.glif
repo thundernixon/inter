@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowtabright" format="2">
+  <advance width="2696.0"/>
+  <unicode hex="21E5"/>
+  <note>
+Mirror copy of arrowtableft
+</note>
+  <outline>
+    <contour>
+      <point x="1640.0" y="530.0" type="line"/>
+      <point x="2174.0" y="1024.0" type="line"/>
+      <point x="1640.0" y="1518.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="256.0" y="992.0" type="line"/>
+      <point x="1762.0" y="992.0" type="line"/>
+      <point x="1762.0" y="1056.0" type="line"/>
+      <point x="256.0" y="1056.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="2376.0" y="512.0" type="line"/>
+      <point x="2440.0" y="512.0" type="line"/>
+      <point x="2440.0" y="1536.0" type="line"/>
+      <point x="2376.0" y="1536.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

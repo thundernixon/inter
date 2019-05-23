@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="control" format="2">
+  <advance width="2240"/>
+  <unicode hex="2303"/>
+  <note>
+stroke:
+L: 32,32,100%
+R: 108,108,100%
+B: 200,200,100%
+</note>
+  <outline>
+    <contour>
+      <point x="535" y="1057" type="line"/>
+      <point x="1296" y="1712" type="line"/>
+      <point x="1842" y="1057" type="line"/>
+      <point x="2032" y="1233" type="line"/>
+      <point x="1336" y="2068" type="line"/>
+      <point x="366" y="1236" type="line"/>
+    </contour>
+  </outline>
+</glyph>

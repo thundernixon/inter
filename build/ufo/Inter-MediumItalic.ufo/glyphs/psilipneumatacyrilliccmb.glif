@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilipneumatacyrilliccmb" format="2">
+  <unicode hex="0486"/>
+  <outline>
+    <contour>
+      <point x="-297" y="2064" type="line"/>
+      <point x="-267" y="2243" type="line"/>
+      <point x="-533" y="2243" type="line"/>
+      <point x="-563" y="2040" type="line"/>
+      <point x="-671" y="1884" type="line"/>
+      <point x="-574" y="1791" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

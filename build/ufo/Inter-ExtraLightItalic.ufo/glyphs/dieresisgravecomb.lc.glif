@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresisgravecomb.lc" format="2">
+  <outline>
+    <contour>
+      <point x="-948" y="1883" type="curve" smooth="yes"/>
+      <point x="-955" y="1807"/>
+      <point x="-931" y="1753"/>
+      <point x="-840" y="1753" type="curve" smooth="yes"/>
+      <point x="-743" y="1753"/>
+      <point x="-693" y="1807"/>
+      <point x="-685" y="1883" type="curve" smooth="yes"/>
+      <point x="-675" y="1956"/>
+      <point x="-701" y="2016"/>
+      <point x="-797" y="2016" type="curve" smooth="yes"/>
+      <point x="-895" y="2016"/>
+      <point x="-936" y="1951"/>
+    </contour>
+    <contour>
+      <point x="-432" y="1876" type="curve" smooth="yes"/>
+      <point x="-439" y="1807"/>
+      <point x="-415" y="1747"/>
+      <point x="-320" y="1747" type="curve" smooth="yes"/>
+      <point x="-221" y="1747"/>
+      <point x="-172" y="1807"/>
+      <point x="-163" y="1876" type="curve" smooth="yes"/>
+      <point x="-153" y="1951"/>
+      <point x="-179" y="2016"/>
+      <point x="-277" y="2016" type="curve" smooth="yes"/>
+      <point x="-375" y="2016"/>
+      <point x="-420" y="1949"/>
+    </contour>
+    <contour>
+      <point x="-604" y="2491" type="line"/>
+      <point x="-851" y="2491" type="line"/>
+      <point x="-573" y="2096" type="line"/>
+      <point x="-409" y="2096" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowdownarrowheadmod" format="2">
+  <advance width="1038"/>
+  <unicode hex="02EF"/>
+  <outline>
+    <contour>
+      <point x="218" y="-751" type="line"/>
+      <point x="346" y="-751" type="line"/>
+      <point x="734" y="-100" type="line"/>
+      <point x="552" y="-100" type="line"/>
+      <point x="326" y="-495" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="-751" type="line"/>
+      <point x="320" y="-751" type="line"/>
+      <point x="294" y="-495" type="line"/>
+      <point x="198" y="-100" type="line"/>
+      <point x="16" y="-100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dasiapneumatacyrilliccmb" format="2">
+  <unicode hex="0485"/>
+  <outline>
+    <contour>
+      <point x="-697" y="1783" type="line"/>
+      <point x="-588" y="1872" type="line"/>
+      <point x="-672" y="2040" type="line"/>
+      <point x="-668" y="2211" type="line"/>
+      <point x="-920" y="2211" type="line"/>
+      <point x="-920" y="2064" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

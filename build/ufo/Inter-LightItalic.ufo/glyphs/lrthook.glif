@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lrthook" format="2">
+  <advance width="698"/>
+  <unicode hex="026D"/>
+  <outline>
+    <contour>
+      <point x="276" y="0" type="line"/>
+      <point x="104" y="0" type="line"/>
+      <point x="72" y="-188" type="line" smooth="yes"/>
+      <point x="33" y="-412"/>
+      <point x="164" y="-576"/>
+      <point x="365" y="-576" type="curve" smooth="yes"/>
+      <point x="396" y="-576"/>
+      <point x="444" y="-578"/>
+      <point x="477" y="-565" type="curve"/>
+      <point x="503" y="-407" type="line"/>
+      <point x="488" y="-410"/>
+      <point x="463" y="-414"/>
+      <point x="436" y="-415" type="curve" smooth="yes"/>
+      <point x="303" y="-414"/>
+      <point x="216" y="-361"/>
+      <point x="244" y="-188" type="curve" smooth="yes"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

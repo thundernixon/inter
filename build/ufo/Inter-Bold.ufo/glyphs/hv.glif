@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hv" format="2">
+  <advance width="2767"/>
+  <unicode hex="0195"/>
+  <note>
+Note: Must be split in two, or conversion to quadratic curves will fail.
+</note>
+  <outline>
+    <contour>
+      <point x="170" y="0" type="line"/>
+      <point x="596" y="0" type="line"/>
+      <point x="596" y="888" type="line" smooth="yes"/>
+      <point x="597" y="1086"/>
+      <point x="718" y="1202"/>
+      <point x="892" y="1202" type="curve" smooth="yes"/>
+      <point x="1065" y="1202"/>
+      <point x="1166" y="1091"/>
+      <point x="1166" y="902" type="curve" smooth="yes"/>
+      <point x="1166" y="768" type="line"/>
+      <point x="1592" y="768" type="line"/>
+      <point x="1592" y="978" type="line" smooth="yes"/>
+      <point x="1592" y="1338"/>
+      <point x="1381" y="1556"/>
+      <point x="1061" y="1556" type="curve" smooth="yes"/>
+      <point x="828" y="1556"/>
+      <point x="672" y="1446"/>
+      <point x="602" y="1265" type="curve"/>
+      <point x="584" y="1265" type="line"/>
+      <point x="584" y="2048" type="line"/>
+      <point x="170" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="1786" y="-28" type="curve" smooth="yes"/>
+      <point x="2339" y="-28"/>
+      <point x="2597" y="426"/>
+      <point x="2597" y="1366" type="curve"/>
+      <point x="2597" y="1536" type="line"/>
+      <point x="2171" y="1536" type="line"/>
+      <point x="2171" y="1366" type="line" smooth="yes"/>
+      <point x="2171" y="664"/>
+      <point x="2040" y="324"/>
+      <point x="1802" y="324" type="curve" smooth="yes"/>
+      <point x="1697" y="324"/>
+      <point x="1592" y="390"/>
+      <point x="1592" y="598" type="curve"/>
+      <point x="1592" y="768" type="line"/>
+      <point x="1166" y="768" type="line"/>
+      <point x="1166" y="598" type="line" smooth="yes"/>
+      <point x="1166" y="202"/>
+      <point x="1393" y="-28"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+    </dict>
+  </lib>
+</glyph>

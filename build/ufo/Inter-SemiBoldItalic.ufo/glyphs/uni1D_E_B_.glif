@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DEB" format="2">
+  <unicode hex="1DEB"/>
+  <outline>
+    <contour>
+      <point x="-365" y="2420" type="line"/>
+      <point x="-827" y="2420" type="line"/>
+      <point x="-853" y="2262" type="line"/>
+      <point x="-390" y="2262" type="line"/>
+    </contour>
+    <contour>
+      <point x="-612" y="1652" type="line"/>
+      <point x="-476" y="2490" type="line" smooth="yes"/>
+      <point x="-463" y="2560"/>
+      <point x="-413" y="2595"/>
+      <point x="-347" y="2595" type="curve" smooth="yes"/>
+      <point x="-324" y="2595"/>
+      <point x="-305" y="2593"/>
+      <point x="-285" y="2587" type="curve"/>
+      <point x="-250" y="2748" type="line"/>
+      <point x="-286" y="2754"/>
+      <point x="-320" y="2760"/>
+      <point x="-356" y="2760" type="curve" smooth="yes"/>
+      <point x="-524" y="2760"/>
+      <point x="-658" y="2666"/>
+      <point x="-689" y="2490" type="curve" smooth="yes"/>
+      <point x="-825" y="1652" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.1.15</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

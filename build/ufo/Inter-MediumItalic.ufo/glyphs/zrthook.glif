@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zrthook" format="2">
+  <advance width="1721"/>
+  <unicode hex="0290"/>
+  <outline>
+    <contour>
+      <point x="1018" y="0" type="line"/>
+      <point x="990" y="-169" type="line" smooth="yes"/>
+      <point x="945" y="-447"/>
+      <point x="1096" y="-600"/>
+      <point x="1344" y="-600" type="curve" smooth="yes"/>
+      <point x="1393" y="-600"/>
+      <point x="1453" y="-596"/>
+      <point x="1497" y="-583" type="curve"/>
+      <point x="1534" y="-353" type="line"/>
+      <point x="1508" y="-360"/>
+      <point x="1473" y="-361"/>
+      <point x="1447" y="-361" type="curve" smooth="yes"/>
+      <point x="1325" y="-361"/>
+      <point x="1221" y="-325"/>
+      <point x="1247" y="-169" type="curve" smooth="yes"/>
+      <point x="1275" y="0" type="line"/>
+    </contour>
+    <component base="z"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>z</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lyogh" format="2">
+  <advance width="1854"/>
+  <unicode hex="026E"/>
+  <outline>
+    <contour>
+      <point x="437" y="2048" type="line"/>
+      <point x="101" y="22" type="line"/>
+      <point x="392" y="22" type="line"/>
+      <point x="728" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="514" y="-150" type="curve"/>
+      <point x="262" y="-353" type="line"/>
+      <point x="374" y="-470"/>
+      <point x="550" y="-540"/>
+      <point x="773" y="-540" type="curve" smooth="yes"/>
+      <point x="1196" y="-540"/>
+      <point x="1538" y="-287"/>
+      <point x="1597" y="66" type="curve"/>
+      <point x="1650" y="390"/>
+      <point x="1467" y="627"/>
+      <point x="1094" y="668" type="curve"/>
+      <point x="1098" y="684" type="line"/>
+      <point x="1757" y="1319" type="line"/>
+      <point x="1794" y="1536" type="line"/>
+      <point x="531" y="1536" type="line"/>
+      <point x="488" y="1274" type="line"/>
+      <point x="1357" y="1274" type="line"/>
+      <point x="1353" y="1258" type="line"/>
+      <point x="764" y="688" type="line"/>
+      <point x="723" y="454" type="line"/>
+      <point x="934" y="454" type="line" smooth="yes"/>
+      <point x="1178" y="454"/>
+      <point x="1322" y="299"/>
+      <point x="1286" y="76" type="curve" smooth="yes"/>
+      <point x="1253" y="-129"/>
+      <point x="1059" y="-274"/>
+      <point x="820" y="-274" type="curve" smooth="yes"/>
+      <point x="684" y="-274"/>
+      <point x="576" y="-229"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>B</string>
+    </dict>
+  </lib>
+</glyph>

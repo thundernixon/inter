@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftRightLongArrow" format="2">
+  <advance width="4928"/>
+  <unicode hex="27F7"/>
+  <outline>
+    <contour>
+      <point x="1187" y="-13" type="line"/>
+      <point x="1367" y="167" type="line"/>
+      <point x="766" y="766" type="line"/>
+      <point x="4162" y="766" type="line"/>
+      <point x="3561" y="167" type="line"/>
+      <point x="3741" y="-13" type="line"/>
+      <point x="4650" y="896" type="line"/>
+      <point x="3741" y="1805" type="line"/>
+      <point x="3561" y="1627" type="line"/>
+      <point x="4162" y="1026" type="line"/>
+      <point x="766" y="1026" type="line"/>
+      <point x="1367" y="1627" type="line"/>
+      <point x="1187" y="1805" type="line"/>
+      <point x="278" y="896" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftArrow</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightArrow</string>
+    </dict>
+  </lib>
+</glyph>

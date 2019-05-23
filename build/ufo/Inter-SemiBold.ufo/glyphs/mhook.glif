@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mhook" format="2">
+  <advance width="2528"/>
+  <unicode hex="0271"/>
+  <outline>
+    <contour>
+      <point x="1983" y="0" type="line"/>
+      <point x="1983" y="-118" type="line" smooth="yes"/>
+      <point x="1983" y="-250"/>
+      <point x="1881" y="-287"/>
+      <point x="1766" y="-287" type="curve" smooth="yes"/>
+      <point x="1732" y="-287"/>
+      <point x="1700" y="-283"/>
+      <point x="1670" y="-279" type="curve"/>
+      <point x="1670" y="-562" type="line"/>
+      <point x="1718" y="-571"/>
+      <point x="1780" y="-576"/>
+      <point x="1861" y="-576" type="curve" smooth="yes"/>
+      <point x="2130" y="-576"/>
+      <point x="2346" y="-457"/>
+      <point x="2346" y="-118" type="curve" smooth="yes"/>
+      <point x="2346" y="0" type="line"/>
+    </contour>
+    <component base="m"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

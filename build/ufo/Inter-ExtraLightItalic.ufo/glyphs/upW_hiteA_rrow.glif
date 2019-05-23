@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upWhiteArrow" format="2">
+  <advance width="2581"/>
+  <unicode hex="21E7"/>
+  <note>
+based of off upBlackArrow
+stroke:
+L: 32,32,100%,keepCom.
+R: 100,90,100%,keepCom.
+B: 208,150,100%,keepCom.
+</note>
+  <outline>
+    <contour>
+      <point x="323" y="1173" type="line"/>
+      <point x="889" y="1173" type="line"/>
+      <point x="693" y="0" type="line"/>
+      <point x="1632" y="0" type="line"/>
+      <point x="1827" y="1173" type="line"/>
+      <point x="2393" y="1173" type="line"/>
+      <point x="1529" y="2208" type="line"/>
+    </contour>
+    <contour>
+      <point x="605" y="1276" type="line"/>
+      <point x="1515" y="2057" type="line"/>
+      <point x="2168" y="1276" type="line"/>
+      <point x="1734" y="1276" type="line"/>
+      <point x="1539" y="103" type="line"/>
+      <point x="821" y="103" type="line"/>
+      <point x="1017" y="1276" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>upBlackArrow</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFE24" format="2">
+  <unicode hex="FE24"/>
+  <outline>
+    <contour>
+      <point x="-25" y="2004" type="line"/>
+      <point x="-788" y="2004" type="line"/>
+      <point x="-788" y="1804" type="line"/>
+      <point x="-25" y="1804" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

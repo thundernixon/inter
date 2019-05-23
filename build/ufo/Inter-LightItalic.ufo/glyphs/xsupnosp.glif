@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="xsupnosp" format="2">
+  <unicode hex="033D"/>
+  <outline>
+    <contour>
+      <point x="-676" y="1700" type="line"/>
+      <point x="-41" y="2253" type="line"/>
+      <point x="-149" y="2392" type="line"/>
+      <point x="-784" y="1832" type="line"/>
+    </contour>
+    <contour>
+      <point x="-264" y="1696" type="line"/>
+      <point x="-108" y="1833" type="line"/>
+      <point x="-559" y="2391" type="line"/>
+      <point x="-717" y="2253" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="softsigncyrillic" format="2">
+  <advance width="1658"/>
+  <unicode hex="044C"/>
+  <outline>
+    <contour>
+      <point x="490" y="1064" type="line"/>
+      <point x="434" y="729" type="line"/>
+      <point x="894" y="729" type="line"/>
+      <point x="1034" y="729"/>
+      <point x="1123" y="646"/>
+      <point x="1103" y="527" type="curve"/>
+      <point x="1085" y="414"/>
+      <point x="969" y="335"/>
+      <point x="826" y="335" type="curve"/>
+      <point x="506" y="335" type="line"/>
+      <point x="707" y="1536" type="line"/>
+      <point x="301" y="1536" type="line"/>
+      <point x="45" y="0" type="line"/>
+      <point x="770" y="0" type="line"/>
+      <point x="1178" y="0"/>
+      <point x="1452" y="213"/>
+      <point x="1506" y="530" type="curve"/>
+      <point x="1558" y="853"/>
+      <point x="1354" y="1064"/>
+      <point x="949" y="1064" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>b</string>
+    </dict>
+  </lib>
+</glyph>

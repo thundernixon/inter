@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tetsecyrillic" format="2">
+  <advance width="2083"/>
+  <unicode hex="04B5"/>
+  <outline>
+    <contour>
+      <point x="1130" y="1536" type="line"/>
+      <point x="128" y="1536" type="line"/>
+      <point x="128" y="1198" type="line"/>
+      <point x="1130" y="1198" type="line"/>
+    </contour>
+    <contour>
+      <point x="1998" y="335" type="line"/>
+      <point x="1457" y="335" type="line"/>
+      <point x="1457" y="0" type="line"/>
+      <point x="1580" y="0" type="line"/>
+      <point x="1580" y="-440" type="line"/>
+      <point x="1973" y="-440" type="line"/>
+    </contour>
+    <component base="pecyrillic" xScale="-1.0" yScale="-1.0" xOffset="1939" yOffset="1536"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

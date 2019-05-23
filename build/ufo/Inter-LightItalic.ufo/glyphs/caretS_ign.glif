@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caretSign" format="2">
+  <advance width="1163"/>
+  <unicode hex="2038"/>
+  <outline>
+    <contour>
+      <point x="364" y="-361" type="line"/>
+      <point x="505" y="-129" type="line"/>
+      <point x="360" y="-129" type="line"/>
+      <point x="-136" y="-749" type="line"/>
+      <point x="75" y="-749" type="line"/>
+    </contour>
+    <contour>
+      <point x="584" y="-749" type="line"/>
+      <point x="797" y="-749" type="line"/>
+      <point x="516" y="-129" type="line"/>
+      <point x="367" y="-129" type="line"/>
+      <point x="425" y="-361" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

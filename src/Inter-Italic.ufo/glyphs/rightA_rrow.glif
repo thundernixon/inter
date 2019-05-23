@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightArrow" format="2">
+  <advance width="2688.0"/>
+  <unicode hex="2192"/>
+  <outline>
+    <contour>
+      <point x="1386.0" y="0.0" type="line"/>
+      <point x="2432.0" y="896.0" type="line"/>
+      <point x="1684.0" y="1792.0" type="line"/>
+      <point x="1518.0" y="1654.0" type="line"/>
+      <point x="2058.0" y="1006.0" type="line"/>
+      <point x="394.0" y="1006.0" type="line"/>
+      <point x="356.0" y="786.0" type="line"/>
+      <point x="1972.0" y="786.0" type="line"/>
+      <point x="1244.0" y="164.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>leftArrow</string>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

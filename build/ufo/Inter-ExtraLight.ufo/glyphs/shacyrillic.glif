@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shacyrillic" format="2">
+  <advance width="2221"/>
+  <unicode hex="0448"/>
+  <outline>
+    <contour>
+      <point x="248" y="1536" type="line"/>
+      <point x="248" y="0" type="line"/>
+      <point x="1969" y="0" type="line"/>
+      <point x="1969" y="1536" type="line"/>
+      <point x="1848" y="1536" type="line"/>
+      <point x="1848" y="143" type="line"/>
+      <point x="1169" y="143" type="line"/>
+      <point x="1169" y="1536" type="line"/>
+      <point x="1048" y="1536" type="line"/>
+      <point x="1048" y="143" type="line"/>
+      <point x="369" y="143" type="line"/>
+      <point x="369" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

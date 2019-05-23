@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.dnomf" format="2">
+  <advance width="1074"/>
+  <outline>
+    <contour>
+      <point x="-19" y="0" type="line"/>
+      <point x="854" y="0" type="line"/>
+      <point x="887" y="208" type="line"/>
+      <point x="384" y="208" type="line"/>
+      <point x="386" y="218" type="line"/>
+      <point x="592" y="350" type="line" smooth="yes"/>
+      <point x="848" y="502"/>
+      <point x="936" y="617"/>
+      <point x="956" y="754" type="curve" smooth="yes"/>
+      <point x="984" y="948"/>
+      <point x="846" y="1104"/>
+      <point x="583" y="1104" type="curve" smooth="yes"/>
+      <point x="322" y="1104"/>
+      <point x="125" y="957"/>
+      <point x="91" y="744" type="curve"/>
+      <point x="338" y="744" type="line"/>
+      <point x="358" y="847"/>
+      <point x="451" y="902"/>
+      <point x="557" y="902" type="curve" smooth="yes"/>
+      <point x="670" y="902"/>
+      <point x="739" y="846"/>
+      <point x="725" y="757" type="curve" smooth="yes"/>
+      <point x="710" y="675"/>
+      <point x="626" y="615"/>
+      <point x="510" y="533" type="curve" smooth="yes"/>
+      <point x="14" y="184" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>53.15</real>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

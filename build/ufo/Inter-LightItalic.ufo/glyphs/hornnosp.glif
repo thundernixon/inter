@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hornnosp" format="2">
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="73" y="1869" type="curve"/>
+      <point x="-172" y="1869" type="line"/>
+      <point x="-197" y="1719"/>
+      <point x="-270" y="1566"/>
+      <point x="-379" y="1451" type="curve"/>
+      <point x="-260" y="1349" type="line"/>
+      <point x="-95" y="1466"/>
+      <point x="89" y="1961"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yusbigcyrillic" format="2">
+  <advance width="2749"/>
+  <unicode hex="046A"/>
+  <outline>
+    <contour>
+      <point x="710" y="0" type="line"/>
+      <point x="710" y="441" type="line" smooth="yes"/>
+      <point x="709" y="654"/>
+      <point x="841" y="694"/>
+      <point x="1029" y="694" type="curve" smooth="yes"/>
+      <point x="1723" y="694" type="line" smooth="yes"/>
+      <point x="1950" y="694"/>
+      <point x="2034" y="622"/>
+      <point x="2035" y="441" type="curve" smooth="yes"/>
+      <point x="2035" y="0" type="line"/>
+      <point x="2522" y="0" type="line"/>
+      <point x="2522" y="441" type="line" smooth="yes"/>
+      <point x="2520" y="943"/>
+      <point x="2181" y="1089"/>
+      <point x="1723" y="1089" type="curve" smooth="yes"/>
+      <point x="1029" y="1089" type="line" smooth="yes"/>
+      <point x="469" y="1089"/>
+      <point x="223" y="876"/>
+      <point x="225" y="441" type="curve" smooth="yes"/>
+      <point x="225" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1957" y="2004" type="line"/>
+      <point x="867" y="2004" type="line"/>
+      <point x="867" y="1606" type="line"/>
+      <point x="1957" y="1606" type="line"/>
+    </contour>
+    <contour>
+      <point x="1299" y="990" type="line"/>
+      <point x="1354" y="726" type="line"/>
+      <point x="1618" y="726" type="line"/>
+      <point x="2350" y="2004" type="line"/>
+      <point x="1822" y="2004" type="line"/>
+    </contour>
+    <contour>
+      <point x="986" y="2004" type="line"/>
+      <point x="461" y="2004" type="line"/>
+      <point x="1191" y="726" type="line"/>
+      <point x="1454" y="726" type="line"/>
+      <point x="1517" y="982" type="line"/>
+    </contour>
+    <contour>
+      <point x="1641" y="1022" type="line"/>
+      <point x="1158" y="1022" type="line"/>
+      <point x="1158" y="0" type="line"/>
+      <point x="1641" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

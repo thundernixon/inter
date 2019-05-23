@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightHookArrow" format="2">
+  <advance width="3266"/>
+  <unicode hex="21AA"/>
+  <note>
+Mirror copy of leftHookArrow
+</note>
+  <outline>
+    <contour>
+      <point x="962" y="727" type="curve" smooth="yes"/>
+      <point x="2658" y="727" type="line"/>
+      <point x="2658" y="1065" type="line"/>
+      <point x="962" y="1065" type="line" smooth="yes"/>
+      <point x="766" y="1065"/>
+      <point x="608" y="1224"/>
+      <point x="608" y="1420" type="curve" smooth="yes"/>
+      <point x="608" y="1615"/>
+      <point x="767" y="1774"/>
+      <point x="962" y="1774" type="curve" smooth="yes"/>
+      <point x="1094" y="1774" type="line"/>
+      <point x="1094" y="2112" type="line"/>
+      <point x="962" y="2112" type="line" smooth="yes"/>
+      <point x="580" y="2112"/>
+      <point x="270" y="1802"/>
+      <point x="270" y="1420" type="curve" smooth="yes"/>
+      <point x="270" y="1038"/>
+      <point x="580" y="727"/>
+    </contour>
+    <contour>
+      <point x="2054" y="-38" type="line"/>
+      <point x="2988" y="896" type="line"/>
+      <point x="2054" y="1830" type="line"/>
+      <point x="1824" y="1600" type="line"/>
+      <point x="2527" y="896" type="line"/>
+      <point x="1824" y="194" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>leftHookArrow</string>
+    </dict>
+  </lib>
+</glyph>

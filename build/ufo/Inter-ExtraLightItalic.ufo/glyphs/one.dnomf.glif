@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.dnomf" format="2">
+  <advance width="721"/>
+  <outline>
+    <contour>
+      <point x="536" y="1088" type="line"/>
+      <point x="429" y="1088" type="line"/>
+      <point x="417" y="1055"/>
+      <point x="293" y="917"/>
+      <point x="132" y="915" type="curve"/>
+      <point x="119" y="821" type="line"/>
+      <point x="259" y="824"/>
+      <point x="361" y="901"/>
+      <point x="391" y="931" type="curve"/>
+      <point x="400" y="931" type="line"/>
+      <point x="244" y="0" type="line"/>
+      <point x="353" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <real>53.15</real>
+        <key>width</key>
+        <integer>60</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

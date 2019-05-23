@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflextildecomb.cn" format="2">
+  <advance width="1603"/>
+  <outline>
+    <contour>
+      <point x="1121" y="2047" type="line"/>
+      <point x="905" y="2047" type="line"/>
+      <point x="444" y="1730" type="line"/>
+      <point x="726" y="1730" type="line"/>
+      <point x="990" y="1914" type="line"/>
+      <point x="1201" y="1730" type="line"/>
+      <point x="1479" y="1730" type="line"/>
+    </contour>
+    <contour>
+      <point x="1299" y="2391" type="line"/>
+      <point x="1291" y="2342"/>
+      <point x="1242" y="2289"/>
+      <point x="1196" y="2289" type="curve" smooth="yes"/>
+      <point x="1096" y="2289"/>
+      <point x="1025" y="2376"/>
+      <point x="920" y="2376" type="curve" smooth="yes"/>
+      <point x="800" y="2376"/>
+      <point x="700" y="2266"/>
+      <point x="684" y="2161" type="curve"/>
+      <point x="810" y="2125" type="line"/>
+      <point x="818" y="2174"/>
+      <point x="865" y="2222"/>
+      <point x="914" y="2222" type="curve" smooth="yes"/>
+      <point x="1016" y="2222"/>
+      <point x="1060" y="2130"/>
+      <point x="1190" y="2130" type="curve" smooth="yes"/>
+      <point x="1309" y="2130"/>
+      <point x="1409" y="2238"/>
+      <point x="1428" y="2346" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

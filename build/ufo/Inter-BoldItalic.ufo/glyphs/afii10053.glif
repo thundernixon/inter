@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10053" format="2">
+  <advance width="1968"/>
+  <unicode hex="0404"/>
+  <outline>
+    <contour>
+      <point x="1270" y="1177" type="line"/>
+      <point x="420" y="1177" type="line"/>
+      <point x="362" y="829" type="line"/>
+      <point x="1212" y="829" type="line"/>
+    </contour>
+    <contour>
+      <point x="1388" y="671" type="line"/>
+      <point x="1341" y="452"/>
+      <point x="1150" y="318"/>
+      <point x="925" y="318" type="curve" smooth="yes"/>
+      <point x="660" y="318"/>
+      <point x="525" y="544"/>
+      <point x="582" y="890" type="curve" smooth="yes"/>
+      <point x="619" y="1110" type="line" smooth="yes"/>
+      <point x="680" y="1481"/>
+      <point x="894" y="1724"/>
+      <point x="1160" y="1724" type="curve" smooth="yes"/>
+      <point x="1387" y="1724"/>
+      <point x="1531" y="1586"/>
+      <point x="1506" y="1359" type="curve"/>
+      <point x="1930" y="1359" type="line"/>
+      <point x="1970" y="1804"/>
+      <point x="1693" y="2076"/>
+      <point x="1217" y="2076" type="curve" smooth="yes"/>
+      <point x="695" y="2076"/>
+      <point x="291" y="1677"/>
+      <point x="189" y="1060" type="curve"/>
+      <point x="169" y="938" type="line"/>
+      <point x="72" y="351"/>
+      <point x="344" y="-28"/>
+      <point x="867" y="-28" type="curve" smooth="yes"/>
+      <point x="1355" y="-28"/>
+      <point x="1721" y="237"/>
+      <point x="1814" y="671" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>C</string>
+    </dict>
+  </lib>
+</glyph>

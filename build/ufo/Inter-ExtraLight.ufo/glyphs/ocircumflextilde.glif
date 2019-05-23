@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflextilde" format="2">
+  <advance width="1648"/>
+  <unicode hex="1ED7"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflextildecomb.cn" xOffset="100" yOffset="-57"/>
+  </outline>
+</glyph>

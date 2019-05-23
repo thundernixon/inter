@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscoredblnosp" format="2">
+  <advance width="6"/>
+  <unicode hex="0333"/>
+  <outline>
+    <contour>
+      <point x="-350" y="-115" type="line"/>
+      <point x="-1634" y="-115" type="line"/>
+      <point x="-1672" y="-348" type="line"/>
+      <point x="-389" y="-348" type="line"/>
+    </contour>
+    <contour>
+      <point x="-409" y="-475" type="line"/>
+      <point x="-1692" y="-475" type="line"/>
+      <point x="-1730" y="-708" type="line"/>
+      <point x="-446" y="-708" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="checyrillic" format="2">
+  <advance width="1608"/>
+  <unicode hex="0447"/>
+  <outline>
+    <contour>
+      <point x="1465" y="1536" type="line"/>
+      <point x="1341" y="1536" type="line"/>
+      <point x="1089" y="0" type="line"/>
+      <point x="1213" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1317" y="767" type="line"/>
+      <point x="1138" y="703"/>
+      <point x="962" y="656"/>
+      <point x="724" y="656" type="curve" smooth="yes"/>
+      <point x="552" y="656"/>
+      <point x="384" y="796"/>
+      <point x="429" y="1072" type="curve" smooth="yes"/>
+      <point x="507" y="1543" type="line"/>
+      <point x="380" y="1543" type="line"/>
+      <point x="305" y="1072" type="line" smooth="yes"/>
+      <point x="245" y="711"/>
+      <point x="413" y="513"/>
+      <point x="701" y="513" type="curve" smooth="yes"/>
+      <point x="951" y="513"/>
+      <point x="1081" y="553"/>
+      <point x="1295" y="624" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

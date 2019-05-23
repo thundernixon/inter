@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kabashkircyrillic" format="2">
+  <advance width="2487"/>
+  <unicode hex="04A0"/>
+  <note>
+!post:RemoveOverlap
+</note>
+  <outline>
+    <contour>
+      <point x="902" y="2048" type="line"/>
+      <point x="53" y="2048" type="line"/>
+      <point x="53" y="1671" type="line"/>
+      <point x="902" y="1671" type="line"/>
+    </contour>
+    <component base="Kacyr" xOffset="347"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

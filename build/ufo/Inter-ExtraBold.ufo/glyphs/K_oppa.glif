@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Koppa" format="2">
+  <advance width="2198"/>
+  <unicode hex="03DE"/>
+  <outline>
+    <contour>
+      <point x="365" y="221" type="line"/>
+      <point x="1583" y="1042" type="line"/>
+      <point x="1885" y="1707" type="line"/>
+      <point x="1846" y="1775" type="line"/>
+      <point x="537" y="862" type="line"/>
+      <point x="309" y="285" type="line"/>
+    </contour>
+    <contour>
+      <point x="309" y="285" type="line"/>
+      <point x="710" y="579" type="line"/>
+      <point x="774" y="1513" type="line" smooth="yes"/>
+      <point x="774" y="1534"/>
+      <point x="778" y="1562"/>
+      <point x="779" y="1594" type="curve" smooth="yes"/>
+      <point x="778" y="1937"/>
+      <point x="574" y="2030"/>
+      <point x="283" y="2030" type="curve" smooth="yes"/>
+      <point x="218" y="2030"/>
+      <point x="173" y="2029"/>
+      <point x="131" y="2022" type="curve"/>
+      <point x="110" y="1684" type="line"/>
+      <point x="126" y="1690"/>
+      <point x="142" y="1690"/>
+      <point x="165" y="1690" type="curve" smooth="yes"/>
+      <point x="283" y="1690"/>
+      <point x="403" y="1672"/>
+      <point x="404" y="1520" type="curve" smooth="yes"/>
+      <point x="403" y="1514"/>
+      <point x="406" y="1505"/>
+      <point x="402" y="1462" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1922" y="-28" type="curve" smooth="yes"/>
+      <point x="1995" y="-28"/>
+      <point x="2024" y="-28"/>
+      <point x="2067" y="-20" type="curve"/>
+      <point x="2091" y="318" type="line"/>
+      <point x="2068" y="317"/>
+      <point x="2047" y="314"/>
+      <point x="2034" y="314" type="curve" smooth="yes"/>
+      <point x="1911" y="314"/>
+      <point x="1790" y="347"/>
+      <point x="1791" y="486" type="curve" smooth="yes"/>
+      <point x="1790" y="489"/>
+      <point x="1788" y="523"/>
+      <point x="1794" y="575" type="curve" smooth="yes"/>
+      <point x="1885" y="1707" type="line"/>
+      <point x="1482" y="1431" type="line"/>
+      <point x="1424" y="483" type="line" smooth="yes"/>
+      <point x="1421" y="454"/>
+      <point x="1416" y="430"/>
+      <point x="1417" y="411" type="curve" smooth="yes"/>
+      <point x="1416" y="61"/>
+      <point x="1609" y="-28"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.1</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

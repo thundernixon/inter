@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Fhook" format="2">
+  <advance width="1607"/>
+  <unicode hex="0191"/>
+  <outline>
+    <contour>
+      <point x="253" y="0" type="line"/>
+      <point x="253" y="-208" type="line" smooth="yes"/>
+      <point x="253" y="-387"/>
+      <point x="175" y="-461"/>
+      <point x="31" y="-461" type="curve" smooth="yes"/>
+      <point x="3" y="-461"/>
+      <point x="-11" y="-459"/>
+      <point x="-29" y="-451" type="curve"/>
+      <point x="-51" y="-555" type="line"/>
+      <point x="-14" y="-570"/>
+      <point x="1" y="-573"/>
+      <point x="31" y="-573" type="curve" smooth="yes"/>
+      <point x="260" y="-573"/>
+      <point x="379" y="-445"/>
+      <point x="379" y="-209" type="curve" smooth="yes"/>
+      <point x="379" y="0" type="line"/>
+    </contour>
+    <component base="F" xOffset="-43"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>F</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

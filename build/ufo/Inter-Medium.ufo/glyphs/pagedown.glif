@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pagedown" format="2">
+  <advance width="1730"/>
+  <unicode hex="21DF"/>
+  <outline>
+    <contour>
+      <point x="865" y="-62" type="line"/>
+      <point x="1487" y="564" type="line"/>
+      <point x="243" y="564" type="line"/>
+    </contour>
+    <contour>
+      <point x="406" y="902" type="line"/>
+      <point x="1325" y="902" type="line"/>
+      <point x="1325" y="1138" type="line"/>
+      <point x="406" y="1138" type="line"/>
+    </contour>
+    <contour>
+      <point x="737" y="356" type="line"/>
+      <point x="993" y="356" type="line"/>
+      <point x="993" y="2068" type="line"/>
+      <point x="737" y="2068" type="line"/>
+    </contour>
+    <contour>
+      <point x="406" y="1362" type="line"/>
+      <point x="1325" y="1362" type="line"/>
+      <point x="1325" y="1598" type="line"/>
+      <point x="406" y="1598" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>pageup</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mturndescend" format="2">
+  <advance width="2368"/>
+  <unicode hex="0270"/>
+  <outline>
+    <contour>
+      <point x="2012" y="-576" type="line"/>
+      <point x="2123" y="-576" type="line"/>
+      <point x="2123" y="0" type="line"/>
+      <point x="2012" y="0" type="line"/>
+    </contour>
+    <component base="mturn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>mturn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>mturn</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

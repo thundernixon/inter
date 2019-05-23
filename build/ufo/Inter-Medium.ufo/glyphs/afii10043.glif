@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10043" format="2">
+  <advance width="2840"/>
+  <unicode hex="0429"/>
+  <outline>
+    <contour>
+      <point x="2726" y="258" type="line"/>
+      <point x="2218" y="258" type="line"/>
+      <point x="2218" y="0" type="line"/>
+      <point x="2405" y="0" type="line"/>
+      <point x="2405" y="-483" type="line"/>
+      <point x="2698" y="-483" type="line"/>
+    </contour>
+    <component base="afii10042"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>afii10042</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

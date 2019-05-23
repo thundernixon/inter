@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10042" format="2">
+  <advance width="2862"/>
+  <unicode hex="0428"/>
+  <outline>
+    <contour>
+      <point x="256" y="2048" type="line"/>
+      <point x="256" y="0" type="line"/>
+      <point x="2606" y="0" type="line"/>
+      <point x="2606" y="2048" type="line"/>
+      <point x="2243" y="2048" type="line"/>
+      <point x="2243" y="308" type="line"/>
+      <point x="1616" y="308" type="line"/>
+      <point x="1616" y="2048" type="line"/>
+      <point x="1253" y="2048" type="line"/>
+      <point x="1253" y="308" type="line"/>
+      <point x="621" y="308" type="line"/>
+      <point x="621" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chi" format="2">
+  <advance width="1766.0"/>
+  <unicode hex="03C7"/>
+  <note>
+stroke R: 110, 50%
+stroke B: ({Filter="OffsetCurve;250;200;1;0.5;";})
+</note>
+  <guideline x="222.0" y="1336.0" angle="0.0"/>
+  <guideline x="1630.0" y="-362.0" angle="0.0"/>
+  <guideline x="1270.0" y="-562.0" angle="0.0"/>
+  <outline>
+    <contour>
+      <point x="36.0" y="-562.0" type="line"/>
+      <point x="582.0" y="-562.0" type="line"/>
+      <point x="884.0" y="-16.0" type="line"/>
+      <point x="1004.0" y="-232.0" type="line" smooth="yes"/>
+      <point x="1147.0" y="-490.0"/>
+      <point x="1280.0" y="-562.0"/>
+      <point x="1610.0" y="-562.0" type="curve" smooth="yes"/>
+      <point x="1724.0" y="-562.0" type="line"/>
+      <point x="1724.0" y="-162.0" type="line"/>
+      <point x="1610.0" y="-162.0" type="line" smooth="yes"/>
+      <point x="1510.0" y="-162.0"/>
+      <point x="1504.0" y="-154.0"/>
+      <point x="1442.0" y="-40.0" type="curve" smooth="yes"/>
+      <point x="978.0" y="808.0" type="line"/>
+      <point x="792.0" y="808.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="800.0" y="148.0" type="line"/>
+      <point x="980.0" y="148.0" type="line"/>
+      <point x="1742.0" y="1536.0" type="line"/>
+      <point x="1196.0" y="1536.0" type="line"/>
+      <point x="886.0" y="974.0" type="line"/>
+      <point x="758.0" y="1208.0" type="line" smooth="yes"/>
+      <point x="618.0" y="1463.0"/>
+      <point x="474.0" y="1536.0"/>
+      <point x="150.0" y="1536.0" type="curve" smooth="yes"/>
+      <point x="36.0" y="1536.0" type="line"/>
+      <point x="36.0" y="1136.0" type="line"/>
+      <point x="150.0" y="1136.0" type="line" smooth="yes"/>
+      <point x="248.0" y="1136.0"/>
+      <point x="257.0" y="1128.0"/>
+      <point x="320.0" y="1014.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>x</string>
+    </dict>
+  </lib>
+</glyph>

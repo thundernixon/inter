@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacyrillic" format="2">
+  <advance width="1548"/>
+  <unicode hex="044F"/>
+  <outline>
+    <contour>
+      <point x="1188" y="0" type="line"/>
+      <point x="1295" y="0" type="line"/>
+      <point x="1295" y="1536" type="line"/>
+      <point x="700" y="1536" type="line"/>
+      <point x="412" y="1536"/>
+      <point x="243" y="1384"/>
+      <point x="243" y="1112" type="curve"/>
+      <point x="243" y="831"/>
+      <point x="396" y="671"/>
+      <point x="656" y="672" type="curve"/>
+      <point x="1192" y="672" type="line"/>
+      <point x="1192" y="847" type="line"/>
+      <point x="656" y="847" type="line"/>
+      <point x="480" y="845"/>
+      <point x="365" y="942"/>
+      <point x="364" y="1120" type="curve"/>
+      <point x="365" y="1303"/>
+      <point x="497" y="1399"/>
+      <point x="700" y="1400" type="curve"/>
+      <point x="1188" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="132" y="0" type="line"/>
+      <point x="287" y="0" type="line"/>
+      <point x="728" y="740" type="line"/>
+      <point x="573" y="740" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>a</string>
+    </dict>
+  </lib>
+</glyph>

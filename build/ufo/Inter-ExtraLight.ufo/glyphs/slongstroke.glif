@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slongstroke" format="2">
+  <advance width="932"/>
+  <unicode hex="1E9C"/>
+  <guideline x="409" y="-47" angle="90.0"/>
+  <outline>
+    <contour>
+      <point x="179" y="1185" type="line"/>
+      <point x="719" y="1412" type="line"/>
+      <point x="719" y="1536" type="line"/>
+      <point x="179" y="1309" type="line"/>
+    </contour>
+    <component base="_part.f_base" xOffset="-28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.1</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

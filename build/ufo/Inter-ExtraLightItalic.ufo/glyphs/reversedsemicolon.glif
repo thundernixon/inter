@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversedsemicolon" format="2">
+  <advance width="748"/>
+  <unicode hex="204F"/>
+  <outline>
+    <contour>
+      <point x="219" y="-500" type="curve"/>
+      <point x="313" y="-500" type="line"/>
+      <point x="310" y="-357"/>
+      <point x="301" y="-103"/>
+      <point x="303" y="168" type="curve" smooth="yes"/>
+      <point x="306" y="280" type="line"/>
+      <point x="175" y="280" type="line"/>
+      <point x="176" y="175" type="line" smooth="yes"/>
+      <point x="177" y="-31"/>
+      <point x="194" y="-355"/>
+    </contour>
+    <contour>
+      <point x="412" y="1169" type="curve" smooth="yes"/>
+      <point x="471" y="1169"/>
+      <point x="529" y="1218"/>
+      <point x="538" y="1277" type="curve" smooth="yes"/>
+      <point x="548" y="1337"/>
+      <point x="507" y="1385"/>
+      <point x="448" y="1385" type="curve" smooth="yes"/>
+      <point x="388" y="1385"/>
+      <point x="332" y="1337"/>
+      <point x="322" y="1277" type="curve" smooth="yes"/>
+      <point x="313" y="1218"/>
+      <point x="352" y="1169"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>semicolon</string>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

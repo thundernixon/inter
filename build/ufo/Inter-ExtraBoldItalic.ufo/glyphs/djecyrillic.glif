@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="djecyrillic" format="2">
+  <advance width="1795"/>
+  <unicode hex="0452"/>
+  <outline>
+    <contour>
+      <point x="1023" y="0" type="line"/>
+      <point x="1010" y="-71" type="line" smooth="yes"/>
+      <point x="991" y="-177"/>
+      <point x="882" y="-202"/>
+      <point x="780" y="-202" type="curve" smooth="yes"/>
+      <point x="739" y="-202"/>
+      <point x="705" y="-198"/>
+      <point x="666" y="-194" type="curve"/>
+      <point x="605" y="-561" type="line"/>
+      <point x="662" y="-566"/>
+      <point x="734" y="-576"/>
+      <point x="846" y="-576" type="curve" smooth="yes"/>
+      <point x="1162" y="-576"/>
+      <point x="1431" y="-485"/>
+      <point x="1499" y="-71" type="curve" smooth="yes"/>
+      <point x="1512" y="0" type="line"/>
+    </contour>
+    <component base="tshecyrillic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tshecyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tshecyrillic</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronsubnosp" format="2">
+  <unicode hex="0331"/>
+  <guideline x="-780" y="-319" angle="260.6"/>
+  <guideline x="-167" y="0" angle="0.0"/>
+  <outline>
+    <component base="macron" xOffset="-1699" yOffset="-2303"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

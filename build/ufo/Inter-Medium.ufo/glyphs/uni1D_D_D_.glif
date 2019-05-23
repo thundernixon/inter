@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DDD" format="2">
+  <unicode hex="1DDD"/>
+  <outline>
+    <contour>
+      <point x="-930" y="2739" type="line"/>
+      <point x="-930" y="1652" type="line"/>
+      <point x="-735" y="1652" type="line"/>
+      <point x="-735" y="2739" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.89,0.89,0.004</string>
+    </dict>
+  </lib>
+</glyph>

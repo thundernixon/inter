@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alternativekeysymbol" format="2">
+  <advance width="2869"/>
+  <unicode hex="2387"/>
+  <note>
+Mirror copy of option
+</note>
+  <outline>
+    <contour>
+      <point x="128" y="0" type="line"/>
+      <point x="897" y="0" type="line"/>
+      <point x="2143" y="1880" type="line"/>
+      <point x="2798" y="1880" type="line"/>
+      <point x="2825" y="2048" type="line"/>
+      <point x="2057" y="2048" type="line"/>
+      <point x="812" y="168" type="line"/>
+      <point x="157" y="168" type="line"/>
+    </contour>
+    <contour>
+      <point x="1527" y="0" type="line"/>
+      <point x="2485" y="0" type="line"/>
+      <point x="2515" y="168" type="line"/>
+      <point x="1557" y="168" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>option</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qofdagesh" format="2">
+  <advance width="1035"/>
+  <unicode hex="02DF"/>
+  <outline>
+    <contour>
+      <point x="449" y="1591" type="line"/>
+      <point x="1102" y="2150" type="line"/>
+      <point x="976" y="2299" type="line"/>
+      <point x="326" y="1741" type="line"/>
+    </contour>
+    <contour>
+      <point x="857" y="1587" type="line"/>
+      <point x="1033" y="1740" type="line"/>
+      <point x="570" y="2303" type="line"/>
+      <point x="398" y="2150" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

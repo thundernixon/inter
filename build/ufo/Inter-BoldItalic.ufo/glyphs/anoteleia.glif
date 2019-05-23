@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="838"/>
+  <unicode hex="0387"/>
+  <note>
+the Greek semicolon aka "upper stop"
+</note>
+  <outline>
+    <component base="period" xOffset="184" yOffset="1104"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>period</string>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="diamondblack_x" format="2">
+  <advance width="2979"/>
+  <unicode hex="2756"/>
+  <outline>
+    <contour>
+      <point x="2246" y="1776" type="line"/>
+      <point x="1762" y="2368" type="line"/>
+      <point x="1070" y="1776" type="line"/>
+      <point x="1566" y="1192" type="line"/>
+    </contour>
+    <contour>
+      <point x="2874" y="1024" type="line"/>
+      <point x="2386" y="1608" type="line"/>
+      <point x="1706" y="1024" type="line"/>
+      <point x="2190" y="432" type="line"/>
+    </contour>
+    <contour>
+      <point x="1370" y="1024" type="line"/>
+      <point x="874" y="1608" type="line"/>
+      <point x="186" y="1024" type="line"/>
+      <point x="678" y="432" type="line"/>
+    </contour>
+    <contour>
+      <point x="1994" y="264" type="line"/>
+      <point x="1510" y="856" type="line"/>
+      <point x="818" y="264" type="line"/>
+      <point x="1314" y="-320" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>diamondblack</string>
+    </dict>
+  </lib>
+</glyph>

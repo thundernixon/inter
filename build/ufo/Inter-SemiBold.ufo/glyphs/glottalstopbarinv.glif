@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstopbarinv" format="2">
+  <advance width="1587"/>
+  <unicode hex="01BE"/>
+  <outline>
+    <contour>
+      <point x="1068" y="409" type="curve" smooth="yes"/>
+      <point x="1069" y="307"/>
+      <point x="974" y="242"/>
+      <point x="812" y="242" type="curve" smooth="yes"/>
+      <point x="674" y="242"/>
+      <point x="524" y="298"/>
+      <point x="515" y="473" type="curve"/>
+      <point x="158" y="473" type="line"/>
+      <point x="158" y="230"/>
+      <point x="386" y="-28"/>
+      <point x="807" y="-28" type="curve" smooth="yes"/>
+      <point x="1186" y="-28"/>
+      <point x="1433" y="162"/>
+      <point x="1432" y="426" type="curve" smooth="yes"/>
+      <point x="1433" y="864"/>
+      <point x="930" y="739"/>
+      <point x="929" y="1111" type="curve" smooth="yes"/>
+      <point x="929" y="1854" type="line"/>
+      <point x="555" y="1854" type="line"/>
+      <point x="555" y="1111" type="line" smooth="yes"/>
+      <point x="556" y="603"/>
+      <point x="1069" y="650"/>
+    </contour>
+    <contour>
+      <point x="1193" y="1488" type="line"/>
+      <point x="321" y="1488" type="line"/>
+      <point x="321" y="1218" type="line"/>
+      <point x="1193" y="1218" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.21</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentrotate.cn" format="2">
+  <advance width="723"/>
+  <outline>
+    <contour>
+      <point x="333" y="1629" type="line"/>
+      <point x="595" y="1629" type="line"/>
+      <point x="620" y="1791" type="line"/>
+      <point x="638" y="1894"/>
+      <point x="658" y="1969"/>
+      <point x="751" y="2092" type="curve"/>
+      <point x="635" y="2221" type="line"/>
+      <point x="543" y="2146"/>
+      <point x="390" y="1955"/>
+      <point x="364" y="1801" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

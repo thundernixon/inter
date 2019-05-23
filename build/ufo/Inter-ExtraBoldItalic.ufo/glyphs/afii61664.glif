@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii61664" format="2">
+  <advance width="58"/>
+  <unicode hex="200C"/>
+  <outline>
+    <contour>
+      <point x="-1243" y="-276" type="line"/>
+      <point x="-909" y="-276" type="line"/>
+      <point x="-598" y="1598" type="line"/>
+      <point x="-933" y="1598" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

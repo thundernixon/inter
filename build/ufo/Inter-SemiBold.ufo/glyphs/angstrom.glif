@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="angstrom" format="2">
+  <advance width="2106"/>
+  <unicode hex="212B"/>
+  <outline>
+    <contour>
+      <point x="1093" y="1683" type="line"/>
+      <point x="1134" y="2004" type="line"/>
+      <point x="876" y="2004" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="504" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1606" y="0" type="line"/>
+      <point x="1998" y="0" type="line"/>
+      <point x="1230" y="2004" type="line"/>
+      <point x="968" y="2004" type="line"/>
+      <point x="1018" y="1683" type="line"/>
+    </contour>
+    <contour>
+      <point x="1562" y="757" type="line"/>
+      <point x="474" y="757" type="line"/>
+      <point x="474" y="450" type="line"/>
+      <point x="1562" y="450" type="line"/>
+    </contour>
+    <contour>
+      <point x="741" y="2150" type="curve"/>
+      <point x="741" y="1996"/>
+      <point x="874" y="1874"/>
+      <point x="1053" y="1874" type="curve" smooth="yes"/>
+      <point x="1229" y="1874"/>
+      <point x="1364" y="1996"/>
+      <point x="1364" y="2150" type="curve" smooth="yes"/>
+      <point x="1364" y="2306"/>
+      <point x="1229" y="2435"/>
+      <point x="1053" y="2435" type="curve" smooth="yes"/>
+      <point x="873" y="2435"/>
+      <point x="741" y="2306"/>
+    </contour>
+    <contour>
+      <point x="899" y="2150" type="curve"/>
+      <point x="899" y="2233"/>
+      <point x="958" y="2304"/>
+      <point x="1053" y="2304" type="curve" smooth="yes"/>
+      <point x="1145" y="2304"/>
+      <point x="1206" y="2233"/>
+      <point x="1206" y="2150" type="curve" smooth="yes"/>
+      <point x="1206" y="2070"/>
+      <point x="1145" y="2002"/>
+      <point x="1053" y="2002" type="curve" smooth="yes"/>
+      <point x="957" y="2002"/>
+      <point x="899" y="2072"/>
+    </contour>
+  </outline>
+</glyph>

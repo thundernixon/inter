@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h" format="2">
+  <advance width="1695"/>
+  <unicode hex="0068"/>
+  <note>
+based on "n" and made slightly wider, brining the top vertical stem with it out.
+</note>
+  <guideline x="271" y="1736" angle="0.0"/>
+  <outline>
+    <contour>
+      <point x="500" y="912" type="line" smooth="yes"/>
+      <point x="500" y="1157"/>
+      <point x="655" y="1297"/>
+      <point x="868" y="1297" type="curve" smooth="yes"/>
+      <point x="1074" y="1297"/>
+      <point x="1197" y="1166"/>
+      <point x="1197" y="941" type="curve" smooth="yes"/>
+      <point x="1197" y="0" type="line"/>
+      <point x="1496" y="0" type="line"/>
+      <point x="1496" y="977" type="line" smooth="yes"/>
+      <point x="1496" y="1360"/>
+      <point x="1286" y="1556"/>
+      <point x="970" y="1556" type="curve" smooth="yes"/>
+      <point x="731" y="1556"/>
+      <point x="587" y="1452"/>
+      <point x="515" y="1286" type="curve"/>
+      <point x="496" y="1286" type="line"/>
+      <point x="496" y="2048" type="line"/>
+      <point x="201" y="2048" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="500" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>m</string>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

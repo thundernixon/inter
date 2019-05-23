@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sampi" format="2">
+  <advance width="2176"/>
+  <unicode hex="03E1"/>
+  <outline>
+    <contour>
+      <point x="302" y="1944" type="line"/>
+      <point x="1405" y="1466"/>
+      <point x="1650" y="838"/>
+      <point x="1410" y="-600" type="curve"/>
+      <point x="1884" y="-371" type="line"/>
+      <point x="2102" y="938"/>
+      <point x="1916" y="1705"/>
+      <point x="779" y="2179" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1569" y="1154" type="line"/>
+      <point x="1434" y="1474" type="line"/>
+      <point x="235" y="862" type="line"/>
+      <point x="372" y="536" type="line"/>
+    </contour>
+    <contour>
+      <point x="1778" y="586" type="line"/>
+      <point x="1644" y="910" type="line"/>
+      <point x="445" y="298" type="line"/>
+      <point x="582" y="-28" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.7</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

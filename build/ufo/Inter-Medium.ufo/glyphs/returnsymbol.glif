@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="returnsymbol" format="2">
+  <advance width="2801"/>
+  <unicode hex="23CE"/>
+  <outline>
+    <contour>
+      <point x="904" y="274" type="line"/>
+      <point x="904" y="1518" type="line"/>
+      <point x="278" y="896" type="line"/>
+    </contour>
+    <contour>
+      <point x="709" y="768" type="line"/>
+      <point x="2515" y="768" type="line"/>
+      <point x="2515" y="1024" type="line"/>
+      <point x="709" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="2266" y="768" type="line"/>
+      <point x="2521" y="768" type="line"/>
+      <point x="2521" y="2048" type="line"/>
+      <point x="2266" y="2048" type="line"/>
+    </contour>
+    <contour>
+      <point x="1696" y="1792" type="line"/>
+      <point x="2515" y="1792" type="line"/>
+      <point x="2515" y="2048" type="line"/>
+      <point x="1696" y="2048" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>carriagereturn</string>
+    </dict>
+  </lib>
+</glyph>

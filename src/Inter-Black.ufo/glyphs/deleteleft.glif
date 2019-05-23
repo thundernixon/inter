@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="deleteleft" format="2">
+  <advance width="3424.0"/>
+  <unicode hex="232B"/>
+  <note>
+stroke:
+L: 32
+R outer: 108,110,100%
+R x: 104,104,50%
+B outer: 208,200,100%
+B x: 200,200,50%
+</note>
+  <guideline x="1568.0" y="608.0" angle="0.0"/>
+  <guideline x="1536.0" y="590.0" angle="90.0"/>
+  <guideline x="1584.0" y="1440.0" angle="0.0"/>
+  <guideline x="2400.0" y="1488.0" angle="90.0"/>
+  <outline>
+    <contour>
+      <point x="1256.0" y="0.0" type="line"/>
+      <point x="3168.0" y="0.0" type="line"/>
+      <point x="3168.0" y="2048.0" type="line"/>
+      <point x="1256.0" y="2048.0" type="line"/>
+      <point x="238.0" y="1024.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1434.0" y="400.0" type="line"/>
+      <point x="813.0" y="1024.0" type="line"/>
+      <point x="1434.0" y="1648.0" type="line"/>
+      <point x="2752.0" y="1648.0" type="line"/>
+      <point x="2752.0" y="400.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="2539.0" y="752.0" type="line"/>
+      <point x="1675.0" y="1584.0" type="line"/>
+      <point x="1397.0" y="1296.0" type="line"/>
+      <point x="2261.0" y="464.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1675.0" y="464.0" type="line"/>
+      <point x="2539.0" y="1296.0" type="line"/>
+      <point x="2261.0" y="1584.0" type="line"/>
+      <point x="1397.0" y="752.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

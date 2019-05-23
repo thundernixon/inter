@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X" format="2">
+  <advance width="1701"/>
+  <unicode hex="0058"/>
+  <note>
+recipe: offset curve 32, no auto
+</note>
+  <outline>
+    <contour>
+      <point x="449" y="2048" type="line"/>
+      <point x="301" y="2048" type="line"/>
+      <point x="812" y="1024" type="line"/>
+      <point x="-39" y="0" type="line"/>
+      <point x="117" y="0" type="line"/>
+      <point x="876" y="921" type="line"/>
+      <point x="887" y="921" type="line"/>
+      <point x="1339" y="0" type="line"/>
+      <point x="1484" y="0" type="line"/>
+      <point x="983" y="1024" type="line"/>
+      <point x="1824" y="2048" type="line"/>
+      <point x="1671" y="2048" type="line"/>
+      <point x="912" y="1121" type="line"/>
+      <point x="901" y="1121" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.859,0.922,0.969,0.004</string>
+    </dict>
+  </lib>
+</glyph>

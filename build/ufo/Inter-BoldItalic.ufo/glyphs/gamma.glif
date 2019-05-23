@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gamma" format="2">
+  <advance width="1540"/>
+  <unicode hex="03B3"/>
+  <outline>
+    <contour>
+      <point x="176" y="1536" type="line"/>
+      <point x="444" y="13" type="line"/>
+      <point x="349" y="-572" type="line"/>
+      <point x="753" y="-572" type="line"/>
+      <point x="848" y="13" type="line"/>
+      <point x="1620" y="1536" type="line"/>
+      <point x="1191" y="1536" type="line"/>
+      <point x="729" y="474" type="line"/>
+      <point x="607" y="1536" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>y</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>y</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA92E" format="2">
+  <advance width="1733"/>
+  <unicode hex="A92E"/>
+  <outline>
+    <contour>
+      <point x="1630" y="653" type="line"/>
+      <point x="1528" y="916"/>
+      <point x="1305" y="1172"/>
+      <point x="867" y="1172" type="curve" smooth="yes"/>
+      <point x="429" y="1172"/>
+      <point x="206" y="916"/>
+      <point x="106" y="653" type="curve"/>
+      <point x="374" y="653" type="line"/>
+      <point x="436" y="759"/>
+      <point x="530" y="936"/>
+      <point x="867" y="936" type="curve" smooth="yes"/>
+      <point x="1192" y="936"/>
+      <point x="1301" y="759"/>
+      <point x="1362" y="653" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

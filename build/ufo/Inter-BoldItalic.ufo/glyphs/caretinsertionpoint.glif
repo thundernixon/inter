@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caretinsertionpoint" format="2">
+  <advance width="1348"/>
+  <unicode hex="2041"/>
+  <outline>
+    <contour>
+      <point x="1230" y="714" type="line"/>
+      <point x="960" y="870" type="line"/>
+      <point x="-106" y="-514" type="line"/>
+      <point x="160" y="-670" type="line"/>
+    </contour>
+    <contour>
+      <point x="629" y="-670" type="line"/>
+      <point x="938" y="-530" type="line"/>
+      <point x="622" y="155" type="line"/>
+      <point x="368" y="-109" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

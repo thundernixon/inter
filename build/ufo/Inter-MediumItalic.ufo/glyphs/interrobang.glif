@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="interrobang" format="2">
+  <advance width="1480"/>
+  <unicode hex="203D"/>
+  <outline>
+    <contour>
+      <point x="544" y="589" type="line"/>
+      <point x="769" y="589" type="line"/>
+      <point x="774" y="618" type="line" smooth="yes"/>
+      <point x="805" y="803"/>
+      <point x="838" y="861"/>
+      <point x="1066" y="993" type="curve" smooth="yes"/>
+      <point x="1265" y="1105"/>
+      <point x="1431" y="1284"/>
+      <point x="1467" y="1525" type="curve" smooth="yes"/>
+      <point x="1521" y="1846"/>
+      <point x="1314" y="2076"/>
+      <point x="947" y="2076" type="curve" smooth="yes"/>
+      <point x="610" y="2076"/>
+      <point x="309" y="1879"/>
+      <point x="236" y="1519" type="curve"/>
+      <point x="540" y="1519" type="line"/>
+      <point x="588" y="1731"/>
+      <point x="753" y="1824"/>
+      <point x="906" y="1824" type="curve" smooth="yes"/>
+      <point x="1064" y="1824"/>
+      <point x="1198" y="1721"/>
+      <point x="1166" y="1525" type="curve" smooth="yes"/>
+      <point x="1136" y="1357"/>
+      <point x="1054" y="1246"/>
+      <point x="882" y="1145" type="curve" smooth="yes"/>
+      <point x="670" y="1016"/>
+      <point x="588" y="831"/>
+      <point x="549" y="618" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="545" y="589" type="line"/>
+      <point x="730" y="589" type="line"/>
+      <point x="902" y="1472" type="line"/>
+      <point x="643" y="1472" type="line"/>
+    </contour>
+    <component base="period" xOffset="286"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>question</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>question</string>
+    </dict>
+  </lib>
+</glyph>

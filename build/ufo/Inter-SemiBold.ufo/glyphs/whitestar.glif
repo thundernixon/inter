@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="whitestar" format="2">
+  <advance width="2944"/>
+  <unicode hex="2606"/>
+  <outline>
+    <contour>
+      <point x="1472" y="526" type="line"/>
+      <point x="2228" y="-20" type="line"/>
+      <point x="1930" y="868" type="line"/>
+      <point x="2688" y="1416" type="line"/>
+      <point x="1760" y="1416" type="line"/>
+      <point x="1472" y="2304" type="line"/>
+      <point x="1184" y="1416" type="line"/>
+      <point x="256" y="1416" type="line"/>
+      <point x="1014" y="868" type="line"/>
+      <point x="716" y="-20" type="line"/>
+    </contour>
+    <contour>
+      <point x="1472" y="804" type="line"/>
+      <point x="1150" y="571" type="line"/>
+      <point x="1279" y="954" type="line"/>
+      <point x="948" y="1192" type="line"/>
+      <point x="1348" y="1192" type="line"/>
+      <point x="1472" y="1578" type="line"/>
+      <point x="1598" y="1192" type="line"/>
+      <point x="1996" y="1192" type="line"/>
+      <point x="1666" y="954" type="line"/>
+      <point x="1794" y="571" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>blackstar</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0370" format="2">
+  <advance width="1858"/>
+  <unicode hex="0370"/>
+  <outline>
+    <contour>
+      <point x="1672" y="1182" type="line"/>
+      <point x="612" y="1182" type="line"/>
+      <point x="559" y="874" type="line"/>
+      <point x="1619" y="874" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="2004" type="line"/>
+      <point x="458" y="2004" type="line"/>
+      <point x="126" y="0" type="line"/>
+      <point x="514" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.nodeUserData.0.3</key>
+      <dict>
+        <key>name</key>
+        <string>hr00</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscoredbl" format="2">
+  <advance width="1322"/>
+  <unicode hex="2017"/>
+  <outline>
+    <contour>
+      <point x="1305" y="-362" type="line"/>
+      <point x="17" y="-362" type="line"/>
+      <point x="17" y="-572" type="line"/>
+      <point x="1305" y="-572" type="line"/>
+    </contour>
+    <contour>
+      <point x="1305" y="0" type="line"/>
+      <point x="17" y="0" type="line"/>
+      <point x="17" y="-214" type="line"/>
+      <point x="1305" y="-214" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.941,0.941,0.941,0.004</string>
+    </dict>
+  </lib>
+</glyph>

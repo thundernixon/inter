@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftArrow" format="2">
+  <advance width="2688"/>
+  <unicode hex="2190"/>
+  <note>
+stroke (offset curve):
+L head: 32, 0%
+L stem: 32, 50%
+R head: 108, 0%
+R stem: 110, 50%
+B head: 200, 0%
+B stem: 208, 50%
+</note>
+  <outline>
+    <contour>
+      <point x="1046" y="0" type="line"/>
+      <point x="1135" y="74" type="line"/>
+      <point x="497" y="838" type="line"/>
+      <point x="2347" y="838" type="line"/>
+      <point x="2366" y="954" type="line"/>
+      <point x="541" y="954" type="line"/>
+      <point x="1419" y="1705" type="line"/>
+      <point x="1344" y="1792" type="line"/>
+      <point x="298" y="896" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

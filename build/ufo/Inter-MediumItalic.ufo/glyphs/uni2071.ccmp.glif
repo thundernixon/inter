@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2071.ccmp" format="2">
+  <advance width="595"/>
+  <outline>
+    <contour>
+      <point x="618" y="1875" type="line"/>
+      <point x="349" y="1875" type="line"/>
+      <point x="165" y="772" type="line"/>
+      <point x="434" y="772" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>

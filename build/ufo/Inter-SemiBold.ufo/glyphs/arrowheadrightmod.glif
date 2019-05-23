@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowheadrightmod" format="2">
+  <advance width="1478"/>
+  <unicode hex="02C3"/>
+  <outline>
+    <contour>
+      <point x="1266" y="1247" type="line"/>
+      <point x="1266" y="1447" type="line"/>
+      <point x="212" y="1834" type="line"/>
+      <point x="212" y="1559" type="line"/>
+      <point x="838" y="1337" type="line"/>
+    </contour>
+    <contour>
+      <point x="212" y="809" type="line"/>
+      <point x="1266" y="1198" type="line"/>
+      <point x="1266" y="1396" type="line"/>
+      <point x="838" y="1302" type="line"/>
+      <point x="212" y="1087" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8,0.941,0.949,0.004</string>
+    </dict>
+  </lib>
+</glyph>

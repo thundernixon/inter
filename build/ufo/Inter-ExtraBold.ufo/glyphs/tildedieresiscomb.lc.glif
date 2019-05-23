@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedieresiscomb.lc" format="2">
+  <advance width="29"/>
+  <outline>
+    <contour>
+      <point x="-1519" y="2418" type="curve" smooth="yes"/>
+      <point x="-1519" y="2316"/>
+      <point x="-1426" y="2231"/>
+      <point x="-1308" y="2231" type="curve" smooth="yes"/>
+      <point x="-1188" y="2231"/>
+      <point x="-1094" y="2315"/>
+      <point x="-1094" y="2418" type="curve" smooth="yes"/>
+      <point x="-1094" y="2525"/>
+      <point x="-1192" y="2606"/>
+      <point x="-1308" y="2606" type="curve" smooth="yes"/>
+      <point x="-1422" y="2606"/>
+      <point x="-1519" y="2525"/>
+    </contour>
+    <contour>
+      <point x="-786" y="2421" type="curve" smooth="yes"/>
+      <point x="-786" y="2314"/>
+      <point x="-690" y="2234"/>
+      <point x="-573" y="2234" type="curve" smooth="yes"/>
+      <point x="-456" y="2234"/>
+      <point x="-362" y="2314"/>
+      <point x="-362" y="2421" type="curve" smooth="yes"/>
+      <point x="-362" y="2524"/>
+      <point x="-456" y="2605"/>
+      <point x="-573" y="2605" type="curve" smooth="yes"/>
+      <point x="-690" y="2605"/>
+      <point x="-786" y="2524"/>
+    </contour>
+    <contour>
+      <point x="-650" y="2126" type="line"/>
+      <point x="-650" y="2042"/>
+      <point x="-704" y="2006"/>
+      <point x="-764" y="2006" type="curve" smooth="yes"/>
+      <point x="-905" y="2006"/>
+      <point x="-1011" y="2118"/>
+      <point x="-1160" y="2118" type="curve" smooth="yes"/>
+      <point x="-1350" y="2118"/>
+      <point x="-1489" y="1935"/>
+      <point x="-1489" y="1741" type="curve"/>
+      <point x="-1226" y="1726" type="line"/>
+      <point x="-1226" y="1810"/>
+      <point x="-1175" y="1846"/>
+      <point x="-1116" y="1846" type="curve" smooth="yes"/>
+      <point x="-967" y="1846"/>
+      <point x="-897" y="1731"/>
+      <point x="-719" y="1731" type="curve" smooth="yes"/>
+      <point x="-526" y="1731"/>
+      <point x="-386" y="1911"/>
+      <point x="-386" y="2113" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.871,0.871,0.871,0.004</string>
+    </dict>
+  </lib>
+</glyph>
