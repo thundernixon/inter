@@ -45,8 +45,8 @@ rm ${interUprightVF/".ttf"/".ttx"}
 gftools fix-vf-meta $interUprightVF
 gftools fix-vf-meta $interItalicVF
 
-mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
-mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
+mv "$interUprightVF.fix" $interUprightVF
+mv "$interItalicVF.fix" $interItalicVF
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
