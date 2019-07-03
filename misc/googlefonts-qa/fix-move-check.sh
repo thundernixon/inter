@@ -123,6 +123,9 @@ do
     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 done
 
+# -------------------------------------------------------------------
+# adds and commits new changes, then force pushes -------------------
+
 git add .
 git commit -m "inter: $fontVersion added."
 
