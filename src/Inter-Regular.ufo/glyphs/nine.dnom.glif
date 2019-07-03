@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.dnom" format="2">
   <advance width="1084.0"/>
+  <unicode hex="E0C7"/>
   <outline>
     <component base="nine.dnomf" yOffset="-344.0"/>
   </outline>

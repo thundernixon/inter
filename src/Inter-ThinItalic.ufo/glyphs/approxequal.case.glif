@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="approxequal.case" format="2">
   <advance width="1792.0"/>
+  <unicode hex="E0A2"/>
   <outline>
     <component base="approxequal" xOffset="36.0" yOffset="224.0"/>
   </outline>

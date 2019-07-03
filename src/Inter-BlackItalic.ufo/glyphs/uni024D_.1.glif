@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni024D.1" format="2">
   <advance width="1260.0"/>
+  <unicode hex="E060"/>
   <outline>
     <component base="r.1"/>
     <component base="crossbar" xOffset="-360.0" yOffset="-372.0"/>

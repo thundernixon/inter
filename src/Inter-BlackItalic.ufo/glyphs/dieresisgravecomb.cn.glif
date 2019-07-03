@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.cn" format="2">
   <advance width="44.0"/>
+  <unicode hex="E124"/>
   <outline>
     <contour>
       <point x="-748.0" y="2292.0" type="line"/>

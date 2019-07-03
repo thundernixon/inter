@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oogonek.NAV" format="2">
   <advance width="2104.0"/>
+  <unicode hex="E0EF"/>
   <outline>
     <component base="O"/>
     <component base="ogonek" xOffset="656.0" yOffset="-20.0"/>

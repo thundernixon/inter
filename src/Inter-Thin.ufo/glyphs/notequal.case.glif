@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="notequal.case" format="2">
   <advance width="1792.0"/>
+  <unicode hex="E09C"/>
   <outline>
     <component base="notequal" yOffset="224.0"/>
   </outline>

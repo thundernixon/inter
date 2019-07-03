@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghook.1" format="2">
   <advance width="2464.0"/>
+  <unicode hex="E004"/>
   <outline>
     <contour>
       <point x="2142.0" y="1372.0" type="line"/>

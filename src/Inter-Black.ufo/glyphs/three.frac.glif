@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.frac" format="2">
   <advance width="1140.0"/>
+  <unicode hex="E0DF"/>
   <outline>
     <component base="three.dnomf" yOffset="960.0"/>
   </outline>

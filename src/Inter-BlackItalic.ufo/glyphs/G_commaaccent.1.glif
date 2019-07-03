@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent.1" format="2">
   <advance width="2192.0"/>
+  <unicode hex="E008"/>
   <outline>
     <component base="G.1"/>
     <component base="commaaccent" xOffset="722.0" yOffset="8.0"/>

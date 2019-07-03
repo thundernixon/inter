@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccentrotate.cn" format="2">
   <advance width="896.0"/>
+  <unicode hex="E128"/>
   <outline>
     <contour>
       <point x="328.0" y="1428.0" type="line"/>

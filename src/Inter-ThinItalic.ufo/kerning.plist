@@ -951,6 +951,8 @@
       <real>-96.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>-256.0</real>
+      <key>public.kern2.registered</key>
+      <real>-64.0</real>
       <key>public.kern2.v</key>
       <real>-96.0</real>
       <key>public.kern2.w</key>
@@ -1148,6 +1150,8 @@
     <dict>
       <key>public.kern2.comma</key>
       <real>-96.0</real>
+      <key>public.kern2.registered</key>
+      <real>-16.0</real>
     </dict>
     <key>florin</key>
     <dict>
@@ -1717,6 +1721,8 @@
       <real>-368.0</real>
       <key>public.kern2.quotedblright</key>
       <real>-288.0</real>
+      <key>public.kern2.registered</key>
+      <real>-200.0</real>
       <key>public.kern2.t</key>
       <real>-96.0</real>
       <key>public.kern2.v</key>
@@ -1797,6 +1803,8 @@
       <real>-112.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>-96.0</real>
+      <key>public.kern2.registered</key>
+      <real>-16.0</real>
       <key>slash</key>
       <real>-112.0</real>
       <key>underscore</key>
@@ -1962,6 +1970,8 @@
       <real>240.0</real>
       <key>public.kern2.idotless</key>
       <real>96.0</real>
+      <key>public.kern2.registered</key>
+      <real>-42.0</real>
       <key>public.kern2.u</key>
       <real>-96.0</real>
       <key>public.kern2.v</key>
@@ -2021,6 +2031,8 @@
       <real>-240.0</real>
       <key>public.kern2.quotedblright</key>
       <real>-112.0</real>
+      <key>public.kern2.registered</key>
+      <real>-228.0</real>
       <key>public.kern2.t</key>
       <real>-64.0</real>
       <key>public.kern2.v</key>
@@ -2322,6 +2334,8 @@
       <real>-112.0</real>
       <key>public.kern2.hyphen</key>
       <real>-192.0</real>
+      <key>public.kern2.registered</key>
+      <real>-20.0</real>
     </dict>
     <key>public.kern1.Y</key>
     <dict>
@@ -2395,6 +2409,8 @@
       <real>-112.0</real>
       <key>public.kern2.quotedblbase</key>
       <real>-304.0</real>
+      <key>public.kern2.registered</key>
+      <real>-24.0</real>
       <key>public.kern2.s</key>
       <real>-192.0</real>
       <key>public.kern2.u</key>
@@ -2453,6 +2469,8 @@
       <real>-112.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>-128.0</real>
+      <key>public.kern2.registered</key>
+      <real>-24.0</real>
       <key>public.kern2.v</key>
       <real>-56.0</real>
       <key>uni023E</key>
@@ -2556,6 +2574,8 @@
       <real>-32.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>-176.0</real>
+      <key>public.kern2.registered</key>
+      <real>-32.0</real>
       <key>public.kern2.v</key>
       <real>-56.0</real>
       <key>public.kern2.w</key>
@@ -2614,6 +2634,8 @@
       <real>-32.0</real>
       <key>public.kern2.Y</key>
       <real>-176.0</real>
+      <key>public.kern2.registered</key>
+      <real>-16.0</real>
       <key>public.kern2.x</key>
       <real>-16.0</real>
     </dict>
@@ -2753,6 +2775,8 @@
       <real>96.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>96.0</real>
+      <key>public.kern2.registered</key>
+      <real>48.0</real>
       <key>public.kern2.zero.subs</key>
       <real>-112.0</real>
       <key>rdblgrave.1</key>
@@ -2792,6 +2816,8 @@
       <real>-144.0</real>
       <key>public.kern2.Y</key>
       <real>-240.0</real>
+      <key>public.kern2.registered</key>
+      <real>-48.0</real>
       <key>public.kern2.x</key>
       <real>-40.0</real>
       <key>uni023E</key>
@@ -2856,7 +2882,7 @@
       <key>public.kern2.Y</key>
       <real>28.0</real>
       <key>public.kern2.a</key>
-      <real>-64.0</real>
+      <real>-32.0</real>
       <key>public.kern2.bullet</key>
       <real>-64.0</real>
       <key>public.kern2.c</key>
@@ -2895,6 +2921,8 @@
     <dict>
       <key>public.kern2.one</key>
       <real>-28.0</real>
+      <key>public.kern2.registered</key>
+      <real>-16.0</real>
     </dict>
     <key>public.kern1.four.dnomf</key>
     <dict>
@@ -3549,6 +3577,31 @@
       <key>public.kern2.t.sups</key>
       <real>64.0</real>
     </dict>
+    <key>public.kern1.registered</key>
+    <dict>
+      <key>ampersand</key>
+      <real>-96.0</real>
+      <key>public.kern2.A</key>
+      <real>-200.0</real>
+      <key>public.kern2.C</key>
+      <real>-16.0</real>
+      <key>public.kern2.J</key>
+      <real>-200.0</real>
+      <key>public.kern2.X</key>
+      <real>-20.0</real>
+      <key>public.kern2.Y</key>
+      <real>-24.0</real>
+      <key>public.kern2.a</key>
+      <real>-32.0</real>
+      <key>public.kern2.c</key>
+      <real>-80.0</real>
+      <key>public.kern2.four</key>
+      <real>-140.0</real>
+      <key>public.kern2.s</key>
+      <real>-32.0</real>
+      <key>public.kern2.six.1</key>
+      <real>-48.0</real>
+    </dict>
     <key>public.kern1.rthook</key>
     <dict>
       <key>public.kern2.jdotless</key>
@@ -3570,6 +3623,8 @@
       <real>-144.0</real>
       <key>public.kern2.quotedblleft</key>
       <real>-144.0</real>
+      <key>public.kern2.registered</key>
+      <real>-24.0</real>
     </dict>
     <key>public.kern1.seven</key>
     <dict>
@@ -3590,6 +3645,8 @@
     </dict>
     <key>public.kern1.six.1</key>
     <dict>
+      <key>public.kern2.registered</key>
+      <real>-48.0</real>
       <key>seven</key>
       <real>-112.0</real>
       <key>underscore</key>
@@ -3707,6 +3764,8 @@
       <real>-96.0</real>
       <key>public.kern2.Y</key>
       <real>-96.0</real>
+      <key>public.kern2.a</key>
+      <real>-48.0</real>
       <key>public.kern2.approxequal</key>
       <real>-112.0</real>
       <key>public.kern2.c</key>

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresismacroncomb.cn" format="2">
+  <unicode hex="E118"/>
   <guideline x="-720.0" y="2324.0" angle="90.0"/>
   <guideline x="622.0" y="2392.0" angle="0.0"/>
   <outline>

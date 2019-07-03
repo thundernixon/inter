@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.tf.ss01" format="2">
   <advance width="1824.0"/>
+  <unicode hex="E07E"/>
   <outline>
     <component base="four.ss01" xOffset="8.0"/>
   </outline>

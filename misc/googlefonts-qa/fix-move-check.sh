@@ -84,8 +84,11 @@ git clean -f -d
 
 mkdir -p ofl/inter
 
-cp $interUprightVF    ofl/inter/Inter-Roman-VF.ttf
-cp $interItalicVF     ofl/inter/Inter-Italic-VF.ttf
+cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
+cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
+
+# Literata[wght].ttf
+# Literata-Italic[wght].ttf
 
 mkdir -p ofl/inter/static
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
@@ -114,14 +117,17 @@ mkdir -p $interQADir/checks/static
 
 cd ofl/inter
 
-ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
-# ttfs=$(ls *.ttf) # use this to check only the VFs
-# ttfs=$(ls -R */*.ttf ) # use this to check only statics
+ttfs=$(ls -R static/*.ttf ) # use this to check only statics
 
 for ttf in $ttfs
 do
     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 done
+
+
+fontbakery check-googlefonts ofl/inter/Inter*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Roman-VF.checks.md
+fontbakery check-googlefonts ofl/inter/Inter-Italic*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Italic-VF.checks.md
+
 
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------

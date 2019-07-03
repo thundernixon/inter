@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackleftbullet.case" format="2">
   <advance width="1754.0"/>
+  <unicode hex="E090"/>
   <outline>
     <component base="blackleftbullet" xOffset="34.0" yOffset="208.0"/>
   </outline>

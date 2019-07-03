@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nine.tf.ss01" format="2">
   <advance width="1824.0"/>
+  <unicode hex="E080"/>
   <outline>
     <component base="nine.ss01" xOffset="104.0"/>
   </outline>

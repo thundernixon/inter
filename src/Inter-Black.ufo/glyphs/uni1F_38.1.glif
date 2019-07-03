@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1F38.1" format="2">
   <advance width="1876.0"/>
+  <unicode hex="E01E"/>
   <outline>
     <component base="I.1" xOffset="456.0"/>
     <component base="koronisaccentleft.cn" xOffset="-12.0" yOffset="-8.0"/>

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresismacroncomb.cn" format="2">
+  <unicode hex="E118"/>
   <guideline x="-518.0" y="2396.0" angle="260.6"/>
   <outline>
     <component base="dieresisnosp" xOffset="118.0" yOffset="512.0"/>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="six.ss01" format="2">
   <advance width="1888.0"/>
+  <unicode hex="E06F"/>
   <guideline x="32.0" y="1240.0" angle="0.0"/>
   <guideline x="32.0" y="568.0" angle="0.0"/>
   <outline>

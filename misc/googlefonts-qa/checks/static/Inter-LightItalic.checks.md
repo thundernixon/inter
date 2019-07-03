@@ -15,8 +15,9 @@ Fontbakery version: 0.7.4
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
-* ℹ **INFO** fontbakery (0.7.4)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.4 (latest)
+* ℹ **INFO** fontbakery (0.7.8)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.4
+  LATEST:    0.7.8
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -248,7 +249,7 @@ Fontbakery version: 0.7.4
 * [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 * 💔 **ERROR** ftxvalidator returned an error code. Output follows:
 
-objc[57359]: Objective-C garbage collection is no longer supported.
+objc[77235]: Objective-C garbage collection is no longer supported.
 
 
 
@@ -829,7 +830,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [loca, fpgm, gasp, cvt , prep, GPOS, GSUB]
+* ℹ **INFO** This font contains the following optional tables [GPOS, loca, GSUB, cvt , prep, fpgm, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>

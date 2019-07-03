@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphenbullet.case" format="2">
-  <advance width="1312.0"/>
+  <advance width="1584.0"/>
+  <unicode hex="E08E"/>
   <outline>
     <component base="hyphenbullet" xOffset="34.0" yOffset="208.0"/>
   </outline>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="crossbar" format="2">
   <advance width="1264.0"/>
+  <unicode hex="E103"/>
   <guideline x="1108.0" y="1168.0" angle="90.0"/>
   <guideline x="688.0" y="992.0" angle="0.0"/>
   <outline>

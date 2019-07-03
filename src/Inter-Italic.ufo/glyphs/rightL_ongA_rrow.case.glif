@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightLongArrow.case" format="2">
   <advance width="3776.0"/>
+  <unicode hex="E0EA"/>
   <outline>
     <component base="leftLongArrow" xScale="-1.0" yScale="-1.0" xOffset="3838.0" yOffset="1920.0"/>
   </outline>

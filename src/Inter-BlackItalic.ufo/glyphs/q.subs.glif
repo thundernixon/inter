@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q.subs" format="2">
   <advance width="1216.0"/>
+  <unicode hex="E0AE"/>
   <outline>
     <component base="q.sups" xOffset="-228.0" yOffset="-1376.0"/>
   </outline>

@@ -137,7 +137,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralight" familyname="Inter" stylename="Extra Light" filename="../build/ufo/Inter-ExtraLight.ufo">
+    <instance name="extralight" familyname="Inter" stylename="ExtraLight" filename="../build/ufo/Inter-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -182,7 +182,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralightitalic" familyname="Inter" stylename="Extra Light Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
+    <instance name="extralightitalic" familyname="Inter" stylename="ExtraLight Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="10"/>
@@ -509,7 +509,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibold" familyname="Inter" stylename="Semi Bold" filename="../build/ufo/Inter-SemiBold.ufo">
+    <instance name="semibold" familyname="Inter" stylename="SemiBold" filename="../build/ufo/Inter-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Slant" xvalue="0"/>
@@ -554,7 +554,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibolditalic" familyname="Inter" stylename="Semi Bold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
+    <instance name="semibolditalic" familyname="Inter" stylename="SemiBold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Slant" xvalue="10"/>
@@ -697,7 +697,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabold" familyname="Inter" stylename="Extra Bold" filename="../build/ufo/Inter-ExtraBold.ufo">
+    <instance name="extrabold" familyname="Inter" stylename="ExtraBold" filename="../build/ufo/Inter-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Slant" xvalue="0"/>
@@ -742,7 +742,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabolditalic" familyname="Inter" stylename="Extra Bold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
+    <instance name="extrabolditalic" familyname="Inter" stylename="ExtraBold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Slant" xvalue="10"/>

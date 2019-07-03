@@ -102,8 +102,6 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.CR</key>
-      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Cacute</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Ccaron</key>
@@ -1158,15 +1156,7 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.afii10148</key>
       <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.afii300</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.afii57596</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.afii57598</key>
-      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.afii57636</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.afii61664</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.agrave</key>
       <integer>5</integer>
@@ -1526,10 +1516,6 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.control</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.controlHT</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.controlSOT</key>
-      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.copyright</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.crossbar</key>
@@ -1577,6 +1563,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.ddotaccent</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ddotbelow</key>
+      <integer>5</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.debug1</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.decyrillic</key>
       <integer>5</integer>
@@ -2450,6 +2438,8 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.mdotbelow</key>
       <integer>5</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.mediumspace-math</key>
+      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.mhook</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.micro</key>
@@ -2491,6 +2481,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.nacute</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.naira</key>
+      <integer>5</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.narrownbspace</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.nbspace</key>
       <integer>5</integer>
@@ -2713,8 +2705,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.otildeacute</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.otildedieresis</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.ounce</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.overline</key>
       <integer>5</integer>
@@ -4446,10 +4436,6 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni1FFE.tonos</key>
       <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2009.fra</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni202F</key>
-      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni2047</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni2048</key>
@@ -4487,8 +4473,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.uni205D</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni205E</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni205F</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni2071.ccmp</key>
       <integer>5</integer>
@@ -4554,22 +4538,6 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni27EF</key>
       <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B4E</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B4F</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5A</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5B</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5C</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5D</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5E</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uni2B5F</key>
-      <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni2C7F</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uni2DFF</key>
@@ -4579,8 +4547,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.uniA7FF</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uniA92E</key>
-      <integer>5</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.uniE001</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.uniFE20</key>
       <integer>5</integer>

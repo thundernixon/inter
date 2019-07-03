@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.dnomf" format="2">
   <advance width="1128.0"/>
+  <unicode hex="E0B4"/>
   <guideline x="640.0" y="1088.0" angle="0.0"/>
   <guideline x="640.0" y="1104.0" angle="0.0"/>
   <guideline x="544.0" y="676.0" angle="90.0"/>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="w.subs" format="2">
   <advance width="1628.0"/>
+  <unicode hex="E0AF"/>
   <outline>
     <component base="w.sups" yOffset="-1376.0"/>
   </outline>

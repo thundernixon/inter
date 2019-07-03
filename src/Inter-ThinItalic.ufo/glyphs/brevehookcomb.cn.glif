@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevehookcomb.cn" format="2">
   <advance width="1173.0"/>
+  <unicode hex="E127"/>
   <outline>
     <contour>
       <point x="944.0" y="2004.0" type="line"/>

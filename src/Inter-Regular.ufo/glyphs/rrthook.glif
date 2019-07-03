@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rrthook" format="2">
   <advance width="1048.0"/>
+  <unicode hex="E05D"/>
   <outline>
     <contour>
       <point x="616.0" y="-576.0" type="curve" smooth="yes"/>

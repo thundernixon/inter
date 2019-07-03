@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.dnomf" format="2">
   <advance width="1064.0"/>
+  <unicode hex="E0B9"/>
   <guideline x="660.0" y="1088.0" angle="0.0"/>
   <guideline x="556.0" y="-16.0" angle="0.0"/>
   <outline>

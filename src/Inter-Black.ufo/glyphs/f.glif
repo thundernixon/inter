@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f" format="2">
-  <advance width="1156.0"/>
+  <advance width="1132.0"/>
   <unicode hex="0066"/>
-  <guideline x="-8.0" y="1228.0" angle="0.0"/>
-  <guideline x="-8.0" y="256.0" angle="0.0"/>
+  <guideline x="-32.0" y="1228.0" angle="0.0"/>
+  <guideline x="-32.0" y="256.0" angle="0.0"/>
   <outline>
     <contour>
-      <point x="1084.0" y="1536.0" type="line"/>
-      <point x="56.0" y="1536.0" type="line"/>
-      <point x="56.0" y="1136.0" type="line"/>
-      <point x="1084.0" y="1136.0" type="line"/>
+      <point x="1060.0" y="1536.0" type="line"/>
+      <point x="32.0" y="1536.0" type="line"/>
+      <point x="32.0" y="1136.0" type="line"/>
+      <point x="1060.0" y="1136.0" type="line"/>
     </contour>
-    <component base="_part.f_base"/>
+    <component base="_part.f_base" xOffset="-24.0"/>
   </outline>
   <lib>
     <dict>
