@@ -195,8 +195,7 @@ html { font-family: 'Inter', sans-serif; }
 <script src="index-var.js?v={{ index_var_js_v }}"></script>
 <div class="row white"><div>
   <p>
-    Variable fonts is a new technology and support is somewhat in flux at
-    the time of writing this (fall 2018.)<br>
+    Variable fonts is a new and emerging technology.<br>
     <a href="var-test.html">This test</a> can be used to discover
     what a web browser is capable of.
   </p>
@@ -295,6 +294,105 @@ html { font-family: 'Inter', sans-serif; }
     You can explore features in the <a href="lab/">interactive lab</a>.
   </p>
 </div></div>
+
+
+<div class="row white charset-title" id="charset">
+  <h2><a href="#charset">Character set</a></h2>
+</div>
+<div class="row white charset">
+  <div class="charset-table">
+  {% for g in site.data.glyphinfo.glyphs %}
+    {% comment %}
+    
+    Ignore empty glyphs and glyphs without unicode mapping.
+
+    {% endcomment %}
+    {% if g[1] == 0 and g[2] %}
+      {% if g[3] %}
+      <c title="/{{g[0]}} U+{{g[2]}} ({{g[3]}})">&#x{{g[2]}}</c>
+      {% else %}
+      <c title="/{{g[0]}} U+{{g[2]}}">&#x{{g[2]}}</c>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+
+</div>
+<script>
+;(function(){
+
+
+  function onClickChar(ev) {
+    // Copy to clipboard.
+    // Clipboard management on the web is _ABSOLUTELY INSANE_
+    // This is an elaborate and ugly workaround to make it not suck
+    // on various browsers.
+
+    ev.preventDefault()
+    ev.stopPropagation()
+    
+    var origel = ev.target
+    var el = origel.cloneNode(true)
+    var r = ev.target.getBoundingClientRect()
+
+    el.style.position = 'fixed'
+    el.style.left = r.left + 'px'
+    el.style.top = r.top + 'px'
+    el.style.width = r.width + 'px'
+    el.style.height = r.height + 'px'
+    el.style.webkitUserSelect = 'text'
+    el.style.userSelect = 'text'
+    document.body.appendChild(el)
+    
+    el.innerText = el.innerText + " " + el.title
+
+    el.contentEditable = true
+    el.readOnly = false
+
+    var range = document.createRange()
+    range.selectNodeContents(el)
+
+    var s = window.getSelection()
+    s.removeAllRanges()
+    s.addRange(range)
+
+    document.execCommand('copy')
+
+    document.body.removeChild(el)
+
+    s.removeAllRanges()
+
+    HUDNotification.show('Copied ' + origel.innerText + ' to clipboard')
+
+
+    // flash the glyph
+    clearTimeout(origel._flashTimer)
+    if (origel.classList.contains('flash')) {
+      origel.classList.remove('flash')
+      if (typeof requestAnimationFrame != 'undefined') {
+        requestAnimationFrame(function(){ origel.classList.add('flash') })
+      } else {
+        setTimeout(function(){ origel.classList.add('flash') }, 1)
+      }
+    } else {
+      origel.classList.add('flash')
+    }
+    origel._flashTimer = setTimeout(function(){
+      origel.classList.remove('flash')
+    }, 300)
+  }
+
+  var activeListener = { capture: true }
+
+  let cv = document.querySelector('.charset-table').querySelectorAll('c')
+  for (let i = 0; i < cv.length; i++) {
+    let c = cv[i]
+    c.addEventListener('pointerdown', onClickChar, activeListener)
+    c.addEventListener('mousedown', onClickChar, activeListener)
+  }
+})();
+</script>
+
 
 <div class="row white"><div>
   <h2><a id="story" href="#story">The story behind Inter</a></h2>
@@ -461,10 +559,28 @@ for (i = 0; i < av.length; ++i) {
 })();
 
 
+// clipboard copy
+var copyToClipboard = (function(){
+  var ti = $('#hidden-text-input')
+  return function(text) {
+    let range = document.createRange()
+
+    // ti.style.display = null
+    ti.value = text
+    ti.select()
+
+    document.execCommand("copy")
+    ti.value = ""
+    // ti.style.display = 'none'
+    ti.readOnly = true
+    HUDNotification.show('Copied to clipboard')
+  }
+})();
+
+
 // dynamic metrics calculator
 (function(){
 
-var hiddenTextInput = $('#hidden-text-input')
 var fontSizeEl = $('#dynmet-font-size')
 var trackingEl = $('#dynmet-tracking')
 var unitEl = $('#dynmet-unit')
@@ -529,11 +645,8 @@ function onPointerdownTracking(ev) {
     ev.preventDefault()
     ev.stopPropagation()
   }
-  hiddenTextInput.value = trackingEl.value + unitEl.innerText
-  hiddenTextInput.select()
-  document.execCommand("copy")
+  copyToClipboard(trackingEl.value + unitEl.innerText)
   trackingEl.select()
-  HUDNotification.show('Copied to clipboard')
 }
 
 var passiveListener = { passive: true, capture: false }
