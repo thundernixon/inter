@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caronsubnosp" format="2">
   <advance width="7"/>
+  <unicode hex="E109"/>
   <outline>
     <component base="caron" xOffset="-1580" yOffset="-2246"/>
   </outline>

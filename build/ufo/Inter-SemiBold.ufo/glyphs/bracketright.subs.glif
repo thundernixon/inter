@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright.subs" format="2">
   <advance width="758"/>
+  <unicode hex="E0B3"/>
   <outline>
     <component base="bracketright.sups" yOffset="-1376"/>
   </outline>

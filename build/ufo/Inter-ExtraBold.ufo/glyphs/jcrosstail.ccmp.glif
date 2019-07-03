@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jcrosstail.ccmp" format="2">
   <advance width="1446"/>
+  <unicode hex="E04F"/>
   <outline>
     <contour>
       <point x="610" y="-602" type="curve" smooth="yes"/>

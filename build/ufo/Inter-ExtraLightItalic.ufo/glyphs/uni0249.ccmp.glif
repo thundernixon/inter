@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0249.ccmp" format="2">
   <advance width="639"/>
+  <unicode hex="E04E"/>
   <outline>
     <component base="jdotless"/>
     <component base="crossbar" xOffset="-300" yOffset="-119"/>

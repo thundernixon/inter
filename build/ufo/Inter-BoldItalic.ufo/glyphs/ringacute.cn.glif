@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringacute.cn" format="2">
   <advance width="1097"/>
+  <unicode hex="E115"/>
   <outline>
     <contour>
       <point x="586" y="1529" type="curve" smooth="yes"/>

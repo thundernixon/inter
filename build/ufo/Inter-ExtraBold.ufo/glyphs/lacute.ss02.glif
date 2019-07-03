@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lacute.ss02" format="2">
   <advance width="888"/>
+  <unicode hex="E056"/>
   <outline>
     <component base="l.ss02"/>
     <component base="acute" xOffset="-294" yOffset="512"/>

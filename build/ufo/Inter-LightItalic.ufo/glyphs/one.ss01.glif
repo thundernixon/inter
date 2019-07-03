@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.ss01" format="2">
   <advance width="1208"/>
+  <unicode hex="E06C"/>
   <outline>
     <contour>
       <point x="1025" y="2048" type="line"/>

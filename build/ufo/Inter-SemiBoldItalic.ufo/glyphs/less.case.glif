@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="less.case" format="2">
   <advance width="1894"/>
+  <unicode hex="E097"/>
   <outline>
     <component base="less" xOffset="32" yOffset="192"/>
   </outline>

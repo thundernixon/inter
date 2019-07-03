@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>2048</integer>
     <key>copyright</key>
-    <string>Copyright 2019 the Inter project authors (https://github.com/rsms/inter)</string>
+    <string>Copyright 2019 the Inter Project Authors (https://github.com/rsms/inter)</string>
     <key>descender</key>
     <integer>-680</integer>
     <key>familyName</key>
@@ -50,11 +50,11 @@
     <key>openTypeNamePreferredFamilyName</key>
     <string>Inter</string>
     <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Semi Bold Italic</string>
+    <string>SemiBold Italic</string>
     <key>openTypeNameSampleText</key>
     <string></string>
     <key>openTypeNameUniqueID</key>
-    <string>Inter Semi Bold Italic:2016:src</string>
+    <string>Inter SemiBold Italic:2016:src</string>
     <key>openTypeNameVersion</key>
     <string>Version 1.000;git-src</string>
     <key>openTypeOS2CodePageRanges</key>
@@ -183,11 +183,11 @@
     <key>postscriptWeightName</key>
     <string>Semi-bold</string>
     <key>styleMapFamilyName</key>
-    <string>Inter Semi Bold</string>
+    <string>Inter SemiBold</string>
     <key>styleMapStyleName</key>
     <string>italic</string>
     <key>styleName</key>
-    <string>Semi Bold Italic</string>
+    <string>SemiBold Italic</string>
     <key>trademark</key>
     <string>Inter UI and Inter is a trademark of rsms.</string>
     <key>unitsPerEm</key>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen.case" format="2">
   <advance width="1328"/>
+  <unicode hex="E088"/>
   <outline>
     <component base="hyphen" yOffset="196"/>
   </outline>

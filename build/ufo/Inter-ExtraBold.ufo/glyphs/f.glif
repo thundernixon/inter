@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f" format="2">
-  <advance width="1128"/>
+  <advance width="1109"/>
   <unicode hex="0066"/>
   <outline>
     <contour>
-      <point x="1047" y="1536" type="line"/>
-      <point x="59" y="1536" type="line"/>
-      <point x="59" y="1176" type="line"/>
-      <point x="1047" y="1176" type="line"/>
+      <point x="1028" y="1536" type="line"/>
+      <point x="40" y="1536" type="line"/>
+      <point x="40" y="1176" type="line"/>
+      <point x="1028" y="1176" type="line"/>
     </contour>
-    <component base="_part.f_base"/>
+    <component base="_part.f_base" xOffset="-19"/>
   </outline>
   <lib>
     <dict>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.frac" format="2">
   <advance width="1010"/>
+  <unicode hex="E0E3"/>
   <outline>
     <component base="seven.dnomf" xOffset="158" yOffset="960"/>
   </outline>

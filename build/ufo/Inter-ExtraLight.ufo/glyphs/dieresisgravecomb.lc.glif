@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.lc" format="2">
+  <unicode hex="E10E"/>
   <outline>
     <contour>
       <point x="-1132" y="1883" type="curve" smooth="yes"/>

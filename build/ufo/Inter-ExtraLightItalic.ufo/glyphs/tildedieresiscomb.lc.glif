@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildedieresiscomb.lc" format="2">
+  <unicode hex="E105"/>
   <outline>
     <contour>
       <point x="-884" y="2265" type="curve" smooth="yes"/>

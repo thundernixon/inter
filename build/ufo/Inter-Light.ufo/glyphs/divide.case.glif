@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="divide.case" format="2">
   <advance width="1835"/>
+  <unicode hex="E0A0"/>
   <outline>
     <component base="divide" yOffset="224"/>
   </outline>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.frac" format="2">
   <advance width="721"/>
+  <unicode hex="E0DD"/>
   <outline>
     <component base="one.dnomf" xOffset="158" yOffset="960"/>
   </outline>

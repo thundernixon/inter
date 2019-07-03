@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusminus.case" format="2">
   <advance width="1835"/>
+  <unicode hex="E0A1"/>
   <outline>
     <component base="plusminus" yOffset="256"/>
   </outline>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevegrave.1" format="2">
   <advance width="1707"/>
+  <unicode hex="E031"/>
   <outline>
     <component base="a.1"/>
     <component base="brevegravecomb.cn" xOffset="209" yOffset="-13"/>

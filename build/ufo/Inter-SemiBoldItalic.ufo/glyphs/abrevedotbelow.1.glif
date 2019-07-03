@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevedotbelow.1" format="2">
   <advance width="1778"/>
+  <unicode hex="E030"/>
   <outline>
     <component base="a.1"/>
     <component base="breve" xOffset="222"/>

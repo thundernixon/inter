@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FDF.tonos" format="2">
   <advance width="952"/>
+  <unicode hex="E100"/>
   <outline>
     <component base="uni1FDF" xOffset="-5"/>
   </outline>

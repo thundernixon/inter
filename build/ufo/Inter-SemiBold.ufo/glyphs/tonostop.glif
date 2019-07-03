@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonostop" format="2">
   <advance width="955"/>
+  <unicode hex="E129"/>
   <outline>
     <contour>
       <point x="274" y="1716" type="line"/>

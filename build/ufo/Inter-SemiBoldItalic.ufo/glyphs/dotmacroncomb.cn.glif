@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotmacroncomb.cn" format="2">
+  <unicode hex="E122"/>
   <outline>
     <component base="dotaccent" yScale="0.917532" xOffset="-1176" yOffset="594"/>
     <component base="macroncomb" yScale="0.904" xOffset="140" yOffset="1070"/>

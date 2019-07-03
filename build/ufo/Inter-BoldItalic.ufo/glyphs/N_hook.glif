@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nhook" format="2">
-  <advance width="2070"/>
+  <advance width="2121"/>
   <unicode hex="019D"/>
   <outline>
     <contour>
-      <point x="51" y="0" type="line"/>
-      <point x="35" y="-93" type="line" smooth="yes"/>
-      <point x="15" y="-213"/>
-      <point x="-91" y="-243"/>
-      <point x="-203" y="-243" type="curve"/>
-      <point x="-228" y="-243"/>
-      <point x="-266" y="-244"/>
-      <point x="-289" y="-240" type="curve"/>
-      <point x="-342" y="-566" type="line"/>
-      <point x="-295" y="-575"/>
-      <point x="-195" y="-578"/>
-      <point x="-135" y="-578" type="curve"/>
-      <point x="126" y="-578"/>
-      <point x="395" y="-499"/>
-      <point x="466" y="-94" type="curve" smooth="yes"/>
-      <point x="484" y="0" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="86" y="-93" type="line" smooth="yes"/>
+      <point x="66" y="-213"/>
+      <point x="-41" y="-243"/>
+      <point x="-153" y="-243" type="curve"/>
+      <point x="-178" y="-243"/>
+      <point x="-215" y="-244"/>
+      <point x="-238" y="-240" type="curve"/>
+      <point x="-292" y="-566" type="line"/>
+      <point x="-244" y="-575"/>
+      <point x="-144" y="-578"/>
+      <point x="-85" y="-578" type="curve"/>
+      <point x="177" y="-578"/>
+      <point x="445" y="-499"/>
+      <point x="517" y="-94" type="curve" smooth="yes"/>
+      <point x="534" y="0" type="line"/>
     </contour>
-    <component base="N" xOffset="1"/>
+    <component base="N" xOffset="51"/>
   </outline>
   <lib>
     <dict>

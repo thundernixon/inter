@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexhookcomb.cn" format="2">
   <advance width="1451"/>
+  <unicode hex="E11F"/>
   <outline>
     <contour>
       <point x="780" y="2117" type="line"/>

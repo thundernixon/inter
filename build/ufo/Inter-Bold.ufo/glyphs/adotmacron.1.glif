@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adotmacron.1" format="2">
   <advance width="1789"/>
+  <unicode hex="E040"/>
   <outline>
     <component base="a.1"/>
     <component base="dotmacroncomb.lc" xOffset="1808" yOffset="14"/>

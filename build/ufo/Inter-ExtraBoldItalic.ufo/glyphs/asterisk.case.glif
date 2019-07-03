@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asterisk.case" format="2">
   <advance width="1651"/>
+  <unicode hex="E0A4"/>
   <note>
 Recipe:
 1. make horizontal rect

@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotmacroncomb.lc" format="2">
+  <unicode hex="E10C"/>
   <outline>
     <component base="dotmacroncomb.cn" xOffset="-148" yOffset="-504"/>
   </outline>

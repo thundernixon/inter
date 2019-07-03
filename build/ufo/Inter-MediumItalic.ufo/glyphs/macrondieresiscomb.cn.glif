@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macrondieresiscomb.cn" format="2">
   <advance width="9"/>
+  <unicode hex="E123"/>
   <outline>
     <contour>
       <point x="-178" y="1883" type="line"/>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelowmacron.ss02" format="2">
   <advance width="808"/>
+  <unicode hex="E05A"/>
   <outline>
     <component base="l.ss02"/>
     <component base="dotbelow" xOffset="1160"/>

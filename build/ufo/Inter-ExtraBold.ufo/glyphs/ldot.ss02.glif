@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldot.ss02" format="2">
   <advance width="1250"/>
+  <unicode hex="E055"/>
   <outline>
     <component base="l.ss02" xOffset="13"/>
     <component base="dotaccent" xOffset="598" yOffset="-830"/>

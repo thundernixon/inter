@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="adieresismacron.1" format="2">
   <advance width="1803"/>
+  <unicode hex="E03D"/>
   <outline>
     <component base="a.1"/>
     <component base="dieresismacroncomb.lc" xOffset="1853" yOffset="-40"/>

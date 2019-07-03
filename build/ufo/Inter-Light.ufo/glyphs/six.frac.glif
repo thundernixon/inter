@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="six.frac" format="2">
   <advance width="1057"/>
+  <unicode hex="E0E2"/>
   <outline>
     <component base="six.dnomf" yOffset="960"/>
   </outline>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ascript_uni02DE" format="2">
   <advance width="1838"/>
+  <unicode hex="E10A"/>
   <outline>
     <component base="ascript"/>
     <component base="rhotichookmod" xOffset="1418" yOffset="-120"/>

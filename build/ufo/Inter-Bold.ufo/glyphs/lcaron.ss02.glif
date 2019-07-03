@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lcaron.ss02" format="2">
   <advance width="1058"/>
+  <unicode hex="E058"/>
   <outline>
     <component base="l.ss02"/>
     <component base="commaaccentright.cn" xOffset="557"/>

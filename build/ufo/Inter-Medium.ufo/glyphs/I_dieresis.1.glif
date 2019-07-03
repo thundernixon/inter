@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresis.1" format="2">
   <advance width="1282"/>
+  <unicode hex="E00D"/>
   <outline>
     <component base="I.1"/>
     <component base="casedieresis.cn" xOffset="-164" yOffset="28"/>

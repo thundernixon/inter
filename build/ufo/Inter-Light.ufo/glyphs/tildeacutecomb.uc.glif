@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildeacutecomb.uc" format="2">
+  <unicode hex="E12A"/>
   <outline>
     <contour>
       <point x="-601" y="2624" type="line"/>

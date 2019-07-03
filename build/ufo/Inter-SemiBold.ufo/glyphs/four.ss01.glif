@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.ss01" format="2">
   <advance width="1875"/>
+  <unicode hex="E06E"/>
   <outline>
     <contour>
       <point x="145" y="380" type="line"/>

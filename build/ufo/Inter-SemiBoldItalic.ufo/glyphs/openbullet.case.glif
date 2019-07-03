@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="openbullet.case" format="2">
-  <advance width="1280"/>
+  <advance width="1398"/>
+  <unicode hex="E08D"/>
   <outline>
     <component base="openbullet" xOffset="34" yOffset="208"/>
   </outline>

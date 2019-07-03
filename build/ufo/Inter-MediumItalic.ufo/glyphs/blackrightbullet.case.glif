@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="blackrightbullet.case" format="2">
   <advance width="1682"/>
+  <unicode hex="E091"/>
   <outline>
     <component base="blackrightbullet" xOffset="34" yOffset="208"/>
   </outline>

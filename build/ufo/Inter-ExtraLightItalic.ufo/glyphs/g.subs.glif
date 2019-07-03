@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.subs" format="2">
   <advance width="1123"/>
+  <unicode hex="E0AD"/>
   <outline>
     <component base="g.sups" xOffset="-228" yOffset="-1376"/>
   </outline>

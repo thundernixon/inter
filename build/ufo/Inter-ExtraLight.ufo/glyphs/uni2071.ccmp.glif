@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni2071.ccmp" format="2">
   <advance width="296"/>
+  <unicode hex="E0F4"/>
   <outline>
     <contour>
       <point x="259" y="1867" type="line"/>

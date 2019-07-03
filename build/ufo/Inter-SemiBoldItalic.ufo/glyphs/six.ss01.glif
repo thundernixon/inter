@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="six.ss01" format="2">
   <advance width="1725"/>
+  <unicode hex="E06F"/>
   <outline>
     <contour>
       <point x="144" y="659" type="curve" smooth="yes"/>

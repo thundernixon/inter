@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="figuredash.case" format="2">
   <advance width="1822"/>
+  <unicode hex="E08A"/>
   <outline>
     <component base="figuredash" xOffset="28" yOffset="171"/>
   </outline>

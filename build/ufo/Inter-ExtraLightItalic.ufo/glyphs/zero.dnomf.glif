@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.dnomf" format="2">
   <advance width="1052"/>
+  <unicode hex="E0B4"/>
   <outline>
     <contour>
       <point x="396" y="-19" type="curve" smooth="yes"/>

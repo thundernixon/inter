@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde.1" format="2">
   <advance width="1707"/>
+  <unicode hex="E033"/>
   <outline>
     <component base="a.1"/>
     <component base="brevetildecomb.cn" xOffset="212" yOffset="61"/>

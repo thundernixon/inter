@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisgravecomb.cn" format="2">
+  <unicode hex="E124"/>
   <outline>
     <contour>
       <point x="-857" y="2229" type="line"/>

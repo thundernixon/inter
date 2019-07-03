@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caronnosp" format="2">
   <advance width="22"/>
+  <unicode hex="E108"/>
   <outline>
     <contour>
       <point x="-872" y="2100" type="line"/>

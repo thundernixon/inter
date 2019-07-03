@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ihookabove.1" format="2">
   <advance width="1072"/>
+  <unicode hex="E01C"/>
   <outline>
     <component base="I.1"/>
     <component base="hook" xOffset="1272" yOffset="564"/>

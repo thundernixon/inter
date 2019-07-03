@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gbar.1" format="2">
   <advance width="2091"/>
+  <unicode hex="E003"/>
   <outline>
     <contour>
       <point x="2025" y="581" type="line"/>

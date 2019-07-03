@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildeacutecomb" format="2">
+  <unicode hex="E112"/>
   <outline>
     <component base="tilde" xOffset="-1152"/>
     <component base="acute" xOffset="-1049" yOffset="512"/>

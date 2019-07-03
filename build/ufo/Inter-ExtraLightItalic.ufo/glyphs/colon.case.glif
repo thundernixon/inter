@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon.case" format="2">
   <advance width="733"/>
+  <unicode hex="E092"/>
   <guideline x="501" y="716" angle="260.6"/>
   <outline>
     <component base="period" xOffset="61" yOffset="367"/>

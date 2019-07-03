@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breveacutecomb.cn" format="2">
   <advance width="1395"/>
+  <unicode hex="E11A"/>
   <outline>
     <contour>
       <point x="927" y="2004" type="line"/>

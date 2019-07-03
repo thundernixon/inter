@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Imacroncyrillic" format="2">
-  <advance width="2137"/>
+  <advance width="2139"/>
   <unicode hex="04E2"/>
   <outline>
     <component base="afii10026"/>
-    <component base="macron" xOffset="591" yOffset="512"/>
+    <component base="macron" xOffset="593" yOffset="512"/>
   </outline>
 </glyph>

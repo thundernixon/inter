@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.numr" format="2">
   <advance width="1108"/>
+  <unicode hex="E0D9"/>
   <outline>
     <contour>
       <point x="351" y="1659" type="line"/>

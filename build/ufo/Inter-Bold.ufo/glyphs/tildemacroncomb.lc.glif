@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildemacroncomb.lc" format="2">
   <advance width="24"/>
+  <unicode hex="E110"/>
   <outline>
     <contour>
       <point x="-610" y="2115" type="line"/>

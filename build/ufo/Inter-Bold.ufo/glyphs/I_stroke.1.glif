@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Istroke.1" format="2">
   <advance width="1351"/>
+  <unicode hex="E00F"/>
   <outline>
     <component base="I.1"/>
     <component base="crossbar" xOffset="-8" yOffset="11"/>

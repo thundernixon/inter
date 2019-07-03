@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutedotcomb.lc" format="2">
   <advance width="17"/>
+  <unicode hex="E104"/>
   <outline>
     <contour>
       <point x="-893" y="1685" type="line"/>

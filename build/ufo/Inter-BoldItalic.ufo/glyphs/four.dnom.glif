@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.dnom" format="2">
   <advance width="1162"/>
+  <unicode hex="E0C2"/>
   <outline>
     <component base="four.dnomf" xOffset="-55" yOffset="-337"/>
   </outline>

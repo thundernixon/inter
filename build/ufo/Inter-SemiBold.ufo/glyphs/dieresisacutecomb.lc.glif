@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisacutecomb.lc" format="2">
+  <unicode hex="E106"/>
   <outline>
     <component base="dieresis" xOffset="-1619" yOffset="-28"/>
     <component base="acute" xOffset="-1521" yOffset="484"/>

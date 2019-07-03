@@ -23,16 +23,18 @@ interDir=$(pwd)
 
 interQADir=$interDir/misc/googlefonts-qa
 
-interUprightVF=$interDir/build/fonts/var/Inter-Roman-VF.ttf
-interItalicVF=$interDir/build/fonts/var/Inter-Italic-VF.ttf
+# interUprightVF=$interDir/build/fonts/var/Inter-Roman-VF.ttf
+# interItalicVF=$interDir/build/fonts/var/Inter-Italic-VF.ttf
+
+interFullVF=$interDir/build/fonts/var/Inter.var.ttf
 
 
 # -------------------------------------------------------------------
 # get latest font version -------------------------------------------
 
-ttx -t head $interUprightVF
-fontVersion=v$(xml sel -t --match "//*/fontRevision" -v "@value" ${interUprightVF/".ttf"/".ttx"})
-rm ${interUprightVF/".ttf"/".ttx"}
+ttx -t head $interFullVF
+fontVersion=v$(xml sel -t --match "//*/fontRevision" -v "@value" ${interFullVF/".ttf"/".ttx"})
+rm ${interFullVF/".ttf"/".ttx"}
 
 # # -------------------------------------------------------------------
 # # fix variable font metadata as needed ------------------------------
@@ -42,32 +44,32 @@ rm ${interUprightVF/".ttf"/".ttx"}
 
 # build stat tables for proper style linking
 
-gftools fix-vf-meta $interUprightVF
-gftools fix-vf-meta $interItalicVF
+gftools fix-vf-meta $interFullVF
+# gftools fix-vf-meta $interItalicVF
 
-mv "$interUprightVF.fix" $interUprightVF
-mv "$interItalicVF.fix" $interItalicVF
+mv "$interFullVF.fix" $interFullVF
+# # mv "$interItalicVF.fix" $interItalicVF
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
-gftools fix-nonhinting $interUprightVF $interUprightVF
-gftools fix-nonhinting $interItalicVF $interItalicVF
+gftools fix-nonhinting $interFullVF $interFullVF
+# # gftools fix-nonhinting $interItalicVF $interItalicVF
 
-rm ${interUprightVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
-rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+rm ${interFullVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+# rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
 # assert google fonts spec for how fonts should rasterize in different contexts
 
-gftools fix-gasp --autofix $interUprightVF
-gftools fix-gasp --autofix $interItalicVF
+gftools fix-gasp --autofix $interFullVF
+# gftools fix-gasp --autofix $interItalicVF
 
-mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
-mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
+mv ${interFullVF/".ttf"/".ttf.fix"} $interFullVF
+# # mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
 
 # prevent warnings/issues caused by no digital signature tables
 
-gftools fix-dsig --autofix $interUprightVF 
-gftools fix-dsig --autofix $interItalicVF
+gftools fix-dsig --autofix $interFullVF 
+# gftools fix-dsig --autofix $interItalicVF
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
@@ -84,17 +86,15 @@ git clean -f -d
 
 mkdir -p ofl/inter
 
-cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
-cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
-
-# Literata[wght].ttf
-# Literata-Italic[wght].ttf
+cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
+# cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
+# cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
 
 mkdir -p ofl/inter/static
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
 for ttf in $statics
 do
-    cp $ttf ofl/inter/static/$(basename $ttf)
+    cp $ttf ofl/inter/$(basename $ttf)
 done
 
 # -------------------------------------------------------------------
@@ -117,24 +117,24 @@ mkdir -p $interQADir/checks/static
 
 cd ofl/inter
 
-ttfs=$(ls -R static/*.ttf ) # use this to check only statics
+ttfs=$(ls -R Inter-*.ttf ) # use this to check only statics
 
 for ttf in $ttfs
 do
     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 done
 
-
-fontbakery check-googlefonts ofl/inter/Inter*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Roman-VF.checks.md
-fontbakery check-googlefonts ofl/inter/Inter-Italic*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Italic-VF.checks.md
+fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
+# fontbakery check-googlefonts Inter*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Roman-VF.checks.md
+# fontbakery check-googlefonts Inter-Italic*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Italic-VF.checks.md
 
 
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------
 
-git add .
-git commit -m "inter: $fontVersion added."
+# git add .
+# git commit -m "inter: $fontVersion added."
 
-# push to upstream branch (you must manually go to GitHub to make PR from there)
-# this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
-git push --force upstream inter
+# # push to upstream branch (you must manually go to GitHub to make PR from there)
+# # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+# git push --force upstream inter

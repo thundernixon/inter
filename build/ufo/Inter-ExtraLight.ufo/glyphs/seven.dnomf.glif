@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.dnomf" format="2">
   <advance width="951"/>
+  <unicode hex="E0BB"/>
   <outline>
     <contour>
       <point x="172" y="0" type="line"/>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="afii10056.1" format="2">
   <advance width="1386"/>
+  <unicode hex="E02B"/>
   <outline>
     <component base="I.1"/>
     <component base="dieresis" xOffset="55" yOffset="512"/>

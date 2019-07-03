@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenright.numr" format="2">
   <advance width="623"/>
+  <unicode hex="E0DB"/>
   <outline>
     <contour>
       <point x="447" y="1569" type="curve" smooth="yes"/>

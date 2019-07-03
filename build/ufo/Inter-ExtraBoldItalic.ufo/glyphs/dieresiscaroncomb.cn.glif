@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscaroncomb.cn" format="2">
   <advance width="29"/>
+  <unicode hex="E117"/>
   <outline>
     <contour>
       <point x="-1265" y="1867" type="curve" smooth="yes"/>

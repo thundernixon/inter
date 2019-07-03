@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.1" format="2">
   <advance width="1821"/>
+  <unicode hex="E06D"/>
   <guideline x="1615" y="1656" angle="90.0"/>
   <outline>
     <contour>
