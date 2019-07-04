@@ -44,11 +44,11 @@ rm ${interFullVF/".ttf"/".ttx"}
 
 # build stat tables for proper style linking
 
-gftools fix-vf-meta $interFullVF
-# gftools fix-vf-meta $interItalicVF
+# gftools fix-vf-meta $interFullVF
+# # gftools fix-vf-meta $interItalicVF
 
-mv "$interFullVF.fix" $interFullVF
-# # mv "$interItalicVF.fix" $interItalicVF
+# mv "$interFullVF.fix" $interFullVF
+# # # mv "$interItalicVF.fix" $interItalicVF
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
@@ -90,7 +90,6 @@ cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
 # cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
 # cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
 
-mkdir -p ofl/inter/static
 statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
 for ttf in $statics
 do
@@ -100,7 +99,7 @@ done
 # -------------------------------------------------------------------
 # make or move basic metadata ---------------------------------------
 
-# gftools add-font --update ofl/inter # do this the first time, then edit and copy
+# gftools add-font ofl/inter # do this the first time, then edit and copy
 
 cp $interQADir/METADATA.pb ofl/inter/METADATA.pb
 
@@ -112,8 +111,6 @@ cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
 set +e # otherwise, the script stops after the first fontbakery check output
-
-mkdir -p $interQADir/checks/static
 
 cd ofl/inter
 
@@ -132,9 +129,9 @@ fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/check
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------
 
-# git add .
-# git commit -m "inter: $fontVersion added."
+git add .
+git commit -m "inter: $fontVersion added."
 
-# # push to upstream branch (you must manually go to GitHub to make PR from there)
-# # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
-# git push --force upstream inter
+# push to upstream branch (you must manually go to GitHub to make PR from there)
+# this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+git push --force upstream inter

@@ -7,18 +7,9 @@ fonts {
   name: "Inter"
   style: "normal"
   weight: 400
-  filename: "Inter[wght].ttf"
+  filename: "Inter[slnt,wght].ttf"
   post_script_name: "Inter-Regular"
   full_name: "Inter Regular"
-  copyright: "Copyright 2019 the Inter project authors (https://github.com/rsms/inter)"
-}
-fonts {
-  name: "Inter"
-  style: "italic"
-  weight: 400
-  filename: "Inter-Italic[wght].ttf"
-  post_script_name: "Inter-Italic"
-  full_name: "Inter Italic"
   copyright: "Copyright 2019 the Inter project authors (https://github.com/rsms/inter)"
 }
 fonts {

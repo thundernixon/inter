@@ -257,7 +257,7 @@ Fontbakery version: 0.7.4
 * [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 * 💔 **ERROR** ftxvalidator returned an error code. Output follows:
 
-objc[88440]: Objective-C garbage collection is no longer supported.
+objc[93336]: Objective-C garbage collection is no longer supported.
 
 
 
@@ -708,7 +708,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [loca, GSUB, prep, fpgm, gasp, cvt , GPOS]
+* ℹ **INFO** This font contains the following optional tables [GSUB, GPOS, cvt , prep, loca, fpgm, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
