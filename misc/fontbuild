@@ -64,8 +64,8 @@ def composedGlyphIsNonTrivial(g, yAxisIsNonTrivial=False):
   # If yAxisIsNonTrivial is true, then any transformation over the Y axis
   # is be considered non-trivial.
   if g.components and len(g.components) > 0:
-    if len(g.components) > 1:
-      return True
+    # if len(g.components) > 1:
+    #   return True
     for c in g.components:
       # has non-trivial transformation? (i.e. scaled)
       # Example of optimally trivial transformation:
@@ -74,10 +74,11 @@ def composedGlyphIsNonTrivial(g, yAxisIsNonTrivial=False):
       #   (-1.0, 0, 0.3311, 1, 1464.0, 0)  flipped x axis, sheered and offset
       # 
       xScale, xyScale, yxScale, yScale, xOffset, yOffset = c.transformation
-      if xScale != 1 or xyScale != 0 or yxScale != 0 or yScale != 1:
+      # if xScale != 1 or xyScale != 0 or yxScale != 0 or yScale != 1:
+      if xScale < 0 or yScale < 0:
         return True
-      if yAxisIsNonTrivial and yOffset != 0:
-        return True
+      # if yAxisIsNonTrivial and yOffset != 0:
+      #   return True
   return False
 
 
