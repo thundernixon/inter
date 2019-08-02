@@ -2,7 +2,7 @@
 <designspace format="4.0">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
-    <axis tag="slnt" name="Slant" minimum="0" maximum="10" default="0"/>
+    <axis tag="slnt" name="Slant" minimum="-10" maximum="0" default="0"/>
   </axes>
   <sources>
     <source filename="Inter-Thin.ufo" name="thin" familyname="Inter" stylename="Thin">
@@ -14,7 +14,7 @@
     <source filename="Inter-ThinItalic.ufo" name="thinitalic" familyname="Inter" stylename="Thin Italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
     </source>
     <source filename="Inter-Regular.ufo" name="regular" familyname="Inter" stylename="Regular">
@@ -30,7 +30,7 @@
     <source filename="Inter-Italic.ufo" name="italic" familyname="Inter" stylename="Italic">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
     </source>
     <source filename="Inter-Black.ufo" name="black" familyname="Inter" stylename="Black">
@@ -42,7 +42,7 @@
     <source filename="Inter-BlackItalic.ufo" name="blackitalic" familyname="Inter" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
     </source>
   </sources>
@@ -93,7 +93,7 @@
     <instance name="thinitalic" familyname="Inter" stylename="Thin Italic" filename="../build/ufo/Inter-ThinItalic.ufo" stylemapfamilyname="Inter Thin" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -118,7 +118,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -137,7 +137,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralight" familyname="Inter" stylename="ExtraLight" filename="../build/ufo/Inter-ExtraLight.ufo">
+    <instance name="extralight" familyname="Inter" stylename="Extra Light" filename="../build/ufo/Inter-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -182,10 +182,10 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralightitalic" familyname="Inter" stylename="ExtraLight Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
+    <instance name="extralightitalic" familyname="Inter" stylename="Extra Light Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -210,7 +210,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -279,7 +279,7 @@
     <instance name="lightitalic" familyname="Inter" stylename="Light Italic" filename="../build/ufo/Inter-LightItalic.ufo" stylemapfamilyname="Inter Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -304,7 +304,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -371,7 +371,7 @@
     <instance name="italic" familyname="Inter" stylename="Italic" filename="../build/ufo/Inter-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -396,7 +396,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -463,7 +463,7 @@
     <instance name="mediumitalic" familyname="Inter" stylename="Medium Italic" filename="../build/ufo/Inter-MediumItalic.ufo" stylemapfamilyname="Inter Medium" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="500"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -488,7 +488,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -509,7 +509,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibold" familyname="Inter" stylename="SemiBold" filename="../build/ufo/Inter-SemiBold.ufo">
+    <instance name="semibold" familyname="Inter" stylename="Semi Bold" filename="../build/ufo/Inter-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
         <dimension name="Slant" xvalue="0"/>
@@ -554,10 +554,10 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibolditalic" familyname="Inter" stylename="SemiBold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
+    <instance name="semibolditalic" familyname="Inter" stylename="Semi Bold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="600"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -582,7 +582,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -651,7 +651,7 @@
     <instance name="bolditalic" familyname="Inter" stylename="Bold Italic" filename="../build/ufo/Inter-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="700"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -661,7 +661,7 @@
           <array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
             <array>
               <string>panose</string>
@@ -697,7 +697,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabold" familyname="Inter" stylename="ExtraBold" filename="../build/ufo/Inter-ExtraBold.ufo">
+    <instance name="extrabold" familyname="Inter" stylename="Extra Bold" filename="../build/ufo/Inter-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
         <dimension name="Slant" xvalue="0"/>
@@ -742,10 +742,10 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabolditalic" familyname="Inter" stylename="ExtraBold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
+    <instance name="extrabolditalic" familyname="Inter" stylename="Extra Bold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="800"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -770,7 +770,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -837,7 +837,7 @@
     <instance name="blackitalic" familyname="Inter" stylename="Black Italic" filename="../build/ufo/Inter-BlackItalic.ufo" stylemapfamilyname="Inter Black" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Slant" xvalue="10"/>
+        <dimension name="Slant" xvalue="-10"/>
       </location>
       <kerning/>
       <info/>
@@ -847,7 +847,7 @@
           <array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
             <array>
               <string>panose</string>

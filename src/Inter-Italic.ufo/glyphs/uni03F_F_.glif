@@ -3,14 +3,15 @@
   <advance width="2048.0"/>
   <unicode hex="03FF"/>
   <outline>
-    <component base="uni03FE" xScale="-1.0" xOffset="2032.0"/>
+    <component base="Oopen"/>
+    <component base="period" xOffset="736.0" yOffset="876.0"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Oopen</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
     </dict>
   </lib>
 </glyph>

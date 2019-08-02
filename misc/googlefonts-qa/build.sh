@@ -5,7 +5,9 @@ source build/venv/bin/activate
 
 # make -j all_ttf_hinted
 
-misc/fontbuild compile-var -o build/fonts/var/Inter.var.ttf src/Inter.designspace
+make -j all_var
+
+# misc/fontbuild compile-var -o build/fonts/var/Inter.var.ttf src/Inter.designspace # only useful if you are testing edits to fontbuild
 
 # because I don't want woffs yet:
 

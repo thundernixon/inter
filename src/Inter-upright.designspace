@@ -67,7 +67,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralight" familyname="Inter" stylename="ExtraLight" filename="../build/ufo/Inter-ExtraLight.ufo">
+    <instance name="extralight" familyname="Inter" stylename="Extra Light" filename="../build/ufo/Inter-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="200"/>
       </location>
@@ -241,7 +241,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibold" familyname="Inter" stylename="SemiBold" filename="../build/ufo/Inter-SemiBold.ufo">
+    <instance name="semibold" familyname="Inter" stylename="Semi Bold" filename="../build/ufo/Inter-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="600"/>
       </location>
@@ -329,7 +329,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabold" familyname="Inter" stylename="ExtraBold" filename="../build/ufo/Inter-ExtraBold.ufo">
+    <instance name="extrabold" familyname="Inter" stylename="Extra Bold" filename="../build/ufo/Inter-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>

@@ -52,7 +52,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -71,7 +71,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extralightitalic" familyname="Inter" stylename="ExtraLight Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
+    <instance name="extralightitalic" familyname="Inter" stylename="Extra Light Italic" filename="../build/ufo/Inter-ExtraLightItalic.ufo" stylemapfamilyname="Inter Extra Light" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="200"/>
       </location>
@@ -98,7 +98,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -146,7 +146,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -194,7 +194,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -240,7 +240,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -261,7 +261,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="semibolditalic" familyname="Inter" stylename="SemiBold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
+    <instance name="semibolditalic" familyname="Inter" stylename="Semi Bold Italic" filename="../build/ufo/Inter-SemiBoldItalic.ufo" stylemapfamilyname="Inter Semi Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="600"/>
       </location>
@@ -288,7 +288,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -321,7 +321,7 @@
           <array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
             <array>
               <string>panose</string>
@@ -357,7 +357,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="extrabolditalic" familyname="Inter" stylename="ExtraBold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
+    <instance name="extrabolditalic" familyname="Inter" stylename="Extra Bold Italic" filename="../build/ufo/Inter-ExtraBoldItalic.ufo" stylemapfamilyname="Inter Extra Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="800"/>
       </location>
@@ -384,7 +384,7 @@
             </array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
           </array>
           <key>com.schriftgestaltung.export</key>
@@ -417,7 +417,7 @@
           <array>
             <array>
               <string>italicAngle</string>
-              <string>9.4</string>
+              <string>-9.4</string>
             </array>
             <array>
               <string>panose</string>
