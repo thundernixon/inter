@@ -8,7 +8,7 @@
 @font-face {
   font-family: 'Inter var experimental';
   font-weight: 100 900;
-  font-style: oblique 0deg 10deg;
+  font-style: oblique 0deg -10deg;
   font-named-instance: 'Regular';
   src: url("font-files/Inter.var.woff2") format("woff2 supports variations(gvar)"),
        url("font-files/Inter.var.woff2") format("woff2-variations"),
@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'Inter var experimental safari';
   /* DISABLE font-weight: 400 900; */
-  font-style: oblique 0deg 10deg;
+  font-style: oblique 0deg -10deg;
   font-named-instance: 'Regular';
   src: url("font-files/Inter.var.woff2") format("woff2 supports variations(gvar)"),
        url("font-files/Inter.var.woff2") format("woff2-variations"),
@@ -236,8 +236,8 @@ while (weight <= weightMax) {
       e.style.fontWeight = String(weight)
     }
     if (slant != 0) {
-      e.style.fontStyle = `oblique ${slant}deg`
-      e.innerText = `I ${weight} oblique ${slant}`
+      e.style.fontStyle = `oblique ${-slant}deg`
+      e.innerText = `I ${weight} oblique ${-slant}`
     } else {
       e.innerText = `I ${weight}`
     }
