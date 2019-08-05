@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="Blinebelow" format="2">
-  <advance width="1861"/>
-  <unicode hex="1E06"/>
-  <outline>
-    <component base="B"/>
-    <component base="macronsubnosp" xOffset="1752"/>
-  </outline>
-</glyph>

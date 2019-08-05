@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="mturn" format="2">
-  <advance width="2568"/>
-  <unicode hex="026F"/>
-  <outline>
-    <component base="m" xScale="-1.0" yScale="-1.0" xOffset="2568" yOffset="1536"/>
-  </outline>
-</glyph>

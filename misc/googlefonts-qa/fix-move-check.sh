@@ -7,7 +7,7 @@
 # 
 # after  `make -j all_ttf`
 # call this script from the root of your inter repo, with the absolute path your your google/fonts repo
-# `misc/googlefonts-qa/move-check.sh <your_username>/<path>/fonts`
+# `misc/googlefonts-qa/fix-move-check.sh <your_username>/<path>/fonts`
 
 set -e
 source build/venv3/bin/activate
@@ -15,7 +15,7 @@ source build/venv3/bin/activate
 gFontsDir=$1
 if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
     echo 'Add absolute path to your Google Fonts Git directory, like:'
-    echo 'misc/googlefonts-qa/move-check.sh /Users/username/type-repos/google-font-repos/fonts'
+    echo 'misc/googlefonts-qa/fix-move-check.sh /Users/username/type-repos/google-font-repos/fonts'
     exit 2
 fi
 
@@ -31,10 +31,16 @@ interFullVF=$interDir/build/fonts/var/Inter.var.ttf
 
 # -------------------------------------------------------------------
 # get latest font version -------------------------------------------
+set +e
 
 ttx -t head $interFullVF
 fontVersion=v$(xml sel -t --match "//*/fontRevision" -v "@value" ${interFullVF/".ttf"/".ttx"})
+
+echo $fontVersion
+
 rm ${interFullVF/".ttf"/".ttx"}
+
+set -e
 
 # # -------------------------------------------------------------------
 # # fix variable font metadata as needed ------------------------------
@@ -90,11 +96,11 @@ cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
 # cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
 # cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
 
-statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
-for ttf in $statics
-do
-    cp $ttf ofl/inter/$(basename $ttf)
-done
+# statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
+# for ttf in $statics
+# do
+#     cp $ttf ofl/inter/$(basename $ttf)
+# done
 
 # -------------------------------------------------------------------
 # make or move basic metadata ---------------------------------------
@@ -110,16 +116,18 @@ cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 # -------------------------------------------------------------------
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
+pip install -U fontbakery # update
+
 set +e # otherwise, the script stops after the first fontbakery check output
 
 cd ofl/inter
 
-ttfs=$(ls -R Inter-*.ttf ) # use this to check only statics
+# ttfs=$(ls -R Inter-*.ttf ) # use this to check only statics
 
-for ttf in $ttfs
-do
-    fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
-done
+# for ttf in $ttfs
+# do
+#     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
+# done
 
 fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
 # fontbakery check-googlefonts Inter*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Roman-VF.checks.md

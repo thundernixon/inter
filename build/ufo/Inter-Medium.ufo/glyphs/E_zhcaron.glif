@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="Ezhcaron" format="2">
-  <advance width="1924"/>
-  <unicode hex="01EE"/>
-  <outline>
-    <component base="Ezh"/>
-    <component base="caron" xOffset="273" yOffset="512"/>
-  </outline>
-</glyph>

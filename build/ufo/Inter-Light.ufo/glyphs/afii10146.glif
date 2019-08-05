@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="afii10146" format="2">
-  <advance width="1818"/>
-  <unicode hex="0462"/>
-  <outline>
-    <component base="afii10046"/>
-    <component base="crossbar" xOffset="-241" yOffset="624"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="aringacute" format="2">
-  <advance width="1567"/>
-  <unicode hex="01FB"/>
-  <outline>
-    <component base="a"/>
-    <component base="ringacute.cn" xOffset="392" yOffset="176"/>
-  </outline>
-</glyph>

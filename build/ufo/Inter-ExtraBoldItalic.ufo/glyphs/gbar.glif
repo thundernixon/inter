@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="gbar" format="2">
-  <advance width="1806"/>
-  <unicode hex="01E5"/>
-  <outline>
-    <component base="g"/>
-    <component base="crossbar" xOffset="654" yOffset="-306"/>
-  </outline>
-</glyph>
