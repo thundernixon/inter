@@ -337,7 +337,7 @@ update_UnicodeData:
 build/googlefonts/%: $(FONTDIR)/%
 	misc/fontbuild rename --compact-style -o $@ "$<"
 
-googlefonts: googlefonts_pre googlefonts_all
+googlefonts: googlefonts_pre # googlefonts_all
 
 googlefonts_pre:
 	@rm -rf build/googlefonts
