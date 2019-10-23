@@ -1,4 +1,4 @@
 # make a `venv3` with python3
 
-fontbakery
+fontbakery==0.7.13
 git+https://github.com/googlefonts/gftools.git
