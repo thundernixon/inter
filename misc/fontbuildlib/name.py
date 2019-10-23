@@ -52,6 +52,15 @@ def getFamilyName(font):
     raise ValueError("family name not found")
   return r.toUnicode()
 
+# We only need to check for and change a few names, so this is a simple way to do so
+googleFontCompactNames = {
+  "Extra Light":          "ExtraLight",
+  "Extra Light Italic":   "ExtraLight Italic",
+  "Semi Bold":            "SemiBold",
+  "Semi Bold Italic":     "SemiBold Italic",
+  "Extra Bold":           "ExtraBold",
+  "Extra Bold Italic":    "ExtraBold Italic"
+}
 
 def removeWhitespaceFromStyles(font):
   familyName = getFamilyName(font)
@@ -64,19 +73,12 @@ def removeWhitespaceFromStyles(font):
 
   nameTable = font["name"]
   for rec in nameTable.names:
-    rid = rec.nameID
-    if rid in (FULL_NAME, LEGACY_FAMILY):
-      # style part of family name
-      s = rec.toUnicode()
-      start = s.find(familyName)
-      if start != -1:
-        s = familyName + " " + removeWhitespace(s[start + len(familyName):])
-      else:
-        s = removeWhitespace(s)
-      rec.string = s
-    if rid in (SUBFAMILY_NAME,) or rid in vfInstanceSubfamilyNameIds:
-      rec.string = removeWhitespace(rec.toUnicode())
-    # else: ignore standard names unrelated to style
+    s = rec.toUnicode()
+    for name in googleFontCompactNames.keys():
+      if name == s:
+        print(f"Changing '{s}' to '{googleFontCompactNames[s]}'")
+        rec.string = googleFontCompactNames[s]
+  
 
 
 def setFamilyName(font, nextFamilyName):
