@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.13
+Fontbakery version: 0.7.14
 
 <details>
 <summary><b>[29] Family checks</b></summary>
@@ -8,10 +8,122 @@ Fontbakery version: 0.7.13
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
-* ℹ **INFO** fontbakery (0.7.13)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.13 (latest)
+* ℹ **INFO** fontbakery (0.7.14)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.14 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check METADATA.pb parse correctly. </summary>
+
+* [com.google.fonts/check/metadata/parses](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/parses)
+* 🍞 **PASS** METADATA.pb parsed successfuly.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
+
+* [com.google.fonts/check/metadata/unknown_designer](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unknown_designer)
+* 🍞 **PASS** Font designer field is not 'unknown'.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Multiple values in font designer field in METADATA.pb must be separated by commas.</summary>
+
+* [com.google.fonts/check/metadata/designer_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/designer_values)
+* 🍞 **PASS** Looks good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Does METADATA.pb copyright field contain broken links?</summary>
+
+* [com.google.fonts/check/metadata/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/broken_links)
+* 🍞 **PASS** All links in the METADATA.pb file look good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Ensure METADATA.pb lists all font binaries </summary>
+
+* [com.google.fonts/check/metadata/undeclared_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/undeclared_fonts)
+* 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check font has a license.</summary>
+
+* [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
+* 🍞 **PASS** Found license at './OFL.txt'
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: check if fonts field only has unique "full_name" values.</summary>
+
+* [com.google.fonts/check/metadata/unique_full_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unique_full_name_values)
+* 🍞 **PASS** METADATA.pb "fonts" field only has unique "full_name" values.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: check if fonts field only contains unique style:weight pairs.</summary>
+
+* [com.google.fonts/check/metadata/unique_weight_style_pairs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unique_weight_style_pairs)
+* 🍞 **PASS** METADATA.pb "fonts" field only has unique style:weight pairs.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb license is "APACHE2", "UFL" or "OFL"?</summary>
+
+* [com.google.fonts/check/metadata/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/license)
+* 🍞 **PASS** Font license is declared in METADATA.pb as "OFL"
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb should contain at least "menu" and "latin" subsets.</summary>
+
+* [com.google.fonts/check/metadata/menu_and_latin](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/menu_and_latin)
+* 🍞 **PASS** METADATA.pb contains "menu" and "latin" subsets.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb subsets should be alphabetically ordered.</summary>
+
+* [com.google.fonts/check/metadata/subsets_order](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/subsets_order)
+* 🍞 **PASS** METADATA.pb subsets are sorted in alphabetical order.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
+
+* [com.google.fonts/check/metadata/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/copyright)
+* 🍞 **PASS** Copyright is consistent across family
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check that METADATA.pb family values are all the same.</summary>
+
+* [com.google.fonts/check/metadata/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/familyname)
+* 🍞 **PASS** METADATA.pb: Family name is the same in all metadata "fonts" items.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
+
+* [com.google.fonts/check/metadata/has_regular](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/has_regular)
+* 🍞 **PASS** Family has a Regular style.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Regular should be 400.</summary>
+
+* [com.google.fonts/check/metadata/regular_is_400](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/regular_is_400)
+* 🍞 **PASS** Regular has weight = 400.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Font filenames match font.filename entries?</summary>
+
+* [com.google.fonts/check/metadata/filenames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/filenames)
+* 🍞 **PASS** Filenames in METADATA.pb look good.
 
 </details>
 <details>
@@ -85,118 +197,6 @@ Fontbakery version: 0.7.13
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check METADATA.pb parse correctly. </summary>
-
-* [com.google.fonts/check/metadata/parses](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/parses)
-* 💤 **SKIP** Font family at 'build/fonts/var' lacks a METADATA.pb file.
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Font designer field in METADATA.pb must not be 'unknown'.</summary>
-
-* [com.google.fonts/check/metadata/unknown_designer](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unknown_designer)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Multiple values in font designer field in METADATA.pb must be separated by commas.</summary>
-
-* [com.google.fonts/check/metadata/designer_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/designer_values)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Does METADATA.pb copyright field contain broken links?</summary>
-
-* [com.google.fonts/check/metadata/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/broken_links)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Ensure METADATA.pb lists all font binaries </summary>
-
-* [com.google.fonts/check/metadata/undeclared_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/undeclared_fonts)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check font has a license.</summary>
-
-* [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
-* 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: check if fonts field only has unique "full_name" values.</summary>
-
-* [com.google.fonts/check/metadata/unique_full_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unique_full_name_values)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: check if fonts field only contains unique style:weight pairs.</summary>
-
-* [com.google.fonts/check/metadata/unique_weight_style_pairs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unique_weight_style_pairs)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb license is "APACHE2", "UFL" or "OFL"?</summary>
-
-* [com.google.fonts/check/metadata/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/license)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb should contain at least "menu" and "latin" subsets.</summary>
-
-* [com.google.fonts/check/metadata/menu_and_latin](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/menu_and_latin)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb subsets should be alphabetically ordered.</summary>
-
-* [com.google.fonts/check/metadata/subsets_order](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/subsets_order)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Copyright notice is the same in all fonts?</summary>
-
-* [com.google.fonts/check/metadata/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/copyright)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check that METADATA.pb family values are all the same.</summary>
-
-* [com.google.fonts/check/metadata/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/familyname)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: According Google Fonts standards, families should have a Regular style.</summary>
-
-* [com.google.fonts/check/metadata/has_regular](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/has_regular)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Regular should be 400.</summary>
-
-* [com.google.fonts/check/metadata/regular_is_400](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/regular_is_400)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata, has_regular_style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Font filenames match font.filename entries?</summary>
-
-* [com.google.fonts/check/metadata/filenames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/filenames)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> All tabular figures must have the same width across the RIBBI-family.</summary>
 
 * [com.google.fonts/check/family/tnum_horizontal_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/tnum_horizontal_metrics)
@@ -213,7 +213,7 @@ Fontbakery version: 0.7.13
 <br>
 </details>
 <details>
-<summary><b>[132] Inter.var.ttf</b></summary>
+<summary><b>[132] Inter[slnt,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
 
@@ -234,16 +234,9 @@ Fontbakery version: 0.7.13
 * [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 * 💔 **ERROR** ftxvalidator returned an error code. Output follows:
 
-objc[6185]: Objective-C garbage collection is no longer supported.
+objc[65973]: Objective-C garbage collection is no longer supported.
 
 
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
-* 🔥 **FAIL** The file 'Inter.var.ttf' must be renamed to 'Inter[slnt,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
 
 </details>
 <details>
@@ -257,16 +250,24 @@ objc[6185]: Objective-C garbage collection is no longer supported.
 <summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file.</summary>
 
 * [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-* 🔥 **FAIL** License file LICENSE.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "Licensed under the Apache License, Version 2.0" [code: wrong]
+* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
+<summary>🔥 <b>FAIL:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
 
-* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
+* [com.google.fonts/check/metadata/match_fullname_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_fullname_postscript)
+* 🔥 **FAIL** METADATA.pb font full_name = "Inter" does not match post_script_name = "Inter-Regular" [code: mismatch]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
+
+* [com.google.fonts/check/metadata/valid_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_copyright)
+* 🔥 **FAIL** METADATA.pb: Copyright notices should match a pattern similar to:
+ "Copyright 2019 The Familyname Project Authors (git url)"
+But instead we have got:
+"Copyright 2019 the Inter project authors (https://github.com/rsms/inter)" [code: bad-notice-format]
 
 </details>
 <details>
@@ -286,10 +287,10 @@ But instead we have got:
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+<summary>🔥 <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
 
-* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
+* [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
+* 🔥 **FAIL** Copyright field for this font on METADATA.pb ("Copyright 2019 the Inter project authors (https://github.com/rsms/inter)") differs from a copyright notice entry on the name table: "Copyright 2019 The Inter project authors" [code: mismatch]
 
 </details>
 <details>
@@ -304,19 +305,6 @@ But instead we have got:
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
 * 🔥 **FAIL** Failed to lookup ligatures. This font file seems to be malformed. For more info, read: https://github.com/googlefonts/fontbakery/issues/1596 [code: malformed]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct names</summary>
-
-* [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
-* 🔥 **FAIL** Instance name "Extra Light" is incorrect. It should be "ExtraLight" [code: bad-name]
-* 🔥 **FAIL** Instance name "Extra Light Italic" is incorrect. It should be "ExtraLight Italic" [code: bad-name]
-* 🔥 **FAIL** Instance name "Semi Bold" is incorrect. It should be "SemiBold" [code: bad-name]
-* 🔥 **FAIL** Instance name "Semi Bold Italic" is incorrect. It should be "SemiBold Italic" [code: bad-name]
-* 🔥 **FAIL** Instance name "Extra Bold" is incorrect. It should be "ExtraBold" [code: bad-name]
-* 🔥 **FAIL** Instance name "Extra Bold Italic" is incorrect. It should be "ExtraBold Italic" [code: bad-name]
-* 🔥 **FAIL** This will cause problems with some of the Google Fonts systems that look up fonts by their style names. This must be fixed! [code: bad-instance-names]
 
 </details>
 <details>
@@ -339,10 +327,10 @@ They can be removed by using fonttools/ttx.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Does the font have a DSIG table?</summary>
+<summary>⚠ <b>WARN:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
 
-* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
-* 🔥 **FAIL** This font lacks a digital signature (DSIG table). Some applications may require one (even if only a dummy placeholder) in order to work properly. You can add a DSIG table by running the `gftools fix-dsig` script. [code: lacks-signature]
+* [com.google.fonts/check/metadata/listed_on_gfonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/listed_on_gfonts)
+* ⚠ **WARN** Family not found via Google Fonts API. [code: not-found]
 
 </details>
 <details>
@@ -350,48 +338,6 @@ They can be removed by using fonttools/ttx.
 
 * [com.google.fonts/check/unitsperem](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/head.html#com.google.fonts/check/unitsperem)
 * ⚠ **WARN** In order to optimize performance on some legacy renderers, the value of unitsPerEm at the head table should idealy be a power of between 16 to 16384. And values of 1000 and 2000 are also common and may be just fine as well. But we got 2816 instead. [code: suboptimal]
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain broken links?</summary>
-
-* [com.google.fonts/check/description/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links)
-* 💤 **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Does DESCRIPTION file contain a upstream Git repo URL?</summary>
-
-* [com.google.fonts/check/description/git_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/git_url)
-* 💤 **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Does DESCRIPTION file mention when a family is available as variable font?</summary>
-
-* [com.google.fonts/check/description/variable_font](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/variable_font)
-* 💤 **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Is this a proper HTML snippet?</summary>
-
-* [com.google.fonts/check/description/valid_html](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/valid_html)
-* 💤 **SKIP** Unfulfilled Conditions: descfile
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
-
-* [com.google.fonts/check/description/min_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length)
-* 💤 **SKIP** Unfulfilled Conditions: description
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
-
-* [com.google.fonts/check/description/max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length)
-* 💤 **SKIP** Unfulfilled Conditions: description
 
 </details>
 <details>
@@ -409,164 +355,45 @@ They can be removed by using fonttools/ttx.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Fontfamily is listed on Google Fonts API?</summary>
-
-* [com.google.fonts/check/metadata/listed_on_gfonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/listed_on_gfonts)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
-
-* [com.google.fonts/check/metadata/nameid/family_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/family_name)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/metadata/nameid/post_script_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/post_script_name)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
-
-* [com.google.fonts/check/metadata/nameid/full_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/full_name)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.name value should be same as the family name declared on the name table.</summary>
 
 * [com.google.fonts/check/metadata/nameid/font_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/font_name)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata, style
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
-
-* [com.google.fonts/check/metadata/match_fullname_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_fullname_postscript)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.filename and font.post_script_name fields have equivalent values?</summary>
 
 * [com.google.fonts/check/metadata/match_filename_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_filename_postscript)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata, not is_variable_font
+* 💤 **SKIP** Unfulfilled Conditions: not is_variable_font
 
 </details>
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/metadata/valid_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_name_values)
-* 💤 **SKIP** Unfulfilled Conditions: style, font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.full_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/metadata/valid_full_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_full_name_values)
-* 💤 **SKIP** Unfulfilled Conditions: style, font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.filename field contains font name in right format?</summary>
 
 * [com.google.fonts/check/metadata/valid_filename_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_filename_values)
-* 💤 **SKIP** Unfulfilled Conditions: style, family_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
-
-* [com.google.fonts/check/metadata/valid_post_script_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_post_script_name_values)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
-
-* [com.google.fonts/check/metadata/valid_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_copyright)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Copyright notice on METADATA.pb should not contain 'Reserved Font Name'.</summary>
-
-* [com.google.fonts/check/metadata/reserved_font_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/reserved_font_name)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Copyright notice shouldn't exceed 500 chars.</summary>
-
-* [com.google.fonts/check/metadata/copyright_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/copyright_max_length)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb font.style "italic" matches font internals?</summary>
 
 * [com.google.fonts/check/metadata/italic_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/italic_style)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb font.style "normal" matches font internals?</summary>
-
-* [com.google.fonts/check/metadata/normal_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/normal_style)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
-
-* [com.google.fonts/check/metadata/nameid/family_and_full_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/family_and_full_names)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Check if fontname is not camel cased.</summary>
-
-* [com.google.fonts/check/metadata/fontname_not_camel_cased](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/fontname_not_camel_cased)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Check font name is the same as family name.</summary>
-
-* [com.google.fonts/check/metadata/match_name_familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_name_familyname)
-* 💤 **SKIP** Unfulfilled Conditions: family_metadata, font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Check that font weight has a canonical value.</summary>
-
-* [com.google.fonts/check/metadata/canonical_weight_value](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/canonical_weight_value)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/metadata/os2_weightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/os2_weightclass)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb weight matches postScriptName.</summary>
-
-* [com.google.fonts/check/metadata/match_weight_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_weight_postscript)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> METADATA.pb: Font styles are named canonically?</summary>
-
-* [com.google.fonts/check/metadata/canonical_style_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/canonical_style_names)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
+* 💤 **SKIP** This check only applies to italic fonts.
 
 </details>
 <details>
@@ -602,13 +429,6 @@ They can be removed by using fonttools/ttx.
 
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/contour_count)
 * 💤 **SKIP** Unfulfilled Conditions: not is_variable_font
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
-* 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
 <details>
@@ -664,7 +484,7 @@ They can be removed by using fonttools/ttx.
 <summary>💤 <b>SKIP:</b> Directory name in GFonts repo structure must match NameID 1 of the regular.</summary>
 
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
-* 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure, not is_variable_font
+* 💤 **SKIP** Unfulfilled Conditions: not is_variable_font
 
 </details>
 <details>
@@ -731,17 +551,25 @@ They can be removed by using fonttools/ttx.
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Does DESCRIPTION file contain a upstream Git repo URL?</summary>
+
+* [com.google.fonts/check/description/git_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/git_url)
+* ℹ **INFO** Found a git repo URL: https://github.com/rsms/inter/ [code: url-found]
+* 🍞 **PASS** Looks great!
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Show hinting filesize impact.</summary>
 
 * [com.google.fonts/check/hinting_impact](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/hinting_impact)
 * ℹ **INFO** Hinting filesize impact:
 
-|  | build/fonts/var/Inter.var.ttf |
+|  | Inter[slnt,wght].ttf |
 |:--- | ---:|
-| Dehinted Size | 751.0kb |
-| Hinted Size | 744.1kb |
-| Increase | -7080 bytes |
-| Change   | -0.9 % |
+| Dehinted Size | 763.9kb |
+| Hinted Size | 761.5kb |
+| Increase | -2500 bytes |
+| Change   | -0.3 % |
  [code: size-impact]
 
 </details>
@@ -749,7 +577,7 @@ They can be removed by using fonttools/ttx.
 <summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
 
 * [com.google.fonts/check/old_ttfautohint](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.000;git-src'] [code: version-not-detected]
+* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 3.012;git-'] [code: version-not-detected]
 
 </details>
 <details>
@@ -760,10 +588,26 @@ They can be removed by using fonttools/ttx.
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering?</summary>
+
+* [com.google.fonts/check/gasp](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp)
+* ℹ **INFO** These are the ppm ranges declared on the gasp table:
+
+PPM <= 65535:
+	flag = 0x0F
+	- Use grid-fitting
+	- Use grayscale rendering
+	- Use gridfitting with ClearType symmetric smoothing
+	- Use smoothing along multiple axes with ClearType®
+ [code: ranges]
+* 🍞 **PASS** The 'gasp' table is correctly set, with one gaspRange:value of 0xFFFF:0x0F.
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 1.000;git-src"
+* ℹ **INFO** Version string is: "Version 3.012;git-"
 The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
 "Version 1.3; git-0d08353-release" [code: bad-format]
 
@@ -772,8 +616,50 @@ The version string must ideally include a git commit hash and either a "dev" or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, loca, GPOS]
+* ℹ **INFO** This font contains the following optional tables [DSIG, loca, GSUB, prep, gasp, GPOS]
 * 🍞 **PASS** Font contains all required tables.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
+
+* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+* 🍞 **PASS** Inter[slnt,wght].ttf is named canonically.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Does DESCRIPTION file contain broken links?</summary>
+
+* [com.google.fonts/check/description/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/broken_links)
+* 🍞 **PASS** All links in the DESCRIPTION file look good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Does DESCRIPTION file mention when a family is available as variable font?</summary>
+
+* [com.google.fonts/check/description/variable_font](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/variable_font)
+* 🍞 **PASS** Looks good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Is this a proper HTML snippet?</summary>
+
+* [com.google.fonts/check/description/valid_html](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/valid_html)
+* 🍞 **PASS** DESCRIPTION.en_us.html is a propper HTML file.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> DESCRIPTION.en_us.html must have more than 200 bytes.</summary>
+
+* [com.google.fonts/check/description/min_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/min_length)
+* 🍞 **PASS** DESCRIPTION.en_us.html is larger than 200 bytes.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> DESCRIPTION.en_us.html must have less than 1000 bytes.</summary>
+
+* [com.google.fonts/check/description/max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/max_length)
+* 🍞 **PASS** DESCRIPTION.en_us.html is smaller than 1000 bytes.
 
 </details>
 <details>
@@ -833,6 +719,105 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checks METADATA.pb font.name field matches family name declared on the name table.</summary>
+
+* [com.google.fonts/check/metadata/nameid/family_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/family_name)
+* 🍞 **PASS** Family name "Inter" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/metadata/nameid/post_script_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/post_script_name)
+* 🍞 **PASS** Postscript name "Inter-Regular" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
+
+* [com.google.fonts/check/metadata/nameid/full_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/full_name)
+* 🍞 **PASS** Font fullname "Inter" is identical in METADATA.pb and on the TTF file.
+* 🍞 **PASS** Font fullname "Inter" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
+
+* [com.google.fonts/check/metadata/valid_post_script_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_post_script_name_values)
+* 🍞 **PASS** METADATA.pb postScriptName field contains font name in right format.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright notice on METADATA.pb should not contain 'Reserved Font Name'.</summary>
+
+* [com.google.fonts/check/metadata/reserved_font_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/reserved_font_name)
+* 🍞 **PASS** METADATA.pb copyright field does not contain "Reserved Font Name".
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Copyright notice shouldn't exceed 500 chars.</summary>
+
+* [com.google.fonts/check/metadata/copyright_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/copyright_max_length)
+* 🍞 **PASS** Copyright notice string is shorter than 500 chars.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb font.style "normal" matches font internals?</summary>
+
+* [com.google.fonts/check/metadata/normal_style](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/normal_style)
+* 🍞 **PASS** METADATA.pb font.style "normal" matches font internals.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb font.name and font.full_name fields match the values declared on the name table?</summary>
+
+* [com.google.fonts/check/metadata/nameid/family_and_full_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/family_and_full_names)
+* 🍞 **PASS** METADATA.pb familyname and fullName fields match corresponding name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Check if fontname is not camel cased.</summary>
+
+* [com.google.fonts/check/metadata/fontname_not_camel_cased](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/fontname_not_camel_cased)
+* 🍞 **PASS** Font name is not camel-cased.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Check font name is the same as family name.</summary>
+
+* [com.google.fonts/check/metadata/match_name_familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_name_familyname)
+* 🍞 **PASS** Font name is the same as family name.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Check that font weight has a canonical value.</summary>
+
+* [com.google.fonts/check/metadata/canonical_weight_value](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/canonical_weight_value)
+* 🍞 **PASS** Font weight has a canonical value.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/metadata/os2_weightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/os2_weightclass)
+* 🍞 **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb weight matches postScriptName.</summary>
+
+* [com.google.fonts/check/metadata/match_weight_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_weight_postscript)
+* 🍞 **PASS** Weight value matches postScriptName.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
+
+* [com.google.fonts/check/metadata/canonical_style_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/canonical_style_names)
+* 🍞 **PASS** Font styles are named canonically.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries. </summary>
 
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
@@ -865,6 +850,13 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * [com.google.fonts/check/varfont/has_HVAR](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/has_HVAR)
 * 🍞 **PASS** This variable font contains an HVAR table.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
+
+* [com.google.fonts/check/smart_dropout](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout)
+* 🍞 **PASS** 'prep' table contains instructions enabling smart dropout control.
 
 </details>
 <details>
@@ -907,6 +899,13 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 * 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct names</summary>
+
+* [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
+* 🍞 **PASS** Instances have correct names
 
 </details>
 <details>
@@ -1099,6 +1098,13 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does the font have a DSIG table?</summary>
+
+* [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
+* 🍞 **PASS** Digital Signature (DSIG) exists.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
@@ -1175,5 +1181,5 @@ The version string must ideally include a git commit hash and either a "dev" or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 13 | 1 | 72 | 6 | 66 | 0 |
-| 2% | 8% | 1% | 45% | 4% | 41% | 0% |
+| 3 | 11 | 2 | 32 | 8 | 105 | 0 |
+| 2% | 7% | 1% | 20% | 5% | 65% | 0% |

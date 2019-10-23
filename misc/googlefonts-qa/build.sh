@@ -35,9 +35,15 @@ fi
 
 # make clean
 
-make designspace
+# make designspace
 
-misc/fontbuild compile-var --compact-style-names -o build/fonts/var/Inter.var.ttf src/Inter.designspace
+# misc/fontbuild compile-var --compact-style -o build/fonts/var/Inter.var.ttf src/Inter.designspace
+
+make -j all_var
+
+make -j googlefonts
+
+misc/fontbuild rename --compact-style "build/fonts/var/Inter.var.otf"
 
 
 # misc/fontbuild compile-var -o build/fonts/var/Inter.var.ttf src/Inter.designspace # only useful if you are testing edits to fontbuild

@@ -9,7 +9,7 @@ fonts {
   weight: 400
   filename: "Inter[slnt,wght].ttf"
   post_script_name: "Inter-Regular"
-  full_name: "Inter Regular"
+  full_name: "Inter"
   copyright: "Copyright 2019 the Inter project authors (https://github.com/rsms/inter)"
 }
 subsets: "cyrillic"

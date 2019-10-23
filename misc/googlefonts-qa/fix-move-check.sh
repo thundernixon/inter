@@ -5,12 +5,14 @@
 # USAGE: 
 # Install requirements with `pip install -U -r misc/googlefonts-qa/requirements.txt`
 # 
-# after  `make -j all_ttf`
+# after  `misc/googlefonts-qa/build.sh`
 # call this script from the root of your inter repo, with the absolute path your your google/fonts repo
 # `misc/googlefonts-qa/fix-move-check.sh <your_username>/<path>/fonts`
+#
+# add `push` to the end if you wish to push the result to GitHub
 
 set -e
-source build/venv3/bin/activate
+source build/venv/bin/activate
 
 gFontsDir=$1
 if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
@@ -18,6 +20,9 @@ if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
     echo 'misc/googlefonts-qa/fix-move-check.sh /Users/username/type-repos/google-font-repos/fonts'
     exit 2
 fi
+
+# option to push to GitHub. Without this, it will do a dry run.
+pushToGitHub=$2
 
 interDir=$(pwd)
 
@@ -116,30 +121,30 @@ cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 # -------------------------------------------------------------------
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
-pip install -U fontbakery # update
+# pip install -U fontbakery # update
 
-set +e # otherwise, the script stops after the first fontbakery check output
+# set +e # otherwise, the script stops after the first fontbakery check output
 
-cd ofl/inter
+# cd ofl/inter
 
-# ttfs=$(ls -R Inter-*.ttf ) # use this to check only statics
+# # just to make it easy to see fontbakery checks
 
-# for ttf in $ttfs
-# do
-#     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
-# done
-
-fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
-# fontbakery check-googlefonts Inter*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Roman-VF.checks.md
-# fontbakery check-googlefonts Inter-Italic*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Italic-VF.checks.md
-
+# fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
 
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------
 
-git add .
-git commit -m "inter: $fontVersion added."
+if [[ $pushToGitHub = "push" ]] ; then
+    git add .
+    git commit -m "inter: $fontVersion added."
 
-# push to upstream branch (you must manually go to GitHub to make PR from there)
-# this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
-git push --force upstream inter
+    # push to upstream branch (you must manually go to GitHub to make PR from there)
+    # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
+    git push --force upstream inter
+fi
+
+
+
+
+
+
