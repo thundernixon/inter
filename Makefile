@@ -19,7 +19,7 @@
 #   all_var_hinted    Build all variable font files with hints into
 #                     FONTDIR/var-hinted
 #
-#   designspace       Build src/Inter.designspace from src/Inter.glyphs
+#   designspace       Build build/ufo/Inter.designspace from src/Inter.glyphs
 #
 # Style-specific targets:
 #   STYLE_otf         Build OTF file for STYLE into FONTDIR/const
@@ -42,29 +42,25 @@ FONTDIR = build/fonts
 
 all: all_const  all_const_hinted  all_var
 web: all_web
+.PHONY: all web
 
 all_const: all_otf  all_ttf  all_web
 all_const_hinted: all_ttf_hinted  all_web_hinted
 var: \
 	$(FONTDIR)/var/Inter.var.woff2 \
-	$(FONTDIR)/var/Inter.var.ttf
+	$(FONTDIR)/var/Inter.var.otf
 all_var: \
+	$(FONTDIR)/var/Inter.var.otf \
 	$(FONTDIR)/var/Inter.var.woff2 \
-	$(FONTDIR)/var/Inter.var.ttf \
-	$(FONTDIR)/var/Inter-upright.var.woff2 \
-	$(FONTDIR)/var/Inter-italic.var.woff2 \
-	$(FONTDIR)/var/Inter-upright.var.ttf \
-	$(FONTDIR)/var/Inter-italic.var.ttf
-
-all_ufo_masters = $(Thin_ufo_d) \
-                  $(ThinItalic_ufo_d) \
-                  $(Regular_ufo_d) \
-                  $(Italic_ufo_d) \
-                  $(Black_ufo_d) \
-                  $(BlackItalic_ufo_d)
+	$(FONTDIR)/var/Inter-V.var.otf \
+	$(FONTDIR)/var/Inter-V.var.woff2 \
+	$(FONTDIR)/var/Inter-roman.var.otf \
+	$(FONTDIR)/var/Inter-roman.var.woff2 \
+	$(FONTDIR)/var/Inter-italic.var.otf \
+	$(FONTDIR)/var/Inter-italic.var.woff2
 
 # Hinted variable font disabled. See https://github.com/rsms/inter/issues/75
-# all_var_hinted: $(FONTDIR)/var-hinted/Inter.var.ttf $(FONTDIR)/var-hinted/Inter.var.woff2
+# all_var_hinted: $(FONTDIR)/var-hinted/Inter.var.otf $(FONTDIR)/var-hinted/Inter.var.woff2
 # .PHONY: all_var_hinted
 
 .PHONY: all_const  all_const_hinted  var  all_var
@@ -76,51 +72,64 @@ export PATH := $(PWD)/build/venv/bin:$(PATH)
 include build/etc/generated.make
 
 
-# TTF -> WOFF2
+# WOFF2 from OTF
+build/%.var.woff2: build/%.var.otf
+	woff2_compress "$<"
+
+# WOFF2 from TTF
 build/%.woff2: build/%.ttf
 	woff2_compress "$<"
 
-# TTF -> WOFF
+# WOFF from TTF
 build/%.woff: build/%.ttf
 	ttf2woff -O -t woff "$<" "$@"
 
-# make sure intermediate TTFs are not gc'd by make
-.PRECIOUS: build/%.ttf
 
 
+# VF OTF from UFO
+$(FONTDIR)/var/Inter.var.otf: $(all_ufo_masters) version.txt
+	misc/fontbuild compile-var -o $@ $(FONTBUILD_FLAGS) build/ufo/Inter.designspace
 
-# Master UFOs -> variable TTF
-$(FONTDIR)/var/%.var.ttf: src/%.designspace $(all_ufo_masters) version.txt
+$(FONTDIR)/var/Inter-V.var.otf: $(FONTDIR)/var/Inter.var.otf
+	misc/fontbuild rename --family "Inter V" -o $@ $<
+
+$(FONTDIR)/var/Inter-%.var.otf: build/ufo/Inter-%.designspace $(all_ufo_masters) version.txt
 	misc/fontbuild compile-var -o $@ $(FONTBUILD_FLAGS) $<
+	misc/tools/fix-vf-meta.py $@
 
-# Instance UFO -> OTF, TTF (note: masters' rules in generated.make)
+
+# OTF/TTF from UFO
 $(FONTDIR)/const/Inter-%.otf: build/ufo/Inter-%.ufo version.txt
-	misc/fontbuild compile -o $@ $(FONTBUILD_FLAGS) $<
+	misc/fontbuild compile -o $@ $(FONTBUILD_FLAGS) build/ufo/Inter-$*.ufo
 
 $(FONTDIR)/const/Inter-%.ttf: build/ufo/Inter-%.ufo version.txt
-	misc/fontbuild compile -o $@ $(FONTBUILD_FLAGS) $<
+	misc/fontbuild compile -o $@ $(FONTBUILD_FLAGS) build/ufo/Inter-$*.ufo
 
 
-# designspace <- glyphs file
-src/Inter-*.designspace: src/Inter.designspace
-src/Inter.designspace: src/Inter.glyphs
-	misc/fontbuild glyphsync $<
+# DESIGNSPACE from GLYPHS
+build/ufo/Inter-roman.designspace: build/ufo/Inter.designspace
+build/ufo/Inter-italic.designspace: build/ufo/Inter.designspace
+build/ufo/Inter.designspace: src/Inter.glyphs
+	misc/fontbuild glyphsync -o build/ufo src/Inter.glyphs
 
-# make sure intermediate files are not gc'd by make
-.PRECIOUS: src/Inter-*.designspace
-
-designspace: src/Inter.designspace
-.PHONY: designspace
 
 # short-circuit Make for performance
 src/Inter.glyphs:
 	@true
 
-# instance UFOs <- master UFOs
-build/ufo/Inter-%.ufo: build/ufo/features src/Inter.designspace $(all_ufo_masters)
-	misc/fontbuild instancegen src/Inter.designspace $*
+# make sure intermediate files are not gc'd by make
+.PRECIOUS: build/ufo/Inter-*.designspace
 
-build/ufo/features:
+designspace: build/ufo/Inter.designspace
+.PHONY: designspace
+
+
+# features
+src/features: $(wildcard src/features/*)
+	touch "$@"
+	@true
+build/ufo/features: src/features
+	mkdir -p build/ufo
 	ln -s ../../src/features build/ufo/features
 
 # make sure intermediate UFOs are not gc'd by make
@@ -142,14 +151,17 @@ $(FONTDIR)/const-hinted/%.ttf: $(FONTDIR)/const/%.ttf
 # 	ttfautohint --fallback-stem-width=256 --no-info "$<" "$@"
 
 # make sure intermediate TTFs are not gc'd by make
-.PRECIOUS: $(FONTDIR)/const/%.ttf $(FONTDIR)/const-hinted/%.ttf $(FONTDIR)/var/%.var.ttf
+.PRECIOUS: $(FONTDIR)/const/%.ttf
+.PRECIOUS: $(FONTDIR)/const/%.otf
+.PRECIOUS: $(FONTDIR)/const-hinted/%.ttf
+.PRECIOUS: $(FONTDIR)/var/%.var.otf
 
 
 
 
 # check var
 test_var: all_var
-	misc/fontbuild checkfont $(FONTDIR)/var/*.ttf $(FONTDIR)/var/*.woff2
+	misc/fontbuild checkfont $(FONTDIR)/var/*.otf $(FONTDIR)/var/*.woff2
 
 # test runs all tests
 # Note: all_check_const is generated by init.sh and runs "fontbuild checkfont"
@@ -164,7 +176,7 @@ check:
 		$(FONTDIR)/const/*.ttf \
 		$(FONTDIR)/const/*.otf \
 		$(FONTDIR)/const/*.woff2 \
-		$(FONTDIR)/var/*.ttf \
+		$(FONTDIR)/var/*.otf \
 		$(FONTDIR)/var/*.woff2
 	@echo "check: all ok"
 
@@ -176,14 +188,17 @@ check:
 # samples renders PDF and PNG samples
 samples: $(FONTDIR)/samples all_samples_pdf all_samples_png
 
-$(FONTDIR)/samples/%.pdf: $(FONTDIR)/const/%.otf
+$(FONTDIR)/samples/%.pdf: $(FONTDIR)/const/%.otf $(FONTDIR)/samples
 	misc/tools/fontsample/fontsample -o "$@" "$<"
 
-$(FONTDIR)/samples/%.png: $(FONTDIR)/const/%.otf
+$(FONTDIR)/samples/%.png: $(FONTDIR)/const/%.otf $(FONTDIR)/samples
 	misc/tools/fontsample/fontsample -o "$@" "$<"
 
 $(FONTDIR)/samples:
 	mkdir -p $@
+
+.PHONY: samples
+
 
 
 ZD = build/tmp/zip
@@ -192,38 +207,39 @@ build/tmp/a.zip:
 	@rm -rf "$(ZD)"
 	@rm -f  build/tmp/a.zip
 	@mkdir -p \
-	  "$(ZD)/Inter (web)" \
-	  "$(ZD)/Inter (web hinted)" \
-	  "$(ZD)/Inter (TTF)" \
-	  "$(ZD)/Inter (TTF hinted)" \
-	  "$(ZD)/Inter (TTF variable)" \
-	  "$(ZD)/Inter (OTF)"
+	  "$(ZD)/Inter" \
+	  "$(ZD)/Inter (Hinted, for Windows)" \
+	  "$(ZD)/Inter (Variable)" \
+	  "$(ZD)/Inter (Variable, single axis)" \
+	  "$(ZD)/Inter (Web)" \
+	  "$(ZD)/Inter V (Variable)"
 	@#
 	@# copy font files
+	cp -a $(FONTDIR)/const/*.otf              "$(ZD)/Inter/"
+	@#
 	cp -a $(FONTDIR)/const/*.woff \
 	      $(FONTDIR)/const/*.woff2 \
-	      $(FONTDIR)/var/*.woff2        "$(ZD)/Inter (web)/"
+	      $(FONTDIR)/var/Inter.var.woff2 \
+	      $(FONTDIR)/var/Inter-italic.var.woff2 \
+	      $(FONTDIR)/var/Inter-roman.var.woff2 \
+	      misc/dist/inter.css \
+	                                          "$(ZD)/Inter (Web)/"
 	cp -a $(FONTDIR)/const-hinted/*.woff \
 	      $(FONTDIR)/const-hinted/*.woff2 \
-	                                    "$(ZD)/Inter (web hinted)/"
-	cp -a $(FONTDIR)/const/*.ttf        "$(ZD)/Inter (TTF)/"
-	cp -a $(FONTDIR)/const-hinted/*.ttf "$(ZD)/Inter (TTF hinted)/"
-	cp -a $(FONTDIR)/var/*.ttf          "$(ZD)/Inter (TTF variable)/"
-	cp -a $(FONTDIR)/const/*.otf        "$(ZD)/Inter (OTF)/"
+	      $(FONTDIR)/const-hinted/*.ttf \
+	      misc/dist/inter.css \
+	      "misc/dist/about hinted fonts.txt" \
+	                                          "$(ZD)/Inter (Hinted, for Windows)/"
+	@#
+	cp -a $(FONTDIR)/var/Inter.var.otf        "$(ZD)/Inter (Variable)/Inter.otf"
+	cp -a $(FONTDIR)/var/Inter-roman.var.otf  "$(ZD)/Inter (Variable, single axis)/Inter-roman.otf"
+	cp -a $(FONTDIR)/var/Inter-italic.var.otf "$(ZD)/Inter (Variable, single axis)/Inter-italic.otf"
+	@#
+	cp -a $(FONTDIR)/var/Inter-V.var.otf      "$(ZD)/Inter V (Variable)/Inter-V.otf"
 	@#
 	@# copy misc stuff
-	cp -a misc/dist/inter.css           "$(ZD)/Inter (web)/"
-	cp -a misc/dist/inter.css           "$(ZD)/Inter (web hinted)/"
-	cp -a misc/dist/*.txt               "$(ZD)/"
+	cp -a misc/dist/install*.txt        "$(ZD)/"
 	cp -a LICENSE.txt                   "$(ZD)/"
-	@#
-	@# Fix VF metadata
-	misc/tools/fix-vf-meta.py \
-	  "$(ZD)/Inter (web)/Inter-upright.var.woff2" \
-	  "$(ZD)/Inter (web)/Inter-italic.var.woff2"
-	misc/tools/fix-vf-meta.py \
-	  "$(ZD)/Inter (TTF variable)/Inter-upright.var.ttf" \
-	  "$(ZD)/Inter (TTF variable)/Inter-italic.var.ttf"
 	@#
 	@# Add "beta" to Light and Thin filenames.
 	@# Requires "rename" tool in PATH (`brew install rename` on macOS)
@@ -254,19 +270,17 @@ zip_dist: pre_dist
 	$(MAKE) check
 	$(MAKE) ${ZIP_FILE_DIST}
 
-.PHONY: zip zip_dist
-
 # distribution
 pre_dist: all
 	@echo "Creating distribution for version ${VERSION}"
 	@if [ -f "${ZIP_FILE_DIST}" ]; \
 		then echo "${ZIP_FILE_DIST} already exists. Bump version or remove the zip file to continue." >&2; \
 		exit 1; \
-  fi
+	fi
+	misc/tools/versionize.py
 
 dist: zip_dist
 	$(MAKE) -j docs
-	misc/tools/versionize.py
 	@echo "——————————————————————————————————————————————————————————————————"
 	@echo ""
 	@echo "Next steps:"
@@ -279,6 +293,10 @@ dist: zip_dist
 	@echo "3) Bump version in version.txt (to the next future version)"
 	@echo ""
 	@echo "——————————————————————————————————————————————————————————————————"
+
+.PHONY: zip zip_dist pre_dist dist
+
+
 
 docs: docs_fonts
 	$(MAKE) -j docs_info
@@ -301,16 +319,34 @@ docs_fonts:
 docs/_data/fontinfo.json: docs/font-files/Inter-Regular.otf misc/tools/fontinfo.py
 	misc/tools/fontinfo.py -pretty $< > docs/_data/fontinfo.json
 
-docs/lab/glyphinfo.json: build/UnicodeData.txt misc/tools/gen-glyphinfo.py $(Regular_ufo_d)
-	misc/tools/gen-glyphinfo.py -ucd $< src/Inter-Regular.ufo > $@
+docs/lab/glyphinfo.json: misc/tools/gen-glyphinfo.py build/ufo/Inter-Regular.ufo
+	misc/tools/gen-glyphinfo.py -ucd misc/UnicodeData.txt build/ufo/Inter-Regular.ufo > $@
 
-docs/glyphs/metrics.json: $(Regular_ufo_d) misc/tools/gen-metrics-and-svgs.py
-	misc/tools/gen-metrics-and-svgs.py src/Inter-Regular.ufo
+docs/glyphs/metrics.json: misc/tools/gen-metrics-and-svgs.py build/ufo/Inter-Regular.ufo
+	misc/tools/gen-metrics-and-svgs.py build/ufo/Inter-Regular.ufo
 
-# Download latest Unicode data
-build/UnicodeData.txt:
-	@echo fetch http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
-	@curl '-#' -o "$@" http://www.unicode.org/Public/UCD/latest/ucd/UnicodeData.txt
+
+# Helper target to download latest Unicode data. Nothing depends on this.
+ucd_version := 12.1.0
+update_UnicodeData:
+	@echo "# Unicode $(ucd_version)" > misc/UnicodeData.txt
+	curl '-#' "https://www.unicode.org/Public/$(ucd_version)/ucd/UnicodeData.txt" >> misc/UnicodeData.txt
+
+
+# Google fonts
+build/googlefonts/%: $(FONTDIR)/%
+	misc/fontbuild rename --compact-style -o $@ "$<"
+
+googlefonts: googlefonts_pre googlefonts_all
+
+googlefonts_pre:
+	@rm -rf build/googlefonts
+	@mkdir -p  build/googlefonts/const  build/googlefonts/var
+
+.PHONY: googlefonts googlefonts_pre
+
+
+
 
 # install targets
 install_ttf: all_ttf_const
@@ -331,10 +367,18 @@ install_otf: all_otf
 	mkdir -p ~/'Library/Fonts/Inter'
 	cp -va $(FONTDIR)/const/*.otf ~/'Library/Fonts/Inter'
 
-install: install_otf
+install_var_v: $(FONTDIR)/var/Inter-V.var.otf
+	mkdir -p ~/'Library/Fonts/Inter'
+	cp -va $(FONTDIR)/var/Inter-V.var.otf ~/'Library/Fonts/Inter/Inter-V.otf'
+
+install: install_otf install_var_v
+
+.PHONY: install install_otf install_ttf
+
+
 
 # clean removes generated and built fonts in the build directory
 clean:
-	rm -rvf build/tmp build/fonts
+	rm -rvf build/tmp build/fonts build/ufo build/googlefonts
 
-.PHONY: all web clean install install_otf install_ttf deploy pre_dist dist geninfo glyphsync
+.PHONY: clean
