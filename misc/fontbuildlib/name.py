@@ -36,6 +36,8 @@ def setFullName(font, fullName):
   nameTable = font["name"]
   nameTable.setName(fullName, FULL_NAME, 1, 0, 0)     # mac
   nameTable.setName(fullName, FULL_NAME, 3, 1, 0x409) # windows
+  nameTable.setName(fullName, POSTSCRIPT_NAME, 1, 0, 0)     # mac
+  nameTable.setName(fullName, POSTSCRIPT_NAME, 3, 1, 0x409) # windows
 
 
 def getFamilyName(font):
@@ -62,7 +64,7 @@ googleFontCompactNames = {
   "Extra Bold Italic":    "ExtraBold Italic"
 }
 
-def removeWhitespaceFromStyles(font):
+def renameStylesGoogleFonts(font):
   familyName = getFamilyName(font)
 
   # collect subfamily (style) name IDs for variable font's named instances
@@ -73,12 +75,26 @@ def removeWhitespaceFromStyles(font):
 
   nameTable = font["name"]
   for rec in nameTable.names:
-    s = rec.toUnicode()
-    for name in googleFontCompactNames.keys():
-      if name == s:
-        print(f"Changing '{s}' to '{googleFontCompactNames[s]}'")
-        rec.string = googleFontCompactNames[s]
-  
+    rid = rec.nameID
+    if rid in (FULL_NAME, LEGACY_FAMILY):
+      # style part of family name
+      s = rec.toUnicode()
+      start = s.find(familyName)
+      if start != -1:
+        s = familyName + " " + removeWhitespace(s[start + len(familyName):])
+      else:
+        s = removeWhitespace(s)
+      if s != "Italic" and s.endswith("Italic"):
+        # fixup e.g. "ExtraBoldItalic" -> "ExtraBold Italic"
+        s = s[:len(s) - len("Italic")] + " Italic"
+      rec.string = s.strip()
+    if rid in (SUBFAMILY_NAME,) or rid in vfInstanceSubfamilyNameIds:
+      s = removeWhitespace(rec.toUnicode())
+      if s != "Italic" and s.endswith("Italic"):
+        # fixup e.g. "ExtraBoldItalic" -> "ExtraBold Italic"
+        s = s[:len(s) - len("Italic")] + " Italic"
+      rec.string = s.strip()
+    # else: ignore standard names unrelated to style
 
 
 def setFamilyName(font, nextFamilyName):
