@@ -56,31 +56,24 @@ set -e
 # build stat tables for proper style linking
 
 # gftools fix-vf-meta $interFullVF
-# # gftools fix-vf-meta $interItalicVF
 
 # mv "$interFullVF.fix" $interFullVF
-# # # mv "$interItalicVF.fix" $interItalicVF
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
 gftools fix-nonhinting $interFullVF $interFullVF
-# # gftools fix-nonhinting $interItalicVF $interItalicVF
 
 rm ${interFullVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
-# rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
 # assert google fonts spec for how fonts should rasterize in different contexts
 
 gftools fix-gasp --autofix $interFullVF
-# gftools fix-gasp --autofix $interItalicVF
 
 mv ${interFullVF/".ttf"/".ttf.fix"} $interFullVF
-# # mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
 
 # prevent warnings/issues caused by no digital signature tables
 
 gftools fix-dsig --autofix $interFullVF 
-# gftools fix-dsig --autofix $interItalicVF
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
@@ -102,9 +95,9 @@ cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
 # cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
 
 # statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
-# for ttf in $statics
+# for otf in $statics
 # do
-#     cp $ttf ofl/inter/$(basename $ttf)
+#     cp $otf ofl/inter/$(basename $otf)
 # done
 
 # -------------------------------------------------------------------
@@ -121,15 +114,15 @@ cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 # -------------------------------------------------------------------
 # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
-# pip install -U fontbakery # update
+pip install -U fontbakery # update
 
-# set +e # otherwise, the script stops after the first fontbakery check output
+set +e # otherwise, the script stops after the first fontbakery check output
 
-# cd ofl/inter
+cd ofl/inter
 
 # # just to make it easy to see fontbakery checks
 
-# fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
+fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
 
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------
