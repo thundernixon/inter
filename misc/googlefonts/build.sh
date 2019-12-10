@@ -14,7 +14,7 @@ elif [[ "$1" == "--clean" ]]; then
   CLEAN=true ; shift
 fi
 
-# make sure that make and venv is up-to-date
+# # make sure that make and venv is up-to-date
 ./init.sh
 source init.sh
 
@@ -23,12 +23,39 @@ if $CLEAN; then
   make clean >/dev/null
 fi
 
-# compile multi-axis variable font
-make build/fonts/var/Inter.var.otf
 
-# change file type to TTF and change style names to Google Fonts standard.
-rm -rf build/googlefonts
-mkdir -p build/googlefonts
-misc/fontbuild rename --google-style \
-  build/fonts/var/Inter.var.otf \
-  -o build/googlefonts/Inter.var.ttf
+# ------------------------------------------
+# variable ---------------------------------
+
+# # compile multi-axis variable font
+# make build/fonts/var/Inter.var.otf
+
+# # change file type to TTF and change style names to Google Fonts standard.
+# rm -rf build/googlefonts
+# mkdir -p build/googlefonts
+# misc/fontbuild rename --google-style \
+#   build/fonts/var/Inter.var.otf \
+#   -o build/googlefonts/Inter.var.ttf
+
+# ------------------------------------------
+# statics ----------------------------------
+
+# # build static, hinted TTFs
+# make all_ttf_hinted
+
+# update style in static TTFs
+hintedDir="build/fonts/const-hinted"
+statics=$(ls $hintedDir)
+
+mkdir -p "build/googlefonts/statics"
+
+for font in $statics; do
+  fullPath=$hintedDir/$font
+  echo $fullPath
+  misc/fontbuild rename --google-style \
+    $fullPath \
+    -o build/googlefonts/statics/$font
+done
+
+
+
