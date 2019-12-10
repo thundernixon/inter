@@ -54,15 +54,6 @@ def getFamilyName(font):
     raise ValueError("family name not found")
   return r.toUnicode()
 
-# We only need to check for and change a few names, so this is a simple way to do so
-googleFontCompactNames = {
-  "Extra Light":          "ExtraLight",
-  "Extra Light Italic":   "ExtraLight Italic",
-  "Semi Bold":            "SemiBold",
-  "Semi Bold Italic":     "SemiBold Italic",
-  "Extra Bold":           "ExtraBold",
-  "Extra Bold Italic":    "ExtraBold Italic"
-}
 
 def renameStylesGoogleFonts(font):
   familyName = getFamilyName(font)
