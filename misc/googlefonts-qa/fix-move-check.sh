@@ -31,7 +31,7 @@ interQADir=$interDir/misc/googlefonts-qa
 # interUprightVF=$interDir/build/fonts/var/Inter-Roman-VF.ttf
 # interItalicVF=$interDir/build/fonts/var/Inter-Italic-VF.ttf
 
-interFullVF=$interDir/build/fonts/var/Inter.var.ttf
+interFullVF=$interDir/build/googlefonts/Inter.var.ttf
 
 
 # -------------------------------------------------------------------
@@ -53,27 +53,29 @@ set -e
 # # note: this assumes variable fonts have no hinting -----------------
 # # note: these should probably be moved into main build --------------
 
-# build stat tables for proper style linking
-
+# build stat tables for proper style linking – currently only works for single-axis VFs
 # gftools fix-vf-meta $interFullVF
-
 # mv "$interFullVF.fix" $interFullVF
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
-
 gftools fix-nonhinting $interFullVF $interFullVF
 
 rm ${interFullVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
 # assert google fonts spec for how fonts should rasterize in different contexts
-
 gftools fix-gasp --autofix $interFullVF
 
 mv ${interFullVF/".ttf"/".ttf.fix"} $interFullVF
 
 # prevent warnings/issues caused by no digital signature tables
-
 gftools fix-dsig --autofix $interFullVF 
+
+# TODO: test the MVAR-dropping code below
+# drop mvar table using fonttools/ttx
+ttx -x mvar $fontPath
+ttx ${fontPath/'.ttf'/'.ttx'}
+rm ${fontPath/'.ttf'/'.ttx'}
+mv ${fontPath/'.ttf'/'#1.ttf'} $fontPath
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
