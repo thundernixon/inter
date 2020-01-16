@@ -27,21 +27,21 @@ fi
 # ------------------------------------------
 # variable ---------------------------------
 
-# # compile multi-axis variable font
-# make build/fonts/var/Inter.var.otf
+# compile multi-axis variable font
+make build/fonts/var/Inter.var.otf
 
-# # change file type to TTF and change style names to Google Fonts standard.
-# rm -rf build/googlefonts
-# mkdir -p build/googlefonts
-# misc/fontbuild rename --google-style \
-#   build/fonts/var/Inter.var.otf \
-#   -o build/googlefonts/Inter.var.ttf
+# change file type to TTF and change style names to Google Fonts standard.
+rm -rf build/googlefonts
+mkdir -p build/googlefonts
+misc/fontbuild rename --google-style \
+  build/fonts/var/Inter.var.otf \
+  -o build/googlefonts/Inter.var.ttf
 
 # ------------------------------------------
 # statics ----------------------------------
 
 # # build static, hinted TTFs
-# make all_ttf_hinted
+make all_ttf_hinted
 
 # update style in static TTFs
 hintedDir="build/fonts/const-hinted"
