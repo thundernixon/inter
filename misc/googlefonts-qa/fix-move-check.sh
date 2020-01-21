@@ -35,7 +35,7 @@ interFullVF=$interDir/build/googlefonts/Inter.var.ttf
 
 
 # -------------------------------------------------------------------
-# get latest font version -------------------------------------------
+# get latest font version to use in PR commit message ---------------
 set +e
 
 ttx -t head $interFullVF
@@ -52,6 +52,8 @@ set -e
 # # these fixes all address things flagged by fontbakery --------------
 # # note: this assumes variable fonts have no hinting -----------------
 # # note: these should probably be moved into main build --------------
+
+pip install -U git+https://github.com/googlefonts/gftools.git
 
 # build stat tables for proper style linking – currently only works for single-axis VFs
 # gftools fix-vf-meta $interFullVF
@@ -72,10 +74,10 @@ gftools fix-dsig --autofix $interFullVF
 
 # TODO: test the MVAR-dropping code below
 # drop mvar table using fonttools/ttx
-ttx -x mvar $fontPath
-ttx ${fontPath/'.ttf'/'.ttx'}
-rm ${fontPath/'.ttf'/'.ttx'}
-mv ${fontPath/'.ttf'/'#1.ttf'} $fontPath
+ttx -x MVAR $interFullVF
+ttx ${interFullVF/'.ttf'/'.ttx'}                   # convert back to TTF
+rm ${interFullVF/'.ttf'/'.ttx'}                    # erase temp TTX 
+mv ${interFullVF/'.ttf'/'#1.ttf'} $interFullVF     # overwrite original TTF with edited copy
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
@@ -91,16 +93,17 @@ git clean -f -d
 # move fonts --------------------------------------------------------
 
 mkdir -p ofl/inter
+mkdir -p ofl/inter/static
 
 cp $interFullVF    ofl/inter/Inter\[slnt,wght\].ttf
 # cp $interUprightVF    ofl/inter/Inter\[wght\].ttf
 # cp $interItalicVF     ofl/inter/Inter-Italic\[wght\].ttf
 
-# statics=$(ls $interDir/build/fonts/const-hinted/*.ttf)
-# for otf in $statics
-# do
-#     cp $otf ofl/inter/$(basename $otf)
-# done
+statics=$(ls $interDir/build/googlefonts/statics/*.ttf)
+for ttf in $statics
+do
+    cp $ttf ofl/inter/static/$(basename $ttf)
+done
 
 # -------------------------------------------------------------------
 # make or move basic metadata ---------------------------------------
@@ -113,8 +116,8 @@ cp $interDir/LICENSE.txt ofl/inter/OFL.txt
 
 cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 
-# -------------------------------------------------------------------
-# run checks, saving to inter/misc/googlefonts-qa/checks ------------
+# # -------------------------------------------------------------------
+# # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
 pip install -U fontbakery # update
 
@@ -137,9 +140,3 @@ if [[ $pushToGitHub = "push" ]] ; then
     # this is set to push to my upstream (google/fonts) rather than origin so that TravisCI can run
     git push --force upstream inter
 fi
-
-
-
-
-
-
