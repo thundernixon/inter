@@ -2,15 +2,15 @@ name: "Inter"
 designer: "Rasmus Andersson"
 license: "OFL"
 category: "SANS-SERIF"
-date_added: "2019-03-30"
+date_added: "2020-01-20"
 fonts {
   name: "Inter"
   style: "normal"
   weight: 400
   filename: "Inter[slnt,wght].ttf"
-  post_script_name: "Inter-Regular"
+  post_script_name: "Inter"
   full_name: "Inter"
-  copyright: "Copyright 2019 the Inter project authors (https://github.com/rsms/inter)"
+  copyright: "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"

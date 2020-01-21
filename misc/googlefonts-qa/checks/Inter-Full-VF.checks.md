@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.15
+Fontbakery version: 0.7.17
 
 <details>
 <summary><b>[29] Family checks</b></summary>
@@ -9,8 +9,8 @@ Fontbakery version: 0.7.15
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* ℹ **INFO** fontbakery (0.7.15)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.15 (latest)
+* ℹ **INFO** fontbakery (0.7.17)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.17 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -63,24 +63,6 @@ See eg https://fonts.google.com/specimen/Rubik
 * [com.google.fonts/check/metadata/broken_links](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/broken_links)
 
 * 🍞 **PASS** All links in the METADATA.pb file look good!
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Ensure METADATA.pb lists all font binaries.</summary>
-
-* [com.google.fonts/check/metadata/undeclared_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/undeclared_fonts)
-<pre>--- Rationale ---
-
-The set of font binaries available must match exactly those declared on the
-METADATA.pb file.
-
-Also, to avoid confusion, we expect that font files are not placed on
-subdirectories.
-
-
-</pre>
-
-* 🍞 **PASS** OK
 
 </details>
 <details>
@@ -350,10 +332,63 @@ field, using bits 0 and 5.
 * 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
 
 </details>
+<details>
+<summary>⚠ <b>WARN:</b> Ensure METADATA.pb lists all font binaries.</summary>
+
+* [com.google.fonts/check/metadata/undeclared_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/undeclared_fonts)
+<pre>--- Rationale ---
+
+The set of font binaries available must match exactly those declared on the
+METADATA.pb file.
+
+Also, to avoid confusion, we expect that font files are not placed on
+subdirectories.
+
+
+</pre>
+
+* ⚠ **WARN** The file "./static/Inter-Medium.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Light.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-ExtraLightItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-SemiBoldItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Thin.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Bold.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Regular.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-LightItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-ExtraBold.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-ThinItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-ExtraLight.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-BoldItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-ExtraBoldItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-MediumItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Black.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-Italic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-BlackItalic.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+* ⚠ **WARN** The file "./static/Inter-SemiBold.ttf" is a font binary in a subdirectory.
+Please keep all font files directly on the root directory side-by-side with its corresponding METADATA.pb file. [code: font-on-subdir]
+
+</details>
 <br>
 </details>
 <details>
-<summary><b>[132] Inter[slnt,wght].ttf</b></summary>
+<summary><b>[134] Inter[slnt,wght].ttf</b></summary>
 <details>
 <summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
 
@@ -377,7 +412,7 @@ field, using bits 0 and 5.
 
 * 💔 **ERROR** ftxvalidator returned an error code. Output follows:
 
-objc[47981]: Objective-C garbage collection is no longer supported.
+objc[54253]: Objective-C garbage collection is no longer supported.
 
 
 
@@ -398,49 +433,11 @@ set of characters defined in the `GF-latin-core` glyph-set.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file.</summary>
+<summary>🔥 <b>FAIL:</b> METADATA.pb weight matches postScriptName.</summary>
 
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+* [com.google.fonts/check/metadata/match_weight_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_weight_postscript)
 
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "OFL 1.1 (SIL Open Font License, Version 1.1)" Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" [code: wrong]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
-
-* [com.google.fonts/check/metadata/nameid/post_script_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/post_script_name)
-
-* 🔥 **FAIL** Unmatched postscript name in font: TTF has "Inter" while METADATA.pb has "Inter-Regular". [code: mismatch]
-* 🔥 **FAIL** Unmatched postscript name in font: TTF has "Inter" while METADATA.pb has "Inter-Regular". [code: mismatch]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
-
-* [com.google.fonts/check/metadata/match_fullname_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_fullname_postscript)
-
-* 🔥 **FAIL** METADATA.pb font full_name = "Inter" does not match post_script_name = "Inter-Regular" [code: mismatch]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
-
-* [com.google.fonts/check/metadata/valid_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_copyright)
-
-* 🔥 **FAIL** METADATA.pb: Copyright notices should match a pattern similar to:
- "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 the Inter project authors (https://github.com/rsms/inter)" [code: bad-notice-format]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
-
-* [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2019 The Inter project authors" [code: bad-notice-format]
+* 🔥 **FAIL** METADATA.pb: Mismatch between postScriptName ("Inter") and weight value (400). The name must be ended with "Regular" or "Italic".
 
 </details>
 <details>
@@ -477,46 +474,6 @@ much added benefit.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
-
-* 🔥 **FAIL** Copyright field for this font on METADATA.pb ("Copyright 2019 the Inter project authors (https://github.com/rsms/inter)") differs from a copyright notice entry on the name table: "Copyright 2019 The Inter project authors" [code: mismatch]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-
-</pre>
-
-* 🔥 **FAIL** Failed to lookup ligatures. This font file seems to be malformed. For more info, read: https://github.com/googlefonts/fontbakery/issues/1596 [code: malformed]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
-<pre>--- Rationale ---
-
-Fonts with ligatures should have kerning on the corresponding non-ligated
-sequences for text where ligatures aren&#x27;t used (eg
-https://github.com/impallari/Raleway/issues/14).
-
-
-</pre>
-
-* 🔥 **FAIL** Failed to lookup ligatures. This font file seems to be malformed. For more info, read: https://github.com/googlefonts/fontbakery/issues/1596 [code: malformed]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
 * [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
@@ -543,26 +500,6 @@ yMax and abs(yMin).
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 3072, but got 2728 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 900, but got 680 instead [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Are there unwanted tables?</summary>
-
-* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
-<pre>--- Rationale ---
-
-Some font editors store source data in their own SFNT tables, and these can
-sometimes sneak into final release files, which should only have OpenType spec
-tables.
-
-
-</pre>
-
-* 🔥 **FAIL** The following unwanted font tables were found:
-Table: MVAR
-Reason: Produces a bug in DirectWrite which causes https://bugzilla.mozilla.org/show_bug.cgi?id=1492477, https://github.com/google/fonts/issues/2085
-
-They can be removed by using fonttools/ttx.
 
 </details>
 <details>
@@ -821,6 +758,38 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
+<pre>--- Rationale ---
+
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
+<pre>--- Rationale ---
+
+Fonts with ligatures should have kerning on the corresponding non-ligated
+sequences for text where ligatures aren&#x27;t used (eg
+https://github.com/impallari/Raleway/issues/14).
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: ligatures
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Directory name in GFonts repo structure must match NameID 1 of the regular.</summary>
 
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
@@ -1029,9 +998,9 @@ after ttfautohint usage versus unhinted font files.
 
 |  | Inter[slnt,wght].ttf |
 |:--- | ---:|
-| Dehinted Size | 775.1kb |
-| Hinted Size | 772.6kb |
-| Increase | -2480 bytes |
+| Dehinted Size | 754.2kb |
+| Hinted Size | 751.8kb |
+| Increase | -2476 bytes |
 | Change   | -0.3 % |
  [code: size-impact]
 
@@ -1140,7 +1109,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [gasp, DSIG, prep, GPOS, GSUB, loca]
+* ℹ **INFO** This font contains the following optional tables [prep, DSIG, GPOS, GSUB, gasp, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1281,6 +1250,14 @@ https://docs.microsoft.com/en-us/typography/opentype/spec/os2#fstype
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -1355,6 +1332,14 @@ Arabic / etc.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checks METADATA.pb font.post_script_name matches postscript name declared on the name table.</summary>
+
+* [com.google.fonts/check/metadata/nameid/post_script_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/post_script_name)
+
+* 🍞 **PASS** Postscript name "Inter" is identical in METADATA.pb and on the TTF file.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> METADATA.pb font.full_name value matches fullname declared on the name table?</summary>
 
 * [com.google.fonts/check/metadata/nameid/full_name](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/full_name)
@@ -1364,11 +1349,36 @@ Arabic / etc.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> METADATA.pb font.full_name and font.post_script_name fields have equivalent values ?</summary>
+
+* [com.google.fonts/check/metadata/match_fullname_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_fullname_postscript)
+
+* 🍞 **PASS** METADATA.pb font fields "full_name" and "post_script_name" have equivalent values.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> METADATA.pb font.post_script_name field contains font name in right format?</summary>
 
 * [com.google.fonts/check/metadata/valid_post_script_name_values](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_post_script_name_values)
 
 * 🍞 **PASS** METADATA.pb postScriptName field contains font name in right format.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
+
+* [com.google.fonts/check/metadata/valid_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/valid_copyright)
+
+* 🍞 **PASS** METADATA.pb copyright string is good
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright notices match canonical pattern in fonts</summary>
+
+* [com.google.fonts/check/font_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright)
+
+* 🍞 **PASS** Name Table entry: Copyright field 'Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)' matches canonical pattern.
+* 🍞 **PASS** Name table copyright entries are good
 
 </details>
 <details>
@@ -1436,19 +1446,19 @@ Arabic / etc.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> METADATA.pb weight matches postScriptName.</summary>
-
-* [com.google.fonts/check/metadata/match_weight_postscript](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/match_weight_postscript)
-
-* 🍞 **PASS** Weight value matches postScriptName.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
 
 * [com.google.fonts/check/metadata/canonical_style_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/canonical_style_names)
 
 * 🍞 **PASS** Font styles are named canonically.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/metadata/nameid/copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/nameid/copyright)
+
+* 🍞 **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
 
 </details>
 <details>
@@ -1680,6 +1690,23 @@ https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> A static fonts directory with at least two fonts must accompany variable fonts</summary>
+
+* [com.google.fonts/check/repo/vf_has_static_fonts](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/vf_has_static_fonts)
+<pre>--- Rationale ---
+
+Variable font family directories kept in the google/fonts git repo must include
+a static/ subdir containing static fonts.
+These files are meant to be served for users that still lack support for
+variable fonts in their web browsers.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check variable font instances have correct names</summary>
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
@@ -1770,6 +1797,22 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_ink](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink)
 
 * 🍞 **PASS** There is no whitespace glyph with ink.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there unwanted tables?</summary>
+
+* [com.google.fonts/check/unwanted_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unwanted_tables)
+<pre>--- Rationale ---
+
+Some font editors store source data in their own SFNT tables, and these can
+sometimes sneak into final release files, which should only have OpenType spec
+tables.
+
+
+</pre>
+
+* 🍞 **PASS** There are no unwanted tables.
 
 </details>
 <details>
@@ -2033,14 +2076,18 @@ This is the TTF/CFF2 equivalent of the CFF &#x27;postscript_name_cff_vs_name&#x2
 * [com.google.fonts/check/dsig](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig)
 <pre>--- Rationale ---
 
-Some programs expect fonts to have a digital signature declared in their DSIG
-table in order to work properly.
+Microsoft Office 2013 and below products expect fonts to have a digital
+signature declared in a DSIG table in order to implement OpenType features. The
+EOL date for Microsoft Office 2013 products is 4/11/2023. This issue does not
+impact Microsoft Office 2016 and above products. 
 
-This checks verifies that such signature is available in the font.
+This checks verifies that this signature is available in the font.
 
-Typically, even a fake signature would be enough to make the fonts work. If
-needed, such dummy-placeholder can be added to the font by using the `gftools
-fix-dsig` script available at https://github.com/googlefonts/gftools
+A fake signature is enough to address this issue. If needed, a dummy table can
+be added to the font with the `gftools fix-dsig` script available at
+https://github.com/googlefonts/gftools
+
+Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 
 </pre>
@@ -2108,6 +2155,25 @@ good-to-have (but optional) feature.
 * [com.google.fonts/check/points_out_of_bounds](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/points_out_of_bounds)
 
 * 🍞 **PASS** All glyph paths have coordinates within bounds!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check glyphs do not have duplicate components which have the same x,y coordinates.</summary>
+
+* [com.google.fonts/check/glyf_non_transformed_duplicate_components](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components)
+<pre>--- Rationale ---
+
+There has been cases in which fonts had faulty double quote marks, with each of
+them containing two single quote marks as components with the same x, y
+coordinates which makes them visually look like single quote marks.
+
+This check ensures that glyphs do not contain duplicate components which have
+the same x,y coordinates.
+
+
+</pre>
+
+* 🍞 **PASS** Glyphs do not contain duplicate components which have the same x,y coordinates.
 
 </details>
 <details>
@@ -2212,5 +2278,5 @@ scale used for the italicAngle field in the post table.
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 12 | 2 | 32 | 8 | 104 | 0 |
-| 2% | 7% | 1% | 20% | 5% | 65% | 0% |
+| 3 | 4 | 3 | 34 | 8 | 111 | 0 |
+| 2% | 2% | 2% | 21% | 5% | 68% | 0% |
