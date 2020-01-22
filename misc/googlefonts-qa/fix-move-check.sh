@@ -53,6 +53,19 @@ set -e
 latestHash=$(git log --author=Rasmus -n 1 --pretty=format:"%h")
 python misc/googlefonts-qa/patch-git-hash-version-names.py $interFullVF -g $latestHash -i
 
+# # -------------------------------------------------------------------
+# FontBakery expects `-Regular` to be included in the postscript name. This adds that if it's not present.
+
+python misc/googlefonts-qa/patch-postscript-name-regular.py $interFullVF -i
+
+# # -------------------------------------------------------------------
+# add family suffix to static fonts to avoid font menu clashes
+
+statics=$(ls $interDir/build/googlefonts/statics/*.ttf)
+for ttf in $statics; do
+    python misc/googlefonts-qa/patch-static-family-names.py $ttf --inplace
+done
+
 
 # # -------------------------------------------------------------------
 # # fix variable font metadata as needed ------------------------------
@@ -87,13 +100,7 @@ rm ${interFullVF/'.ttf'/'.ttx'}                    # erase temp TTX
 mv ${interFullVF/'.ttf'/'#1.ttf'} $interFullVF     # overwrite original TTF with edited copy
 
 
-# add family suffix to static fonts to avoid font menu clashes
-# TODO: test on whole folder
 
-statics=$(ls $interDir/build/googlefonts/statics/*.ttf)
-for ttf in $statics; do
-    python misc/googlefonts-qa/patch-static-family-names.py $ttf --inplace
-done
 
 
 
