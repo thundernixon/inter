@@ -48,6 +48,13 @@ rm ${interFullVF/".ttf"/".ttx"}
 set -e
 
 # # -------------------------------------------------------------------
+# # fix variable font versions: add git hash if missing ---------------
+
+latestHash=$(git log --author=Rasmus -n 1 --pretty=format:"%h")
+python misc/googlefonts-qa/patch-git-hash-version-names.py $interFullVF -g $latestHash -i
+
+
+# # -------------------------------------------------------------------
 # # fix variable font metadata as needed ------------------------------
 # # these fixes all address things flagged by fontbakery --------------
 # # note: this assumes variable fonts have no hinting -----------------
@@ -78,6 +85,18 @@ ttx -x MVAR $interFullVF
 ttx ${interFullVF/'.ttf'/'.ttx'}                   # convert back to TTF
 rm ${interFullVF/'.ttf'/'.ttx'}                    # erase temp TTX 
 mv ${interFullVF/'.ttf'/'#1.ttf'} $interFullVF     # overwrite original TTF with edited copy
+
+
+# add family suffix to static fonts to avoid font menu clashes
+# TODO: test on whole folder
+
+statics=$(ls $interDir/build/googlefonts/statics/*.ttf)
+for ttf in $statics; do
+    python misc/googlefonts-qa/patch-static-family-names.py $ttf --inplace
+done
+
+
+
 
 # -------------------------------------------------------------------
 # navigate to google/fonts repo, get latest, then update inter branch
@@ -119,7 +138,7 @@ cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 # # -------------------------------------------------------------------
 # # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
-pip install -U fontbakery # update
+# pip install -U fontbakery # update
 
 set +e # otherwise, the script stops after the first fontbakery check output
 
@@ -127,7 +146,7 @@ cd ofl/inter
 
 # # just to make it easy to see fontbakery checks
 
-fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
+# fontbakery check-googlefonts Inter*slnt*wght*.ttf --ghmarkdown $interQADir/checks/Inter-Full-VF.checks.md
 
 # -------------------------------------------------------------------
 # adds and commits new changes, then force pushes -------------------
