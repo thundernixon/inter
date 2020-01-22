@@ -56,7 +56,8 @@ def main():
 			print("\n-------------------------------------------\nFont is static.")
 		else:
 			fontIsStatic = False
-			print("\n-------------------------------------------\nFont is variable.")
+			print("\n-------------------------------------------\nFont is variable. Not changing names.")
+			return
 
 		if args.famName != None:
 			famName = args.famName
